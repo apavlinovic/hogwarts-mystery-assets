@@ -1,0 +1,209 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"eats-touches" : false,
+				"height" : 140,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "genericAlert",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 240,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"image" : "hp_modal_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"image" : "hp_modal_border_2.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "modal_border",
+								"percent-height" : 0.95,
+								"percent-width" : 0.97,
+								"position-x" : "center",
+								"position-y" : "center"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 26,
+						"margin-bottom" : 0,
+						"margin-left" : 120,
+						"margin-right" : 0,
+						"margin-top" : 44,
+						"name" : "oneButtonView",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 112,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "button",
+								"height" : 26,
+								"image" : "hp_generic_cta_button_1.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btnCTA",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 100,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											235,
+											105
+										],
+										"font" : "Avenir-Roman",
+										"font-size" : 11,
+										"local:text" : "HP_GENERIC_OKAY_BTN_OK",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 90,
+										"name" : "labelBtnOkay",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											0,
+											0,
+											0
+										],
+										"text" : "OKAY"
+									}
+								]
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							163,
+							163,
+							163
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Roman",
+						"font-size" : 11,
+						"height" : 56,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 38,
+						"name" : "labelDesc",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "COMPANION_LEVEL_UP_DESCRIPTION",
+						"vertical-spacing" : 0.9,
+						"width" : 180
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "EBGaramond08-Regular",
+						"font-size" : 16,
+						"gradient-top-color" : [
+							255,
+							255,
+							255
+						],
+						"local:text" : "LABEL_TITLE",
+						"margin-bottom" : 45,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 205,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "COMPANION_LEVEL_UP_TITLE"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.1.3"
+}

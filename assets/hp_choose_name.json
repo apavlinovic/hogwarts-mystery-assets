@@ -1,0 +1,644 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrim",
+				"percent-height" : 1,
+				"percent-width" : 1.002083,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 165,
+				"image" : "hp_bg_modal_med.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "nameModal",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 412,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 145,
+						"image" : "hp_bg_modal_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modalSm",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 412
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 66,
+						"image" : "hp_bg_header_med.png",
+						"inset-margin-x" : 3,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "header_bg",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "top"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							212,
+							70,
+							70
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"local:text" : "HP_CUSTOM_NAME_ALERT",
+						"margin-bottom" : 19.5,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 280,
+						"name" : "labelAlert",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Please choose a different name..",
+						"vertical-spacing" : 0.9
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 44,
+						"margin-bottom" : 0,
+						"margin-left" : 38,
+						"margin-right" : 0,
+						"margin-top" : 72,
+						"name" : "nameView",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 336,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 25,
+								"image" : "hp_container_check.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "input1",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 164,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "top",
+										"class" : "text-input",
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"height" : 18,
+										"image" : "hp_container_check.png",
+										"margin-bottom" : 0,
+										"margin-left" : 6,
+										"margin-right" : 0,
+										"margin-top" : 4,
+										"name" : "textInput1",
+										"position-x" : "left",
+										"position-y" : "top",
+										"width" : 154
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 25,
+								"image" : "hp_container_check.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "input2",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 164,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "top",
+										"class" : "text-input",
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"height" : 18,
+										"image" : "hp_container_check.png",
+										"margin-bottom" : 0,
+										"margin-left" : 5,
+										"margin-right" : 0,
+										"margin-top" : 4,
+										"name" : "textInput2",
+										"position-x" : "left",
+										"position-y" : "top",
+										"width" : 154
+									}
+								]
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									178,
+									190,
+									193
+								],
+								"font" : "Avenir-BookOblique",
+								"font-size" : 11,
+								"format" : "suffixed",
+								"local:text" : "HP_SECOND_NAME",
+								"margin-bottom" : 0,
+								"margin-left" : 175,
+								"margin-right" : 0,
+								"margin-top" : 10.5,
+								"max-width" : 155,
+								"name" : "labelSecond",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Second Name",
+								"vertical-spacing" : 0.8
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									178,
+									190,
+									193
+								],
+								"font" : "Avenir-BookOblique",
+								"font-size" : 11,
+								"format" : "suffixed",
+								"local:text" : "HP_FIRST_NAME",
+								"margin-bottom" : 0,
+								"margin-left" : 3,
+								"margin-right" : 0,
+								"margin-top" : 10.5,
+								"max-width" : 155,
+								"name" : "labelFirst",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "First Name",
+								"vertical-spacing" : 0.8
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 43,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 203,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "confirmView",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 152,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "hp_button_particles",
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_primary_med_active_glow.png",
+								"height" : 63,
+								"image" : "hp_button_primary_med_active.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btnConfirm",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 154,
+								"children" : []
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									113
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "HP_CONFIRM",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "labelConfirm",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "CONFIRM"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 43,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 53,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnReset",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 152,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 63,
+								"image" : "hp_button_primary_med_idle.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btn_bg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 154
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									0,
+									134,
+									134
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "HP_RESET",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "labelReset",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "RESET"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"local:text" : "HP_CUSTOM_NAME_TITLE",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 23,
+						"max-width" : 340,
+						"name" : "label_title",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CREATE YOUR NAME"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 2,
+						"margin-top" : 1,
+						"name" : "closeButton",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 13,
+								"image" : "hp_button_close.png",
+								"margin-bottom" : 13,
+								"margin-left" : 13,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 13
+							}
+						]
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 320,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "nameCompleteView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 480,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 15,
+						"local:text" : "HP_YOUR_NAME_TITLE",
+						"margin-bottom" : 43,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "labelSubLabel",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "YOUR NAME"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 26,
+						"margin-bottom" : 13,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "labelName",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Professor McGonagall",
+						"vertical-spacing" : 1.5
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 43,
+						"image" : "invisible.png",
+						"margin-bottom" : 20,
+						"margin-left" : 164,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "okView",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 152,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "hp_button_particles",
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_primary_med_active_glow.png",
+								"height" : 63,
+								"image" : "hp_button_primary_med_active.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btnOkay",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 154,
+								"children" : []
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									113
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "HP_OKAY",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "labelConfirm",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "OKAY"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

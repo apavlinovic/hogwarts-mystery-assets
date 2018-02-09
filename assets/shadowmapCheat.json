@@ -1,0 +1,837 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 256,
+				"image" : "fg_modal_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 360
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 200,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 64,
+				"margin-top" : 12,
+				"name" : "shadowmapView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 200
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 17,
+				"margin-bottom" : 107,
+				"margin-left" : 0,
+				"margin-right" : 100,
+				"margin-top" : 0,
+				"name" : "title",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Shadowmap Settings"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 18,
+				"image" : "hp_ph_btn_close.png",
+				"margin-bottom" : 122,
+				"margin-left" : 174,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "close_btn",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 18
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 93,
+				"margin-left" : 78,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "resolution",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Resolution:"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 93,
+				"margin-left" : 134,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "resolutionAmount",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "128"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 112,
+				"margin-left" : 82,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "applyButton",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 80,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "applyLabel",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Apply"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 74,
+				"margin-left" : 73,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "res1",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "r1Text",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "128x128"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 75,
+				"margin-left" : 138,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "res2",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "r2Text",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "256x256"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 53,
+				"margin-left" : 74,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "res3",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "r3Text",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "512x512"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 53,
+				"margin-left" : 139,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "res4",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "r4Text",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "1024x1024"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 11,
+				"margin-left" : 75,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "lambdaText",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Split Lambda:"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 0,
+				"margin-left" : 79,
+				"margin-right" : 0,
+				"margin-top" : 54,
+				"name" : "rotateDisk",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Rotate Disk"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 140,
+				"margin-right" : 0,
+				"margin-top" : 51,
+				"name" : "rotateDiskToggle",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 40,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"name" : "rotateDiskText",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "On"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 30,
+				"margin-left" : 77,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "cascadeText",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Cascades"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 31,
+				"margin-left" : 140,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "cascadesButton",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 55,
+						"name" : "cascadesNumText",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "1"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 12,
+				"image" : "mar_blue_back_btn.png",
+				"margin-bottom" : 110,
+				"margin-left" : 0,
+				"margin-right" : 16,
+				"margin-top" : 0,
+				"name" : "prevCascadeButton",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 10
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"flipX" : true,
+				"height" : 12,
+				"image" : "mar_blue_back_btn.png",
+				"margin-bottom" : 110,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "nextCascadeButton",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 10
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 108,
+				"margin-left" : 0,
+				"margin-right" : 3,
+				"margin-top" : 0,
+				"name" : "curCascadeText",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "1"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 0,
+				"margin-left" : 78,
+				"margin-right" : 0,
+				"margin-top" : 76,
+				"name" : "sampleNumber",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Sample Count"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 140,
+				"margin-right" : 0,
+				"margin-top" : 73,
+				"name" : "sampleCountButton",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 40,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"name" : "sampleCountText",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "9"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 0,
+				"margin-left" : 80,
+				"margin-right" : 0,
+				"margin-top" : 95,
+				"name" : "sampleRadius",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Sample Radius:"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 0,
+				"margin-left" : 79,
+				"margin-right" : 0,
+				"margin-top" : 34,
+				"name" : "poissonDisk",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Poisson Disk"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 140,
+				"margin-right" : 0,
+				"margin-top" : 30,
+				"name" : "poissonDiskToggle",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 40,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"name" : "poissonDiskText",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "On"
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

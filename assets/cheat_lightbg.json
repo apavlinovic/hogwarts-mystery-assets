@@ -1,0 +1,87 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "image",
+				"height" : 90,
+				"image" : "fg_modal_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modal_bg",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 100,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "table-view",
+						"height" : 68,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 9,
+						"name" : "table",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 96
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "label",
+				"font" : "Laconic_Bold",
+				"font-size" : 12,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-width" : 70,
+				"name" : "title",
+				"position-x" : "left",
+				"position-y" : "top",
+				"text" : ""
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "button",
+				"color" : [
+					116,
+					0,
+					24
+				],
+				"height" : 20,
+				"image" : "hp_ph_btn_close.png",
+				"margin-bottom" : 1,
+				"margin-left" : 80,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "close_btn",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 20
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

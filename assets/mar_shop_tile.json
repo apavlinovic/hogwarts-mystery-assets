@@ -1,0 +1,1525 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 185,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 140,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 182,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 4,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "shop_tile",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 134,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 114,
+						"image" : "mar_shop_tile_default_bg.png",
+						"margin-bottom" : 10,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "default_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 134
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 113,
+						"image" : "mar_shop_tile_premium_bg.png",
+						"margin-bottom" : 11,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "premium_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 134
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 113,
+						"margin-bottom" : 45,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "item",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 127,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 113,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "skin_item_image",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 128
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 113,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"name" : "placeable_item_image",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 128
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 113,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 0,
+								"name" : "character_item_image_unlocked",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 128
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 113,
+								"image" : "mar_shop_image_loader.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "character_item_image",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 128
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 182,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "default_fg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 182,
+								"image" : "mar_shop_tile_default_fg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 134
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 34,
+								"image" : "mar_shop_tile_default_cell_bg.png",
+								"margin-bottom" : 6,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "cell_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 124
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 182,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "premium_fg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.224626,
+								"9slicescalezone-width" : 0.762268,
+								"9slicescalezone-x" : 0.128122,
+								"9slicescalezone-y" : 0.441374,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 182,
+								"image" : "mar_shop_tile_premium_fg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 134
+							},
+							{
+								"9slicescalezone-height" : 0.468135,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.197865,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 34,
+								"image" : "mar_shop_tile_premium_cell_bg.png",
+								"margin-bottom" : 6,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "cell_bg_premium",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 124
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 32,
+								"image" : "mar_view_btn_shop_special.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 66.5,
+								"name" : "button_premium_view",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 119,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamNarrow-UltraItalic",
+										"font-size" : 12,
+										"local:text" : "LABEL_VIEW",
+										"margin-bottom" : 1,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 100,
+										"name" : "label_view",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											81,
+											35,
+											0
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											81,
+											35,
+											0
+										],
+										"stroke-thickness" : 1,
+										"text" : "View"
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 182,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "early_unlock_fg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 182,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "admit_fg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.224626,
+								"9slicescalezone-width" : 0.762268,
+								"9slicescalezone-x" : 0.128122,
+								"9slicescalezone-y" : 0.441374,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 182,
+								"image" : "mar_shop_tile_admit_fg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 134
+							},
+							{
+								"9slicescalezone-height" : 0.468135,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.197865,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 34,
+								"image" : "mar_shop_tile_default_cell_bg.png",
+								"margin-bottom" : 6,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "cell_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 124
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 182,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "cell_button",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 26,
+								"image" : "mar_hard_currency_large.png",
+								"margin-bottom" : 0,
+								"margin-left" : 10,
+								"margin-right" : 0,
+								"margin-top" : 146,
+								"name" : "currency_loader",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 26
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"editor-hide" : true,
+								"font" : "GothamXNarrow-BlackItalic",
+								"font-size" : 14,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 23,
+								"margin-left" : 6,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 76,
+								"name" : "label_price",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									108,
+									107,
+									134
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									108,
+									107,
+									134
+								],
+								"stroke-thickness" : 1,
+								"text" : "12,000,000 "
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"editor-hide" : true,
+								"font" : "GothamXNarrow-BlackItalic",
+								"font-size" : 14,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 23,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 76,
+								"name" : "label_inventory_quantity",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									108,
+									107,
+									134
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									108,
+									107,
+									134
+								],
+								"stroke-thickness" : 1,
+								"text" : "12,000,000 "
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 182,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "major_upgrade_cost",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 26,
+								"image" : "mar_soft_material_drop_icon_52x52.png",
+								"margin-bottom" : 10,
+								"margin-left" : 94,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "soft_material_drop",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 26
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 14,
+								"image" : "mar_shop_plus_icon.png",
+								"margin-bottom" : 16,
+								"margin-left" : 86,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "plus_icon",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 14
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "GothamXNarrow-BlackItalic",
+								"font-size" : 14,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 23,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 0,
+								"max-width" : 53,
+								"name" : "label_major_upgrade_price",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									108,
+									107,
+									134
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									108,
+									107,
+									134
+								],
+								"stroke-thickness" : 1,
+								"text" : "12,000"
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 26,
+								"image" : "mar_hard_currency_large.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 39,
+								"margin-top" : 67,
+								"name" : "major_upgrade_currency_loader",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 26
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 61,
+						"margin-bottom" : 44,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "upgrade",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 37,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 20,
+								"image" : "mar_shop_upgrade_banner_minor_bg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "minor_banner",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 127,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "GothamXNarrow-BlackItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 33,
+										"margin-top" : 0,
+										"name" : "label_minor_upgrade",
+										"position-x" : "center",
+										"position-y" : "bottom",
+										"shadow-color" : [
+											0,
+											30,
+											97
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"stroke-thickness" : 1,
+										"text" : "Level 2",
+										"width" : 70
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 20,
+								"image" : "mar_shop_upgrade_banner_major_bg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "major_banner",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 127,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "GothamXNarrow-BlackItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 33,
+										"margin-top" : 0,
+										"name" : "label_major_upgrade",
+										"position-x" : "center",
+										"position-y" : "bottom",
+										"shadow-color" : [
+											81,
+											35,
+											0
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											81,
+											35,
+											0
+										],
+										"stroke-thickness" : 1,
+										"text" : "Level 4",
+										"width" : 70
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 26,
+								"image" : "mar_shop_upgrade_arrow_major_icon.png",
+								"margin-bottom" : 34,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "major_upgrade_bounce_icon",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 37
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 48,
+								"image" : "mar_shop_upgrade_arrow_minor_icon.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "minor_upgrade_icon",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 37
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"editor-hide" : true,
+						"height" : 23,
+						"image" : "mar_shop_storage_btn.png",
+						"margin-bottom" : 50,
+						"margin-left" : 103,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "inventory_icon_storage",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 23
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"editor-hide" : true,
+						"height" : 23,
+						"image" : "mar_shop_sell_btn.png",
+						"margin-bottom" : 50,
+						"margin-left" : 103,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "item_icon_sell",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 23
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.310273,
+						"9slicescalezone-x" : 0.355727,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"eats-touches" : false,
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 34,
+						"image" : "mar_shop_cta_button.png",
+						"margin-bottom" : 6,
+						"margin-left" : 5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "shop_skins_iap_button",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 124,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamNarrow-UltraItalic",
+								"font-size" : 13,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 1,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 0,
+								"max-width" : 76,
+								"name" : "label_iap_button",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									59,
+									0
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									0,
+									59,
+									0
+								],
+								"stroke-thickness" : 1,
+								"text" : "Okay!"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 34,
+						"image" : "invisible.png",
+						"margin-bottom" : 6,
+						"margin-left" : 5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bottom_locked",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 124,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 24,
+								"image" : "mar_hud_academy_level_icon.png",
+								"margin-bottom" : 0,
+								"margin-left" : 6.5,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"name" : "icon_academy",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteAspectFit",
+								"width" : 24
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "GothamXNarrow-BlackItalic",
+								"font-size" : 11,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 0,
+								"margin-left" : 18,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 22,
+								"name" : "label_level_req",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									81,
+									35,
+									0
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"stroke-thickness" : 1,
+								"text" : "88"
+							},
+							{
+								"alignment" : "right",
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamXNarrow-BlackItalic",
+								"font-size" : 11,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"local:text" : "GAME_SHOP_REQUIRES",
+								"margin-bottom" : 0,
+								"margin-left" : 4,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 65,
+								"name" : "label_requires",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									108,
+									107,
+									134
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									108,
+									107,
+									134
+								],
+								"stroke-thickness" : 1,
+								"text" : "Requires"
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 14,
+						"margin-bottom" : 148,
+						"margin-left" : 6,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "level_stars",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 78,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 14,
+								"image" : "mar_shop_level_star.png",
+								"margin-bottom" : 0,
+								"margin-left" : 32,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star_1",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 14
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 14,
+								"image" : "mar_shop_level_star.png",
+								"margin-bottom" : 0,
+								"margin-left" : 16,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star_2",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 14
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 14,
+								"image" : "mar_shop_level_star.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star_3",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 14
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 14,
+								"image" : "mar_shop_level_star.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 16,
+								"margin-top" : 0,
+								"name" : "star_4",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 14
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 14,
+								"image" : "mar_shop_level_star.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 32,
+								"margin-top" : 0,
+								"name" : "star_5",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 14
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 182,
+						"image" : "mar_shop_scrim_bg.png",
+						"margin-bottom" : 1,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "shoptile_lock",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 11,
+						"gradient-top-color" : [
+							255,
+							255,
+							255
+						],
+						"margin-bottom" : 52,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 111,
+						"name" : "label_locked_wBuilding",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"stroke-thickness" : 1,
+						"text" : "Requires Level 12"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 42,
+						"image" : "mar_flat_lock.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 40.5,
+						"margin-top" : 16.5,
+						"name" : "shop_icon_lock",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 27
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 26,
+						"image" : "mar_lock_icon_52x52.png",
+						"margin-bottom" : 10,
+						"margin-left" : 11,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "shop_icon_lock_wCharacter",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 26
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 11,
+						"gradient-top-color" : [
+							255,
+							255,
+							255
+						],
+						"margin-bottom" : 22,
+						"margin-left" : 15,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 80,
+						"name" : "label_locked",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							50,
+							111,
+							160
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							50,
+							111,
+							160
+						],
+						"stroke-thickness" : 1,
+						"text" : "Requires Level 12"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 11,
+						"gradient-top-color" : [
+							255,
+							255,
+							255
+						],
+						"margin-bottom" : 22,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 80,
+						"name" : "label_locked_center",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							50,
+							111,
+							160
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							50,
+							111,
+							160
+						],
+						"stroke-thickness" : 1,
+						"text" : "Requires Level 12"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 18,
+						"image" : "mar_alert_icon.png",
+						"margin-bottom" : 77,
+						"margin-left" : 48,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "new_notification",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 16
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 11,
+						"gradient-top-color" : [
+							255,
+							255,
+							255
+						],
+						"margin-bottom" : 79,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 120,
+						"name" : "label_itemname",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"stroke-thickness" : 1,
+						"text" : "Blasting Range Level 2"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 11,
+						"gradient-top-color" : [
+							255,
+							255,
+							255
+						],
+						"margin-bottom" : 79,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 120,
+						"name" : "label_itemname_premium",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							81,
+							35,
+							0
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"stroke-thickness" : 1,
+						"text" : "Maverick House"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 11,
+						"gradient-top-color" : [
+							255,
+							255,
+							255
+						],
+						"margin-bottom" : 79,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 120,
+						"name" : "label_itemname_admit",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							151,
+							59,
+							53
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							151,
+							59,
+							53
+						],
+						"stroke-thickness" : 1,
+						"text" : "Maverick House"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 56,
+						"image" : "mar_shop_badge_bg.png",
+						"margin-bottom" : 96,
+						"margin-left" : 0,
+						"margin-right" : 3,
+						"margin-top" : 0,
+						"name" : "badge",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 44,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "GothamXNarrow-BlackItalic",
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 45.5,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 36,
+								"name" : "label_badge",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									134,
+									28,
+									21
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									134,
+									28,
+									21
+								],
+								"stroke-thickness" : 1,
+								"text" : "DROPS!"
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 26,
+								"margin-bottom" : 6,
+								"margin-left" : 9,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "badge_material_loader",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 26
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 182,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "sticker_view",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 134
+					}
+				]
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"editor-hide" : true,
+				"height" : 103,
+				"margin-bottom" : 48,
+				"margin-left" : 0,
+				"margin-right" : 25,
+				"margin-top" : 0,
+				"name" : "fingerView",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 121
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

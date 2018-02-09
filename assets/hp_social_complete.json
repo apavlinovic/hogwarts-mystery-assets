@@ -1,0 +1,883 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.825958,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.079479,
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "image",
+				"flipY" : true,
+				"image" : "hp_bg_half_modal.png",
+				"inset-margin-y" : -20,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "popView",
+				"percent-height" : 1,
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 280,
+				"children" : [
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 43,
+						"image" : "hp_bg_header_half_modal.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "header",
+						"percent-width" : 0.996429,
+						"position-x" : "right",
+						"position-y" : "top"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 68,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "_tempHidden",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 236,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_divider_gold.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 67,
+								"name" : "divider2",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 220
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "view",
+								"height" : 55,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 7,
+								"name" : "friendView",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 236
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_divider_gold.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "divider",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 220
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "view",
+								"height" : 16,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 47,
+								"margin-top" : 27,
+								"name" : "statusView",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 32,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											51,
+											167,
+											112
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 35,
+										"name" : "labelStatusGreen",
+										"position-x" : "left",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "+100"
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 291,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "completeView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 222,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "button",
+								"height" : 43,
+								"image" : "hp_button_secondary_active_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 123,
+								"name" : "btnContinue",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 152,
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 43,
+										"image" : "hp_button_secondary_active_med_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "btn_bg",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 152
+									},
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											221,
+											188,
+											113
+										],
+										"font" : "4privetdrive",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0.5,
+										"max-width" : 120,
+										"name" : "label",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-thickness" : 0.2,
+										"text" : "collect"
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-hide" : true,
+								"height" : 62,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 39,
+								"name" : "rewardsView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 130,
+								"children" : [
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"cell-json" : "hp_rewards_cell.json",
+										"class" : "table-view",
+										"height" : 50,
+										"horizontal" : true,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 11,
+										"name" : "rewardTable",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 130,
+										"children" : []
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Heavy",
+										"local:text" : "HP_REWARDS",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 2,
+										"margin-top" : 7,
+										"max-width" : 120,
+										"name" : "labelRewards",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shader-id" : "uiTitle",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "REWARDS"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.791904,
+								"9slicescalezone-x" : 0.117247,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 32,
+								"image" : "hp_bg_container_banner_flat.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 126,
+								"name" : "bannerFail",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 250,
+								"children" : [
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											211,
+											70,
+											70
+										],
+										"font" : "4privetdrive",
+										"font-size" : 20,
+										"local:text" : "HP_ENCOUNTER_FAILED",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 16,
+										"max-width" : 216,
+										"name" : "labelFail",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shader-id" : "uiTitle",
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "FAILED"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.791904,
+								"9slicescalezone-x" : 0.117247,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 32,
+								"image" : "hp_bg_container_banner_flat.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 93,
+								"name" : "bannerPass",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 250,
+								"children" : [
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "4privetdrive",
+										"font-size" : 20,
+										"local:text" : "HP_ENCOUNTER_COMPLETED",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 16,
+										"max-width" : 216,
+										"name" : "labelPass",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shader-id" : "uiTitle",
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "COMPLETED"
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"editor-hide" : true,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "startView",
+						"percent-height" : 1,
+						"percent-width" : 0.796238,
+						"position-x" : "center",
+						"position-y" : "center",
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.060273,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.469364,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"height" : 45,
+								"image" : "hp_button_secondary_active_med.png",
+								"margin-bottom" : 27,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btnStart",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"width" : 181,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.060273,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.469364,
+										"actions" : [],
+										"anchor-x" : "center",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 45,
+										"image" : "hp_button_secondary_active_med_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "btn_bg",
+										"position-x" : "center",
+										"position-y" : "bottom",
+										"width" : 181
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-BookOblique",
+										"font-size" : 12,
+										"format" : "suffixed",
+										"margin-bottom" : 0,
+										"margin-left" : 141,
+										"margin-right" : 0,
+										"margin-top" : 1.5,
+										"max-width" : 28,
+										"name" : "labelCost",
+										"position-x" : "left",
+										"position-y" : "center",
+										"resolution" : 1,
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											81,
+											35,
+											0
+										],
+										"text" : "999"
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 16,
+										"image" : "hp_icon_currency_coin.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 39,
+										"margin-top" : 0.5,
+										"name" : "iconCurrency",
+										"position-x" : "right",
+										"position-y" : "center",
+										"width" : 16
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 17,
+										"image" : "hp_divider_small_pink.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 60,
+										"margin-top" : 0.5,
+										"name" : "dividerSmall",
+										"position-x" : "right",
+										"position-y" : "center",
+										"width" : 2
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											233,
+											204,
+											140
+										],
+										"font" : "4privetdrive",
+										"font-size" : 13,
+										"local:text" : "HP_START_NOW",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 24,
+										"margin-top" : 0.5,
+										"max-width" : 100,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											81,
+											35,
+											0
+										],
+										"text" : "SOCIALIZE"
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 89,
+								"margin-bottom" : 26,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "attributesView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 216,
+								"children" : [
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"cell-json" : "hp_social_attribute_cell.json",
+										"class" : "table-view",
+										"divisions" : 3,
+										"height" : 66,
+										"horizontal" : true,
+										"image" : "hp_bg_cell_white.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 23,
+										"name" : "recommendedTable",
+										"position-x" : "center",
+										"position-y" : "top",
+										"width" : 198,
+										"children" : []
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Heavy",
+										"font-size" : 13,
+										"local:text" : "HP_ENC_RECOMMENDED_ATTRIBUTES",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 12,
+										"max-width" : 216,
+										"name" : "labelRecommended",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "Recommended Attributes"
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 62,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 57,
+								"name" : "rewardsView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 130,
+								"children" : [
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"cell-json" : "hp_rewards_cell.json",
+										"class" : "table-view",
+										"height" : 50,
+										"horizontal" : true,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 11,
+										"name" : "rewardTable",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 130,
+										"children" : []
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Heavy",
+										"local:text" : "HP_REWARDS",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 2,
+										"margin-top" : 7,
+										"max-width" : 120,
+										"name" : "labelRewards",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shader-id" : "uiTitle",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "REWARDS"
+									}
+								]
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"margin-bottom" : 0,
+						"margin-left" : 2.5,
+						"margin-right" : 0,
+						"margin-top" : 74,
+						"max-height" : 32,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "SOME HANGOUT NAME OF AWESOMENESS",
+						"width" : 216
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 29,
+						"image" : "hp_bg_icon_hex.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0.5,
+						"margin-right" : 0,
+						"margin-top" : 22,
+						"name" : "iconView",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 33,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 20,
+								"image" : "hp_icon_hex_talk.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0.5,
+								"margin-top" : 0.5,
+								"name" : "loaderIcon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteAspectFill",
+								"width" : 20
+							}
+						]
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "button",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"height" : 28,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 5,
+				"margin-right" : 0,
+				"margin-top" : 5,
+				"name" : "btnSoftCurrency",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 78,
+				"children" : [
+					{
+						"9slicescalezone-height" : 1,
+						"9slicescalezone-width" : 1,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 28,
+						"image" : "hp_container_HUD_currency.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "coinsBg",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 28
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 16,
+						"image" : "hp_icon_currency_coin.png",
+						"margin-bottom" : 0,
+						"margin-left" : 6,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconSoftCurrency",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 16
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 7,
+						"margin-left" : 28,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 54,
+						"name" : "labelSoftCurrency",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							-0.5,
+							-0.5
+						],
+						"text" : "999,999"
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 14,
+						"image" : "hp_button_HUD_currency.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 41,
+						"margin-top" : 1,
+						"name" : "addCoinBtn",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 14
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

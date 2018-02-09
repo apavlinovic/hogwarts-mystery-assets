@@ -1,0 +1,79 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 40,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 40,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 40,
+				"name" : "attributeView",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 40,
+				"children" : [
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 40,
+						"image" : "hp_icon_attribute_courage_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loaderAttribute",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 40
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							16,
+							29,
+							36
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 24,
+						"name" : "labelAttribute",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-color" : [
+							16,
+							29,
+							37
+						],
+						"text" : "1"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.4"
+}

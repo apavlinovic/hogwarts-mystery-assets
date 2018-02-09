@@ -1,0 +1,200 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.214286,
+				"9slicescalezone-x" : 0.451714,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 170,
+				"image" : "mar_modal_glass_frame_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalBG",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 340,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 29,
+						"image" : "mar_main_modal_header.png",
+						"margin-bottom" : 67.5,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "header_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 334
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 118,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 52,
+						"margin-right" : 0,
+						"margin-top" : 20.5,
+						"name" : "mar_bkg_a_logo",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 106
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 30,
+						"image" : "mar_green_btn.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 45,
+						"name" : "okButton",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 85,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamNarrow-UltraItalic",
+								"font-size" : 12,
+								"local:text" : "GAME_OK",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 0,
+								"max-width" : 70,
+								"name" : "okButtonLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									59,
+									0
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									0,
+									59,
+									0
+								],
+								"stroke-thickness" : 1,
+								"text" : "Ok"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							102,
+							102,
+							102
+						],
+						"dynamic-text" : true,
+						"font" : "GothamXNarrow-Medium",
+						"font-size" : 12,
+						"margin-bottom" : 8,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "textLabel",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "I've made a terrible mistake.",
+						"vertical-spacing" : 0.85,
+						"width" : 220
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "GothamNarrow-UltraItalic",
+						"font-size" : 14,
+						"gradient-top-color" : [
+							248,
+							255,
+							227
+						],
+						"margin-bottom" : 0,
+						"margin-left" : 20,
+						"margin-right" : 0,
+						"margin-top" : 16,
+						"max-width" : 270,
+						"name" : "titleLabel",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"stroke-thickness" : 1,
+						"text" : "An Error Occurred!"
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

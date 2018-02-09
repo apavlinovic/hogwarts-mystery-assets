@@ -1,0 +1,118 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 34,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 260,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 30,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "infoView",
+				"position-x" : "right",
+				"position-y" : "bottom",
+				"width" : 260,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 2,
+						"image" : "hp_divider_gold_70.png",
+						"margin-bottom" : 4,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "dividerlite",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "top"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "labelEarnDesc",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"text" : "Go do something cool"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 30,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnGo",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 80,
+						"children" : [
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 31,
+								"image" : "hp_button_arrow_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "icon_arrow",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"sizing" : "SpriteAspectFit",
+								"width" : 28
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

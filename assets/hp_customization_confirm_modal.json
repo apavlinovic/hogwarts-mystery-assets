@@ -1,0 +1,632 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 240,
+				"image" : "hp_bg_scrim_sm.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrim_sm",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 475
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 142,
+				"image" : "hp_bg_modal_sm.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalSm",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 313,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 38,
+						"image" : "hp_bg_header_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 1,
+						"margin-top" : 1,
+						"name" : "header_bg",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 310
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 24,
+						"image" : "invisible.png",
+						"margin-bottom" : 7,
+						"margin-left" : 0,
+						"margin-right" : 88,
+						"margin-top" : 0,
+						"name" : "buyView",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 137,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_glow.png",
+								"height" : 31,
+								"image" : "hp_button_secondary_prem.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btnBuy",
+								"percent-width" : 1.082474,
+								"position-x" : "center",
+								"position-y" : "center"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "4privetdrive",
+								"font-size" : 11,
+								"local:text" : "HP_CUSTOMS_BUY_NOW",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "labelBtnOkay",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "BUY NOW"
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 24,
+						"margin-bottom" : 7,
+						"margin-left" : 16,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "twoBtnView",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 281,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "view",
+								"height" : 24,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "acceptView",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 137,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"breathe" : false,
+										"class" : "hp_button_particles",
+										"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_glow.png",
+										"height" : 31,
+										"image" : "hp_button_secondary_active.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0.5,
+										"margin-top" : 0,
+										"name" : "btnAccept",
+										"percent-width" : 1.082474,
+										"position-x" : "center",
+										"position-y" : "center",
+										"children" : []
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "4privetdrive",
+										"font-size" : 11,
+										"local:text" : "HP_CUSTOMS_BUY_NOW",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 120,
+										"name" : "labelBtnAccept",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-thickness" : 0.2,
+										"text" : "BUY NOW"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"height" : 24,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btnRemove",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 137,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 31,
+										"image" : "hp_button_secondary_idle.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0.5,
+										"margin-top" : 0,
+										"name" : "btn_bg",
+										"percent-width" : 1.082474,
+										"position-x" : "center",
+										"position-y" : "center"
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											0,
+											135,
+											135
+										],
+										"font" : "4privetdrive",
+										"font-size" : 11,
+										"local:text" : "HP_CUSTOMS_REMOVE_EXIT",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 120,
+										"name" : "labelBtnRemove",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-thickness" : 0.2,
+										"text" : "RETURN & EXIT"
+									}
+								]
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"local:text" : "HP_CUSTOM_CONFIRM_DESC",
+						"margin-bottom" : 8,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 32,
+						"name" : "labelDesc",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Awesome choices! Would you like to purchase the items you're wearing?",
+						"vertical-spacing" : 0.9,
+						"width" : 292
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"local:text" : "HP_CUSTOMS_CONFIRM_TITLE",
+						"margin-bottom" : 53,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "label_title",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "ACCEPT CHANGES?"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 5,
+						"margin-left" : 279,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "closeButton",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 13,
+								"image" : "hp_button_close.png",
+								"margin-bottom" : 13,
+								"margin-left" : 13,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 13
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 22,
+						"image" : "hp_container_blue.png",
+						"margin-bottom" : 36,
+						"margin-left" : 0,
+						"margin-right" : 125,
+						"margin-top" : 0,
+						"name" : "containerCost",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 63,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 11,
+								"format" : "suffixed",
+								"margin-bottom" : 0,
+								"margin-left" : 8,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "labelCost",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "999",
+								"vertical-spacing" : 0.8
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 16,
+								"image" : "hp_icons_gem.png",
+								"margin-bottom" : 0,
+								"margin-left" : 4,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconCost",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 16
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 22,
+						"margin-bottom" : 36,
+						"margin-left" : 90,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "containerCost2",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 132,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 22,
+								"image" : "hp_container_blue.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 69,
+								"margin-top" : 0,
+								"name" : "cost1",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 63,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 11,
+										"format" : "suffixed",
+										"margin-bottom" : 0,
+										"margin-left" : 8,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 40,
+										"name" : "labelCost",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "999",
+										"vertical-spacing" : 0.8
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "image",
+										"dynamic-img" : true,
+										"height" : 16,
+										"image" : "hp_icons_gem.png",
+										"margin-bottom" : 0,
+										"margin-left" : 4,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "iconCost",
+										"position-x" : "left",
+										"position-y" : "center",
+										"width" : 16
+									}
+								]
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 22,
+								"image" : "hp_container_blue.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "cost2",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 63,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 11,
+										"format" : "suffixed",
+										"margin-bottom" : 0,
+										"margin-left" : 8,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 40,
+										"name" : "labelCost",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "999",
+										"vertical-spacing" : 0.8
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "image",
+										"dynamic-img" : true,
+										"height" : 16,
+										"image" : "hp_icons_gem.png",
+										"margin-bottom" : 0,
+										"margin-left" : 4,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "iconCost",
+										"position-x" : "left",
+										"position-y" : "center",
+										"width" : 16
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

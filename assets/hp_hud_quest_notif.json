@@ -1,0 +1,144 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 38,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 100,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 38,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "notificationView",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 100,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.108862,
+						"9slicescalezone-x" : 0.557138,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 29,
+						"image" : "hp_container_tooltip_quest.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "newNotifBg",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 38,
+						"children" : [
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 19,
+								"image" : "hp_icon_tooltip_alert.png",
+								"margin-bottom" : 5,
+								"margin-left" : 28,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "notifbadge",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 9
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.108862,
+						"9slicescalezone-x" : 0.557138,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 28,
+						"image" : "hp_icon_alert_lrg.png",
+						"margin-bottom" : 12,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "hudAlert",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 28
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0.67,
+						"9slicescalezone-y" : 0.23,
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 29,
+						"image" : "hp_container_tooltip_quest.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "progressNotifBg",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 90,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									113
+								],
+								"font" : "Avenir-HeavyOblique",
+								"font-size" : 13,
+								"local:text" : "GAME_GOAL_PROGRESS",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 6,
+								"margin-top" : 1,
+								"max-width" : 70,
+								"name" : "notifLabel",
+								"position-x" : "right",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									-0.5,
+									-0.5
+								],
+								"text" : "PROGRESS"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

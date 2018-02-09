@@ -1,0 +1,203 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 80,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 160,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnAttribute",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 52,
+						"image" : "hp_bg_progress_attribute_bar.png",
+						"margin-bottom" : 10,
+						"margin-left" : 0,
+						"margin-right" : 54,
+						"margin-top" : 0,
+						"name" : "attributeProgressBg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 52
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "progress-radial",
+						"height" : 52,
+						"image" : "hp_bg_progress_attribute_bar_fill.png",
+						"margin-bottom" : 10,
+						"margin-left" : 0,
+						"margin-right" : 54,
+						"margin-top" : 0,
+						"name" : "attributeProgressBar",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 52
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 54,
+						"image" : "hp_icon_attribute_courage_med.png",
+						"margin-bottom" : 9,
+						"margin-left" : 0,
+						"margin-right" : 54,
+						"margin-top" : 0,
+						"name" : "loaderAttribute",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 54,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									16,
+									29,
+									37
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 20,
+								"name" : "labelAttributeLvl",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"text" : "3"
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"all-caps" : true,
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 9,
+						"margin-bottom" : 11,
+						"margin-left" : 58,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 100,
+						"name" : "labelAttribute",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "ATHLETICISM"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							51,
+							167,
+							112
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 13,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 17,
+						"margin-top" : 26,
+						"max-width" : 20,
+						"name" : "labelAttributeXpAdd",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "+3"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 13,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 54,
+						"margin-top" : 27,
+						"max-width" : 50,
+						"name" : "labelAttributeXp",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "999\/999"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

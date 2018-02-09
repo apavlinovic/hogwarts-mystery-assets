@@ -1,0 +1,562 @@
+{
+    "frames": [
+        {
+            "frame": {
+                "y": 1242,
+                "x": 832,
+                "w": 212,
+                "h": 200
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0001.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 157,
+                "x": 152,
+                "w": 212,
+                "h": 200
+            }
+        },
+        {
+            "frame": {
+                "y": 1242,
+                "x": 832,
+                "w": 212,
+                "h": 200
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0002.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 157,
+                "x": 152,
+                "w": 212,
+                "h": 200
+            }
+        },
+        {
+            "frame": {
+                "y": 930,
+                "x": 832,
+                "w": 310,
+                "h": 282
+            },
+            "rotated": true,
+            "filename": "FX-ImpactSmoke_ground.0003.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 129,
+                "x": 105,
+                "w": 310,
+                "h": 282
+            }
+        },
+        {
+            "frame": {
+                "y": 930,
+                "x": 832,
+                "w": 310,
+                "h": 282
+            },
+            "rotated": true,
+            "filename": "FX-ImpactSmoke_ground.0004.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 129,
+                "x": 105,
+                "w": 310,
+                "h": 282
+            }
+        },
+        {
+            "frame": {
+                "y": 930,
+                "x": 484,
+                "w": 382,
+                "h": 346
+            },
+            "rotated": true,
+            "filename": "FX-ImpactSmoke_ground.0005.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 90,
+                "x": 66,
+                "w": 382,
+                "h": 346
+            }
+        },
+        {
+            "frame": {
+                "y": 930,
+                "x": 484,
+                "w": 382,
+                "h": 346
+            },
+            "rotated": true,
+            "filename": "FX-ImpactSmoke_ground.0006.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 90,
+                "x": 66,
+                "w": 382,
+                "h": 346
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 958,
+                "w": 472,
+                "h": 436
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0007.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 40,
+                "x": 8,
+                "w": 472,
+                "h": 436
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 958,
+                "w": 472,
+                "h": 436
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0008.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 40,
+                "x": 8,
+                "w": 472,
+                "h": 436
+            }
+        },
+        {
+            "frame": {
+                "y": 474,
+                "x": 484,
+                "w": 456,
+                "h": 454
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0009.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 30,
+                "x": 30,
+                "w": 456,
+                "h": 454
+            }
+        },
+        {
+            "frame": {
+                "y": 474,
+                "x": 484,
+                "w": 456,
+                "h": 454
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0010.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 30,
+                "x": 30,
+                "w": 456,
+                "h": 454
+            }
+        },
+        {
+            "frame": {
+                "y": 440,
+                "x": 958,
+                "w": 464,
+                "h": 464
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0011.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 24,
+                "x": 25,
+                "w": 464,
+                "h": 464
+            }
+        },
+        {
+            "frame": {
+                "y": 440,
+                "x": 958,
+                "w": 464,
+                "h": 464
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0012.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 24,
+                "x": 25,
+                "w": 464,
+                "h": 464
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 1432,
+                "w": 466,
+                "h": 468
+            },
+            "rotated": true,
+            "filename": "FX-ImpactSmoke_ground.0013.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 22,
+                "x": 24,
+                "w": 466,
+                "h": 468
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 1432,
+                "w": 466,
+                "h": 468
+            },
+            "rotated": true,
+            "filename": "FX-ImpactSmoke_ground.0014.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 22,
+                "x": 24,
+                "w": 466,
+                "h": 468
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 484,
+                "w": 470,
+                "h": 470
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0015.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 21,
+                "x": 22,
+                "w": 470,
+                "h": 470
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 484,
+                "w": 470,
+                "h": 470
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0016.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 21,
+                "x": 22,
+                "w": 470,
+                "h": 470
+            }
+        },
+        {
+            "frame": {
+                "y": 1452,
+                "x": 482,
+                "w": 474,
+                "h": 474
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0017.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 20,
+                "x": 20,
+                "w": 474,
+                "h": 474
+            }
+        },
+        {
+            "frame": {
+                "y": 1452,
+                "x": 482,
+                "w": 474,
+                "h": 474
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0018.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 20,
+                "x": 20,
+                "w": 474,
+                "h": 474
+            }
+        },
+        {
+            "frame": {
+                "y": 1452,
+                "x": 2,
+                "w": 478,
+                "h": 480
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0019.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 16,
+                "x": 16,
+                "w": 478,
+                "h": 480
+            }
+        },
+        {
+            "frame": {
+                "y": 1452,
+                "x": 2,
+                "w": 478,
+                "h": 480
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0020.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 16,
+                "x": 16,
+                "w": 478,
+                "h": 480
+            }
+        },
+        {
+            "frame": {
+                "y": 970,
+                "x": 2,
+                "w": 480,
+                "h": 480
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0021.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 17,
+                "x": 15,
+                "w": 480,
+                "h": 480
+            }
+        },
+        {
+            "frame": {
+                "y": 970,
+                "x": 2,
+                "w": 480,
+                "h": 480
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0022.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 17,
+                "x": 15,
+                "w": 480,
+                "h": 480
+            }
+        },
+        {
+            "frame": {
+                "y": 486,
+                "x": 2,
+                "w": 480,
+                "h": 482
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0023.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 16,
+                "x": 15,
+                "w": 480,
+                "h": 482
+            }
+        },
+        {
+            "frame": {
+                "y": 486,
+                "x": 2,
+                "w": 480,
+                "h": 482
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0024.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 16,
+                "x": 15,
+                "w": 480,
+                "h": 482
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 2,
+                "w": 480,
+                "h": 482
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0025.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 16,
+                "x": 15,
+                "w": 480,
+                "h": 482
+            }
+        },
+        {
+            "frame": {
+                "y": 2,
+                "x": 2,
+                "w": 480,
+                "h": 482
+            },
+            "rotated": false,
+            "filename": "FX-ImpactSmoke_ground.0026.png",
+            "trimmed": true,
+            "sourceSize": {
+                "h": 512,
+                "w": 512
+            },
+            "spriteSourceSize": {
+                "y": 16,
+                "x": 15,
+                "w": 480,
+                "h": 482
+            }
+        }
+    ],
+    "meta": {
+        "scale": "1",
+        "format": "RGBA8888",
+        "app": "http://www.codeandweb.com/texturepacker ",
+        "version": "1.0",
+        "smartupdate": "$TexturePacker:SmartUpdate:59dbd46c44fa3b7bba3a627683e3e603:46af0e29acb92d29c41a514badc91f87:df5e61d625c50a6607dda9fdfd1bae84$",
+        "image": "FX-ImpactSmoke_ground.png",
+        "size": {
+            "h": 2048,
+            "w": 2048
+        }
+    }
+}

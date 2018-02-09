@@ -1,0 +1,805 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 1,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 260,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "shop_view",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"eats-touches" : true,
+						"height" : 244,
+						"image" : "mar_shop_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "shop_bg",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "bottom"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "table-view",
+						"height" : 185,
+						"horizontal" : true,
+						"image" : "invisible.png",
+						"margin-bottom" : 78,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loader_shoptiles",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "bottom"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 46,
+						"margin-bottom" : 31,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "shop_tab_group",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 476,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"flipX" : true,
+								"height" : 41,
+								"image" : "mar_shop_btn_active.png",
+								"margin-bottom" : 0,
+								"margin-left" : 194,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shop_tab_building_selected",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 88,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 24,
+										"image" : "mar_shop_tab_building_active_icon.png",
+										"margin-bottom" : 8,
+										"margin-left" : 7,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "shop_tab_icon_building_selected",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											226,
+											35
+										],
+										"font" : "GothamNarrow-UltraItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "INVENTORY_TAB_BUILDING_LABEL",
+										"margin-bottom" : 0,
+										"margin-left" : 12,
+										"margin-right" : 0,
+										"margin-top" : 13,
+										"max-width" : 46,
+										"name" : "label_shop_building",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											0,
+											0,
+											49
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											0,
+											0,
+											49
+										],
+										"stroke-thickness" : 1,
+										"text" : "Building"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"flipX" : true,
+								"height" : 41,
+								"image" : "mar_shop_btn_inactive.png",
+								"margin-bottom" : 0,
+								"margin-left" : 194,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shop_tab_building",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 88,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 24,
+										"image" : "mar_shop_tab_building_icon.png",
+										"margin-bottom" : 10,
+										"margin-left" : 7,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "shop_tab_icon_building_unselected",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamNarrow-UltraItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "INVENTORY_TAB_BUILDING_LABEL",
+										"margin-bottom" : 0,
+										"margin-left" : 12,
+										"margin-right" : 0,
+										"margin-top" : 11,
+										"max-width" : 46,
+										"name" : "label_shop_building",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											81,
+											80,
+											101
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											81,
+											80,
+											101
+										],
+										"stroke-thickness" : 1,
+										"text" : "Building"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"flipX" : true,
+								"height" : 41,
+								"image" : "mar_shop_btn_active.png",
+								"margin-bottom" : 0,
+								"margin-left" : 288,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shop_tab_deco_selected",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 88,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 24,
+										"image" : "mar_shop_tab_deco_active_icon.png",
+										"margin-bottom" : 8,
+										"margin-left" : 12,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "shop_tab_icon_deco_selected",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											226,
+											35
+										],
+										"font" : "GothamNarrow-UltraItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "INVENTORY_TAB_DECO_LABEL",
+										"margin-bottom" : 0,
+										"margin-left" : 9,
+										"margin-right" : 0,
+										"margin-top" : 13,
+										"max-width" : 46,
+										"name" : "label_shop_deco",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											0,
+											0,
+											49
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											0,
+											0,
+											49
+										],
+										"stroke-thickness" : 1,
+										"text" : "Decor"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"flipX" : true,
+								"height" : 41,
+								"image" : "mar_shop_btn_inactive.png",
+								"margin-bottom" : 0,
+								"margin-left" : 288,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shop_tab_deco",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 88,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 24,
+										"image" : "mar_shop_tab_deco_icon.png",
+										"margin-bottom" : 10,
+										"margin-left" : 12,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "shop_tab_icon_deco_unselected",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamNarrow-UltraItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "INVENTORY_TAB_DECO_LABEL",
+										"margin-bottom" : 0,
+										"margin-left" : 9,
+										"margin-right" : 0,
+										"margin-top" : 11,
+										"max-width" : 46,
+										"name" : "label_shop_deco",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											81,
+											80,
+											101
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											81,
+											80,
+											101
+										],
+										"stroke-thickness" : 1,
+										"text" : "Decor"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"height" : 41,
+								"image" : "mar_shop_btn_active.png",
+								"margin-bottom" : 0,
+								"margin-left" : 100,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shop_tab_all_selected",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 88,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											226,
+											35
+										],
+										"font" : "GothamNarrow-UltraItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "INVENTORY_TAB_ALL_LABEL",
+										"margin-bottom" : 0,
+										"margin-left" : 12,
+										"margin-right" : 0,
+										"margin-top" : 13,
+										"max-width" : 46,
+										"name" : "label_shop_special",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											0,
+											0,
+											49
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											0,
+											0,
+											49
+										],
+										"stroke-thickness" : 1,
+										"text" : "All"
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 24,
+										"image" : "mar_shop_tab_special_active_icon.png",
+										"margin-bottom" : 8,
+										"margin-left" : 11,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "shop_tab_icon_special_selected",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"height" : 41,
+								"image" : "mar_shop_btn_inactive.png",
+								"margin-bottom" : 0,
+								"margin-left" : 100,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shop_tab_all",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 88,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 24,
+										"image" : "mar_shop_tab_special_icon.png",
+										"margin-bottom" : 10,
+										"margin-left" : 11,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "shop_tab_icon_special_unselected",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamNarrow-UltraItalic",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "INVENTORY_TAB_ALL_LABEL",
+										"margin-bottom" : 0,
+										"margin-left" : 12,
+										"margin-right" : 0,
+										"margin-top" : 11,
+										"max-width" : 43,
+										"name" : "label_shop_special",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											81,
+											80,
+											101
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											81,
+											80,
+											101
+										],
+										"stroke-thickness" : 1,
+										"text" : "All"
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 90,
+						"margin-bottom" : 222,
+						"margin-left" : 240,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "crack_offset",
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 25,
+						"margin-bottom" : 25,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bounce_buffer",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 480
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 65,
+						"margin-bottom" : 256,
+						"margin-left" : 0,
+						"margin-right" : 1,
+						"margin-top" : 0,
+						"name" : "tab_offset",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "bottom"
+					}
+				]
+			},
+			{
+				"anchor-x" : "right",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 60,
+				"margin-bottom" : 262,
+				"margin-left" : 0,
+				"margin-right" : 6,
+				"margin-top" : 0,
+				"name" : "tab_view",
+				"position-x" : "right",
+				"position-y" : "bottom",
+				"width" : 50,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 38,
+						"image" : "mar_hud_btn_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "button_inventory_close",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 48,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 26,
+								"image" : "mar_hud_shop_close_icon.png",
+								"margin-bottom" : 7,
+								"margin-left" : 11,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shop_close_icon",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 26
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 62,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "button_inventory_open",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 48,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 38,
+								"image" : "mar_hud_btn_bg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "button_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 48,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 32,
+										"image" : "mar_movemode_inventory_btn.png",
+										"margin-bottom" : 2,
+										"margin-left" : 10.5,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "shop_icon",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 27
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 18,
+						"image" : "mar_alert_icon.png",
+						"margin-bottom" : 34,
+						"margin-left" : 35,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "new_notification",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 16
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-layerExpanded" : false,
+						"height" : 18,
+						"image" : "mar_notification_icon.png",
+						"margin-bottom" : 34,
+						"margin-left" : 29,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "shop_notification_icon",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 22,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									226,
+									35
+								],
+								"font" : "GothamNarrow-UltraItalic",
+								"font-size" : 11,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 1,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 20,
+								"name" : "label_notif_count",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									134,
+									28,
+									21
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									134,
+									28,
+									21
+								],
+								"stroke-thickness" : 1,
+								"text" : "22"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

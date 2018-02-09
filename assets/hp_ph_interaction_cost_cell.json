@@ -1,0 +1,139 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 27,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 128,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 27,
+				"margin-bottom" : 13,
+				"margin-left" : 64,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "cell_view",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 128,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 22,
+						"image" : "hp_ph_icon_energy_lrg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 15,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "icon_material",
+						"position-x" : "left",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFit",
+						"width" : 22,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 18,
+								"image" : "hp_ph_icon_check.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "icon_complete",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 18
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							51,
+							51,
+							51
+						],
+						"dynamic-text" : true,
+						"font" : "AppleGaramond-Bold",
+						"font-size" : 13,
+						"margin-bottom" : 5.5,
+						"margin-left" : 28,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label_amount",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "5\/5"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							51,
+							51,
+							51
+						],
+						"dynamic-text" : true,
+						"font" : "AppleGaramond-Bold",
+						"font-size" : 12,
+						"margin-bottom" : 13.5,
+						"margin-left" : 35.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 90,
+						"name" : "label_material_name",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "Energy Crystals of Fortitude"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 1,
+						"image" : "hp_ph_divider_lite.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "hp_ph_divider_lite",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 106
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

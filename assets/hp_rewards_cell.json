@@ -1,0 +1,143 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 44,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 44,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 44,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "Group 1",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 44,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"color" : [
+							147,
+							131,
+							97
+						],
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"gradient-top-color" : [
+							233,
+							211,
+							162
+						],
+						"height" : 38,
+						"image" : "hp_container_rewards.png",
+						"margin-bottom" : 6,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "container_rewards",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-offset" : [
+							1,
+							1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE",
+						"width" : 38
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"color" : [
+							147,
+							131,
+							97
+						],
+						"dynamic-img" : true,
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"gradient-top-color" : [
+							233,
+							211,
+							162
+						],
+						"height" : 22,
+						"image" : "hp_icon_currency_coin.png",
+						"margin-bottom" : 3,
+						"margin-left" : 0,
+						"margin-right" : 3,
+						"margin-top" : 0,
+						"name" : "icon_reward",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							1,
+							1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE",
+						"width" : 22
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 29,
+						"margin-right" : 0,
+						"margin-top" : 13,
+						"name" : "label_quantity",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "99"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

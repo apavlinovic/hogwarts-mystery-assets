@@ -1,0 +1,143 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 770,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 413,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 770,
+				"name" : "container",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 413,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 512,
+						"image" : "hogwarts_acceptance_letter.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 10,
+						"name" : "letter",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 413
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							109,
+							68,
+							30
+						],
+						"font" : "Tangerine_Regular",
+						"font-size" : 20,
+						"height" : 37,
+						"local:text" : "HP_NUX_LETTER_NAME",
+						"margin-bottom" : 460,
+						"margin-left" : 38,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "name",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							109,
+							68,
+							30
+						],
+						"shadow-offset" : [
+							0.5,
+							0
+						],
+						"text" : "Dear LongWizardNameGoesHere,",
+						"width" : 400
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "hp_button_particles",
+						"glow" : "\/Users\/sallysu\/sally_HP\/Potter\/UI\/Production\/ui\/hp_button_celebration_large_glow.png",
+						"height" : 83,
+						"image" : "hp_button_celebration_large.png",
+						"margin-bottom" : 116,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "nodeBtnCTA",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 243,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									113
+								],
+								"control-points" : [
+									[
+										0,
+										-10
+									],
+									[
+										0.33,
+										-22
+									],
+									[
+										0.66,
+										21
+									],
+									[
+										1,
+										0
+									]
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "HP_NUX_LETTER_CONTINUE",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 170,
+								"name" : "continueLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "BRILLIANT!"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8"
+}

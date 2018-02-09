@@ -1,0 +1,148 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 115,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "fg_quest",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 87,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "buttonIAP",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 16,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 46,
+						"max-width" : 60,
+						"name" : "labelQty",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "250"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Book",
+						"margin-bottom" : 18,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 60,
+						"name" : "labelPlace",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "Place"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 21,
+						"margin-bottom" : 35,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 60,
+						"name" : "labelStanding",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "1st"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 45,
+						"image" : "hp_icon_currency_coin.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 13,
+						"name" : "loaderItem",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 45
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

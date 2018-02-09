@@ -1,0 +1,349 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 150,
+				"image" : "fg_modal_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 300,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 17,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 104,
+						"margin-top" : 20,
+						"name" : "title",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Fog Settings"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 115,
+						"name" : "maxFogText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Max Fog Amount:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 134,
+						"margin-top" : 43,
+						"name" : "colorText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Color"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 80,
+						"name" : "maxDistText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Maximum Distance:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 43,
+						"name" : "minDistText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Minimum Distance:"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 20,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 24,
+						"margin-top" : 18,
+						"name" : "applyButton",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 60,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									13,
+									46,
+									67
+								],
+								"font" : "ContemporaryCyr",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"name" : "applyLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									189,
+									217,
+									227
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Apply Fog"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 20,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 102,
+						"margin-right" : 0,
+						"margin-top" : 18,
+						"name" : "revertButton",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 60,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									13,
+									46,
+									67
+								],
+								"font" : "ContemporaryCyr",
+								"height" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 4,
+								"name" : "revertLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									189,
+									217,
+									227
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Revert To Scene",
+								"width" : 60
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 20,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 39,
+						"margin-right" : 0,
+						"margin-top" : 18,
+						"name" : "clearButton",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 60,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									13,
+									46,
+									67
+								],
+								"font" : "ContemporaryCyr",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"name" : "clearLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									189,
+									217,
+									227
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Clear Fog"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 18,
+						"image" : "hp_ph_btn_close.png",
+						"margin-bottom" : 0,
+						"margin-left" : 148,
+						"margin-right" : 0,
+						"margin-top" : 4,
+						"name" : "close_btn",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 18
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

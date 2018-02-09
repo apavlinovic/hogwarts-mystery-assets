@@ -1,0 +1,285 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "fg_quest",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrimBg",
+				"percent-height" : 1,
+				"percent-width" : 1.002083,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "view",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 155,
+						"image" : "hp_bg_popup_modal_large.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill",
+						"width" : 413,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "button",
+								"height" : 30,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 7.5,
+								"margin-top" : 8.5,
+								"name" : "buttonClose",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 30,
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 13,
+										"image" : "hp_button_close.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "x",
+										"position-x" : "center",
+										"position-y" : "center",
+										"sizing" : "SpriteFill",
+										"width" : 13
+									}
+								]
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 86,
+						"image" : "hp_button_secondary_fill.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 113,
+						"name" : "button",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill",
+						"width" : 197,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 86,
+								"image" : "hp_button_secondary_glow.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "glow",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 197
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									113
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 140,
+								"name" : "label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "GET MORE"
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 74,
+						"margin-top" : 5,
+						"name" : "labelBody",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "Do you want to get more?",
+						"vertical-spacing" : 0.8,
+						"width" : 240
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							233,
+							211,
+							162
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"margin-bottom" : 53,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 350,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"shadow-offset" : [
+							0.2,
+							0
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "NOT ENOUGH ENERGY"
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 75,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 90.5,
+						"margin-top" : 5,
+						"name" : "iconView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 75,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 75,
+								"image" : "hp_icons_gem.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconGem",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 75
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 75,
+								"image" : "hp_icon_currency_coin.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconCoin",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 75
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.6"
+}

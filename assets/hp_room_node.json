@@ -1,0 +1,158 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 90,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 85,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "roomButton",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 42,
+						"image" : "hp_bg_icon_nav_inactive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 23.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "inactiveBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 37
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 42,
+						"image" : "hp_bg_icon_nav_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 23.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "activeBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 37
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 39,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 39,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"dynamic-img" : true,
+								"editor-hide" : true,
+								"height" : 25,
+								"image" : "hp_icon_nav_charms_class.png",
+								"margin-bottom" : 10,
+								"margin-left" : 6,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderRoomTooltip",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"sizing" : "SpriteAspectFit",
+								"width" : 25
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 20,
+								"image" : "hp_icon_inactive_potions_class.png",
+								"margin-bottom" : 3,
+								"margin-left" : 0,
+								"margin-right" : 2,
+								"margin-top" : 0,
+								"name" : "loaderInactive",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteAspectFit",
+								"width" : 20
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 12,
+						"margin-bottom" : 43,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 40,
+						"width" : 80,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "Flourish and\\nBloots",
+						"vertical-spacing" : 0.95
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

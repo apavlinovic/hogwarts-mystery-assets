@@ -1,0 +1,534 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_bg_full_screen.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalBg",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 292,
+						"image" : "hp_bg_house_crest.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "hp_ph_bg_house_crest",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 324
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "model",
+				"height" : 274,
+				"margin-bottom" : 78,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "avatar_female",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 238
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "model",
+				"height" : 275,
+				"margin-bottom" : 77.5,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "avatar_male",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 238
+			},
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"image" : "hp_bg_half_modal.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "customizeView",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 238,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 1,
+						"image" : "hp_divider_gold.png",
+						"margin-bottom" : 42,
+						"margin-left" : 15,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "divider2",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 209
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 1,
+						"image" : "hp_divider_gold.png",
+						"margin-bottom" : 0,
+						"margin-left" : 15,
+						"margin-right" : 0,
+						"margin-top" : 44,
+						"name" : "divider1",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 209
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 31,
+						"image" : "hp_button_secondary_active.png",
+						"margin-bottom" : 6,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnAccept",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 110,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									112
+								],
+								"font" : "4privetdrive",
+								"local:text" : "HP_ACCEPT",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 80,
+								"name" : "labelAccept",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "ACCEPT"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"local:text" : "HP_AVATAR_GENDER_PICKER_TITLE",
+						"margin-bottom" : 0,
+						"margin-left" : 18,
+						"margin-right" : 0,
+						"margin-top" : 10,
+						"name" : "label_title",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "CHOOSE YOUR GENDER",
+						"width" : 190
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 31,
+						"image" : "invisible.png",
+						"margin-bottom" : 63,
+						"margin-left" : 0,
+						"margin-right" : 16,
+						"margin-top" : 0,
+						"name" : "maleButton",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 98,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 42,
+								"image" : "hp_button_filter_inactive_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 10,
+								"margin-top" : 9.5,
+								"name" : "maleUnselected",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 120,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											146,
+											131,
+											97
+										],
+										"font" : "Avenir-Book",
+										"font-size" : 11,
+										"local:text" : "HP_MALE",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 90,
+										"name" : "labelMaleUnselected",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "MALE"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-hide" : true,
+								"editor-layerExpanded" : false,
+								"height" : 42,
+								"image" : "hp_button_filter_active_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 10,
+								"margin-top" : 9.5,
+								"name" : "maleSelected",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 120,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Book",
+										"font-size" : 11,
+										"local:text" : "HP_MALE",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 90,
+										"name" : "labelMaleSelected",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											-0.5,
+											-0.5
+										],
+										"text" : "MALE"
+									}
+								]
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 31,
+						"image" : "invisible.png",
+						"margin-bottom" : 63,
+						"margin-left" : 19,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "femaleButton",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 98,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 42,
+								"image" : "hp_button_filter_inactive_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 10,
+								"margin-top" : 9.5,
+								"name" : "femaleUnselected",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 120,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											147,
+											131,
+											97
+										],
+										"font" : "Avenir-Book",
+										"font-size" : 11,
+										"local:text" : "HP_FEMALE",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 1,
+										"margin-top" : 0,
+										"max-width" : 90,
+										"name" : "labelFemaleUnselected",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											-0.5,
+											-0.5
+										],
+										"text" : "FEMALE"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 42,
+								"image" : "hp_button_filter_active_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 10,
+								"margin-top" : 9.5,
+								"name" : "femaleSelected",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 120,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Book",
+										"font-size" : 11,
+										"local:text" : "HP_FEMALE",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 1,
+										"margin-top" : 0,
+										"max-width" : 90,
+										"name" : "labelFemaleSelected",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											-0.5,
+											-0.5
+										],
+										"text" : "FEMALE"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "button",
+				"height" : 31,
+				"image" : "hp_button_secondary_active.png",
+				"margin-bottom" : 0,
+				"margin-left" : 5,
+				"margin-right" : 0,
+				"margin-top" : 5,
+				"name" : "btnConnect",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 105,
+				"children" : [
+					{
+						"alignment" : "left",
+						"all-caps" : true,
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"local:text" : "HP_LOGIN_CONNECT",
+						"margin-bottom" : 0,
+						"margin-left" : 30,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"name" : "label",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							59,
+							0
+						],
+						"text" : "Connect"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 16,
+						"image" : "facebook_icon.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 35,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 16
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8"
+}

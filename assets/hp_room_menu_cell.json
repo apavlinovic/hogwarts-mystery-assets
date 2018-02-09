@@ -1,0 +1,514 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 40,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 225,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "view",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "navMenuView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "top",
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnEnter",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center",
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 40,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "defaultView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 225,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 45,
+										"image" : "hp_button_secondary_idle_med.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 1,
+										"margin-top" : 2,
+										"name" : "btn_bg",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 228
+									},
+									{
+										"alignment" : "left",
+										"all-caps" : true,
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											0,
+											134,
+											134
+										],
+										"dynamic-text" : true,
+										"font" : "4privetdrive",
+										"margin-bottom" : 0,
+										"margin-left" : 35,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-height" : 26,
+										"name" : "labelTitle",
+										"position-x" : "left",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											81,
+											35,
+											0
+										],
+										"text" : "LEARN WINGARDIUM LEVIOSA",
+										"vertical-spacing" : 0.85,
+										"width" : 136
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 17,
+										"image" : "hp_divider_small.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 53,
+										"margin-top" : 0,
+										"name" : "dividerSmall",
+										"position-x" : "right",
+										"position-y" : "center",
+										"width" : 2
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-BookOblique",
+										"font-size" : 12,
+										"format" : "suffixed",
+										"margin-bottom" : 0,
+										"margin-left" : 190,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 26,
+										"name" : "labelTime",
+										"position-x" : "left",
+										"position-y" : "center",
+										"resolution" : 1,
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											81,
+											35,
+											0
+										],
+										"text" : "30m"
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 12,
+										"image" : "hp_icon_clock_sm.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 36,
+										"margin-top" : 1,
+										"name" : "iconClock",
+										"position-x" : "right",
+										"position-y" : "center",
+										"width" : 12
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"dynamic-img" : true,
+										"height" : 30,
+										"image" : "hp_icon_nav_library.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 190,
+										"margin-top" : 0,
+										"name" : "icon",
+										"position-x" : "right",
+										"position-y" : "center",
+										"width" : 30
+									}
+								]
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 40,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "scenarioView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 225,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+										"height" : 45,
+										"image" : "hp_button_secondary_active_med.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 1,
+										"margin-top" : 2,
+										"name" : "btn_bg",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 228
+									},
+									{
+										"alignment" : "left",
+										"all-caps" : true,
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											221,
+											188,
+											112
+										],
+										"dynamic-text" : true,
+										"font" : "4privetdrive",
+										"margin-bottom" : 0,
+										"margin-left" : 35,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-height" : 26,
+										"name" : "labelTitle",
+										"position-x" : "left",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											81,
+											35,
+											0
+										],
+										"text" : "Talk to Rowan in the Ravenclaw Common Room",
+										"vertical-spacing" : 0.85,
+										"width" : 136
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 17,
+										"image" : "hp_divider_small.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 53,
+										"margin-top" : 0,
+										"name" : "dividerSmall",
+										"position-x" : "right",
+										"position-y" : "center",
+										"width" : 2
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 25,
+										"image" : "hp_icon_clock_glow.png",
+										"margin-bottom" : 7.5,
+										"margin-left" : 0,
+										"margin-right" : 17,
+										"margin-top" : 0,
+										"name" : "iconClock",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 25
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"dynamic-img" : true,
+										"height" : 20,
+										"image" : "hp_icon_active_flourish_and_bloots.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 194,
+										"margin-top" : 0,
+										"name" : "icon",
+										"position-x" : "right",
+										"position-y" : "center",
+										"width" : 20
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "attributeView",
+								"percent-height" : 1,
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "center",
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 45,
+										"image" : "hp_button_secondary_inactive.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 2,
+										"name" : "btn_bg",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 228
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											80,
+											105,
+											112
+										],
+										"font" : "4privetdrive",
+										"local:text" : "HP_LOCKED",
+										"margin-bottom" : 5,
+										"margin-left" : 14,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 170,
+										"name" : "labelTitle",
+										"position-x" : "left",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "LOCKED"
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"class" : "view",
+										"height" : 34,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 14,
+										"margin-top" : 2,
+										"name" : "attributeLock",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 34,
+										"children" : [
+											{
+												"actions" : [],
+												"anchor-x" : "right",
+												"anchor-y" : "top",
+												"class" : "button",
+												"height" : 30,
+												"image" : "hp_icon_attribute_courage_med.png",
+												"margin-bottom" : 0,
+												"margin-left" : 6,
+												"margin-right" : 0,
+												"margin-top" : 2,
+												"name" : "loaderAttribute",
+												"position-x" : "right",
+												"position-y" : "top",
+												"width" : 30,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															16,
+															29,
+															37
+														],
+														"dynamic-text" : true,
+														"font" : "Avenir-Heavy",
+														"font-size" : 12,
+														"margin-bottom" : 0,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 20,
+														"name" : "labelAttributeLvl",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shadow-color" : [
+															16,
+															29,
+															37
+														],
+														"text" : "3"
+													}
+												]
+											},
+											{
+												"anchor-x" : "right",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 20,
+												"image" : "hp_icon_lock_sm.png",
+												"margin-bottom" : 8,
+												"margin-left" : 6,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "lockedImg",
+												"position-x" : "right",
+												"position-y" : "center",
+												"scale" : 0.6,
+												"width" : 16
+											},
+											{
+												"alignment" : "left",
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													211,
+													69,
+													69
+												],
+												"dynamic-text" : true,
+												"font" : "Avenir-BookOblique",
+												"font-size" : 9,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 164,
+												"margin-top" : 7,
+												"max-width" : 170,
+												"name" : "questHint",
+												"position-x" : "left",
+												"position-y" : "center",
+												"shadow-color" : [
+													16,
+													29,
+													37
+												],
+												"shadow-offset" : [
+													0.5,
+													-0.5
+												],
+												"text" : "Requires Knowledge Lvl 20",
+												"vertical-spacing" : 0.78
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

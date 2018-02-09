@@ -1,0 +1,152 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "button",
+				"height" : 110,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 18,
+				"name" : "levelUpView",
+				"position-x" : "center",
+				"position-y" : "top",
+				"width" : 400,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 240,
+						"image" : "hp_bg_scrim_sm.png",
+						"margin-bottom" : 101,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "scrim_sm",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 460
+					},
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 12,
+						"margin-bottom" : 10,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "labelAttribute",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "KNOWLEDGE"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"editor-layerExpanded" : false,
+						"height" : 50,
+						"image" : "hp_spell_unlock_ability_icon_placeholder.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 4,
+						"name" : "loaderAttribute",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 50,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									16,
+									29,
+									36
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "labelAttributeLvl",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"text" : "99"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"local:text" : "HP_ATTRIBUTE_LEVEL_UP",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 12,
+						"max-width" : 420,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "ATTRIBUTE LEVEL UP"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

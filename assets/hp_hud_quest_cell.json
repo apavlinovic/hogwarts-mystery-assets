@@ -1,0 +1,112 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 46,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 52,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 42,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 26,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "questBtnView",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 42,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 42,
+						"image" : "hp_button_quest_main.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "questlineLoader",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 42
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 42,
+						"image" : "hp_button_quest_main.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "questlineLoaderSelect",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 42
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 30,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "questIconLoader",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 30
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 20,
+						"image" : "hp_icon_alert_med.png",
+						"margin-bottom" : 12,
+						"margin-left" : 12,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconNotification",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFit",
+						"width" : 20
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 17,
+						"image" : "hp_icon_timer_med.png",
+						"margin-bottom" : 12,
+						"margin-left" : 12,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "timerNotification",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFit",
+						"width" : 17
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

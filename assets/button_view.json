@@ -1,0 +1,21 @@
+{
+        "view": {
+                "position-x": "center",
+                "position-y": "center",
+                "anchor-x"  : "center",
+                "anchor-y"  : "center",
+                "children": [
+                                                   {
+                                                   "class" : "button",
+                                                   "position-x" : "right",
+                                                   "position-y" : "top",
+                                                   "anchor-x": "right",
+                                                   "anchor-y": "top",
+                                                   "margin-right" : 6,
+                                                   "margin-top" : 6,
+                                                   "image": "Default.png",
+                                                   "name" : "closeButton"
+                                                   }
+                                                   ]
+            }
+    }

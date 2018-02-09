@@ -1,0 +1,104 @@
+system example_003
+{
+    category                                    Examples_1_10
+    technique 
+    {
+        position                                15 0 0
+        visual_particle_quota                   5000
+        material                                ParticleUniverse/Beam_2
+        default_particle_width                  0.3
+        default_particle_height                 0.6
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Point 
+        {
+            emission_rate                       1000
+            angle                               25
+            time_to_live                        dyn_random
+            {
+                min                             4
+                max                             8
+            }
+            velocity                            6
+            position                            0 6 0
+        }
+        affector                                Align Affector6
+        {
+        }
+        affector                                BoxCollider Affector7
+        {
+            friction                            0.5
+            bouncyness                          0.5
+        }
+        affector                                Colour Affector8
+        {
+            time_colour                         0    0.501961 0.501961 1 1
+            time_colour                         1    0 0.501961 1 1
+        }
+        affector                                ForceField Affector9
+        {
+        }
+        affector                                FlockCentering Affector11
+        {
+        }
+        affector                                GeometryRotator Affector12
+        {
+        }
+        affector                                Gravity Affector13
+        {
+        }
+        affector                                Jet Affector14
+        {
+        }
+        affector                                Line Affector15
+        {
+            end                                 1 1 1
+        }
+        affector                                ParticleFollower Affector16
+        {
+        }
+        affector                                PathFollower Affector17
+        {
+            path_follower_point                 0 0 0
+            path_follower_point                 100 0 0
+            path_follower_point                 100 0 0
+        }
+        affector                                Randomiser Affector11
+        {
+        }
+        affector                                ScaleVelocity Affector12
+        {
+        }
+        affector                                SineForce Affector13
+        {
+            force_vector                        1 1 1
+        }
+        affector                                Scale Affector14
+        {
+        }
+        affector                                SphereCollider Affector15
+        {
+            friction                            0.5
+            bouncyness                          0.5
+        }
+        affector                                TextureAnimator Affector16
+        {
+            end_texture_coords_range            10
+        }
+        affector                                TextureRotator Affector17
+        {
+            rotation                            45
+        }
+        affector                                VelocityMatching Affector18
+        {
+        }
+        affector                                LinearForce Affector19
+        {
+        }
+        affector                                Vortex Affector20
+        {
+            rotation_axis                       0 90 0
+        }
+    }
+}

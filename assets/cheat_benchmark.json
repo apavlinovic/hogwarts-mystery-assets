@@ -1,0 +1,201 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "right",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"editor-lock" : true,
+				"height" : 48,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bottomBar",
+				"position-x" : "right",
+				"position-y" : "bottom",
+				"width" : 140,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "hp_hud_icon_cheat.png",
+						"margin-bottom" : 0,
+						"margin-left" : 92,
+						"margin-right" : 0,
+						"margin-top" : 8,
+						"name" : "btnCheat",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 40
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 24,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 178,
+						"margin-top" : 16,
+						"name" : "exitButton",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 80,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "ContemporaryCyr",
+								"font-size" : 14,
+								"height" : 24,
+								"margin-bottom" : 1,
+								"margin-left" : 0.5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "Exit",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Exit",
+								"width" : 57
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 24,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 88,
+						"margin-top" : 16,
+						"name" : "initialStateButton",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 80,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "ContemporaryCyr",
+								"font-size" : 14,
+								"height" : 24,
+								"margin-bottom" : 1,
+								"margin-left" : 0.5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "shader",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Initial State",
+								"width" : 60
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 24,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 2,
+						"margin-right" : 0,
+						"margin-top" : 16,
+						"name" : "benchmarkButton",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 80,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "ContemporaryCyr",
+								"font-size" : 14,
+								"height" : 24,
+								"margin-bottom" : 1,
+								"margin-left" : 0.5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "benchmark",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Benchmark",
+								"width" : 70
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

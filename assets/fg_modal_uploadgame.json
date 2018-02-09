@@ -1,0 +1,201 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 160,
+				"image" : "mar_modal_basic_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "push_notification_modal",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 270,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 28,
+						"image" : "button_generic_green.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 48,
+						"name" : "button_modal_confirmation1",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 100,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									79,
+									100,
+									0
+								],
+								"font" : "GothamNarrow-BoldItalic",
+								"font-size" : 16,
+								"margin-bottom" : -2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 80,
+								"name" : "label_ok1",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									216,
+									235,
+									64
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"text" : "Upload!"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							244,
+							174,
+							5
+						],
+						"font" : "AVENGEANCE HEROIC AVENGER",
+						"font-size" : 25,
+						"gradient-top-color" : [
+							248,
+							255,
+							227
+						],
+						"margin-bottom" : 33,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "label_title0",
+						"position-x" : "center",
+						"position-y" : "center",
+						"stroke-color" : [
+							153,
+							63,
+							4
+						],
+						"stroke-thickness" : 2,
+						"text" : "Upload game to S3!"
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 1,
+						"image" : "shop_divider_small.png",
+						"margin-bottom" : 14,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "shop_divider_small0",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 250
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 25,
+						"image" : "settings_signin_textfield.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 9,
+						"name" : "input_background",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 203
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "text-input",
+						"color" : [
+							102,
+							102,
+							102
+						],
+						"dynamic-text" : true,
+						"font" : "HelveticaNeueLTCom-Md",
+						"font-size" : 12,
+						"height" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 11,
+						"name" : "filename_input",
+						"placeholder-text" : "filename",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "How 'bout enabling push notifications, hmm? Gonna let us beam sunshine rays into your dreary life?",
+						"vertical-spacing" : 0.85,
+						"width" : 195
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 29,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 8.5,
+						"name" : "focus_button",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 205
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

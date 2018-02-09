@@ -1,0 +1,169 @@
+system sparkleLight
+{
+    scale                                       10 10 10
+    technique 
+    {
+        material                                ParticleUniverse/Star
+        default_particle_width                  2.6827
+        default_particle_height                 2.6827
+        default_particle_depth                  2.6827
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle 
+        {
+            emission_rate                       dyn_random
+            {
+                min                             50
+                max                             100
+            }
+            time_to_live                        dyn_random
+            {
+                min                             1
+                max                             3
+            }
+            mass                                dyn_random
+            {
+                min                             0.618
+                max                             1.618
+            }
+            velocity                            dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            all_particle_dimensions             dyn_random
+            {
+                min                             1
+                max                             5
+            }
+            start_colour_range                  1 1 1 1
+            end_colour_range                    0 0.823529 0.823529 1
+            colour                              0.784314 0.243137 0.67451 1
+            radius                              2
+            normal                              0 1 0
+        }
+        affector                                Colour Affector49
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         1    0 0 0 0
+            colour_operation                    multiply
+        }
+        affector                                TextureRotator Affector50
+        {
+            rotation_speed                      dyn_curved_linear
+            {
+                control_point                   0 3.13573
+                control_point                   1 0.00277007
+            }
+        }
+        affector                                LinearForce Affector55
+        {
+            force_vector                        0 -5 0
+        }
+        affector                                ScaleVelocity Affector56
+        {
+            velocity_scale                      dyn_curved_linear
+            {
+                control_point                   0 0.00277007
+                control_point                   3.01845 -12.3407
+            }
+        }
+        affector                                Vortex Affector79
+        {
+            rotation_axis                       0 1 0
+            rotation_speed                      dyn_random
+            {
+                min                             -2
+                max                             -1
+            }
+        }
+    }
+    technique Technique37
+    {
+        material                                ParticleUniverse/Star
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Circle Emitter42
+        {
+            emission_rate                       dyn_random
+            {
+                min                             50
+                max                             100
+            }
+            angle                               dyn_oscillate
+            {
+                oscillate_frequency             1
+                oscillate_phase                 1
+                oscillate_base                  1
+                oscillate_amplitude             30
+                oscillate_type                  sine
+            }
+            time_to_live                        dyn_random
+            {
+                min                             1
+                max                             3
+            }
+            mass                                dyn_random
+            {
+                min                             0.618
+                max                             1.618
+            }
+            velocity                            dyn_random
+            {
+                min                             10
+                max                             15
+            }
+            all_particle_dimensions             dyn_random
+            {
+                min                             1
+                max                             5
+            }
+            start_colour_range                  1 1 1 1
+            end_colour_range                    0.886275 0.0470588 0.980392 1
+            radius                              1
+            normal                              0 1 0
+        }
+        affector                                Colour Affector51
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         1    0 0 0 0
+            colour_operation                    multiply
+        }
+        affector                                TextureRotator Affector52
+        {
+            rotation                            dyn_random
+            {
+                min                             -180
+                max                             180
+            }
+            rotation_speed                      dyn_curved_linear
+            {
+                control_point                   0 -3
+                control_point                   1 -0.00277013
+            }
+        }
+        affector                                LinearForce Affector54
+        {
+            force_vector                        0 -8 0
+        }
+        affector                                ScaleVelocity Affector57
+        {
+            velocity_scale                      dyn_curved_linear
+            {
+                control_point                   0 0
+                control_point                   3.01107 -11.3019
+            }
+        }
+        affector                                Vortex Affector58
+        {
+            rotation_axis                       0 1 0
+            rotation_speed                      dyn_random
+            {
+                min                             1
+                max                             2
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+system example_017
+{
+    category                                    Examples_11_20
+    technique 
+    {
+        visual_particle_quota                   100000
+        material                                ParticleUniverse/Star
+        default_particle_width                  3.6
+        default_particle_height                 3.6
+        spatial_hashtable_size                  3
+        spatial_hashing_update_interval         0.01
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       dyn_curved_linear
+            {
+                control_point                   0 0.00554019
+                control_point                   1.68266 0.00554019
+                control_point                   16 0.99446
+                control_point                   31.8819 22.072
+                control_point                   100.605 1003.08
+                control_point                   201.684 20016.6
+            }
+            angle                               60
+            time_to_live                        10
+            velocity                            dyn_random
+            {
+                min                             1.2
+                max                             3
+            }
+            position                            0 36 0
+            direction                           1 -1 0
+            box_width                           24
+            box_height                          24
+            box_depth                           24
+        }
+        affector                                LinearForce 
+        {
+            force_vector                        0 -36 0
+        }
+    }
+}

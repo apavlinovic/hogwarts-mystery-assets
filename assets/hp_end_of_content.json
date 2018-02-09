@@ -1,0 +1,179 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_bg_hagrid_window.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "EndOfContent",
+				"percent-height" : 1.01,
+				"percent-width" : 1.01,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "hp_button_particles",
+						"glow" : "hp_button_primary_med_active_glow.png",
+						"height" : 63,
+						"image" : "hp_button_primary_med_active.png",
+						"margin-bottom" : 18.5,
+						"margin-left" : 1,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnOkay",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"sizing" : "SpriteAspectFit",
+						"width" : 154,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									233,
+									204,
+									140
+								],
+								"control-points" : [
+									[
+										0,
+										0
+									],
+									[
+										0.33,
+										8
+									],
+									[
+										0.66,
+										-6
+									],
+									[
+										1,
+										0
+									]
+								],
+								"font" : "4privetdrive",
+								"font-size" : 12,
+								"local:text" : "HP_THANK_YOU_BTN_CTA",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 150,
+								"name" : "label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "Take the survey!"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							185,
+							160,
+							105
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"local:text" : "HP_THANK_YOU_DESC",
+						"margin-bottom" : 4,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "labelBody",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "THANK YOU SO MUCH for playing this early version of Harry Potter: Hogwarts Mystery. You are AMAZING! Your participation will improve the experience of this game for Potter fans all over the world, and we can't thank you enough for your help.\r\rPlease stay tuned! The folks on our team are busting their broomsticks to get more story in the game as fast as possible. More of this incredible Hogwarts Mystery is coming VERY SOON!",
+						"width" : 400
+					},
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 1,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"image" : "hp_bg_header_stretch.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 24,
+						"name" : "bgTitle",
+						"percent-height" : 0.13,
+						"percent-width" : 1.01,
+						"position-x" : "center",
+						"position-y" : "top",
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "4privetdrive",
+								"font-size" : 21,
+								"local:text" : "HP_THANK_YOU_TITLE",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1.5,
+								"name" : "labelTitle",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "THANKS FOR PLAYING!"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

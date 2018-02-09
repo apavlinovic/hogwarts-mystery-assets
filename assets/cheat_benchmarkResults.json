@@ -1,0 +1,471 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "fg_modal_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "NewImage",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					0,
+					0,
+					0
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 10,
+				"height" : 18,
+				"margin-bottom" : 6,
+				"margin-left" : 16,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "timelabel",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"text" : "Time",
+				"width" : 52
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					0,
+					0,
+					0
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 10,
+				"height" : 18,
+				"margin-bottom" : 0,
+				"margin-left" : 29,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "fpslabel",
+				"position-x" : "left",
+				"position-y" : "center",
+				"text" : "FPS",
+				"width" : 52
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"image" : "hp_icon_border_locked.png",
+				"inset-margin-y" : 70,
+				"margin-bottom" : 27.5,
+				"margin-left" : 38,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bordery",
+				"percent-height" : 1,
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 3
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 3,
+				"image" : "hp_icon_border_locked.png",
+				"inset-margin-x" : 70,
+				"margin-bottom" : 29,
+				"margin-left" : 38,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "borderx",
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "bottom"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 20,
+				"image" : "hp_ph_btn_close.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 11.5,
+				"margin-top" : 12,
+				"name" : "closeBtn",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 20
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"inset-margin-x" : 70,
+				"inset-margin-y" : 70,
+				"margin-bottom" : 27,
+				"margin-left" : 38,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "drawLayer",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "bottom"
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 25,
+				"image" : "hp_ph_btn_gray.png",
+				"margin-bottom" : 0,
+				"margin-left" : 59,
+				"margin-right" : 0,
+				"margin-top" : 20.5,
+				"name" : "profile1Btn",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 44,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"height" : 18,
+						"margin-bottom" : 4,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "profiletext",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Profile 1",
+						"width" : 51
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 25,
+				"image" : "hp_ph_btn_gray.png",
+				"margin-bottom" : 0,
+				"margin-left" : 109,
+				"margin-right" : 0,
+				"margin-top" : 20.5,
+				"name" : "profile2Btn",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 44,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"height" : 18,
+						"margin-bottom" : 4,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "profiletext",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Profile 2",
+						"width" : 51
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 25,
+				"image" : "hp_ph_btn_gray.png",
+				"margin-bottom" : 0,
+				"margin-left" : 159,
+				"margin-right" : 0,
+				"margin-top" : 20.5,
+				"name" : "profile3Btn",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 44,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"height" : 18,
+						"margin-bottom" : 4,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "profiletext",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Profile 3",
+						"width" : 51
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 25,
+				"image" : "hp_ph_btn_gray.png",
+				"margin-bottom" : 0,
+				"margin-left" : 209,
+				"margin-right" : 0,
+				"margin-top" : 20.5,
+				"name" : "profile4Btn",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 44,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"height" : 18,
+						"margin-bottom" : 4,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "profiletext",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Profile 4",
+						"width" : 51
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 25,
+				"image" : "hp_ph_btn_gray.png",
+				"margin-bottom" : 0,
+				"margin-left" : 259,
+				"margin-right" : 0,
+				"margin-top" : 20.5,
+				"name" : "profile5Btn",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 44,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"height" : 18,
+						"margin-bottom" : 4,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "profiletext",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Profile 5",
+						"width" : 51
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 25,
+				"image" : "hp_ph_btn_gray.png",
+				"margin-bottom" : 0,
+				"margin-left" : 309,
+				"margin-right" : 0,
+				"margin-top" : 20.5,
+				"name" : "profile6Btn",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 44,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"height" : 18,
+						"margin-bottom" : 4,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "profiletext",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Profile 6",
+						"width" : 51
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

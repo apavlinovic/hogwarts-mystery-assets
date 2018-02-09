@@ -1,0 +1,170 @@
+{
+	"level" : 2,
+	"name" : "Sean",
+	"realms" : {
+		"buildings" : [
+			{
+				"angle" : 0,
+				"buildingID" : "palmtrees",
+				"curBuildTime" : 0,
+				"position" : [
+					0,
+					0
+				],
+				"production" : {
+					"curInputResources" : {
+						"amounts" : [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"curOutputResources" : {
+						"amounts" : [
+							0,
+							0,
+							150,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"angle" : 0,
+				"buildingID" : "largeshelter1",
+				"curBuildTime" : 0,
+				"position" : [
+					5,
+					2
+				],
+				"workers" : [
+					{
+						"millPos" : "0x4",
+						"name" : "JV the Peon"
+					},
+					{
+						"millPos" : "0x0",
+						"name" : "JV the hardworker"
+					},
+					{
+						"millPos" : "3x1",
+						"name" : "JV the slacker"
+					},
+					{
+						"millPos" : "3x1",
+						"name" : "JV the scrum master"
+					}
+				]
+			},
+			{
+				"angle" : 0,
+				"buildingID" : "palmtrees",
+				"curBuildTime" : 0,
+				"position" : [
+					0,
+					4
+				],
+				"production" : {
+					"curInputResources" : {
+						"amounts" : [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"curOutputResources" : {
+						"amounts" : [
+							0,
+							0,
+							150,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"angle" : 0,
+				"buildingID" : "sawmill",
+				"curBuildTime" : 0,
+				"position" : [
+					3,
+					1
+				],
+				"production" : {
+					"curInputResources" : {
+						"amounts" : [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"curOutputResources" : {
+						"amounts" : [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"angle" : 0,
+				"buildingID" : "florist",
+				"curBuildTime" : 0,
+				"position" : [
+					8,
+					2
+				],
+				"storefront" : {
+					"activeRecipeID" : "wildffower",
+					"timeRemaining" : 12
+				}
+			},
+			{
+				"angle" : 0,
+				"buildingID" : "market",
+				"curBuildTime" : 0,
+				"position" : [
+					4,
+					4
+				]
+			}
+		],
+		"name" : "Default Realms"
+	},
+	"xp" : 1000
+}

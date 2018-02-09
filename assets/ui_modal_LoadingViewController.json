@@ -1,0 +1,188 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"force-sync" : true,
+				"image" : "hp_loadingscreen_ex.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "loading_bg",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"sizing" : "SpriteAspectFill"
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 18,
+				"margin-bottom" : 9,
+				"margin-left" : 8.5,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "loading_group",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 251
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"editor-hide" : true,
+				"height" : 500,
+				"image" : "invisible.png",
+				"margin-bottom" : 50,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "play_button_big",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"height" : 183,
+				"image" : "hp_logo.png",
+				"margin-bottom" : 0,
+				"margin-left" : 6,
+				"margin-right" : 0,
+				"margin-top" : 2,
+				"name" : "hp_logo",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"scale" : 0.8,
+				"sizing" : "SpriteAspectFit",
+				"width" : 264
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "progress-linear",
+				"height" : 4,
+				"image" : "hp_loadingbar_fill.png",
+				"margin-bottom" : 6,
+				"margin-left" : 8,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "progressBar",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 100
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "view",
+				"height" : 74,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "labels",
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "top",
+				"children" : [
+					{
+						"alignment" : "right",
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Black",
+						"font-size" : 8,
+						"height" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 2,
+						"margin-top" : 7,
+						"name" : "community_id_label",
+						"position-x" : "right",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							-0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							255,
+							255,
+							255
+						],
+						"width" : 320
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Black",
+						"font-size" : 8,
+						"height" : 32,
+						"margin-bottom" : 0,
+						"margin-left" : 2,
+						"margin-right" : 0,
+						"margin-top" : 7,
+						"name" : "commit_label",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							-0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							255,
+							255,
+							255
+						],
+						"width" : 320
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

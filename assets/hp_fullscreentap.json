@@ -1,0 +1,67 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "tapBtn",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "4privetdrive",
+				"font-size" : 11,
+				"height" : 30,
+				"local:text" : "HP_TAP_CONTINUE",
+				"margin-bottom" : 10,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "labelAccept",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"shadow-color" : [
+					16,
+					29,
+					37
+				],
+				"shadow-offset" : [
+					-0.5,
+					-0.5
+				],
+				"text" : "Tap anywhere to continue",
+				"width" : 300
+			}
+		]
+	},
+	"version" : "1.8.3.6"
+}

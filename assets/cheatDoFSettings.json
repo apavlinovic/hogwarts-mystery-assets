@@ -1,0 +1,331 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"height" : 100,
+				"image" : "fg_modal_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 366,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 17,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 14,
+						"name" : "title",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Depth of Field Settings"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 179,
+						"margin-top" : 70,
+						"name" : "nearBlurText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Near Blur:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 179,
+						"margin-top" : 35,
+						"name" : "farBlurText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "FarBlur:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 61,
+						"margin-right" : 0,
+						"margin-top" : 35,
+						"name" : "focusFalloffText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Focus Falloff:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 59,
+						"margin-top" : 70,
+						"name" : "focusRangeText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Focus Range:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 59,
+						"margin-top" : 35,
+						"name" : "focusDistText",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Focus Distance:"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 20,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 93,
+						"margin-right" : 0,
+						"margin-top" : 76,
+						"name" : "revertButton",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 50,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									13,
+									46,
+									67
+								],
+								"font" : "ContemporaryCyr",
+								"font-size" : 12,
+								"height" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 4,
+								"name" : "revertLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									189,
+									217,
+									227
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Revert",
+								"width" : 50
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 20,
+						"image" : "button_debug.png",
+						"margin-bottom" : 0,
+						"margin-left" : 150,
+						"margin-right" : 0,
+						"margin-top" : 76,
+						"name" : "debugButton",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 50,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									13,
+									46,
+									67
+								],
+								"font" : "ContemporaryCyr",
+								"font-size" : 12,
+								"height" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 4,
+								"name" : "debugLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									189,
+									217,
+									227
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Debug",
+								"width" : 50
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 18,
+						"image" : "hp_ph_btn_close.png",
+						"margin-bottom" : 0,
+						"margin-left" : 181,
+						"margin-right" : 0,
+						"margin-top" : 4,
+						"name" : "close_btn",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 18
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

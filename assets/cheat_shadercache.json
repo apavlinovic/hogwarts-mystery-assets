@@ -1,0 +1,216 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.335989,
+				"9slicescalezone-width" : 0.607653,
+				"9slicescalezone-x" : 0.204975,
+				"9slicescalezone-y" : 0.356098,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_ph_modal_bg.png",
+				"inset-margin-y" : 40,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modal_bg",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 360,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 28,
+						"image" : "button_generic_green.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 74,
+						"margin-top" : 25,
+						"name" : "button_clearCache",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 110,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"font" : "Helvetica Rounded LT Std",
+								"font-size" : 13,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"max-width" : 120,
+								"name" : "label_clear",
+								"position-x" : "center",
+								"position-y" : "top",
+								"stroke-color" : [
+									153,
+									63,
+									4
+								],
+								"text" : "Invalidate Cache"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 28,
+						"image" : "button_generic_green.png",
+						"margin-bottom" : 0,
+						"margin-left" : 66,
+						"margin-right" : 0,
+						"margin-top" : 25,
+						"name" : "button_cacheActive",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 110,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"font" : "Helvetica Rounded LT Std",
+								"font-size" : 13,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"max-width" : 120,
+								"name" : "label_cacheOn",
+								"position-x" : "center",
+								"position-y" : "top",
+								"stroke-color" : [
+									153,
+									63,
+									4
+								],
+								"text" : "Cache Active"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 28,
+						"image" : "button_generic_gray.png",
+						"margin-bottom" : 0,
+						"margin-left" : 66,
+						"margin-right" : 0,
+						"margin-top" : 25,
+						"name" : "button_cacheDisabled",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 110,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"font" : "Helvetica Rounded LT Std",
+								"font-size" : 13,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"max-width" : 120,
+								"name" : "label_CacheOff",
+								"position-x" : "center",
+								"position-y" : "top",
+								"stroke-color" : [
+									153,
+									63,
+									4
+								],
+								"text" : "Cache Disabled"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 53,
+						"max-width" : 200,
+						"name" : "label_totalSize",
+						"position-x" : "center",
+						"position-y" : "top",
+						"stroke-color" : [
+							153,
+							63,
+							4
+						],
+						"text" : "Cache Disabled"
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "table-view",
+				"inset-margin-y" : 120,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 2.5,
+				"margin-top" : 26,
+				"name" : "tableview",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 297,
+				"children" : []
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "hp_ph_btn_close.png",
+				"margin-bottom" : 0,
+				"margin-left" : 171,
+				"margin-right" : 0,
+				"margin-top" : 29,
+				"name" : "button_close",
+				"position-x" : "center",
+				"position-y" : "top",
+				"sizing" : "SpriteNewSize"
+			}
+		]
+	},
+	"version" : "1.8.3.0"
+}

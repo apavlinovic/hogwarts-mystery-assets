@@ -1,0 +1,239 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-lock" : true,
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrimBg_copy",
+				"percent-height" : 1,
+				"percent-width" : 1.002083,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"eats-touches" : false,
+				"height" : 220,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "questCompleteModal",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 325,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 1,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0.514214,
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"image" : "hp_container_med_9s.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0.5,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "top"
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 24,
+						"image" : "hp_button_purple.png",
+						"margin-bottom" : 28,
+						"margin-left" : 57.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnOk",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 92,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Medium",
+								"font-size" : 12,
+								"local:text" : "HP_CLASS_START_BTN",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 90,
+								"name" : "labelBtnOk",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "START"
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 24,
+						"image" : "hp_button_grey.png",
+						"margin-bottom" : 0,
+						"margin-left" : 55,
+						"margin-right" : 0,
+						"margin-top" : 70,
+						"name" : "btnCancel",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 92,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									230,
+									230,
+									230
+								],
+								"font" : "Avenir-Medium",
+								"font-size" : 11,
+								"local:text" : "HP_GENERIC_CANCEL_BTN",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 60,
+								"name" : "labelBtnCancel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "NO"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							179,
+							179,
+							179
+						],
+						"font" : "Avenir-Roman",
+						"font-size" : 11,
+						"height" : 110,
+						"local:text" : "PRE_YEAR_OVER_MESSAGE",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 54,
+						"name" : "labelDesc",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "PRE_YEAR_OVER_MESSAGE",
+						"vertical-spacing" : 0.95,
+						"width" : 265
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Roman",
+						"font-size" : 22,
+						"local:text" : "PRE_YEAR_OVER_TITLE",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0.5,
+						"margin-top" : 41,
+						"max-width" : 245,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							0.5,
+							0
+						],
+						"text" : "PRE_YEAR_OVER_TITLE"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

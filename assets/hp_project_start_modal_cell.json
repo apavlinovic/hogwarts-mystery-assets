@@ -1,0 +1,432 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 45,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 181,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-hide" : true,
+				"height" : 45,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnLater",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 175,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 45,
+						"image" : "hp_button_secondary_idle_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btn_bg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 175,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									0,
+									134,
+									134
+								],
+								"dynamic-text" : true,
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0.5,
+								"max-width" : 136,
+								"name" : "labelTitle",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "LATER"
+							}
+						]
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"breathe" : false,
+				"class" : "hp_button_particles",
+				"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+				"height" : 45,
+				"image" : "hp_button_secondary_active_med.png",
+				"margin-bottom" : 0.5,
+				"margin-left" : 0.5,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnStartWithTimer",
+				"particles" : false,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 175,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-BookOblique",
+						"font-size" : 12,
+						"format" : "suffixed",
+						"margin-bottom" : 0,
+						"margin-left" : 140.5,
+						"margin-right" : 0,
+						"margin-top" : 1.5,
+						"max-width" : 28,
+						"name" : "labelTime",
+						"position-x" : "left",
+						"position-y" : "center",
+						"resolution" : 1,
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "30m"
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 12,
+						"image" : "hp_icon_clock.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 41.5,
+						"margin-top" : 0.5,
+						"name" : "iconClock",
+						"position-x" : "right",
+						"position-y" : "center",
+						"width" : 12
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 17,
+						"image" : "hp_divider_small.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 57.5,
+						"margin-top" : 0,
+						"name" : "dividerSmall",
+						"position-x" : "right",
+						"position-y" : "center",
+						"width" : 2
+					},
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							233,
+							204,
+							140
+						],
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"local:text" : "HP_CLASS_START_BTN",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 24.5,
+						"margin-top" : 0,
+						"max-width" : 100,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "START"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "hp_button_particles",
+				"editor-hide" : true,
+				"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+				"height" : 45,
+				"image" : "hp_button_secondary_active_med.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnStart",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 175,
+				"children" : [
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							233,
+							204,
+							140
+						],
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"local:text" : "HP_CLASS_START_BTN",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0.5,
+						"max-width" : 150,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "START"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-hide" : true,
+				"height" : 45,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnStartNow",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 175,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.060273,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.469364,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 45,
+						"image" : "hp_button_secondary_prem_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 3,
+						"margin-top" : 0,
+						"name" : "btn_bg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 181
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-BookOblique",
+						"font-size" : 12,
+						"format" : "suffixed",
+						"margin-bottom" : 0,
+						"margin-left" : 138,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 28,
+						"name" : "labelCost",
+						"position-x" : "left",
+						"position-y" : "center",
+						"resolution" : 1,
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "999"
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 16,
+						"image" : "hp_icons_gem.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 37,
+						"margin-top" : 0,
+						"name" : "iconHardCurrency",
+						"position-x" : "right",
+						"position-y" : "center",
+						"width" : 16
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 17,
+						"image" : "hp_divider_small_pink.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 57,
+						"margin-top" : 0,
+						"name" : "dividerSmall",
+						"position-x" : "right",
+						"position-y" : "center",
+						"width" : 2
+					},
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							233,
+							204,
+							140
+						],
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"local:text" : "HP_START_NOW",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 24,
+						"margin-top" : 0,
+						"max-width" : 100,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							81,
+							35,
+							0
+						],
+						"text" : "START NOW"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

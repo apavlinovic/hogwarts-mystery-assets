@@ -1,0 +1,69 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 99,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 157,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.343101,
+				"9slicescalezone-width" : 0.613255,
+				"9slicescalezone-x" : 0.173764,
+				"9slicescalezone-y" : 0.363303,
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"image" : "hp_ph_modal_bg_carat.png",
+				"name" : "modal_bg",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom"
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					51,
+					51,
+					51
+				],
+				"font" : "AppleGaramond-Bold",
+				"font-size" : 10,
+				"local:text" : "INTERACTION_COST_TITLE",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 17,
+				"name" : "label_title",
+				"position-x" : "center",
+				"position-y" : "top",
+				"text" : "Interaction will cost:"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "table-view",
+				"height" : 54,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 29,
+				"name" : "table_costs",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 128
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

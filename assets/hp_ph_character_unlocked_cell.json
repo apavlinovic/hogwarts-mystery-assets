@@ -1,0 +1,73 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 40,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 40,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "invisible.png",
+				"inset-margin-x" : 1,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 1,
+				"margin-top" : 0,
+				"name" : "action_cell",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 49,
+						"image" : "hp_crafting_station_req_icon_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg_img",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 49
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 32,
+						"image" : "hp_material_stinksap.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loader_material",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFit",
+						"width" : 32
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.1.2"
+}

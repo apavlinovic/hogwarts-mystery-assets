@@ -1,0 +1,102 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 28,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 297,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 28,
+				"image" : "placeholder.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "button_select",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 297
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "HelveticaNeueLTCom-Md",
+				"font-size" : 14,
+				"height" : 20,
+				"margin-bottom" : 0,
+				"margin-left" : 6,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-width" : 200,
+				"name" : "name",
+				"position-x" : "left",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "TestFileNameg"
+			},
+			{
+				"alignment" : "right",
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "HelveticaNeueLTCom-Md",
+				"font-size" : 14,
+				"height" : 20,
+				"margin-bottom" : 0,
+				"margin-left" : 207,
+				"margin-right" : 0,
+				"margin-top" : 3,
+				"max-width" : 85,
+				"name" : "size",
+				"position-x" : "left",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "TestFileNameg"
+			}
+		]
+	},
+	"version" : "1.8.3.0"
+}

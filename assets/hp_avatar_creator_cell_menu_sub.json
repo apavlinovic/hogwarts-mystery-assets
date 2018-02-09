@@ -1,0 +1,100 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 198,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 222,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"cell-json" : "hp_avatar_creator_cell_sliders.json",
+				"class" : "table-view",
+				"height" : 37,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "tableSliders",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 222,
+				"children" : []
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"cell-json" : "hp_avatar_creator_cell_items.json",
+				"class" : "table-view",
+				"divisions" : 3,
+				"height" : 153,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 1,
+				"margin-right" : 0,
+				"margin-top" : 19,
+				"name" : "tableItems",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 218,
+				"children" : []
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "view",
+				"height" : 19,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "header",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 208,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 6,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"max-width" : 200,
+						"name" : "labelCategory",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "FACE"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

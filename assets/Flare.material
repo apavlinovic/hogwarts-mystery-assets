@@ -1,0 +1,20 @@
+
+material ParticleUniverse/Flare
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture mar_tooltip_quest_ready.png
+			}
+		}
+
+	}
+
+}

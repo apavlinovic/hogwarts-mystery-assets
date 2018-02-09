@@ -1,0 +1,217 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"margin-bottom" : 0,
+			"margin-left" : 0,
+			"margin-right" : 0,
+			"margin-top" : 0,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom"
+		}
+	},
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "fg_quest",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 102,
+				"image" : "hp_modal_bg.png",
+				"margin-bottom" : 20.5,
+				"margin-left" : 0,
+				"margin-right" : 15.5,
+				"margin-top" : 0,
+				"name" : "modalSm",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 284,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_modal_border_2.png",
+						"inset-margin-x" : 4,
+						"inset-margin-y" : 4,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "border",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 1,
+						"image" : "hp_divider_gold.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 32.5,
+						"name" : "divider",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 171
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 52,
+						"margin-top" : 41,
+						"max-height" : 40,
+						"name" : "labelDesc",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Unlocks at level 4",
+						"vertical-spacing" : 0.9,
+						"width" : 180
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 9,
+						"max-width" : 250,
+						"name" : "labelName",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "ENCOUNTER_INFO_TITLE"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 40,
+						"image" : "hp_container_spell.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 101,
+						"margin-top" : 60,
+						"name" : "iconEncounterBg",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 30,
+								"image" : "temp_encounterIcon.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderPotionImage",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 30
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 3,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "closeButton",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 13,
+								"image" : "hp_button_close.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_bg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 13
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.5"
+}

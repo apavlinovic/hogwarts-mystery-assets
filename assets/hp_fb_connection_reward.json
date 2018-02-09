@@ -1,0 +1,250 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrim",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"9slicescalezone-height" : 0.05,
+				"9slicescalezone-width" : 1,
+				"9slicescalezone-x" : 0,
+				"9slicescalezone-y" : 0.45,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 295,
+				"image" : "hp_bg_large.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "Bg",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 433
+			},
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 31,
+				"image" : "hp_button_secondary_active.png",
+				"margin-bottom" : 58,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnCollect",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 110,
+				"children" : [
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"font" : "4privetdrive",
+						"local:text" : "",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 100,
+						"name" : "labelCollect",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "COLLECT"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0,
+				"9slicescalezone-width" : 0,
+				"9slicescalezone-x" : 0,
+				"9slicescalezone-y" : 0,
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"color" : [
+					201,
+					201,
+					201
+				],
+				"font" : "Avenir-Book",
+				"font-size" : 12,
+				"height" : 139,
+				"image" : "hp_icon_iap_gem_handful.png",
+				"local:text" : "HP_LOGIN_SYNC_INSTRUCTIONS",
+				"margin-bottom" : 4,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-height" : 39,
+				"name" : "gem",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"text" : "Logging in lets you play the same characters across multiple devices!",
+				"width" : 139
+			},
+			{
+				"9slicescalezone-height" : 0,
+				"9slicescalezone-width" : 0,
+				"9slicescalezone-x" : 0,
+				"9slicescalezone-y" : 0,
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "Avenir-Heavy",
+				"font-size" : 20,
+				"image" : "hp_icon_iap_gem_handful.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 57,
+				"name" : "label",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"text" : "x25",
+				"vertical-spacing" : 0.9,
+				"width" : 60
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					201,
+					201,
+					201
+				],
+				"font" : "Avenir-Book",
+				"font-size" : 12,
+				"margin-bottom" : 44,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "labelDesc",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"text" : "Hit the button below to collect your 25 FREE Gems!",
+				"width" : 300
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 2,
+				"image" : "hp_divider_gold_70.png",
+				"margin-bottom" : 83,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "dividerTop",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 330
+			},
+			{
+				"alignment" : "center",
+				"all-caps" : true,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "4privetdrive",
+				"font-size" : 18,
+				"local:text" : "HP_LOGIN_FB_NOTIF_TITLE",
+				"margin-bottom" : 101,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-width" : 340,
+				"name" : "label_title",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shader-id" : "uiTitle",
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"stroke-color" : [
+					37,
+					37,
+					38
+				],
+				"text" : "CONNECT WITH FACEBOOK"
+			}
+		]
+	},
+	"version" : "1.8.8"
+}

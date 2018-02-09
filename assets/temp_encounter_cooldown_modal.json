@@ -1,0 +1,357 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"margin-bottom" : 0,
+			"margin-left" : 0,
+			"margin-right" : 0,
+			"margin-top" : 0,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom"
+		}
+	},
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "fg_quest",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 142,
+				"image" : "hp_modal_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalSm",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 313,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_modal_border_2.png",
+						"inset-margin-x" : 4,
+						"inset-margin-y" : 4,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "border",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 1,
+						"image" : "hp_divider_gold.png",
+						"margin-bottom" : 38,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "divider",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 171
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 25,
+						"image" : "hp_generic_cta_button_1.png",
+						"margin-bottom" : 0,
+						"margin-left" : 109,
+						"margin-right" : 0,
+						"margin-top" : 41,
+						"name" : "btnFastFinish",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 60,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 16,
+								"image" : "hp_hud_icon_currency_gem.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 14,
+								"margin-top" : 0,
+								"name" : "icon_currency",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 16
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									232,
+									104
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Medium",
+								"font-size" : 13,
+								"margin-bottom" : 0,
+								"margin-left" : 9.5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 20,
+								"name" : "labelCost",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "10"
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 16,
+						"image" : "hp_hud_xp_progress_bar_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 10,
+						"margin-right" : 0,
+						"margin-top" : 41,
+						"name" : "progress_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 125,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "progress-linear",
+								"image" : "hp_character_blue_progress_bar_fill.png",
+								"inset-margin-x" : 2,
+								"inset-margin-y" : 2,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "progress_fill",
+								"percent-height" : 1,
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "center"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "clock-label-v2",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "4privetdrive",
+								"format" : "suffixed",
+								"local:text" : "ENCOUNTER_INFO_TITLE",
+								"margin-bottom" : 0,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "timerLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "ENCOUNTER_INFO_TITLE"
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"margin-bottom" : 30,
+						"margin-left" : 0,
+						"margin-right" : 52,
+						"margin-top" : 0,
+						"max-height" : 40,
+						"name" : "labelDesc",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "A new Encounter will be available soon! You can speed up this process with a small one-time donation of $99.99",
+						"vertical-spacing" : 0.9,
+						"width" : 180
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"margin-bottom" : 53,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "labelName",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "ENCOUNTER_INFO_TITLE"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 74,
+						"image" : "hp_container_spell.png",
+						"margin-bottom" : 62,
+						"margin-left" : 58.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconEncounterBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 74,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 54,
+								"image" : "temp_encounterIcon.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderPotionImage",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 54
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 5,
+						"margin-left" : 276,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "closeButton",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 13,
+								"image" : "hp_button_close.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_bg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 13
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.5"
+}

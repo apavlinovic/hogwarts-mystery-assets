@@ -1,0 +1,264 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 100,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 80,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "cellPotion",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 68,
+						"image" : "hp_container_spell.png",
+						"margin-bottom" : 10,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "viewIcon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 68,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 70,
+								"image" : "hp_icon_spells_inactive_alohomora.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "icon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 70
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 20,
+								"image" : "hp_icon_lock_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconLocked",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 16
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 17,
+								"image" : "hp_icon_alert_med.png",
+								"margin-bottom" : 21,
+								"margin-left" : 21,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconUnlockedNotif",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 17
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 8,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 26,
+						"max-height" : 20,
+						"name" : "labelName",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"text" : "FINITE INCANTATEM",
+						"width" : 74
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "cellSpell",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 68,
+						"image" : "invisible.png",
+						"margin-bottom" : 10,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "viewIcon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 68,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 70,
+								"image" : "hp_icon_spells_active_alohomora.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "icon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 70
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 20,
+								"image" : "hp_icon_lock_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconLocked",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 16
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 17,
+								"image" : "hp_icon_alert_med.png",
+								"margin-bottom" : 21,
+								"margin-left" : 21,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconUnlockedNotif",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 17
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 8,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 26,
+						"max-height" : 20,
+						"name" : "labelName",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"text" : "FINITE INCANTATEM",
+						"width" : 74
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

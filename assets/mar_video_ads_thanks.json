@@ -1,0 +1,482 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "mar_scrim_bg_40p.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "dialog_bg",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.453833,
+				"9slicescalezone-x" : 0.2705,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 160,
+				"image" : "mar_OB_story_timed_modal_bg.png",
+				"margin-bottom" : 9,
+				"margin-left" : 0,
+				"margin-right" : 1,
+				"margin-top" : 0,
+				"name" : "modal_full_BG",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 158,
+						"image" : "mar_rate_modal_stripes.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 142,
+						"margin-top" : 0,
+						"name" : "modal_stripes",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 333
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 158,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "model_info",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 354,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.266333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "mar_green_btn.png",
+								"margin-bottom" : 9,
+								"margin-left" : 221,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "action_button",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 100,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamXNarrow-BlackItalic",
+										"font-size" : 14,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "VIDEOADS_THANKS_ACTION",
+										"margin-bottom" : 1,
+										"margin-left" : 0,
+										"margin-right" : 43.5,
+										"margin-top" : 0,
+										"max-width" : 100,
+										"name" : "action_label",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											0,
+											59,
+											0
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											0,
+											59,
+											0
+										],
+										"stroke-thickness" : 1,
+										"text" : "Watch Another?"
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 50,
+										"image" : "mar_premium_modal_sparkle.png",
+										"margin-bottom" : 12,
+										"margin-left" : 47,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "sparkle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.266333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "mar_btn_null_bg.png",
+								"margin-bottom" : 9,
+								"margin-left" : 133,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "cancel_button",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 80,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamXNarrow-BlackItalic",
+										"font-size" : 14,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "VIDEOADS_THANKS_CANCEL",
+										"margin-bottom" : 1,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 70,
+										"name" : "cancel_label",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											89,
+											86,
+											116
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											89,
+											86,
+											116
+										],
+										"stroke-thickness" : 1,
+										"text" : "Awesome!"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 138,
+								"image" : "mar_OB_story_timed_cell_bg.png",
+								"margin-bottom" : 10,
+								"margin-left" : 0,
+								"margin-right" : 23,
+								"margin-top" : 0,
+								"name" : "character_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 144
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 170,
+								"image" : "wasp_video_shard_v2.png",
+								"margin-bottom" : 17,
+								"margin-left" : 0,
+								"margin-right" : 128,
+								"margin-top" : 0,
+								"name" : "character_loader",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 142
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 50,
+								"image" : "mar_premium_modal_sparkle.png",
+								"margin-bottom" : 30,
+								"margin-left" : 0,
+								"margin-right" : 78,
+								"margin-top" : 0,
+								"name" : "sparkel_shard",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 50
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"local:text" : "VIDEOADS_THANKS_BODY",
+								"margin-bottom" : 37,
+								"margin-left" : 133,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "body_label",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "limited to only two lines of text! limited to only two lines of text! limited to only two lines of text!",
+								"vertical-spacing" : 0.94,
+								"width" : 230
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamNarrow-UltraItalic",
+								"font-size" : 17,
+								"local:text" : "VIDEOADS_THANKS_TITLE",
+								"margin-bottom" : 65,
+								"margin-left" : 131,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 230,
+								"name" : "title_label",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									30,
+									97
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"stroke-thickness" : 1,
+								"text" : "CONGRATULATIONS!"
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "invisible.png",
+								"margin-bottom" : 65,
+								"margin-left" : 209.5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_button",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 30,
+								"children" : [
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 10,
+										"image" : "mar_x_close_btn.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "close_icon",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 9
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"height" : 45,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 15.5,
+								"margin-top" : 6,
+								"name" : "reward",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 50,
+								"children" : [
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 62,
+										"image" : "mar_reward_modal_strip_bg.png",
+										"margin-bottom" : 0,
+										"margin-left" : 97,
+										"margin-right" : 0,
+										"margin-top" : 2.5,
+										"name" : "mar_reward_modal_strip_bg",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 254
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "GothamXNarrow-BlackItalic",
+										"font-size" : 26,
+										"margin-bottom" : 0,
+										"margin-left" : 26,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 20,
+										"name" : "shard_amt_label",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											0,
+											30,
+											97
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"stroke-thickness" : 1,
+										"text" : "6"
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 35,
+										"image" : "mar_hard_currency_extralarge.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 3,
+										"name" : "quest_reward_shard",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 35
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 14,
+										"image" : "mar_plus_icon_med.png",
+										"margin-bottom" : 8,
+										"margin-left" : 0,
+										"margin-right" : 13,
+										"margin-top" : 0,
+										"name" : "plus_large",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 14
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

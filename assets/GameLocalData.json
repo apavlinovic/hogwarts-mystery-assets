@@ -1,0 +1,305 @@
+{
+    "FORCEUPGRADE_SUGGESTED": {
+        "ru": "Похоже, у тебя установлена не самая новая версия игры. Обнови ее, чтобы получить доступ ко всем новым возможностям.",
+        "fr": "On dirait bien que vous n'utilisez pas la dernière version du jeu. Effectuez la mise à jour et profitez d'améliorations vraiment super cool",
+        "pt": "Parece que você não está rodando a versão mais recente do jogo. Atualize para ter melhorias realmente muito legais",
+        "de": "Du hast anscheinend nicht die aktuellste Version des Spiels. Führe eine Aktualisierung für wirklich tolle Verbesserungen durch",
+        "it": "Sembra che non hai l'ultima versione del gioco. Aggiorna per miglioramenti molto fighi",
+        "en_US": "Update your game! Download now for exciting new features!",
+        "es": "Parece que no estás utilizando la versión más actualizada del juego. Actualiza la versión para ver mejoras."
+    },
+    "GAME_ERROR_MODAL_TITLE": {
+        "ru": "ПРОИЗОШЛА ОШИБКА!",
+        "fr": "UNE ERREUR S'EST PRODUITE !",
+        "pt": "OCORREU UM ERRO",
+        "de": "EIN FEHLER IST AUFGETRETEN!",
+        "it": "SI È VERIFICATO UN ERRORE!",
+        "en_US": "An Error Has Occurred",
+        "es": "SE PRODUJO UN ERROR."
+    },
+    "GAME_PUSHPROMPT_TITLE": {
+        "ru": "Включить уведомления?",
+        "fr": "Activer les notifications ?",
+        "pt": "Deseja habilitar avisos por push?",
+        "de": "Push-Benachrichtigungen aktivieren?",
+        "it": "Consenti notifiche push?",
+        "en_US": "Enable Push Notifications?",
+        "es": "¿Habilitar notificaciones automáticas?"
+    },
+    "FORCEUPGRADE_REQUIRED": {
+        "ru": "Похоже, у тебя установлена не самая новая версия игры. Обнови ее, чтобы получить доступ ко всем новым возможностям.",
+        "fr": "On dirait bien que vous n'utilisez pas la dernière version du jeu. Effectuez la mise à jour et profitez d'améliorations vraiment super cool",
+        "pt": "Parece que você não está rodando a versão mais recente do jogo. Atualize para ter melhorias realmente muito legais",
+        "de": "Du hast anscheinend nicht die aktuellste Version des Spiels. Führe eine Aktualisierung für wirklich tolle Verbesserungen durch",
+        "it": "Sembra che non hai l'ultima versione del gioco. Aggiorna per miglioramenti molto fighi",
+        "en_US": "A new update is available! Please upgrade to the latest version to continue.",
+        "es": "Parece que no estás utilizando la versión más actualizada del juego. Actualiza la versión para ver mejoras."
+    },
+    "GAME_AAGAME_CONNNECT_LOST_CONFIRM": {
+        "ru": "Попробуй еще раз",
+        "fr": "Essaie encore",
+        "pt": "Tente novamente",
+        "de": "Erneut versuchen",
+        "it": "Riprova",
+        "en_US": "RETRY",
+        "es": "Vuelve a intentarlo"
+    },
+    "GAME_PUSHPROMPT_ACCEPTBUTTON": {
+        "ru": "КОНЕЧНО!",
+        "fr": "BIEN SÛR !",
+        "pt": "CLARO!",
+        "de": "NA KLAR!",
+        "it": "CERTO!",
+        "en_US": "SURE!",
+        "es": "¡POR SUPUESTO!"
+    },
+    "GAME_AAGAME_CONNNECT_LOST_RETRY": {
+        "en_US": "Please try again in %1% seconds.",
+        "ru": "Повтори попытку через %1% секунд",
+        "fr": "Veuillez réessayer dans %1% secondes",
+        "pt": "Tente novamente em %1% segundos",
+        "de": "Bitte versuche es in %1% Sekunden erneut",
+        "it": "Riprova in %1% secondi",
+        "es": "Por favor, prueba de nuevo en %1% segundos"
+    },
+    "GAME_AAGAME_CONNNECT_LOST_LOCKED": {
+        "en_US": "WAIT",
+        "ru": "Подождите",
+        "fr": "Attends",
+        "pt": "Aguarde",
+        "de": "Warte ab",
+        "it": "",
+        "es": "Espera"
+    },
+    "FORCEUPGRADE_NO": {
+        "ru": "Позже",
+        "fr": "Plus tard",
+        "pt": "Mais tarde",
+        "de": "Später",
+        "it": "Più tardi",
+        "en_US": "LATER",
+        "es": "Más tarde"
+    },
+    "FORCEUPGRADE_TITLE": {
+        "ru": "Обновить",
+        "fr": "Effectuez la mise à niveau",
+        "pt": "Atualizar",
+        "de": "Bitte aktualisieren",
+        "it": "Aggiorna",
+        "en_US": "Please Upgrade",
+        "es": "Cambia a una versión superior"
+    },
+    "FORCEUPGRADE_YES": {
+        "ru": "Обнови приложение.",
+        "fr": "Mettre à niveau",
+        "pt": "Faça uma atualização",
+        "de": "Hochrüsten",
+        "it": "Aggiorna",
+        "en_US": "UPGRADE",
+        "es": "Cambia a una versión superior"
+    },
+    "GAME_PUSHPROMPT_MESSAGE": {
+        "ru": "Может, включить уведомления, м-м? Хочешь? Хочешь, чтобы мы посылали лучи света в твою никчемную жизнь?",
+        "fr": "Et si on activait les notifications, hmm ? Laisse-nous t'offrir quelques rayons de soleil dans ta vie pourrie ?",
+        "pt": "Que tal habilitar avisos por push, hein? Vai nos deixar irradiar alguns raios de sol em sua vida monótona?",
+        "de": "Was hältst du davon, Push-Benachrichtigungen zu aktivieren? Können wir dir ein paar Sonnenstrahlen in dein trostloses Leben senden?",
+        "it": "Cosa ne pensi di abilitare ne notifiche push, mmm? Cosa ne pensi di far entrare i raggi di sole nella tua triste vita?",
+        "en_US": "Please enable notifications to receive updates from the Avengers Academy.",
+        "es": "¿Qué te parece si habilitamos las notificaciones automáticas? ¿Nos dejarás que llevemos un poco de alegría a tu vida miserable?"
+    },
+    "GAME_PUSHPROMPT_DELAYBUTTON": {
+        "ru": "НЕ СЕЙЧАС",
+        "fr": "PAS MAINTENANT",
+        "pt": "AGORA NÃO",
+        "de": "JETZT NICHT",
+        "it": "NON ORA",
+        "en_US": "NOT NOW",
+        "es": "NO AHORA"
+    },
+    "GAME_AAGAME_CONNNECT_LOST_TITLE": {
+        "ru": "Соединение потеряно",
+        "fr": "Ya plus de connexion",
+        "pt": "Conexão perdida",
+        "de": "Verbindung verloren",
+        "it": "Connessione persa",
+        "en_US": "Connection Error",
+        "es": "Se perdió la conexión"
+    },
+    "GAME_AAGAME_CONNNECT_LOST_MESSAGE": {
+        "en_US": "We were unable to connect to the game. Please verify your connection and retry.",
+        "ru": "Нам не удалось подключиться к игре. Проверь подключение и повтори попытку",
+        "fr": "Impossible de se connecter au jeu. Veuillez vérifier votre connexion avant de réessayer",
+        "pt": "Não é possível conectar ao jogo. Verifique sua conexão e tente novamente",
+        "de": "Wir konnten keine Verbindung zum Spiel herstellen. Bitte überprüfe deine Verbindung und versuche es erneut",
+        "it": "Impossibile connettersi alla partita. Verifica la connessione e riprova",
+        "es": "No hemos podido conectar al juego. Por favor, verifica tu conexión y vuelve a intentarlo"
+    },
+    "HP_LOGIN_PLATFORM_LOGIN_ERROR_TITLE": {
+        "en_US": "Unable to connect",
+        "ru": "Не удается подключиться",
+        "fr": "Impossible de se connecter",
+        "pt": "Não é possível conectar",
+        "de": "Konnte nicht verbinden",
+        "it": "Impossibile effettuare la connessione",
+        "es": "No se ha podido conectar"
+    },
+    "HP_LOGIN_PLATFORM_LOGIN_ERROR_BODY": {
+        "en_US": "Unable to connect to %1%. Loading into a device-based game. To retrieve your game, exit the app and log back in to %1% then restart the game.",
+        "ru": "Не удается подключиться к %1%. Загрузка в игру на устройстве. Чтобы продолжить игру, выйди из приложения и снова войди в Facebook, а затем перезапусти игру",
+        "fr": "Impossible de se connecter à %1%. Chargement dans une basée sur l'appareil. Pour récupérer votre partie, sortez de l'appi et reconnectez-vous à Facebook puis redémarrez le jeu",
+        "pt": "Não é possível conectar ao %1%. Carregando em um jogo baseado no dispositivo. Para tentar novamente o seu jogo, feche o app, entre novamente no Facebook e reinicie o jogo",
+        "de": "Konnte nicht mit %1% verbinden. Lädt ein Geräte-basiertes Spiel. Um dein Spiel wiederherzustellen, schließe die App, melde dich erneut bei Facebook an und starte das Spiel neu",
+        "it": "Impossibile effettuare la connessione a %1%. Caricamento di partita installata sul dispositivo. Per recuperare la partita, chiudi l'app e riconnettiti a Facebook, quindi riavvia la partita",
+        "es": "No se ha podido conectar a %1%. Cargando en un juego basado en dispositivos. Para recuperar tu juego, sal de la app e inicia sesión de nuevo en Facebook para reiniciar el juego"
+    },
+    "HP_LOGIN_RELOAD": {
+        "en_US": "Reload",
+        "ru": "Перезагрузить",
+        "fr": "Recharger",
+        "pt": "Recarregar",
+        "de": "Neu laden",
+        "it": "Ricarica",
+        "es": "Recargar"
+    },
+    "HP_LOGIN_LOAD": {
+        "en_US": "Load",
+        "ru": "Загрузить",
+        "fr": "Charger",
+        "pt": "Carregar",
+        "de": "Laden",
+        "it": "Carica",
+        "es": "Cargar"
+    },
+    "HP_LOGIN_GC": {
+        "en_US": "Game Center",
+        "ru": "Game Center",
+        "fr": "Game Center",
+        "pt": "Game Center",
+        "de": "Game Center",
+        "it": "Game Center",
+        "es": "Game Center"
+    },
+    "HP_LOGIN_GP": {
+        "en_US": "Google Play Games",
+        "ru": "Google Play Games",
+        "fr": "Google Play Games",
+        "pt": "Google Play Games",
+        "de": "Google Play Games",
+        "it": "Google Play Games",
+        "es": "Google Play Games"
+    },
+    "HP_LOGIN_FB": {
+        "en_US": "Facebook",
+        "ru": "Facebook",
+        "fr": "Facebook",
+        "pt": "Facebook",
+        "de": "Facebook",
+        "it": "Facebook",
+        "es": "Facebook"
+    },
+    "HP_LOGIN_CURRENT_USER": {
+        "en_US": "Current User:",
+        "ru": "Текущий пользователь:",
+        "fr": "Utilisateur actuel:",
+        "pt": "Usuário atual:",
+        "de": "Aktueller Benutzer:",
+        "it": "Utente corrente:",
+        "es": "Usuario actual:"
+    },
+    "HP_LOGIN_PLATFORM_USER": {
+        "en_US": "%1% ID:",
+        "ru": "%1% ID:",
+        "fr": "%1% ID:",
+        "pt": "%1% ID:",
+        "de": "%1% ID:",
+        "it": "%1% ID:",
+        "es": "%1% ID:"
+    },
+    "HP_LOGIN_GUEST": {
+        "en_US": "Not Logged In",
+        "ru": "Не выполнен вход в систему",
+        "fr": "Pas connecté",
+        "pt": "Não logado",
+        "de": "Nicht angemeldet",
+        "it": "Non connesso",
+        "es": "No ha iniciado sesión"
+    },
+    "HP_LOGIN_TITLE": {
+        "en_US": "Login With %1%",
+        "ru": "Войти с %1%",
+        "fr": "Se connecter avec %1%",
+        "pt": "Login com %1%",
+        "de": "Mit %1% anmelden",
+        "it": "Accesso con %1%",
+        "es": "Iniciar sesión con %1%"
+    },
+    "HP_LOGIN_RELOAD_PLATFORM_PROMPT": {
+        "en_US": "This %2% account is currently linked to a level %1% save. Would you like to load this save now?",
+        "ru": "Этот аккаунт %2% в настоящее время привязан к сохраненному уровню %1%. Хочешь загрузить этот сохраненный уровень сейчас?",
+        "fr": "Ce compte %2% est actuellement lié à une sauvegarde de niveau %1%. Souhaitez-vous charger cette sauvegarde maintenant ?",
+        "pt": "No momento, esta conta %2% está ligada ao nível salvo %1%. Gostaria de carregar o que está salvo agora?",
+        "de": "Dieses %2%-Konto ist momentan mit einem Speicherstand auf Level %1% verbunden. Möchtest du diesen Speicherstand jetzt laden?",
+        "it": "Questo account %2% è attualmente collegato a un salvataggio di livello %1%. Caricare questo salvataggio ora?",
+        "es": "Esta cuenta de %2% ya está vinculada a un archivo guardado de nivel %1%. ¿Quieres guardar este archivo guardado ahora?"
+    },
+    "HP_LOGIN_YOUR_SAVE_DATA": {
+        "en_US": "Your save data",
+        "ru": "Твои сохраненные данные",
+        "fr": "Données de votre sauvegarde",
+        "pt": "Seus dados salvo",
+        "de": "Dein Speicherstand",
+        "it": "Dati salvataggio ",
+        "es": "Tus datos guardados"
+    },
+    "HP_LOGIN_LAST_LOGIN": {
+        "en_US": "Last login:",
+        "ru": "Последний Войти:",
+        "fr": "Dernière connexion:",
+        "pt": "Último login:",
+        "de": "Letzte Anmeldung:",
+        "it": "Ultimo accesso:",
+        "es": "Ultima session:"
+    },
+    "HP_LOGIN_SKIP": {
+        "en_US": "Skip",
+        "ru": "Пропустить",
+        "fr": "Passer",
+        "pt": "Pular",
+        "de": "Überspringen",
+        "it": "Salta",
+        "es": "Omitir"
+    },
+    "HP_LOGIN_NOTHANKS": {
+        "en_US": "No Thanks",
+        "ru": "Нет, спасибо",
+        "fr": "Non merci",
+        "pt": "Não, obrigado",
+        "de": "Nein, danke",
+        "it": "No grazie",
+        "es": "No, gracias"
+    },
+    "HP_LOGIN_CONFIRM": {
+        "en_US": "Confirm",
+        "ru": "Подтвердить",
+        "fr": "Confirmer",
+        "pt": "Confirmar",
+        "de": "Bestätigen",
+        "it": "Conferma",
+        "es": "Confirmar"
+    },
+    "SETTINGS_HELP": {
+        "en_US": "Help",
+        "ru": "Помощь",
+        "fr": "Aide",
+        "pt": "Ajuda",
+        "de": "Hilfe",
+        "it": "Aiuta",
+        "es": "Ayuda"
+    },
+    "HELP_PLEASE_DESCRIBE": {
+        "en_US": "Please describe what you were doing when the error happened:"
+    },
+    "FontMap_ContemporaryCyr" : {
+         "en_US": "ContemporaryCyr"
+    }
+}

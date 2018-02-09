@@ -1,0 +1,70 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 42,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 217,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 42,
+				"image" : "hp_bg_container_partner.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "playerChoiceView",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 217,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-HeavyOblique",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 22,
+						"margin-top" : 0,
+						"max-width" : 140,
+						"name" : "labelTitle",
+						"position-x" : "right",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Complain About Life"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.4"
+}

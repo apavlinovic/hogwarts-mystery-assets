@@ -1,0 +1,95 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 64,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 235,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 64,
+				"image" : "placeholder.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "cellButton",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "Avenir-Roman",
+				"font-size" : 12,
+				"height" : 48,
+				"inset-margin-x" : 8,
+				"margin-bottom" : 0,
+				"margin-left" : 4,
+				"margin-right" : 0,
+				"margin-top" : 8,
+				"name" : "body",
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"text" : "TestFileNameg"
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					222,
+					111
+				],
+				"font" : "Avenir-Roman",
+				"font-size" : 13,
+				"height" : 20,
+				"margin-bottom" : 21,
+				"margin-left" : 4,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-width" : 230,
+				"name" : "name",
+				"position-x" : "left",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "TestFileNameg"
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

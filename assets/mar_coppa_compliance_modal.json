@@ -1,0 +1,551 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 224,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 304,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.576243,
+						"9slicescalezone-width" : 0.717106,
+						"9slicescalezone-x" : 0.071411,
+						"9slicescalezone-y" : 0.251919,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 224,
+						"image" : "mar_modal_basic_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 304,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 2,
+								"image" : "mar_divider.png",
+								"margin-bottom" : 23,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "mar_divider",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 223
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 32,
+						"image" : "mar_green_btn.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 73,
+						"name" : "ok_btn",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 114,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamNarrow-UltraItalic",
+								"font-size" : 12,
+								"local:text" : "NOT_ENO_OB_LABEL_OK",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "label_ok",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									59,
+									0
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									0,
+									59,
+									0
+								],
+								"stroke-thickness" : 1,
+								"text" : "OK"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 13,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 81,
+						"margin-right" : 0,
+						"margin-top" : 39.5,
+						"name" : "eula_button",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 121,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									23,
+									60,
+									111
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"local:text" : "GAME_AGE_GATE_EULA",
+								"margin-bottom" : 1.5,
+								"margin-left" : 0.5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "eula",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "End User License Agreement"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 14,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 82,
+						"margin-right" : 0,
+						"margin-top" : 23,
+						"name" : "tos_button",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 70,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									23,
+									60,
+									111
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"local:text" : "GAME_AGE_GATE_TOS",
+								"margin-bottom" : 1,
+								"margin-left" : 0,
+								"margin-right" : 0.5,
+								"margin-top" : 0,
+								"name" : "tos",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "Terms of Service"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 14,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 70,
+						"margin-top" : 6,
+						"name" : "privacy_policy_button",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 91,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									23,
+									60,
+									111
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"local:text" : "GAME_AGE_GATE_PRIVACY_POLICY",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0.5,
+								"margin-top" : 0,
+								"name" : "privacy_policy",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "TinyCo Privacy Policy"
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							108,
+							107,
+							134
+						],
+						"font" : "GothamXNarrow-Medium",
+						"font-size" : 14,
+						"local:text" : "GAME_AGE_GATE_READ_AND_ACCEPT",
+						"margin-bottom" : 10,
+						"margin-left" : 81.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 180,
+						"name" : "label_text",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "I have read and accepted:"
+					},
+					{
+						"alignment" : "right",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							108,
+							107,
+							134
+						],
+						"font" : "GothamXNarrow-Medium",
+						"font-size" : 12,
+						"local:text" : "GAME_AGE_GATE_AGE_LABEL",
+						"margin-bottom" : 56.5,
+						"margin-left" : 0,
+						"margin-right" : 164.5,
+						"margin-top" : 0,
+						"max-width" : 100,
+						"name" : "label_age",
+						"position-x" : "right",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "Age:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamNarrow-UltraItalic",
+						"font-size" : 14,
+						"local:text" : "GAME_AGE_GATE_MODAL_TITLE",
+						"margin-bottom" : 209,
+						"margin-left" : 26,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "label_title",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"stroke-thickness" : 1,
+						"text" : "Enter Your Age to Continue"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							229,
+							0,
+							0
+						],
+						"font" : "GothamXNarrow-Medium",
+						"font-size" : 12,
+						"local:text" : "GAME_AGE_GATE_RED_WARNING",
+						"margin-bottom" : 38,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 220,
+						"name" : "label_red_info",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "You must enter your age to continue."
+					},
+					{
+						"9slicescalezone-height" : 0.725857,
+						"9slicescalezone-width" : 0.702048,
+						"9slicescalezone-x" : 0.154429,
+						"9slicescalezone-y" : 0.130619,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 30,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 99,
+						"margin-top" : 1,
+						"name" : "checkbox_accept",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 30,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.733,
+								"9slicescalezone-width" : 0.733,
+								"9slicescalezone-x" : 0.133,
+								"9slicescalezone-y" : 0.133,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 30,
+								"image" : "mar_coppa_checkbox.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "checkbox_accept_black",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 30
+							},
+							{
+								"9slicescalezone-height" : 0.633,
+								"9slicescalezone-width" : 0.633,
+								"9slicescalezone-x" : 0.183,
+								"9slicescalezone-y" : 0.183,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 30,
+								"image" : "mar_coppa_checkbox_red.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "checkbox_accept_red",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 30
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 40,
+								"image" : "mar_hud_orderboard_check_icon.png",
+								"margin-bottom" : 7,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "check",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 40
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.725857,
+						"9slicescalezone-width" : 0.702048,
+						"9slicescalezone-x" : 0.154429,
+						"9slicescalezone-y" : 0.130619,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 17,
+						"image" : "invisible.png",
+						"margin-bottom" : 56,
+						"margin-left" : 16.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "checkbox_age",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 42,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.733,
+								"9slicescalezone-width" : 0.7,
+								"9slicescalezone-x" : 0.133,
+								"9slicescalezone-y" : 0.133,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 17,
+								"image" : "mar_coppa_checkbox.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "checkbox_age_black",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 42
+							},
+							{
+								"9slicescalezone-height" : 0.683,
+								"9slicescalezone-width" : 0.683,
+								"9slicescalezone-x" : 0.133,
+								"9slicescalezone-y" : 0.133,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 17,
+								"image" : "mar_coppa_checkbox_red.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "checkbox_age_red",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 42
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "text-input",
+								"color" : [
+									108,
+									107,
+									134
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "textfield_age",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "99"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

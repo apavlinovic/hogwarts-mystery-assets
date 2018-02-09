@@ -1,0 +1,263 @@
+{
+    "psdName" : "GriffinUiTool-original",
+    "view" : {
+        "children" : [
+            {
+                "anchor-x" : "center",
+                "anchor-y" : "center",
+                "class" : "image",
+                "editor-lock" : true,
+                "height" : 160,
+                "image" : "fg_modal_bg.png",
+                "margin-bottom" : 0,
+                "margin-left" : 0,
+                "margin-right" : 0,
+                "margin-top" : 0,
+                "name" : "defaultBG",
+                "position-x" : "center",
+                "position-y" : "center",
+                "width" : 340
+            },
+            {
+                "anchor-x" : "center",
+                "anchor-y" : "center",
+                "children" : [
+                    {
+                        "9slicescalezone-height" : 0.333,
+                        "9slicescalezone-width" : 0.333,
+                        "9slicescalezone-x" : 0.333,
+                        "9slicescalezone-y" : 0.333,
+                        "actions" : [],
+                        "anchor-x" : "center",
+                        "anchor-y" : "center",
+                        "children" : [
+                            {
+                                "alignment" : "center",
+                                "anchor-x" : "center",
+                                "anchor-y" : "center",
+                                "class" : "label",
+                                "color" : [
+                                    93,
+                                    94,
+                                    97
+                                ],
+                                "font" : "ContemporaryCyr",
+                                "font-size" : 16,
+                                "margin-bottom" : -2,
+                                "margin-left" : 0,
+                                "margin-right" : 0,
+                                "margin-top" : 0,
+                                "max-width" : 80,
+                                "name" : "label_cancel1",
+                                "position-x" : "center",
+                                "position-y" : "center",
+                                "shadow-color" : [
+                                    216,
+                                    220,
+                                    223
+                                ],
+                                "shadow-offset" : [
+                                    0,
+                                    -1
+                                ],
+                                "text" : "NAH"
+                            }
+                        ],
+                        "class" : "button",
+                        "height" : 28,
+                        "image" : "button_generic_gray.png",
+                        "margin-bottom" : 0,
+                        "margin-left" : 14,
+                        "margin-right" : 0,
+                        "margin-top" : 58,
+                        "name" : "closeButton",
+                        "position-x" : "center",
+                        "position-y" : "center",
+                        "width" : 100
+                    },
+                    {
+                        "9slicescalezone-height" : 0.333,
+                        "9slicescalezone-width" : 0.333,
+                        "9slicescalezone-x" : 0.333,
+                        "9slicescalezone-y" : 0.333,
+                        "actions" : [],
+                        "anchor-x" : "center",
+                        "anchor-y" : "center",
+                        "children" : [
+                            {
+                                "alignment" : "center",
+                                "anchor-x" : "center",
+                                "anchor-y" : "center",
+                                "class" : "label",
+                                "color" : [
+                                    79,
+                                    100,
+                                    0
+                                ],
+                                "font" : "ContemporaryCyr",
+                                "font-size" : 16,
+                                "margin-bottom" : -2,
+                                "margin-left" : 0,
+                                "margin-right" : 0,
+                                "margin-top" : 0,
+                                "max-width" : 80,
+                                "name" : "label_ok2",
+                                "position-x" : "center",
+                                "position-y" : "center",
+                                "shadow-color" : [
+                                    216,
+                                    235,
+                                    64
+                                ],
+                                "shadow-offset" : [
+                                    0,
+                                    -1
+                                ],
+                                "text" : "OK"
+                            }
+                        ],
+                        "class" : "button",
+                        "editor-layerExpanded" : false,
+                        "height" : 28,
+                        "image" : "button_generic_green.png",
+                        "margin-bottom" : 0,
+                        "margin-left" : 122,
+                        "margin-right" : 0,
+                        "margin-top" : 58,
+                        "name" : "okButton",
+                        "position-x" : "center",
+                        "position-y" : "center",
+                        "width" : 100
+                    }
+                ],
+                "class" : "view",
+                "height" : 188,
+                "margin-bottom" : 11,
+                "margin-left" : 0,
+                "margin-right" : 30,
+                "margin-top" : 0,
+                "name" : "2_buttons",
+                "position-x" : "center",
+                "position-y" : "center",
+                "width" : 363
+            },
+            {
+                "anchor-x" : "center",
+                "anchor-y" : "center",
+                "children" : [
+                    {
+                        "alignment" : "left",
+                        "anchor-x" : "center",
+                        "anchor-y" : "center",
+                        "class" : "label",
+                        "color" : [
+                            102,
+                            102,
+                            102
+                        ],
+                        "font" : "HelveticaNeueLTCom-Md",
+                        "font-size" : 12,
+                        "margin-bottom" : 0,
+                        "margin-left" : 70,
+                        "margin-right" : 0,
+                        "margin-top" : 16,
+                        "name" : "textLabel",
+                        "position-x" : "center",
+                        "position-y" : "center",
+                        "text" : "How 'bout enabling push notifications, hmm? Gonna let us beam sunshine rays into your dreary life?",
+                        "vertical-spacing" : 0.85,
+                        "width" : 212
+                    },
+                    {
+                        "alignment" : "center",
+                        "anchor-x" : "center",
+                        "anchor-y" : "center",
+                        "class" : "label",
+                        "color" : [
+                            244,
+                            174,
+                            5
+                        ],
+                        "font" : "ContemporaryCyr",
+                        "font-size" : 25,
+                        "gradient-top-color" : [
+                            248,
+                            255,
+                            227
+                        ],
+                        "margin-bottom" : 28,
+                        "margin-left" : 69,
+                        "margin-right" : 0,
+                        "margin-top" : 0,
+                        "max-width" : 212,
+                        "name" : "titleLabel",
+                        "position-x" : "center",
+                        "position-y" : "center",
+                        "stroke-color" : [
+                            153,
+                            63,
+                            4
+                        ],
+                        "stroke-thickness" : 2,
+                        "text" : "Notifications?"
+                    },
+                    {
+                        "anchor-x" : "center",
+                        "anchor-y" : "bottom",
+                        "class" : "image",
+                        "height" : 171,
+                        "image" : "invisible.png",
+                        "margin-bottom" : 0,
+                        "margin-left" : 93,
+                        "margin-right" : 0,
+                        "margin-top" : 0,
+                        "name" : "loader_tall_character1",
+                        "position-x" : "left",
+                        "position-y" : "bottom",
+                        "width" : 70
+                    },
+                    {
+                        "9slicescalezone-height" : 0.333,
+                        "9slicescalezone-width" : 0.333,
+                        "9slicescalezone-x" : 0.333,
+                        "9slicescalezone-y" : 0.333,
+                        "anchor-x" : "center",
+                        "anchor-y" : "center",
+                        "class" : "image",
+                        "height" : 1,
+                        "image" : "shop_divider_small.png",
+                        "margin-bottom" : 14,
+                        "margin-left" : 69,
+                        "margin-right" : 0,
+                        "margin-top" : 0,
+                        "name" : "shop_divider_small3",
+                        "position-x" : "center",
+                        "position-y" : "center",
+                        "width" : 226
+                    }
+                ],
+                "class" : "view",
+                "height" : 188,
+                "margin-bottom" : 11,
+                "margin-left" : 0,
+                "margin-right" : 30,
+                "margin-top" : 0,
+                "name" : "tall_character",
+                "position-x" : "center",
+                "position-y" : "center",
+                "width" : 363
+            }
+        ],
+        "class" : "view",
+        "inherit-position" : true,
+        "margin-bottom" : 0,
+        "margin-left" : 0,
+        "margin-right" : 0,
+        "margin-top" : 0,
+        "name" : "rootView",
+        "percent-height" : 1,
+        "percent-width" : 1,
+        "position-x" : "left",
+        "position-y" : "bottom"
+    }
+}

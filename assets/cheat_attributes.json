@@ -1,0 +1,108 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.335989,
+				"9slicescalezone-width" : 0.607653,
+				"9slicescalezone-x" : 0.204975,
+				"9slicescalezone-y" : 0.356098,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "button_debug.png",
+				"inset-margin-y" : 40,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modal_bg",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 360
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"font" : "AppleGaramond-Bold",
+				"font-size" : 25,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 46,
+				"max-width" : 300,
+				"name" : "label_title0",
+				"position-x" : "center",
+				"position-y" : "top",
+				"stroke-color" : [
+					153,
+					63,
+					4
+				],
+				"text" : "Attribute Cheats"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"cell-json" : "cheat_attributes_cell.json",
+				"class" : "table-view",
+				"inset-margin-y" : 102,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 2.5,
+				"margin-top" : 16,
+				"name" : "tableview",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 297,
+				"children" : []
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 40,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 171,
+				"margin-right" : 0,
+				"margin-top" : 29,
+				"name" : "button_close",
+				"position-x" : "center",
+				"position-y" : "top",
+				"sizing" : "SpriteNewSize",
+				"width" : 40,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 12,
+						"image" : "button_close.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "close_img",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFit",
+						"width" : 12
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

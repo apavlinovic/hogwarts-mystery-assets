@@ -1,0 +1,37 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"animation3d-id" : "p_timepiece_anim01_timePiece_rotate",
+				"class" : "model",
+				"height" : 200,
+				"margin-bottom" : 6.5,
+				"margin-left" : 6.5,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"model3d-id" : "p_timePiece_skin",
+				"model3d-rotation" : [
+					90,
+					0,
+					0
+				],
+				"name" : "clockModel",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 240
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

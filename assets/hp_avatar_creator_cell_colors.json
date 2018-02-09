@@ -1,0 +1,317 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 35,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 35,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 34,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 4,
+				"name" : "btnColors",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 33,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 49,
+						"image" : "hp_button_color_inactive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 8,
+						"margin-top" : 7,
+						"name" : "bg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 49
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 49,
+						"image" : "hp_button_color_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 8,
+						"margin-top" : 7,
+						"name" : "btnSelected",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"sizing" : "SpriteFill",
+						"width" : 49
+					},
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 27,
+						"image" : "invisible.png",
+						"margin-bottom" : 4,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "color",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 27
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 14,
+						"image" : "hp_general_bg_black_90%.png",
+						"margin-bottom" : 4,
+						"margin-left" : 3.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "cost",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 26,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "view",
+								"height" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "currency",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 27,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 9,
+										"margin-bottom" : 0,
+										"margin-left" : 12,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 18,
+										"name" : "labelCurrency",
+										"position-x" : "left",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "99"
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "image",
+										"dynamic-img" : true,
+										"height" : 10,
+										"image" : "hp_icons_gem.png",
+										"margin-bottom" : 0,
+										"margin-left" : 2,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"name" : "iconCurrency",
+										"position-x" : "left",
+										"position-y" : "center",
+										"width" : 10
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "view",
+								"editor-hide" : true,
+								"height" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "buy",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 27,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 13,
+										"image" : "hp_button_cell_sm.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "button_bg",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 26
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Heavy",
+										"font-size" : 9,
+										"local:text" : "GAME_BUY_BUTTON",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 1,
+										"margin-top" : 1,
+										"max-width" : 28,
+										"name" : "labelBuy",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											-0.5,
+											-0.5
+										],
+										"text" : "BUY"
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "view",
+								"editor-hide" : true,
+								"height" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "locked",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 27,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 9,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 2,
+										"max-width" : 28,
+										"name" : "labelLocked",
+										"position-x" : "left",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											-0.5,
+											-0.5
+										],
+										"text" : "Lv. 99"
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 13,
+										"image" : "hp_icon_lock_flat_xsm.png",
+										"margin-bottom" : 12,
+										"margin-left" : 10,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "lock",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 9
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 14,
+						"image" : "hp_icon_equipped_xsm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 3,
+						"margin-top" : 3,
+						"name" : "equipped",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 14
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

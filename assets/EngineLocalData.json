@@ -1,0 +1,764 @@
+{
+    "ENGINE_GAMECENTER_ERROR_TITLE": {
+        "ru": "Ошибка Game Center", 
+        "fr": "Erreur du Game Center", 
+        "pt": "Erro no Game Center", 
+        "de": "Game Center-Fehler", 
+        "it": "Errore del Game Center", 
+        "en_US": "Game Center Error", 
+        "es": "Error del centro de juegos"
+    }, 
+    "ENGINE_BUILDING_PLAY_AREA": {
+        "ru": "Загрузка игровой зоны...", 
+        "fr": "Chargement de la zone de jeu…", 
+        "pt": "Carregando área de jogo…", 
+        "de": "Spielbereich wird geladen …", 
+        "ko": "플레이 지역 생성 중", 
+        "it": "Creazione area di gioco...", 
+        "en_US": "Building play area …", 
+        "ja": "プレイ エリアの構築中…", 
+        "es": "Cargando área de juego..."
+    }, 
+    "ENGINE_CONNECTION_LOST": {
+        "ru": "Потеряна связь с сервером.\nДостижения в игре не будут сохраняться,\nпока не восстановится соединение.", 
+        "fr": "Connexion au serveur perdue.\nLa progression du jeu ne sera pas sauvegardée\njusqu'à ce que la connexion soit restaurée.", 
+        "pt": "Perda de conexão com o servidor.\nO progresso no jogo não será salvo\naté que a conexão seja restaurada.", 
+        "de": "Verbindung zum Server verloren.\nSpielfortschritt wird nicht gespeichert\nbis die Verbindung wiederhergestellt wurde.", 
+        "ko": "서버와의 연결이 끊어졌습니다.\n연결이 복구될 때까지 \n 게임을 저장할 수 없습니다.", 
+        "it": "Connessione al server persa.\nI progressi di gioco non saranno salvati\nfinché non verrà ripristinata la connessione.", 
+        "en_US": "Lost connection to server.\nGame progress will not be saved\nuntil connection is restored.", 
+        "ja": "サーバーへの接続が失われました\nゲームのセーブ データは\n接続が修復されるまで保存されません。", 
+        "es": "Se perdió la conexión con el servidor.\nEl progreso del juego no se guardará\nhasta que se restablezca la conexión."
+    }, 
+    "ENGINE_GENERIC_ERROR_TITLE": {
+        "ru": "Error", 
+        "fr": "Erreur", 
+        "pt": "Erro", 
+        "de": "Fehler", 
+        "ko": "오류", 
+        "it": "Error", 
+        "en_US": "Error", 
+        "ja": "エラー", 
+        "es": "Error"
+    }, 
+    "ENGINE_NUMSEP_FRACTION": {
+        "ru": ".", 
+        "fr": ",", 
+        "pt": ",", 
+        "de": ",", 
+        "ko": ".", 
+        "it": ",", 
+        "en_US": ".", 
+        "ja": ".", 
+        "es": ","
+    }, 
+    "ENGINE_LOGIN_ERROR_GOOGLE_LOGIN_DISABLED": {
+        "en_US": "Google login is currently disabled.\n\nTo access a save, link to Facebook or email on your other device, then log in here."
+    }, 
+    "ENGINE_AD_REWARD_MESSAGE": {
+        "ru": "Скачайте и заработайте %1% %2%", 
+        "fr": "Téléchargez et gagnez %1% %2%", 
+        "pt": "Baixe e ganhe %1% %2%", 
+        "de": "Herunterladen und %1% %2% verdienen", 
+        "ko": "%1% %2% 다운로드 및 획득", 
+        "it": "Scarica e guadagna %1% %2%", 
+        "en_US": "Download and Earn %1% %2%", 
+        "ja": "%1% %2% をダウンロード、獲得しよう", 
+        "es": "Descarga y gana %1% %2%"
+    }, 
+    "ENGINE_NUMABBR_QUADRILLION": {
+        "fr": "Q", 
+        "pt": "Qud", 
+        "de": "Brd", 
+        "ko": "천조", 
+        "en_US": "Q", 
+        "ja": "千兆", 
+        "es": "M Bil"
+    }, 
+    "ENGINE_DOWNLOAD_ERROR_TITLE": {
+        "ru": "Ошибка скачивания!", 
+        "fr": "Erreur de téléchargement !", 
+        "pt": "Erro de download!", 
+        "de": "Download-Fehler!", 
+        "ko": "다운로드 오류!", 
+        "it": "Errore di download!", 
+        "en_US": "Download error!", 
+        "ja": "ダウンロード エラー！", 
+        "es": "¡Error de descarga!"
+    }, 
+    "ENGINE_NUMABBR_SEPTILLION": {
+        "fr": "S", 
+        "pt": "Spt", 
+        "de": "Qll", 
+        "ko": "자", 
+        "en_US": "S", 
+        "ja": "杼", 
+        "es": "Cuatril"
+    }, 
+    "ENGINE_DOWNLOAD_ERROR": {
+        "ru": "Не скачались все необходимые файлы.", 
+        "fr": "N'a pas téléchargé tous les fichiers requis.", 
+        "pt": "Não foram baixados todos os arquivos necessários.", 
+        "de": "Es wurden nicht alle benötigten Dateien heruntergeladen.", 
+        "ko": "필요한 파일을 모두 다운로드하지 못했습니다.", 
+        "it": "Non ha scaricato tutti i file necessari.", 
+        "en_US": "Did not download all needed files.", 
+        "ja": "必要なファイルをすべてダウンロードできませんでした。", 
+        "es": "No se descargaron todos los archivos necesarios."
+    }, 
+    "ENGINE_CONNECTION_LOST_TITLE": {
+        "ru": "Соединение потеряно", 
+        "fr": "Connexion perdue", 
+        "pt": "Conexão perdida", 
+        "de": "Verbindung verloren", 
+        "ko": "연결이 끊어졌습니다", 
+        "it": "Connessione persa", 
+        "en_US": "Connection Lost", 
+        "ja": "接続が失われました", 
+        "es": "Se perdió la conexión"
+    }, 
+    "ENGINE_OVER_GIFT_LIMIT": {
+        "ru": "Вы можете забирать только %1% из этого подарка. Вы забрали %2%", 
+        "fr": "Vous pouvez seulement recevoir %1% de ce cadeau ; vous avez reçu %2%", 
+        "pt": "Você pode receber apenas %1% deste presente; você recebeu %2%", 
+        "de": "Du kannst nur %1% von diesem Geschenk sammeln. Du hast %2% gesammelt.", 
+        "ko": "이 선물은 %1%까지만 모을 수 있어요. 현재 %2% 획득", 
+        "it": "Puoi solo raccogliere %1% di questo dono; ne hai raccolti %2%", 
+        "en_US": "You can only collect %1% of this gift; you have collected %2%", 
+        "ja": "このギフトの %1% のみ取得することができます。 %2% を取得しました。", 
+        "es": "Sólo puedes recolectar %1% de este regalo; has recolectado %2%"
+    }, 
+    "ENGINE_NUMABBR_QUINTILLION": {
+        "fr": "Q", 
+        "pt": "Qun", 
+        "de": "Trl", 
+        "ko": "백경", 
+        "en_US": "Q", 
+        "ja": "百京", 
+        "es": "Tril"
+    }, 
+    "ENGINE_LOGIN_ERROR_TITLE": {
+        "ru": "Ошибка входа!", 
+        "fr": "Erreur de connexion !", 
+        "pt": "Erro ao acessar!", 
+        "de": "Anmeldefehler!", 
+        "it": "Errore di accesso!", 
+        "en_US": "Log-in Error!", 
+        "es": "¡Error de inicio de sesión!"
+    }, 
+    "ENGINE_EXIT_PROMPT_TITLE": {
+        "ru": "Выйти из игры?", 
+        "fr": "Quitter le jeu ?", 
+        "pt": "Sair do jogo?", 
+        "de": "Spiel beenden?", 
+        "ko": "게임에서 나갈까요?", 
+        "it": "Esci dal gioco?", 
+        "en_US": "Exit Game?", 
+        "ja": "ゲームを終了しますか?", 
+        "es": "¿Deseas salir del juego?"
+    }, 
+    "ENGINE_CONFIG_ERROR_TITLE": {
+        "ru": "Data Error", 
+        "fr": "Erreur de données", 
+        "pt": "Erros de Dados", 
+        "de": "Datenfehler", 
+        "it": "Data Error", 
+        "en_US": "Data Error", 
+        "es": "Error de datos"
+    }, 
+    "ENGINE_LOGIN_ERROR_USER_CANCELED": {
+        "ru": "Ты вернулся (-лась) в приложение, не завершив вход.", 
+        "fr": "Tu es revenu à l'appli sans terminer l'inscription.", 
+        "pt": "Você retornou ao aplicativo sem concluir o login.", 
+        "de": "Du bist zur App zurückgekehrt, ohne die Anmeldung abzuschließen.", 
+        "it": "Sei tornata all'app senza completare l'accesso.", 
+        "en_US": "You have returned to the app without completing the log-in.", 
+        "es": "Has regresado a la aplicación sin haber completado el inicio de sesión."
+    }, 
+    "ENGINE_CONFIG_READY": {
+        "ru": "Конфигурация готова...", 
+        "fr": "Config. prête", 
+        "pt": "Configuração pronta…", 
+        "de": "Config-Datei bereit …", 
+        "ko": "설정 준비 중", 
+        "it": "Config pronto...", 
+        "en_US": "Config ready …", 
+        "ja": "構成の準備中…", 
+        "es": "Configuración lista..."
+    }, 
+    "ENGINE_LOGIN_ERROR_GOOGLE_PLAY_SERVICES_NEEDS_UPDATE": {
+        "ru": "Обнови службу Google Play на своем устройстве.", 
+        "fr": "Met à jour Google Play Services sur ton appareil.", 
+        "pt": "Por favor, atualize o Google Play Services em seu dispositivo.", 
+        "de": "Bitte Google Play Services auf deinem Gerät aktualisieren.", 
+        "it": "Aggiorna Google Play Services sul tuo dispositivo.", 
+        "en_US": "Please update Google Play Services on your device.", 
+        "es": "Actualiza los servicios de Google Play en tu dispositivo."
+    }, 
+    "ENGINE_STARTING": {
+        "fr": "Démarrage…", 
+        "pt": "Iniciando…", 
+        "de": "Start …", 
+        "ko": "시작", 
+        "en_US": "Starting …", 
+        "ja": "開始しています…", 
+        "es": "Iniciando…"
+    }, 
+    "ENGINE_LICENSE_FAIL_TEXT": {
+        "en_US": "The game is currently in Limited Beta and only available to a limited set of players. Download the game when it’s available for worldwide download!"
+    }, 
+    "ENGINE_NUMSEP_THOUSANDS": {
+        "ru": ",", 
+        "fr": ".", 
+        "pt": ".", 
+        "de": ".", 
+        "ko": ",", 
+        "it": ".", 
+        "en_US": ",", 
+        "ja": ",", 
+        "es": "."
+    }, 
+    "ENGINE_START_ERROR_TITLE": {
+        "ru": "Ошибка запуска", 
+        "fr": "Erreur de démarrage", 
+        "pt": "Erro de inicialização", 
+        "de": "Start-Fehler", 
+        "ko": "시작 오류", 
+        "it": "Inizia d'avvio", 
+        "en_US": "Start Error", 
+        "ja": "スタート エラー", 
+        "es": "Error de inicio"
+    }, 
+    "ENGINE_NUMABBR_BILLION": {
+        "fr": "B", 
+        "pt": "Bil", 
+        "de": "Mrd", 
+        "ko": "십억", 
+        "en_US": "B", 
+        "ja": "十億", 
+        "es": "M Mil"
+    }, 
+    "ENGINE_CONNECT_ERROR_TITLE": {
+        "ru": "Connect Error!", 
+        "fr": "Erreur de connexion!", 
+        "pt": "Erro de conexão!", 
+        "de": "Verbindungsfehler!", 
+        "ko": "연결 오류입니다!", 
+        "it": "Connect Error!", 
+        "en_US": "Connect Error!", 
+        "ja": "接続中…", 
+        "es": "¡Error al conectar!"
+    }, 
+    "ENGINE_SOCIAL_COMM_ERROR": {
+        "en_US": "Communication Error"
+    }, 
+    "ENGINE_CONFIG_ERROR": {
+        "en_US": "There was a problem configuring the game.\nPlease try again."
+    }, 
+    "ENGINE_DATA_ERROR_TITLE": {
+        "ru": "Data Error", 
+        "fr": "Erreur de données", 
+        "pt": "Erros de Dados", 
+        "de": "Datenfehler", 
+        "ko": "데이터 오류", 
+        "it": "Data Error", 
+        "en_US": "Data Error", 
+        "ja": "データ エラー", 
+        "es": "Error de datos"
+    }, 
+    "ENGINE_EXIT_PROMPT": {
+        "ru": "Вы уверены, что хотите выйти?", 
+        "fr": "Tu es vraiment sûr de vouloir nous quitter ?", 
+        "pt": "Tem certeza que deseja sair?", 
+        "de": "Bist du sicher, dass du es beenden möchtest?", 
+        "ko": "그만 하시겠어요?", 
+        "it": "Sei sicuro di voler uscire?", 
+        "en_US": "Are you sure you want to quit?", 
+        "ja": "本当に終了しますか？", 
+        "es": "¿Estás seguro de que quieres abandonar el juego?"
+    }, 
+    "ENGINE_RESPONSE_ERROR_TITLE": {
+        "ru": "Ошибка ответа", 
+        "fr": "Erreur de réponse", 
+        "pt": "Erro de resposta", 
+        "de": "Antwort-Fehler", 
+        "ko": "응답 오류", 
+        "it": "Errore di risposta", 
+        "en_US": "Response Error", 
+        "ja": "レスポンス エラー", 
+        "es": "Error de respuesta"
+    }, 
+    "ENGINE_REALTIME_CONNECTION_LOST": {
+        "ru": "Потеряно подключение подключение в реальном времени.\nВы больше не можете играть в эту игру", 
+        "fr": "Connexion en temps réel perdue.\nVous ne pouvez plus jouer cette partie", 
+        "pt": "Perda da conexão em tempo real.\nVocê não pode mais jogar", 
+        "de": "Echtzeit-Verbindung verloren.\nDu kann dieses Spiel nicht mehr spielen", 
+        "ko": "실시간 연결이 끊어졌습니다.\n게임을 플레이할 수 없습니다", 
+        "it": "Connessione in tempo reale persa.\nNon puoi più giocare a questa partita", 
+        "en_US": "Lost realtime connection.\nYou can no longer play in this game", 
+        "ja": "リアルタイム接続が失われました\nこのゲームをプレーすることはできなくなりました", 
+        "es": "Se perdió la conexión en tiempo real.\nYa no puedes jugar en este juego"
+    }, 
+    "ENGINE_FUNCTION_ERROR_TITLE": {
+        "ru": "Error", 
+        "fr": "Erreur", 
+        "pt": "Erro", 
+        "de": "Fehler", 
+        "ko": "오류", 
+        "it": "Error", 
+        "en_US": "Error", 
+        "ja": "エラー", 
+        "es": "Error"
+    }, 
+    "ENGINE_AD_CURRENCY_COINS": {
+        "ru": "Монеты", 
+        "fr": "Pièces", 
+        "pt": "Moedas", 
+        "de": "Coins", 
+        "ko": "코인", 
+        "it": "Monete", 
+        "en_US": "Coins", 
+        "ja": "コイン", 
+        "es": "Monedas"
+    }, 
+    "ENGINE_SAVE_LOCKED_TITLE": {
+        "ru": "Ошибка сохранения", 
+        "fr": "Erreur de sauvegarde", 
+        "pt": "Erro ao salvar", 
+        "de": "Fehler beim Speichern", 
+        "ko": "저장 오류", 
+        "it": "Errore durante il salvataggio", 
+        "en_US": "Error Saving", 
+        "ja": "保存エラー", 
+        "es": "Error al guardar"
+    }, 
+    "ENGINE_DOWNLOADING_FILES": {
+        "ru": "Скачивание файлов...", 
+        "fr": "Téléchargement de fichiers…", 
+        "pt": "Baixando arquivos...", 
+        "de": "Dateien werden heruntergeladen …", 
+        "ko": "파일 다운로드 중 …", 
+        "it": "Scaricamento file…", 
+        "en_US": "Downloading files …", 
+        "ja": "ファイルのダウンロード中…", 
+        "es": "Descargando archivos..."
+    }, 
+    "ENGINE_TIMEABBR_MINUTES": {
+        "ru": "мин", 
+        "fr": "m", 
+        "pt": "m", 
+        "de": "Min", 
+        "ko": "분", 
+        "it": "m", 
+        "en_US": "m", 
+        "ja": "分", 
+        "es": "m"
+    }, 
+    "ENGINE_CHECKDATA_ERRORS_TITLE": {
+        "ru": "Ошибки данных", 
+        "fr": "Erreurs de données", 
+        "pt": "Erros de dados", 
+        "de": "Daten-Fehler", 
+        "ko": "데이터 오류", 
+        "it": "Errori di dati", 
+        "en_US": "Data errors", 
+        "ja": "データ エラー", 
+        "es": "Errores de datos"
+    }, 
+    "ENGINE_CHECKDATA_ERRORS": {
+        "ru": "Найдено %1% ошибки(ок) данных, посмотрите в журнале.", 
+        "fr": "A trouvé %1% erreurs de données ; protocole de contrôle.", 
+        "pt": "Foram encontrados %1% erros de dados; verifique o log.", 
+        "de": "%1% Daten-Fehler gefunden; Log überprüfen.", 
+        "ko": "%1%개의 데이터 오류 발견, 로그 참조.", 
+        "it": "Trovati %1% errori di dati; controllare il registro.", 
+        "en_US": "Found %1% data errors; check log.", 
+        "ja": "%1% データ エラーが見つかりました。ログを確認してください。", 
+        "es": "Se encontraron %1% errores de datos; verificar registro."
+    }, 
+    "ENGINE_LOCALE_CHANGED_TITLE": {
+        "ru": "Locale Changed", 
+        "fr": "Paramètres régionaux modifiés", 
+        "pt": "Idioma e Região Alterados", 
+        "de": "Gebietsschema geändert", 
+        "ko": "로케일 변경", 
+        "it": "Locale Changed", 
+        "en_US": "Locale Changed", 
+        "ja": "ロケールが変更されました", 
+        "es": "Se cambió la configuración regional"
+    }, 
+    "ENGINE_LICENSE_FAIL_TITLE": {
+        "ru": "Добро пожаловать в Family Guy!", 
+        "fr": "Bienvenue chez Les Griffin !", 
+        "pt": "Bem-vindo a Uma Família da Pesada!", 
+        "de": "Willkommen bei Family Guy!", 
+        "it": "Benvenuto nei Griffin!", 
+        "en_US": "Welcome to Family Guy!", 
+        "es": "¡Bienvenido a Padre de Familia!"
+    }, 
+    "ENGINE_NUMABBR_MILLION": {
+        "fr": "M", 
+        "pt": "Mil", 
+        "de": "Mil", 
+        "ko": "백만", 
+        "en_US": "M", 
+        "ja": "百万", 
+        "es": "Mil"
+    }, 
+    "ENGINE_GIFT_NOT_COLLECTED": {
+        "ru": "Вы можете забирать только %1% из этого подарка. Вы забрали %2%", 
+        "fr": "Vous pouvez seulement recevoir %1% de ce cadeau ; vous avez reçu %2%", 
+        "pt": "Você pode receber apenas %1% deste presente; você recebeu %2%", 
+        "de": "Du kannst nur %1% von diesem Geschenk sammeln. Du hast %2% gesammelt.", 
+        "ko": "이 선물은 %1%까지만 모을 수 있어요. 현재 %2% 획득", 
+        "it": "Puoi solo raccogliere %1% di questo dono; ne hai raccolti %2%", 
+        "en_US": "You can only collect %1% of this gift; you have collected %2%", 
+        "ja": "このギフトの %1% のみ取得することができます。 %2% を取得しました。", 
+        "es": "Sólo puedes recolectar %1% de este regalo; has recolectado %2%"
+    }, 
+    "ENGINE_CLEARING_CACHE": {
+        "ru": "Очистка...", 
+        "fr": "Effacement…", 
+        "pt": "Limpando…", 
+        "de": "Löschen …", 
+        "ko": "삭제 중 …", 
+        "it": "Pulizia...", 
+        "en_US": "Clearing …", 
+        "ja": "クリア中…", 
+        "es": "Borrando…"
+    }, 
+    "ENGINE_TIMEABBR_DAYS": {
+        "ru": "д", 
+        "fr": "j", 
+        "pt": "d", 
+        "de": "T", 
+        "ko": "일", 
+        "it": "d", 
+        "en_US": "d", 
+        "ja": "日", 
+        "es": "d"
+    }, 
+    "ENGINE_IAP_FAIL_MESSAGE": {
+        "ru": "Попробуй позже.", 
+        "fr": "Réessaie plus tard.", 
+        "pt": "Tente novamente mais tarde.", 
+        "de": "Bitte wiederhole den Versuch später.", 
+        "it": "Prova di nuovo in seguito.", 
+        "en_US": "Please try again later.", 
+        "es": "Intenta de nuevo más tarde."
+    }, 
+    "ENGINE_GAMECENTER_DISABLED_MESSAGE": {
+        "ru": "Game Center отключен. Войди через приложение Game Center, чтобы активировать", 
+        "fr": "Tu as désactivé le Game Center. Connecte-toi via l'appli Game Center pour lancer l'activation", 
+        "pt": "Você desabilitou o game center. Acesse o aplicativo Game Center para ativá-lo", 
+        "de": "Du hast das Game Center deaktiviert. Melde dich zur Aktivierung in der Game Center-App an", 
+        "it": "Hai disabilitato il Game Center. Accedi attraverso l'app Game Center per l’attivazione", 
+        "en_US": "You have disabled game center. Login through the game center app to activate", 
+        "es": "Has desactivado el centro de juegos. Inicia sesión a través de la aplicación del centro de juegos para activarlo"
+    }, 
+    "ENGINE_LOGIN_ERROR_ACCOUNT_EXISTS": {
+        "ru": "Эта учетная запись %1% уже используется. Войди с другой учетной записью %1%.", 
+        "fr": "Ce compte %1% est déjà utilisé. Connecte-toi avec un compte %1% différent.", 
+        "pt": "Esta conta de %1% já está sendo usada. Acesse com uma conta de %1% diferente.", 
+        "de": "Dieses %1%-Konto wird bereits verwendet. Bitte mit einem anderen %1%-Konto anmelden.", 
+        "it": "Questo account di %1% è già in uso. Accedi con un account %1% diverso.", 
+        "en_US": "This %1% account is already being used. To sign in with it, tap \"Sign In As Someone Else\" in the Account Menu.", 
+        "es": "Esta cuenta de %1% ya se encuentra en uso. Inicia sesión con otra cuenta de %1%."
+    }, 
+    "ENGINE_COUNTDOWN_TIMER_ERROR_TITLE": {
+        "fr": "Erreur de compte à rebours :", 
+        "pt": "Erro na Contagem do Temporizador:", 
+        "de": "Countdown-Timer-Fehler:", 
+        "ko": "타이머 오류:", 
+        "en_US": "Countdown Timer Error:", 
+        "ja": "カウントダウン タイマー エラー:", 
+        "es": "Error del temporizador regresivo:"
+    }, 
+    "ENGINE_IAP_FAIL_TITLE": {
+        "ru": "Покупка не удалась", 
+        "fr": "Échec de l'achat", 
+        "pt": "Falha na compra", 
+        "de": "Fehler beim Kauf", 
+        "it": "Acquisto non riuscito.", 
+        "en_US": "Uh-oh. Your purchase failed.", 
+        "es": "Falló la compra"
+    }, 
+    "ENGINE_NUMABBR_TRILLION": {
+        "fr": "T", 
+        "pt": "Tril", 
+        "de": "Bil", 
+        "ko": "조", 
+        "en_US": "T", 
+        "ja": "兆", 
+        "es": "Bil"
+    }, 
+    "ENGINE_DEVICE_FULL_TITLE": {
+        "en_US": "Not Enough Storage"
+    }, 
+    "ENGINE_LOGIN_ERROR_CONNECTION": {
+        "ru": "Не удается подключиться к серверу.", 
+        "fr": "Impossible de se connecter au serveur.", 
+        "pt": "Não é possível conectar ao servidor.", 
+        "de": "Verbindung mit dem Server konnte nicht hergestellt werden.", 
+        "it": "Impossibile connettersi al server.", 
+        "en_US": "Could not connect to server.", 
+        "es": "No se pude conectar con el servidor."
+    }, 
+    "ENGINE_GAME_ERROR_TITLE": {
+        "ru": "Ошибка игры", 
+        "fr": "Erreur de jeu", 
+        "pt": "Erro do jogo", 
+        "de": "Spiel-Fehler", 
+        "ko": "게임 오류", 
+        "it": "Errore di gioco", 
+        "en_US": "Game Error", 
+        "ja": "ゲーム エラー", 
+        "es": "Error del juego"
+    }, 
+    "ENGINE_AD_CURRENCY_CRYSTALS": {
+        "fr": "Cristaux", 
+        "pt": "Cristais", 
+        "de": "Kristalle", 
+        "ko": "수정", 
+        "en_US": "Crystals", 
+        "ja": "クリスタル", 
+        "es": "Cristales"
+    }, 
+    "ENGINE_SOCIAL_PARSE_ERROR": {
+        "en_US": "Cannot visit this player"
+    }, 
+    "ENGINE_DOWNLOADING_CONFIG": {
+        "ru": "Загрузка конфигурации...", 
+        "fr": "Téléchargement du fichier de configuration…", 
+        "pt": "Baixando configuração…", 
+        "de": "Config-Datei wird heruntergeladen …", 
+        "ko": "설정 다운로드 중", 
+        "it": "Scaricamento config…", 
+        "en_US": "Downloading config …", 
+        "ja": "構成のダウンロード中…", 
+        "es": "Descargando configuración..."
+    }, 
+    "ENGINE_NUMABBR_SEXTILLION": {
+        "fr": "S", 
+        "pt": "Sxt", 
+        "de": "Trd", 
+        "ko": "십해", 
+        "en_US": "S", 
+        "ja": "十垓", 
+        "es": "M Tril"
+    }, 
+    "ENGINE_TIMEABBR_HOURS": {
+        "ru": "ч", 
+        "fr": "h", 
+        "pt": "h", 
+        "de": "Std", 
+        "ko": "시간", 
+        "it": "h", 
+        "en_US": "h", 
+        "ja": "時間", 
+        "es": "h"
+    }, 
+    "ENGINE_LOGIN_ERROR_PERMISSIONS": {
+        "ru": "Проблема при получении разрешения на использование вашего аккаунта.\n\nПожалуйста, перейдите в настройки вашего устройства %1% и убедитесь, что Family Guy включен.", 
+        "fr": "Un problème est survenu pendant la tentative d'obtention d'autorisation pour utiliser votre compte %1%.\n\nVeuillez prendre connaissance des paramètres de votre appareil %1% et vous assurer que Family Guy est autorisé.", 
+        "pt": "Ocorreu um problema ao obter permissão para usar a sua conta do %1%.\n\nAcesse as configurações de %1% do seu dispositivo e assegure que o Family Guy esteja habilitado.", 
+        "de": "Beim Abrufen der Erlaubnis dein %1%-Konto zu verwenden, ist ein Problem aufgetreten.\n\nBitte besuche die %1%-Einstellungen deines Gerätes und stelle sicher, dass Family Guy aktiviert ist.", 
+        "it": "Si è verificato un problema durante l'ottenimento del permesso per utilizzare il tuo account %1%.\n\nPer favore visita le impostazioni %1% del tuo dispositivo e assicurati che Family Guy sia abilitato.", 
+        "en_US": "There was a problem getting permission to use your %1% account.\n\nPlease visit your device's %1% settings and ensure Family Guy is enabled.", 
+        "es": "Ocurrió un error al obtener permiso para utilizar tu cuenta de %1%.\n\nRevisa los ajustes de %1% de tu dispositivo y verifica que Family Guy esté activado."
+    }, 
+    "ENGINE_CODE_PROMOTION_EXPIRED_MESSAGE": {
+        "ru": "Срок действия акции истек.", 
+        "fr": "Cette promotion est terminée.", 
+        "pt": "Esta promoção já expirou.", 
+        "de": "Diese Werbeaktion ist abgelaufen.", 
+        "it": "La promozione è scaduta.", 
+        "en_US": "This promotion has expired.", 
+        "es": "Esta promoción ha expirado."
+    }, 
+    "ENGINE_NUMABBR_THOUSAND": {
+        "fr": "K", 
+        "pt": "M", 
+        "de": "Tsd", 
+        "ko": "천", 
+        "en_US": "K", 
+        "ja": "千", 
+        "es": "M"
+    }, 
+    "ENGINE_SAVE_LOCKED": {
+        "ru": "Пожалуйста, перезапустите игру, чтобы изменения вступили в силу.", 
+        "fr": "Veuillez redémarrer votre jeu pour que la restauration prenne effet.", 
+        "pt": "Reinicie o seu jogo para que a restauração tenha efeito.", 
+        "de": "Bitte starte dein Spiel neu, damit die Restauration wirksam wird.", 
+        "ko": "복원을 완료하려면 게임을 다시 시작하세요.", 
+        "it": "Riavviare il gioco perché il ripristino abbia effetto.", 
+        "en_US": "Please restart your game for the restoration to take effect.", 
+        "ja": "復元を有効にするため、ゲームを再起動してください。", 
+        "es": "Reinicia tu juego para que la restauración surta efecto."
+    }, 
+    "ENGINE_LOCALE_CHANGED_MESSAGE": {
+        "en_US": "Your device’s locale has changed. Your game will now restart."
+    }, 
+    "ENGINE_VCBUTTON_ERROR_TITLE": {
+        "ru": "Error", 
+        "fr": "Erreur", 
+        "pt": "Erro", 
+        "de": "Fehler", 
+        "ko": "VC 버튼 오류", 
+        "it": "Error", 
+        "en_US": "Error", 
+        "ja": "エラー", 
+        "es": "Error"
+    }, 
+    "ENGINE_DEVICE_FULL_TEXT": {
+        "en_US": "Your device is low on free space. The game may not run correctly until you free up some storage space on your device. Deleting other media on your device (such as apps or movies) may help."
+    }, 
+    "ENGINE_LOAD_ERROR_TITLE": {
+        "ru": "Load Error", 
+        "fr": "Erreur de chargement", 
+        "pt": "Erro de Carregamento", 
+        "de": "Ladefehler", 
+        "ko": "로드 오류", 
+        "it": "Load Error", 
+        "en_US": "Load Error", 
+        "ja": "ロードエラー", 
+        "es": "Error de carga"
+    }, 
+    "ENGINE_OK_BUTTON_TEXT": {
+        "ru": "ОК", 
+        "fr": "OK", 
+        "pt": "OK", 
+        "de": "OK", 
+        "ko": "확인", 
+        "it": "OK", 
+        "en_US": "OK", 
+        "ja": "OK", 
+        "es": "OK"
+    },
+    "ENGINE_HELP_BUTTON_TEXT": {
+        "ru": "ПОМОЩЬ",
+        "fr": "AIDE",
+        "pt": "AJUDA",
+        "de": "HILFE",
+        "it": "AIUTO",
+        "en_US": "HELP",
+        "es": "AYUDA"
+    },
+    "ENGINE_NUMABBR_OCTILLION": {
+        "fr": "O", 
+        "pt": "Oct", 
+        "de": "Qrd", 
+        "ko": "천자", 
+        "en_US": "O", 
+        "ja": "穣", 
+        "es": "M Cuatril"
+    }, 
+    "ENGINE_LOGIN_ERROR_GOOGLE_PLAY_SERVICES_DISABLED": {
+        "ru": "Сначала подключи службу Google Play на своем устройстве.", 
+        "fr": "Active Google Play Services sur ton appareil.", 
+        "pt": "Por favor, habilite o Google Play Services em seu dispositivo primeiro.", 
+        "de": "Bitte zuerst Google Play Services auf deinem Gerät aktivieren.", 
+        "it": "Aggiorna prima Google Play Services sul tuo dispositivo.", 
+        "en_US": "Please enable Google Play Services on your device first.", 
+        "es": "Habilita los servicios de Google Play en tu dispositivo."
+    }, 
+    "ENGINE_LOADING_FILES": {
+        "ru": "Загрузка файлов...", 
+        "fr": "Fichiers en cours de chargement...", 
+        "pt": "Carregando arquivos...", 
+        "de": "Dateien werden geladen …", 
+        "ko": "파일 로드 중 …", 
+        "it": "Caricamento file...", 
+        "en_US": "Loading files …", 
+        "ja": "ファイルのロード中…", 
+        "es": "Cargando archivos..."
+    }, 
+    "ENGINE_TIMEABBR_SECONDS": {
+        "ru": "с", 
+        "fr": "s", 
+        "pt": "s", 
+        "de": "Sek", 
+        "ko": "초", 
+        "it": "s", 
+        "en_US": "s", 
+        "ja": "秒", 
+        "es": "s"
+    }, 
+    "ENGINE_CANCEL_BUTTON_TEXT": {
+        "ru": "НЕ-А", 
+        "fr": "Annuler", 
+        "pt": "Cancelar", 
+        "de": "Abbrechen", 
+        "ko": "취소", 
+        "it": "NA!", 
+        "en_US": "Cancel", 
+        "ja": "キャンセル", 
+        "es": "Cancelar"
+    }, 
+    "ENGINE_LOGIN_ERROR_UNKNOWN": {
+        "ru": "Неизвестная ошибка.", 
+        "fr": "Erreur inconnue.", 
+        "pt": "Erro desconhecido.", 
+        "de": "Unbekannter Fehler.", 
+        "it": "Errore sconosciuto.", 
+        "en_US": "Unknown error.", 
+        "es": "Error desconocido."
+    }, 
+    "ENGINE_CONNECT_ERROR": {
+        "ru": "Could not connect to server", 
+        "fr": "Connexion au serveur impossible", 
+        "pt": "Não foi possível conectar ao servidor", 
+        "de": "Verbindung mit Server nicht möglich", 
+        "ko": "서버에 연결할 수 없습니다", 
+        "it": "Could not connect to server", 
+        "en_US": "Could not connect to server", 
+        "ja": "サーバーに接続できませんでした", 
+        "es": "No fue posible conectarse al servidor"
+    }, 
+    "ENGINE_DATA_ERROR": {
+        "fr": "Une erreur s'est produite lors du chargement du jeu.\nRéessaie plus tard.", 
+        "pt": "Ocorreu um problema ao carregar o jogo.\nPor favor, tente novamente.", 
+        "de": "Problem beim Laden des Spiels.\nVersuch es später erneut!", 
+        "ko": "게임 로드 중 오류가 생겼습니다.\n다시 시도해 주십시오.", 
+        "en_US": "There was a problem loading the game.\nPlease try again.", 
+        "ja": "ゲームのロード中に問題が発生しました。\nまた後で試してね！", 
+        "es": "Ocurrió un problema mientras se cargaba el juego.\nInténtalo otra vez."
+    }, 
+    "ENGINE_LOGIN_ERROR_BAD_CREDENTIALS": {
+        "ru": "Подтверди имя учетной записи и пароль и попробуй еще раз.", 
+        "fr": "Revérifie ton nom de compte et ton mot de passe et réessaie.", 
+        "pt": "Por favor, verifique o nome da conta e a senha e tente novamente.", 
+        "de": "Bitte Kontonamen und Kennwort überprüfen und den Versuch wiederholen.", 
+        "it": "Si prega di verificare il nome account e password e riprovare.", 
+        "en_US": "Please verify account name and password and try again.", 
+        "es": "Verifica el nombre de la cuenta, la contraseña y vuelve a intentarlo."
+    }, 
+    "ENGINE_CONNECTING": {
+        "ru": "Подключение ...", 
+        "fr": "En cours de connexion…", 
+        "pt": "Conectando…", 
+        "de": "Verbinden …", 
+        "ko": "연결 중 …", 
+        "it": "Collegamento…", 
+        "en_US": "Connecting …", 
+        "ja": "接続中…", 
+        "es": "Conectando..."
+    }, 
+    "ENGINE_LOADING_PLAYER": {
+        "ru": "Загрузка игрока...", 
+        "fr": "Chargement du joueur…", 
+        "pt": "Carregando jogador...", 
+        "de": "Spieler wird geladen …", 
+        "ko": "플레이어 생성 중", 
+        "it": "Creazione giocatore…", 
+        "en_US": "Building Player …", 
+        "ja": "プレーヤーの構築中…", 
+        "es": "Cargando reproductor..."
+    },
+    "ENGINE_UNKNOWN_SAVE_TITLE": { 
+        "en_US": "Save Failed"
+    }, 
+    "ENGINE_UNKNOWN_SAVE_MESSAGE": {
+        "en_US": "Unknown Save Format!"
+    }
+}

@@ -1,0 +1,155 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 170,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "hud_dialog",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 264,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.669274,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.206529,
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"image" : "hp_bg_modal_xsm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 38,
+								"image" : "hp_bg_header_xsm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"name" : "hp_bg_header_sm",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 261
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"cell-json" : "hp_ph_project_choice_cell.json",
+						"class" : "table-view",
+						"height" : 120,
+						"margin-bottom" : 13,
+						"margin-left" : 1,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "table_choice",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 225,
+						"children" : []
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 30,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 17,
+						"margin-top" : 16,
+						"name" : "buttonClose",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 30,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.669274,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.206529,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 13,
+								"image" : "hp_button_close.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "icon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 13
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-BookOblique",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 26,
+						"margin-right" : 0,
+						"margin-top" : 8,
+						"max-width" : 169,
+						"name" : "label_title",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Hang with Rowan"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

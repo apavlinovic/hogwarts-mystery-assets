@@ -1,0 +1,54 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 48,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 190,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.69,
+				"9slicescalezone-x" : 0,
+				"9slicescalezone-y" : 0.33,
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 48,
+				"image" : "hp_nux_bg_scroll.png",
+				"margin-bottom" : 24,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scroll_bg",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 60
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"flipX" : true,
+				"height" : 45,
+				"image" : "hp_icon_nux_hand.png",
+				"margin-bottom" : 19,
+				"margin-left" : 38,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "hp_icon_nux_hand",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"rotation" : -35,
+				"width" : 95
+			}
+		]
+	},
+	"version" : "1.8.3.6"
+}

@@ -1,0 +1,116 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 32,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 131,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.882216,
+				"9slicescalezone-x" : 0,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "button",
+				"height" : 26,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "viewNotif",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 130,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 26,
+						"image" : "hp_container_check.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "checkbox",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 26,
+						"children" : [
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 1,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 16,
+								"image" : "hp_icon_check_sm.png",
+								"margin-bottom" : 5,
+								"margin-left" : 0,
+								"margin-right" : 4,
+								"margin-top" : 0,
+								"name" : "checkmark",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 18
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 13,
+						"local:text" : "SETTINGS_MUSIC",
+						"margin-bottom" : 0,
+						"margin-left" : 78,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 30,
+						"name" : "name",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Project Ending Soon",
+						"vertical-spacing" : 0.8,
+						"width" : 96
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

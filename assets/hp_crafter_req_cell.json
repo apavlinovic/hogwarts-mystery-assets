@@ -1,0 +1,120 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 41,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 41,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 41,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "requirement_cell",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 41,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 31,
+						"image" : "hp_crafting_requirement_icon_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "requirement_icon_bg",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 31
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 25,
+						"image" : "hp_material_earmuffs.png",
+						"margin-bottom" : 13,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loader_requirement_icon",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 25
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 31,
+						"image" : "hp_crafting_requirement_icon_border_selected.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "selected_icon_border",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 31
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 19,
+						"margin-top" : 4,
+						"name" : "label_requirement",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"text" : "9 \/ 10"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.1.1"
+}

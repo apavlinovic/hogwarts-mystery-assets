@@ -1,0 +1,144 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 21,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 90,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "view",
+				"height" : 21,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "questNotificationBannerView",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 90,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.192375,
+						"9slicescalezone-x" : 0.473625,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"editor-layerExpanded" : false,
+						"height" : 21,
+						"image" : "hp_hud_quest_notification_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "newQuestNotificationBG",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 64,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "EBGaramond08-Regular",
+								"font-size" : 10,
+								"margin-bottom" : 3,
+								"margin-left" : 13,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 29,
+								"name" : "newQuestLabel",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "NEW"
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.161125,
+						"9slicescalezone-x" : 0.504875,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"editor-layerExpanded" : false,
+						"height" : 21,
+						"image" : "hp_hud_quest_notification_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "progressQuestNotificationBG",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 90,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "EBGaramond08-Regular",
+								"font-size" : 10,
+								"margin-bottom" : 3,
+								"margin-left" : 13,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 55,
+								"name" : "newQuestLabel",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "PROGRESS"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

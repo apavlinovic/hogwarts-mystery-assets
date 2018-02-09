@@ -1,0 +1,365 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.825958,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.079479,
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "image",
+				"flipY" : true,
+				"image" : "hp_bg_half_modal.png",
+				"inset-margin-y" : -20,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "popView",
+				"percent-height" : 1,
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 280,
+				"children" : [
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 43,
+						"image" : "hp_bg_header_half_modal.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "headerBg",
+						"percent-width" : 0.996429,
+						"position-x" : "right",
+						"position-y" : "top"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 291,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "completeView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 222,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "button",
+								"height" : 43,
+								"image" : "hp_button_secondary_active_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 123,
+								"name" : "btnContinue",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 152,
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 43,
+										"image" : "hp_button_secondary_active_med_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "btn_bg",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 152
+									},
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											221,
+											188,
+											113
+										],
+										"font" : "4privetdrive",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0.5,
+										"max-width" : 120,
+										"name" : "label",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-thickness" : 0.2,
+										"text" : "collect"
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 62,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 39,
+								"name" : "rewardsView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 130,
+								"children" : [
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"cell-json" : "hp_rewards_cell.json",
+										"class" : "table-view",
+										"height" : 50,
+										"horizontal" : true,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 11,
+										"name" : "rewardTable",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 130,
+										"children" : []
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Heavy",
+										"local:text" : "HP_REWARDS",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 2,
+										"margin-top" : 7,
+										"max-width" : 120,
+										"name" : "labelRewards",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shader-id" : "uiTitle",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "REWARDS"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.791904,
+								"9slicescalezone-x" : 0.117247,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 32,
+								"image" : "hp_bg_container_banner_flat.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 126,
+								"name" : "bannerDefeat",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 250,
+								"children" : [
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											211,
+											70,
+											70
+										],
+										"dynamic-text" : true,
+										"font" : "4privetdrive",
+										"font-size" : 20,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 16,
+										"max-width" : 216,
+										"name" : "label",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shader-id" : "uiTitle",
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "DEFEATED"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.791904,
+								"9slicescalezone-x" : 0.117247,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 32,
+								"image" : "hp_bg_container_banner_flat.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 93,
+								"name" : "bannerVictory",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 250,
+								"children" : [
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "4privetdrive",
+										"font-size" : 20,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 16,
+										"max-width" : 216,
+										"name" : "label",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shader-id" : "uiTitle",
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "VICTORY"
+									}
+								]
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"margin-bottom" : 0,
+						"margin-left" : 2.5,
+						"margin-right" : 0,
+						"margin-top" : 74,
+						"max-height" : 32,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "SOME HANGOUT NAME OF AWESOMENESS",
+						"width" : 216
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 29,
+						"image" : "hp_bg_icon_hex.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0.5,
+						"margin-right" : 0,
+						"margin-top" : 22,
+						"name" : "iconView",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 33,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 20,
+								"image" : "hp_icon_hex_talk.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0.5,
+								"margin-top" : 0.5,
+								"name" : "loaderIcon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteAspectFill",
+								"width" : 20
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

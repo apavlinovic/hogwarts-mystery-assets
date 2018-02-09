@@ -1,0 +1,458 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 170,
+				"image" : "fg_modal_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 286
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 21,
+				"margin-left" : 30,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modelBtn",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 220,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"dynamic-text" : true,
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 210,
+						"name" : "modelText",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "p_blahblahsomethinglong_rig"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 19,
+				"margin-left" : 0,
+				"margin-right" : 111,
+				"margin-top" : 0,
+				"name" : "model",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Model:"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"dynamic-text" : true,
+				"font" : "ContemporaryCyr",
+				"font-size" : 15,
+				"margin-bottom" : 48,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-width" : 260,
+				"name" : "title",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Enter initial settings"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 107,
+				"margin-top" : 11,
+				"name" : "anim",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Animation:"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 14,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 111,
+				"margin-top" : 41,
+				"name" : "shader",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Shader:"
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 30,
+				"margin-right" : 0,
+				"margin-top" : 9,
+				"name" : "animBtn",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 220,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"dynamic-text" : true,
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 210,
+						"name" : "animText",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "p_blahblahsomethinglong_rig"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 30,
+				"margin-right" : 0,
+				"margin-top" : 39,
+				"name" : "shaderBtn",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 220,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"dynamic-text" : true,
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 210,
+						"name" : "shaderText",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "p_blahblahsomethinglong_rig"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 50,
+				"margin-top" : 69,
+				"name" : "shaderOptionsBtn",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 100,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 210,
+						"name" : "text",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Shader Options"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.9,
+				"9slicescalezone-width" : 0.9,
+				"9slicescalezone-x" : 0.05,
+				"9slicescalezone-y" : 0.05,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 20,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 60,
+				"margin-right" : 0,
+				"margin-top" : 69,
+				"name" : "confirmBtn",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 100,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							13,
+							46,
+							67
+						],
+						"font" : "ContemporaryCyr",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 210,
+						"name" : "text",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							189,
+							217,
+							227
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Confirm"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					13,
+					46,
+					67
+				],
+				"font" : "ContemporaryCyr",
+				"font-size" : 17,
+				"margin-bottom" : 69,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "header",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					189,
+					217,
+					227
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Benchmark Settings"
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

@@ -1,0 +1,288 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 59,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 1,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 211,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 58,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 280,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 58,
+						"image" : "mar_charpicker_cell_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "action_cell_bg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 280
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 52,
+						"image" : "mar_orderboard_available_bg.png",
+						"margin-bottom" : 4,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "action_cell_bg_overlay",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 276
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"max-width" : 146,
+						"name" : "model",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-thickness" : 1,
+						"text" : "Model:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 16,
+						"max-width" : 146,
+						"name" : "anim",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-thickness" : 1,
+						"text" : "Anim:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 31,
+						"max-width" : 146,
+						"name" : "shader",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-thickness" : 1,
+						"text" : "Shader:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 54,
+						"margin-right" : 0,
+						"margin-top" : 30,
+						"max-width" : 220,
+						"name" : "shaderId",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-thickness" : 1,
+						"text" : "Shader:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 54,
+						"margin-right" : 0,
+						"margin-top" : 15,
+						"max-width" : 220,
+						"name" : "animId",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-thickness" : 1,
+						"text" : "Anim:"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamXNarrow-BlackItalic",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 54,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 220,
+						"name" : "modelId",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-thickness" : 1,
+						"text" : "Model:"
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

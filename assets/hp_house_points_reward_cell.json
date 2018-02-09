@@ -1,0 +1,304 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 40,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 114,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 34,
+				"image" : "hp_bg_cell_white.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "rewardView",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 114,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 34,
+						"image" : "hp_bg_cell_gold.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bgOtherRank",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 114
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 34,
+						"image" : "hp_container_blue.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "reward",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 60,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Book",
+								"font-size" : 13,
+								"format" : "suffixed",
+								"local:text" : "HP_PH_COST",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 3,
+								"margin-top" : 0,
+								"max-width" : 26,
+								"name" : "labelQuantity",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "999",
+								"vertical-spacing" : 0.8
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 20,
+								"image" : "hp_icon_currency_coin.png",
+								"margin-bottom" : 0,
+								"margin-left" : 4,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "rewardLoader",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 20
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 18,
+						"margin-bottom" : 0,
+						"margin-left" : 5,
+						"margin-right" : 0,
+						"margin-top" : 9,
+						"name" : "viewRank",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 38,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "view",
+								"height" : 18,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "viewSecond",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 38,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 12,
+										"image" : "hp_icon_star_second.png",
+										"margin-bottom" : 4,
+										"margin-left" : 4,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "hp_icon_star_second",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 12
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											221,
+											188,
+											112
+										],
+										"font" : "4privetdrive",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3,
+										"margin-top" : 0,
+										"max-width" : 30,
+										"name" : "labelSecond",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "2nd"
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "view",
+								"height" : 18,
+								"margin-bottom" : 0,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "viewThird",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 38,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 9,
+										"image" : "hp_icon_star_third.png",
+										"margin-bottom" : 5,
+										"margin-left" : 7,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "hp_icon_star_third",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 9
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "4privetdrive",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3,
+										"margin-top" : 0,
+										"max-width" : 30,
+										"name" : "labelThird",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "3rd"
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "view",
+								"height" : 18,
+								"margin-bottom" : 0,
+								"margin-left" : 4,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "viewFourth",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 38,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											178,
+											190,
+											193
+										],
+										"font" : "4privetdrive",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 30,
+										"name" : "labelFourth",
+										"position-x" : "right",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "4th"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

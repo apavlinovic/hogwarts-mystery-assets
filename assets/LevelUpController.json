@@ -1,0 +1,50 @@
+{
+    "view": {
+        "position-x": "center",
+        "position-y": "center",
+        "children": [
+            {
+                "class": "image",
+                "position-x": "center",
+                "position-y": "center",
+                "image": "tv_modal_levelUp.png",
+                "name" : "background", 
+                "children": [
+                    {
+                      "class" : "button",
+                      "image" : "tv_modal_contextCloseButton.png",
+                      "anchor-x" : "center",
+                      "anchor-y" : "center",
+                      "position-x": "right",
+                      "position-y": "top",
+                      "name" : "close"
+                    },
+                    {
+                      "class" : "label",
+                      "text" : "You have reached level",
+                      "color" : [0,0,0],
+                      "font-size" : 25,
+                      "anchor-x" : "center",
+                      "anchor-y" : "center",
+                      "position-x": "center",
+                      "position-y": 200
+                    },
+                    {
+                      "class" : "label",
+                      "name" : "levelNumber",
+                      "color" : [0,0,0],
+                      "font-size" : 35,
+                      "anchor-x" : "center",
+                      "anchor-y" : "center",
+                      "position-x": "center",
+                      "position-y": 150
+                    }
+ 
+                ]
+            }
+        ]
+    }
+}
+
+
+

@@ -1,0 +1,117 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 58,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 60,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 60,
+				"image" : "hp_bg_scrim_70.png",
+				"margin-bottom" : 22,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrim",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 100
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 60,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "tooltipButton",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 60,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 42,
+						"image" : "hp_icon_tooltip_talk.png",
+						"margin-bottom" : 0,
+						"margin-left" : 9,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loaderTooltip",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 42
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "clock-label-v2",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 11,
+						"format" : "suffixed",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 47,
+						"margin-top" : 9,
+						"max-width" : 50,
+						"name" : "labelTimer",
+						"position-x" : "right",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"text" : "99h 99m"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 12,
+						"image" : "hp_icon_clock_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 3,
+						"name" : "icon_timer",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 12
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

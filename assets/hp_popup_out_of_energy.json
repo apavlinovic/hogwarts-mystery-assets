@@ -1,0 +1,237 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"margin-bottom" : 0,
+			"margin-left" : 0,
+			"margin-right" : 0,
+			"margin-top" : 0,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom"
+		}
+	},
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "fg_quest",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "view",
+				"height" : 118,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "view",
+				"position-x" : "center",
+				"position-y" : "top",
+				"width" : 206,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 118,
+						"image" : "hp_bg_popup_modal_hud.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"position-x" : "center",
+						"position-y" : "top",
+						"sizing" : "SpriteFill",
+						"width" : 206
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 36,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 43,
+						"margin-right" : 0,
+						"margin-top" : 43,
+						"name" : "button",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill",
+						"width" : 80,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 31,
+								"image" : "hp_button_secondary_prem.png",
+								"margin-bottom" : 3,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btn_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 80
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-BookOblique",
+								"font-size" : 13,
+								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
+								"margin-bottom" : 0,
+								"margin-left" : 7,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 30,
+								"name" : "label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "80"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-BookOblique",
+								"font-size" : 13,
+								"height" : 16,
+								"image" : "hp_icons_gem.png",
+								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
+								"margin-bottom" : 0,
+								"margin-left" : 19,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 30,
+								"name" : "icon",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "80",
+								"width" : 16
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 32,
+						"margin-right" : 0,
+						"margin-top" : 24,
+						"max-height" : 24,
+						"name" : "labelBody",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Purchase 10 more energy?",
+						"vertical-spacing" : 0.7,
+						"width" : 70
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"local:text" : "HP_OUT_OF_ENERGY_TITLE",
+						"margin-bottom" : 1,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 180,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "OUT OF ENERGY"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.4"
+}

@@ -1,0 +1,113 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 34,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 80,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 34,
+				"image" : "hp_ph_cell_lite.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "requiredCell",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 90,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 28,
+						"image" : "hp_companion_icon_material_suninajar.png",
+						"margin-bottom" : 0,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loaderItem",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 28
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Black",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 46,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"max-width" : 43,
+						"name" : "labelQuantity",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"stroke-thickness" : 1,
+						"text" : "999"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Black",
+						"font-size" : 13,
+						"height" : 20,
+						"margin-bottom" : 0,
+						"margin-left" : 36,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 43,
+						"name" : "labelX",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"stroke-thickness" : 1,
+						"text" : "x"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

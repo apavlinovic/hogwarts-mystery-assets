@@ -1,0 +1,494 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "Part2",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.3,
+						"9slicescalezone-width" : 0.3,
+						"9slicescalezone-x" : 0.3,
+						"9slicescalezone-y" : 0.3,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_general_bg_black_50%.png",
+						"inset-margin-x" : -0.000183,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "scrimBg",
+						"percent-height" : 1,
+						"percent-width" : 1.002083,
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_bg_gradient_radial.png",
+						"inset-margin-x" : -0.000183,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "scrimBg_Gradient",
+						"percent-height" : 1,
+						"percent-width" : 1.002083,
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFill"
+					},
+					{
+						"9slicescalezone-height" : 1,
+						"9slicescalezone-width" : 0.9,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 133,
+						"image" : "hp_bg_swoosh.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "scrimBg_Swoosh",
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"sizing" : "SpriteAspectFill"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"margin-bottom" : 60,
+						"margin-left" : 0,
+						"margin-right" : 68,
+						"margin-top" : 0,
+						"name" : "label_title",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 18,
+						"margin-bottom" : 85,
+						"margin-left" : 0,
+						"margin-right" : 68,
+						"margin-top" : 0,
+						"name" : "label_body",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"color" : [
+							147,
+							131,
+							97
+						],
+						"dynamic-img" : true,
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"gradient-top-color" : [
+							233,
+							211,
+							162
+						],
+						"height" : 1,
+						"image" : "hp_divider_gold.png",
+						"margin-bottom" : 40,
+						"margin-left" : 53,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "divider",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							1,
+							1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE",
+						"width" : 243
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"margin-bottom" : 21,
+						"margin-left" : 0,
+						"margin-right" : 42,
+						"margin-top" : 0,
+						"name" : "label_rewards",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "REWARDS"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"cell-json" : "hp_rewards_cell.json",
+						"class" : "table-view",
+						"color" : [
+							233,
+							211,
+							162
+						],
+						"divisions" : 3,
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"height" : 44,
+						"margin-bottom" : 0,
+						"margin-left" : 6,
+						"margin-right" : 0,
+						"margin-top" : 12,
+						"name" : "table_rewards",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "REWARDS",
+						"width" : 150,
+						"children" : []
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"color" : [
+							147,
+							131,
+							97
+						],
+						"font" : "4privetdrive",
+						"font-size" : 18,
+						"gradient-top-color" : [
+							233,
+							211,
+							162
+						],
+						"height" : 100,
+						"image" : "hp_icon_hagrids_hut.png",
+						"margin-bottom" : 56,
+						"margin-left" : 0,
+						"margin-right" : 124,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							1,
+							1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE",
+						"width" : 100
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "hp_button_particles",
+						"disappear" : true,
+						"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_celebration_active_glow.png",
+						"height" : 70,
+						"image" : "hp_button_celebration_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "buttonCelebration",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"sizing" : "SpriteAspectFill",
+						"width" : 121,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"height" : 82,
+								"image" : "hp_button_celebration_fx.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "fx",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 165
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									233,
+									204,
+									140
+								],
+								"control-points" : [
+									[
+										0,
+										-3
+									],
+									[
+										0.33,
+										-5
+									],
+									[
+										0.66,
+										9
+									],
+									[
+										1,
+										4
+									]
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "LABEL_COLLECT",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 4,
+								"max-width" : 100,
+								"name" : "label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "COLLECT"
+							}
+						]
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "Part1",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.3,
+						"9slicescalezone-width" : 0.3,
+						"9slicescalezone-x" : 0.3,
+						"9slicescalezone-y" : 0.3,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_general_bg_black_50%.png",
+						"inset-margin-x" : -0.000183,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "scrimBg",
+						"percent-height" : 1,
+						"percent-width" : 1.002083,
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_bg_gradient_radial.png",
+						"inset-margin-x" : -0.000183,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "scrimBg_Gradient",
+						"percent-height" : 1,
+						"percent-width" : 1.002083,
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFill"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 26,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label_title",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE"
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "model",
+				"editor-hide" : true,
+				"height" : 320,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"model3d-id" : "p_EffectsAttach_skin",
+				"name" : "whizBangs",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 480
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

@@ -1,0 +1,283 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"eats-touches" : false,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "housecup",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.66,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 277,
+						"image" : "hp_bg_large.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "housecupView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 428,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_divider_gold.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 86,
+								"margin-top" : 14,
+								"name" : "divider_00",
+								"position-x" : "center",
+								"position-y" : "center",
+								"rotation" : 90,
+								"width" : 100
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_divider_gold.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"name" : "divider_01",
+								"position-x" : "center",
+								"position-y" : "center",
+								"rotation" : 90,
+								"width" : 100
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_divider_gold.png",
+								"margin-bottom" : 0,
+								"margin-left" : 86,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"name" : "divider_02",
+								"position-x" : "center",
+								"position-y" : "center",
+								"rotation" : 90,
+								"width" : 100
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 120,
+								"image" : "hp_container_housecup_rewards.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"name" : "containerTable",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 348
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"cell-json" : "hp_housepoints_housecup_cell.json",
+								"class" : "table-view",
+								"divisions" : 4,
+								"height" : 120,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"name" : "boardTable",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 348,
+								"children" : []
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "4privetdrive",
+								"font-size" : 18,
+								"local:text" : "HOUSECUP_TITLE_LABEL",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 101.5,
+								"margin-top" : 14,
+								"max-width" : 240,
+								"name" : "labelTitle",
+								"position-x" : "center",
+								"position-y" : "top",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "HOUSE CUP"
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 116,
+								"margin-right" : 0,
+								"margin-top" : 51,
+								"max-width" : 180,
+								"name" : "labelYear",
+								"position-x" : "left",
+								"position-y" : "top",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "YEAR 3 REWARDS"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									178,
+									191,
+									194
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 13,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 223,
+								"max-height" : 20,
+								"name" : "labelDescription",
+								"position-x" : "center",
+								"position-y" : "top",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Earn House Points and help your house win the cup!",
+								"width" : 320
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "button",
+								"height" : 30,
+								"image" : "invisible.png",
+								"margin-bottom" : 115,
+								"margin-left" : 0,
+								"margin-right" : 9,
+								"margin-top" : 0,
+								"name" : "closeButton",
+								"position-x" : "right",
+								"position-y" : "center",
+								"width" : 30,
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 13,
+										"image" : "hp_button_close.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "closeButtonIcon",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 13
+									}
+								]
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 72,
+								"image" : "hp_icon_housecup.png",
+								"margin-bottom" : 104.5,
+								"margin-left" : 0,
+								"margin-right" : 141,
+								"margin-top" : 0,
+								"name" : "iconHouseCup",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 62
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

@@ -1,0 +1,419 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 46,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 239,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "button",
+				"height" : 44,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 2,
+				"name" : "housepointsCell",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "top",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 44,
+						"image" : "hp_container_leaderboard.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 44,
+						"image" : "hp_container_leaderboard_selected.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg_selected",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 30,
+						"image" : "hp_divider_vert.png",
+						"margin-bottom" : 8,
+						"margin-left" : 72,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "divider1",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 1
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 30,
+						"image" : "hp_divider_vert.png",
+						"margin-bottom" : 8,
+						"margin-left" : 107,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "divider2",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 1
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 48,
+						"margin-bottom" : 0,
+						"margin-left" : 2,
+						"margin-right" : 0,
+						"margin-top" : 5,
+						"name" : "CFbadge_copy",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"margin-bottom" : 7,
+								"margin-left" : 10,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "rankLabel",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shader-id" : "uiTitle",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "#999"
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 26,
+						"margin-bottom" : 0,
+						"margin-left" : 48,
+						"margin-right" : 0,
+						"margin-top" : 3,
+						"name" : "rankMeter",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 20,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 8,
+								"image" : "hp_icon_arrow-green.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderArrow",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 8
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									51,
+									167,
+									112
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"margin-bottom" : 2,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 20,
+								"name" : "+\/- green",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "22"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									201,
+									71,
+									87
+								],
+								"dynamic-text" : true,
+								"editor-hide" : true,
+								"font" : "Avenir-Book",
+								"margin-bottom" : 10,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 20,
+								"name" : "+\/- red",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "22"
+							}
+						]
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 34,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 5,
+						"margin-top" : 0,
+						"name" : "nameView",
+						"position-x" : "right",
+						"position-y" : "center",
+						"width" : 120,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									178,
+									190,
+									193
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"margin-bottom" : 6,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 114,
+								"name" : "labelName",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Student Long Name "
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 7,
+								"max-width" : 114,
+								"name" : "labelPoints",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "1,000,000 pts "
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 29,
+						"margin-bottom" : 0,
+						"margin-left" : 79,
+						"margin-right" : 0,
+						"margin-top" : 7.5,
+						"name" : "yearView",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 23,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 29,
+								"image" : "hp_container_banner_sly_xsm.png",
+								"name" : "houseBannerLoader",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 23
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 3,
+								"max-width" : 24,
+								"name" : "labelYear",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "2"
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Book",
+								"font-size" : 7,
+								"local:text" : "HP_YEAR",
+								"margin-bottom" : 8,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 24,
+								"name" : "labelYear1",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "YEAR"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

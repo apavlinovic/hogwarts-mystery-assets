@@ -1,0 +1,345 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.81425,
+				"9slicescalezone-width" : 0.900647,
+				"9slicescalezone-x" : 0.033,
+				"9slicescalezone-y" : 0.05175,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "mar_modal_basic_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modal_bg",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 340,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 40,
+						"image" : "button_generic_green.png",
+						"margin-bottom" : 0,
+						"margin-left" : 98,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "button_modal_confirmation1",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 100,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									79,
+									100,
+									0
+								],
+								"font" : "Avenir-Roman",
+								"font-size" : 16,
+								"margin-bottom" : -2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 80,
+								"name" : "label_ok1",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									216,
+									235,
+									64
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"text" : "OK"
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.93,
+						"9slicescalezone-width" : 0.93,
+						"9slicescalezone-x" : 0.031795,
+						"9slicescalezone-y" : 0.03,
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"image" : "action_level_fill_bg.png",
+						"inset-margin-y" : 95,
+						"margin-bottom" : 37.5,
+						"margin-left" : 0,
+						"margin-right" : 2,
+						"margin-top" : 0,
+						"name" : "action_level_fill_bg",
+						"percent-height" : 1,
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 302,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "table-view",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "tableview",
+								"percent-height" : 0.99,
+								"percent-width" : 0.99,
+								"position-x" : "center",
+								"position-y" : "center",
+								"children" : []
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 35,
+						"image" : "download_toggleSwitchBG.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 32,
+						"margin-top" : 0,
+						"name" : "toggle_bg",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 155,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									222,
+									23
+								],
+								"font" : "Avenir-Roman",
+								"font-size" : 13,
+								"height" : 27,
+								"margin-bottom" : -4,
+								"margin-left" : 0,
+								"margin-right" : 38,
+								"margin-top" : 1,
+								"name" : "download_label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									56,
+									94
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Download",
+								"width" : 70
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									222,
+									23
+								],
+								"font" : "Avenir-Roman",
+								"font-size" : 13,
+								"height" : 26,
+								"margin-bottom" : -4,
+								"margin-left" : 39,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"name" : "delete_label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									56,
+									94
+								],
+								"shadow-offset" : [
+									1,
+									-1
+								],
+								"text" : "Delete",
+								"width" : 69
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.547286,
+						"9slicescalezone-width" : 0.887545,
+						"9slicescalezone-x" : 0.060273,
+						"9slicescalezone-y" : 0.225857,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 36,
+						"image" : "button_generic_gray.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 134,
+						"margin-top" : 0,
+						"name" : "sort_bg",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 19,
+								"image" : "action_timer.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 6,
+								"name" : "time_sort",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 20
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									49,
+									49,
+									49
+								],
+								"font" : "GothamNarrow-BoldItalic",
+								"font-size" : 10,
+								"height" : 18,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 8,
+								"name" : "alphabet_sort",
+								"position-x" : "center",
+								"position-y" : "center",
+								"text" : "A-Z",
+								"width" : 34
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									49,
+									49,
+									49
+								],
+								"font" : "GothamNarrow-BoldItalic",
+								"font-size" : 14,
+								"height" : 19,
+								"margin-bottom" : 6,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "sortlabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"text" : "Sort",
+								"width" : 37
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "text-input",
+						"color" : [
+							0,
+							0,
+							0
+						],
+						"font" : "Avenir-Roman",
+						"font-size" : 14,
+						"height" : 38,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 25,
+						"name" : "searchField",
+						"placeholder-text" : "Search...",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 292
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							244,
+							174,
+							5
+						],
+						"font" : "Avenir-Roman",
+						"font-size" : 14,
+						"gradient-top-color" : [
+							248,
+							255,
+							227
+						],
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 2,
+						"margin-top" : 1.5,
+						"max-width" : 300,
+						"name" : "label_title0",
+						"position-x" : "center",
+						"position-y" : "top",
+						"stroke-color" : [
+							153,
+							63,
+							4
+						],
+						"stroke-thickness" : 1,
+						"text" : "Select game to download"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

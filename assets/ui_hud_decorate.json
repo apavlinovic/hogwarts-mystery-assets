@@ -1,0 +1,83 @@
+{
+	"psdName" : "MainHUD_decorate.psd",
+	"view" : {
+		"children" : [
+			{
+				"anchor-x" : 0,
+				"anchor-y" : 0,
+				"class" : "button",
+				"height" : 72,
+				"image" : "ui_hud_decorate_0003_okButton.png",
+				"margin-bottom" : 0,
+				"margin-right" : 58,
+				"name" : "okButton",
+				"position-x" : "right",
+				"width" : 59
+			},
+			{
+				"anchor-x" : 0,
+				"anchor-y" : 0,
+				"class" : "button",
+				"height" : 72,
+				"image" : "context_menu_rotate_button.png",
+				"margin-bottom" : 280,
+				"margin-right" : 58,
+				"name" : "rotateButton",
+				"position-x" : "right",
+				"width" : 59
+			},
+			{
+				"anchor-x" : 0,
+				"anchor-y" : 0,
+				"class" : "button",
+				"height" : 72,
+				"image" : "ui_hud_decorate_0002_cancelButton.png",
+				"margin-bottom" : 70,
+				"margin-right" : 58,
+				"name" : "cancelButton",
+				"position-x" : "right",
+				"width" : 59
+			},
+			{
+				"anchor-x" : 0,
+				"anchor-y" : 0,
+				"class" : "button",
+				"height" : 72,
+				"image" : "castle_moveDone.png",
+				"margin-bottom" : 70,
+				"margin-right" : 58,
+				"name" : "doneButton",
+				"position-x" : "right",
+				"width" : 59
+			},
+			{
+				"anchor-x" : 0,
+				"anchor-y" : 0,
+				"class" : "button",
+				"height" : 72,
+				"image" : "ui_hud_decorate_0001_sellButton.png",
+				"margin-bottom" : 140,
+				"margin-right" : 58,
+				"name" : "sellButton",
+				"position-x" : "right",
+				"width" : 59
+			},
+			{
+				"anchor-x" : 0,
+				"anchor-y" : 0,
+				"class" : "button",
+				"height" : 72,
+				"image" : "ui_hud_decorate_0000_inventoryButton.png",
+				"margin-bottom" : 210,
+				"margin-right" : 58,
+				"name" : "inventoryButton",
+				"position-x" : "right",
+				"width" : 59
+			}
+		],
+		"inherit-position" : true,
+		"name" : "ui_hud_decorate",
+		"percent-height" : 1,
+		"percent-width" : 1
+	}
+}

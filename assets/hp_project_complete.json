@@ -1,0 +1,1153 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "PassFailRewardView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "hp_button_particles",
+						"glow" : "hp_button_primary_med_active_glow.png",
+						"height" : 63,
+						"image" : "hp_button_primary_med_active.png",
+						"margin-bottom" : 40,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnCollect",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"sizing" : "SpriteFill",
+						"width" : 154,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									233,
+									204,
+									140
+								],
+								"control-points" : [
+									[
+										0,
+										0
+									],
+									[
+										0.33,
+										8
+									],
+									[
+										0.66,
+										-6
+									],
+									[
+										1,
+										0
+									]
+								],
+								"dynamic-text" : true,
+								"font" : "4privetdrive",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 150,
+								"name" : "labelBtnOk",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "COLLECT"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 15,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 46,
+						"name" : "LabelRenownMssg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "Renown in: 05h 59m"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							211,
+							69,
+							69
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 15,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 46,
+						"name" : "LabelRenownMssgNegative",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Renown in: 05h 59m"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 2,
+						"image" : "hp_divider_wide.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 67,
+						"name" : "dividerBottom",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 369
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 12,
+						"gradient-top-color" : [
+							233,
+							211,
+							162
+						],
+						"margin-bottom" : 49,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "LabelRewards",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "REWARDS"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 2,
+						"image" : "hp_divider_wide.png",
+						"margin-bottom" : 73,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "dividerTop",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 369
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"cell-json" : "hp_rewards_cell.json",
+						"class" : "table-view",
+						"height" : 50,
+						"horizontal" : true,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "rewardTable",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 297,
+						"children" : []
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"editor-hide" : true,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "GradientView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "hp_button_particles",
+						"editor-layerExpanded" : false,
+						"glow" : "hp_button_primary_med_active_glow.png",
+						"height" : 63,
+						"image" : "hp_button_primary_med_active.png",
+						"margin-bottom" : 34.5,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnGradientCollect",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 154,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									233,
+									204,
+									140
+								],
+								"control-points" : [
+									[
+										0,
+										0
+									],
+									[
+										0.33,
+										8
+									],
+									[
+										0.66,
+										-6
+									],
+									[
+										1,
+										0
+									]
+								],
+								"dynamic-text" : true,
+								"font" : "4privetdrive",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 150,
+								"name" : "labelGradientBtnOk",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "COLLECT"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 15,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 50,
+						"name" : "gradientRenown",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "Renown in: 05h 59m"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							205,
+							0,
+							17
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 15,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 50,
+						"name" : "gradientRenownNegative",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Renown in: 05h 59m"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 2,
+						"image" : "hp_divider_wide.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 67,
+						"name" : "dividerBottom",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 369
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 12,
+						"margin-bottom" : 22,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "LabelRewards",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "REWARDS"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 2,
+						"image" : "hp_divider_wide.png",
+						"margin-bottom" : 43,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "dividerTop",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 369
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"cell-json" : "hp_rewards_cell.json",
+						"class" : "table-view",
+						"height" : 50,
+						"horizontal" : true,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 12,
+						"name" : "gradientRewardTable",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 297,
+						"children" : []
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 25,
+						"margin-bottom" : 51,
+						"margin-left" : 0,
+						"margin-right" : 105,
+						"margin-top" : 0,
+						"name" : "starView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 210,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "hp_icon_HUD_stars_default.png",
+								"margin-bottom" : 0,
+								"margin-left" : 180,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star4",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 30,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 36,
+										"image" : "hp_icon_HUD_stars_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3,
+										"margin-top" : 3,
+										"name" : "_glow",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 36
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "progress-linear",
+										"height" : 30,
+										"image" : "hp_icon_star_filled.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_fill",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 30,
+										"image" : "hp_icon_HUD_stars_complete.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_complete",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "hp_icon_HUD_stars_default.png",
+								"margin-bottom" : 0,
+								"margin-left" : 135,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star3",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 30,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 36,
+										"image" : "hp_icon_HUD_stars_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3,
+										"margin-top" : 3,
+										"name" : "_glow",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 36
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "progress-linear",
+										"height" : 30,
+										"image" : "hp_icon_star_filled.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_fill",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 30,
+										"image" : "hp_icon_HUD_stars_complete.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_complete",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "hp_icon_HUD_stars_default.png",
+								"margin-bottom" : 0,
+								"margin-left" : 90,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star2",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 30,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 36,
+										"image" : "hp_icon_HUD_stars_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3,
+										"margin-top" : 3,
+										"name" : "_glow",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 36
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "progress-linear",
+										"height" : 30,
+										"image" : "hp_icon_star_filled.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_fill",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 30,
+										"image" : "hp_icon_HUD_stars_complete.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_complete",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "hp_icon_HUD_stars_default.png",
+								"margin-bottom" : 0,
+								"margin-left" : 45,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star1",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 30,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 36,
+										"image" : "hp_icon_HUD_stars_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3,
+										"margin-top" : 3,
+										"name" : "_glow",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 36
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "progress-linear",
+										"height" : 30,
+										"image" : "hp_icon_star_filled.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_fill",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 30,
+										"image" : "hp_icon_HUD_stars_complete.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_complete",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									}
+								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "hp_icon_HUD_stars_default.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "star0",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 30,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"editor-hide" : true,
+										"height" : 36,
+										"image" : "hp_icon_HUD_stars_glow.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3,
+										"margin-top" : 3,
+										"name" : "_glow",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 36
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "progress-linear",
+										"height" : 30,
+										"image" : "hp_icon_star_filled.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_fill",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 30,
+										"image" : "hp_icon_HUD_stars_complete.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "_complete",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 30
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"editor-layerExpanded" : false,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "PassFailView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 32,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 8,
+						"margin-top" : 54,
+						"name" : "LabelPercentNumber",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "80"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 32,
+						"margin-bottom" : 0,
+						"margin-left" : 23,
+						"margin-right" : 0,
+						"margin-top" : 54,
+						"name" : "LabelPercentSymbol",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "%"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 26,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 115,
+						"name" : "LabelPassFail",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							30,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "You Passed!"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 150,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 3,
+						"name" : "modelClip",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 390,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 95,
+								"image" : "red_star.png",
+								"margin-bottom" : 13,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "GreyStar",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 95
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 95,
+								"image" : "hp_icon_star_filled.png",
+								"margin-bottom" : 13,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "GoldStar",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 95
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 95,
+								"image" : "hp_icon_star_filled_magic.png",
+								"margin-bottom" : 13,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "Star",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 95
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 95,
+								"image" : "red_star.png",
+								"margin-bottom" : 13,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "RedStar",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 95
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "model",
+								"height" : 150,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"model3d-id" : "p_starBrokenUI_skin",
+								"name" : "StarModel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 390
+							}
+						]
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "SharedView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 15,
+						"margin-bottom" : 93,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "LabelSubTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "LEARN EXPELLIARMUS"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 26,
+						"margin-bottom" : 123,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "LabelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CLASS COMPLETE"
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"height" : 62,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "PART1",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 298,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 15,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 17,
+						"name" : "LabelSubTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "LEARN EXPELLIARMUS"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 26,
+						"margin-bottom" : 13,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "LabelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CLASS COMPLETE"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

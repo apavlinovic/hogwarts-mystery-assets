@@ -1,0 +1,370 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 40,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 270,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "resultsWidget",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.73,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.27,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 18,
+						"image" : "hp_bg_black_50%.png",
+						"margin-bottom" : 0,
+						"margin-left" : 63.5,
+						"margin-right" : 0,
+						"margin-top" : 18,
+						"name" : "titleBGinactive",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 90
+					},
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 16,
+						"image" : "hp_fill_container_grey.png",
+						"margin-bottom" : 0,
+						"margin-left" : 60.5,
+						"margin-right" : 0,
+						"margin-top" : 19,
+						"name" : "viewProgress",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 180,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.33,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "progress-linear",
+								"height" : 13,
+								"image" : "hp_fill_bg_green.png",
+								"margin-bottom" : 0,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "lvlProgressBar",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 176
+							},
+							{
+								"9slicescalezone-height" : 0.33,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "progress-linear",
+								"height" : 13,
+								"image" : "hp_fill_bg_darkgreen.png",
+								"margin-bottom" : 0,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"mask" : ".",
+								"name" : "lvlProgressBarCurrent",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 176
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Medium",
+						"font-size" : 12,
+						"height" : 16,
+						"margin-bottom" : 10,
+						"margin-left" : 59.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 90,
+						"name" : "labelInProgress",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "Herbology"
+					},
+					{
+						"alignment" : "right",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Black",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 239.5,
+						"margin-right" : 0,
+						"margin-top" : 8,
+						"max-width" : 90,
+						"name" : "labelInProgress_Quantity",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"stroke-thickness" : 1,
+						"text" : "75\/100"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							204,
+							204,
+							204
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 11,
+						"margin-bottom" : 7.5,
+						"margin-left" : 216.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 40,
+						"name" : "labelRewardTotal",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "999"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							204,
+							204,
+							204
+						],
+						"font" : "Avenir-Heavy",
+						"font-size" : 11,
+						"margin-bottom" : 7.5,
+						"margin-left" : 210.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 10,
+						"name" : "Divider",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "\/"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							87,
+							222,
+							88
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"margin-bottom" : 9,
+						"margin-left" : 210.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 60,
+						"name" : "labelRewardEarned",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "999"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 32,
+						"image" : "invisible.png",
+						"margin-bottom" : 1,
+						"margin-left" : 17,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loaderIcon",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 32,
+						"children" : [
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 18,
+								"image" : "hp_icon_lvl_badge.png",
+								"margin-bottom" : 0,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"name" : "levelBg",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 18,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Medium",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "levelLabel",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											0,
+											0,
+											0
+										],
+										"shadow-offset" : [
+											1,
+											-1
+										],
+										"text" : "2"
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											59,
+											244,
+											111
+										],
+										"dynamic-text" : true,
+										"editor-hide" : true,
+										"font" : "Avenir-Medium",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "levelLabel_levelup",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											0,
+											0,
+											0
+										],
+										"shadow-offset" : [
+											1,
+											-1
+										],
+										"text" : "2"
+									}
+								]
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 18,
+								"image" : "hp_levelup_arrow_green.png",
+								"margin-bottom" : 12,
+								"margin-left" : 0,
+								"margin-right" : 24,
+								"margin-top" : 0,
+								"name" : "levelup_icon",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 18
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

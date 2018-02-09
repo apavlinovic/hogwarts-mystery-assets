@@ -1,0 +1,1090 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 106,
+				"image" : "hp_bg_container_choice.png",
+				"margin-bottom" : 8,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "choiceView",
+				"percent-width" : 1.001761,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_bg_container_choice.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "choiceBg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"cell-json" : "hp_social_option_cell.json",
+						"class" : "table-view",
+						"divisions" : 2,
+						"height" : 84,
+						"margin-bottom" : 11,
+						"margin-left" : 0,
+						"margin-right" : 1,
+						"margin-top" : 0,
+						"name" : "choiceTable",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 480,
+						"children" : []
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "button",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"height" : 30,
+				"image" : "hp_icon_bg_nav.png",
+				"margin-bottom" : 0,
+				"margin-left" : 18,
+				"margin-right" : 0,
+				"margin-top" : 4,
+				"name" : "loseButton",
+				"position-x" : "center",
+				"position-y" : "top",
+				"width" : 30,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 16,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loseLabel",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "L"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "button",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"height" : 30,
+				"image" : "hp_icon_bg_nav.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 18,
+				"margin-top" : 4,
+				"name" : "winButton",
+				"position-x" : "center",
+				"position-y" : "top",
+				"width" : 30,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 16,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"name" : "winLabel",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "W"
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 112,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 112,
+				"name" : "choiceHiddenView",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 484
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"editor-hide" : true,
+				"height" : 200,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 45,
+				"name" : "resultsParentView",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 96,
+						"image" : "hp_bg_container_choice.png",
+						"margin-bottom" : 53,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "option_bg",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "bottom"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-layerExpanded" : false,
+						"height" : 30,
+						"image" : "hp_button_choice_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 18,
+						"name" : "playerChoiceView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 237,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-HeavyOblique",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 18,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 140,
+								"name" : "labelTitle",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Listen"
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"dynamic-img" : true,
+								"editor-layerExpanded" : false,
+								"height" : 24,
+								"margin-bottom" : 3,
+								"margin-left" : 0,
+								"margin-right" : 15,
+								"margin-top" : 0,
+								"name" : "loaderAttribute",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 24,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"margin-bottom" : 0,
+										"margin-left" : 1,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 22,
+										"name" : "labelAttributeQuantity",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "88"
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 30,
+						"margin-bottom" : 104,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "opponentChoiceView",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 240,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									178,
+									190,
+									193
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"margin-bottom" : 0,
+								"margin-left" : 53,
+								"margin-right" : 0,
+								"margin-top" : 21,
+								"max-width" : 170,
+								"name" : "labelSublabel",
+								"position-x" : "left",
+								"position-y" : "top",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Challenge Level 2"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "4privetdrive",
+								"margin-bottom" : 0,
+								"margin-left" : 53,
+								"margin-right" : 0,
+								"margin-top" : 7,
+								"max-width" : 170,
+								"name" : "labelTitle",
+								"position-x" : "left",
+								"position-y" : "top",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "SOME HANGOUT NAME"
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 29,
+								"image" : "hp_bg_icon_hex.png",
+								"margin-bottom" : 0,
+								"margin-left" : 17,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconView",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 33,
+								"children" : [
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"dynamic-img" : true,
+										"height" : 30,
+										"image" : "hp_icon_hex_talk.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0.5,
+										"margin-top" : 0.5,
+										"name" : "loadericon",
+										"position-x" : "center",
+										"position-y" : "center",
+										"sizing" : "SpriteAspectFill",
+										"width" : 30
+									}
+								]
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 41,
+						"image" : "hp_bg_cell_white.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 23,
+						"name" : "notificationView",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 146,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 40,
+								"image" : "hp_bg_container_banner_float.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "banner_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 146
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									112
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "HP_ENC_FAIL",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "labelFail",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "FAIL"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									112
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "HP_ENC_TIE",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "labelTie",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "TIE"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									221,
+									188,
+									112
+								],
+								"font" : "4privetdrive",
+								"font-size" : 13,
+								"local:text" : "HP_ENC_SUCCESS",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 18,
+								"max-width" : 120,
+								"name" : "labelSuccess",
+								"position-x" : "center",
+								"position-y" : "top",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "SUCCESS!"
+							}
+						]
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 200,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 200,
+				"name" : "resultsParentHiddenView",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 484
+			},
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"editor-hide" : true,
+				"height" : 28,
+				"image" : "hp_container_blue.png",
+				"margin-bottom" : 23,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "historyView",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 442
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "view",
+				"editor-hide" : true,
+				"height" : 50,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "encounterStatusView",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "top",
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 50,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "playerStatus",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 130,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 50,
+								"image" : "hp_bg_container_encounter_rating.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "status_bg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 130
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 16,
+								"margin-bottom" : 10,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "progressView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 96,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.33,
+										"9slicescalezone-width" : 0.33,
+										"9slicescalezone-x" : 0.33,
+										"9slicescalezone-y" : 0.33,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"image" : "action_level_fill_bg.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "healthBg",
+										"percent-height" : 1,
+										"percent-width" : 1,
+										"position-x" : "center",
+										"position-y" : "center"
+									},
+									{
+										"9slicescalezone-height" : 0.33,
+										"9slicescalezone-width" : 0.33,
+										"9slicescalezone-x" : 0.33,
+										"9slicescalezone-y" : 0.33,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "progress-linear",
+										"height" : 14,
+										"image" : "hp_energybar_fill.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "healthFill",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 94
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 20,
+										"image" : "temp_emotionHeart.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "healthIcon",
+										"position-x" : "left",
+										"position-y" : "center",
+										"width" : 20
+									}
+								]
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 10,
+								"max-width" : 100,
+								"name" : "labelName",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "You"
+							}
+						]
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 50,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "opponentStatus",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 130,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 50,
+								"image" : "hp_bg_container_encounter_rating.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "status_bg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 130
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 16,
+								"margin-bottom" : 10,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "progressView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 96,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.33,
+										"9slicescalezone-width" : 0.33,
+										"9slicescalezone-x" : 0.33,
+										"9slicescalezone-y" : 0.33,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"image" : "action_level_fill_bg.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "healthBg",
+										"percent-height" : 1,
+										"percent-width" : 1,
+										"position-x" : "center",
+										"position-y" : "center"
+									},
+									{
+										"9slicescalezone-height" : 0.33,
+										"9slicescalezone-width" : 0.33,
+										"9slicescalezone-x" : 0.33,
+										"9slicescalezone-y" : 0.33,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "progress-linear",
+										"height" : 14,
+										"image" : "hp_energybar_fill.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "healthFill",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 94
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 20,
+										"image" : "temp_emotionHeart.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "healthIcon",
+										"position-x" : "left",
+										"position-y" : "center",
+										"width" : 20
+									}
+								]
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 10,
+								"max-width" : 100,
+								"name" : "labelName",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Merula"
+							}
+						]
+					}
+				]
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "view",
+				"editor-hide" : true,
+				"height" : 50,
+				"margin-bottom" : 50,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "encounterStatusHiddenView",
+				"position-x" : "center",
+				"position-y" : "top",
+				"width" : 150
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "view",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"height" : 40,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 52,
+				"name" : "playerTotalView",
+				"position-x" : "left",
+				"position-y" : "top",
+				"width" : 130,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_bg_container_banner_float.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "banner_bg",
+						"percent-height" : 1,
+						"percent-width" : 0.9,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 16,
+						"margin-bottom" : 5,
+						"margin-left" : 5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 50,
+						"name" : "labelQuantity",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "+10"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"local:text" : "HP_TOTAL",
+						"margin-bottom" : 5,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 60,
+						"name" : "labelTotal",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "TOTAL"
+					}
+				]
+			},
+			{
+				"anchor-x" : "right",
+				"anchor-y" : "top",
+				"class" : "view",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"height" : 40,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 52,
+				"name" : "opponentTotalView",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 130,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_bg_container_banner_float.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "banner_bg",
+						"percent-height" : 1,
+						"percent-width" : 0.9,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 16,
+						"margin-bottom" : 5,
+						"margin-left" : 5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 50,
+						"name" : "labelQuantity",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "+10"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"local:text" : "HP_TOTAL",
+						"margin-bottom" : 5,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 60,
+						"name" : "labelTotal",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "TOTAL"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.4"
+}

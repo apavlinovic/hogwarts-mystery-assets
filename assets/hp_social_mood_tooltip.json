@@ -1,0 +1,61 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 51,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 60,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 51,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "forecastTooltip",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 51,
+						"image" : "hp_bg_container_mood.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "moodBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 60
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 40,
+						"image" : "enc_compliment.png",
+						"margin-bottom" : 11,
+						"margin-left" : 7,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "moodIcon",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 40
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8"
+}

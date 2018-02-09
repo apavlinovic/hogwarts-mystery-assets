@@ -1,0 +1,498 @@
+{"frames": [
+
+{
+	"filename": "Swirlies.00066.png",
+	"frame": {"x":108,"y":2039,"w":12,"h":6},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":416,"y":369,"w":12,"h":6},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00067.png",
+	"frame": {"x":2022,"y":137,"w":18,"h":74},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":413,"y":301,"w":18,"h":74},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00068.png",
+	"frame": {"x":1982,"y":267,"w":25,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":413,"y":300,"w":25,"h":123},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00069.png",
+	"frame": {"x":1982,"y":137,"w":38,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":299,"w":38,"h":128},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00070.png",
+	"frame": {"x":1982,"y":2,"w":54,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":298,"w":54,"h":133},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00071.png",
+	"frame": {"x":108,"y":1853,"w":78,"h":184},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":252,"w":78,"h":184},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00072.png",
+	"frame": {"x":2,"y":1853,"w":104,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":247,"w":104,"h":193},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00073.png",
+	"frame": {"x":697,"y":1247,"w":127,"h":230},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":242,"w":127,"h":230},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00074.png",
+	"frame": {"x":1415,"y":1038,"w":145,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":237,"w":145,"h":239},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00075.png",
+	"frame": {"x":709,"y":996,"w":156,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":231,"w":156,"h":249},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00076.png",
+	"frame": {"x":883,"y":738,"w":163,"h":258},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":410,"y":227,"w":163,"h":258},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00077.png",
+	"frame": {"x":715,"y":731,"w":166,"h":263},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":410,"y":226,"w":166,"h":263},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00078.png",
+	"frame": {"x":542,"y":974,"w":165,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":226,"w":165,"h":266},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00079.png",
+	"frame": {"x":1433,"y":770,"w":165,"h":266},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":226,"w":165,"h":266},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00080.png",
+	"frame": {"x":1261,"y":668,"w":170,"h":269},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":226,"w":170,"h":269},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00081.png",
+	"frame": {"x":1261,"y":393,"w":171,"h":273},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":226,"w":171,"h":273},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00082.png",
+	"frame": {"x":542,"y":695,"w":171,"h":277},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":227,"w":171,"h":277},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00083.png",
+	"frame": {"x":542,"y":411,"w":171,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":411,"y":226,"w":171,"h":282},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00084.png",
+	"frame": {"x":722,"y":407,"w":176,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":409,"y":218,"w":176,"h":322},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00085.png",
+	"frame": {"x":902,"y":406,"w":176,"h":330},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":409,"y":214,"w":176,"h":330},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00086.png",
+	"frame": {"x":1082,"y":393,"w":177,"h":337},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":211,"w":177,"h":337},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00087.png",
+	"frame": {"x":1622,"y":378,"w":178,"h":345},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":208,"w":178,"h":345},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00088.png",
+	"frame": {"x":1802,"y":372,"w":178,"h":356},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":201,"w":178,"h":356},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00089.png",
+	"frame": {"x":1802,"y":2,"w":178,"h":368},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":192,"w":178,"h":368},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00090.png",
+	"frame": {"x":1442,"y":2,"w":178,"h":378},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":182,"w":178,"h":378},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00091.png",
+	"frame": {"x":1082,"y":2,"w":178,"h":389},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":171,"w":178,"h":389},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00092.png",
+	"frame": {"x":902,"y":2,"w":178,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":162,"w":178,"h":402},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00093.png",
+	"frame": {"x":362,"y":1254,"w":178,"h":407},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":161,"w":178,"h":407},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00094.png",
+	"frame": {"x":1442,"y":382,"w":177,"h":386},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":409,"y":174,"w":177,"h":386},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00095.png",
+	"frame": {"x":1800,"y":730,"w":177,"h":370},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":409,"y":192,"w":177,"h":370},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00096.png",
+	"frame": {"x":1800,"y":1102,"w":177,"h":365},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":409,"y":198,"w":177,"h":365},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00097.png",
+	"frame": {"x":1622,"y":2,"w":178,"h":374},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":198,"w":178,"h":374},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00098.png",
+	"frame": {"x":362,"y":1663,"w":178,"h":382},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":198,"w":178,"h":382},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00099.png",
+	"frame": {"x":1262,"y":2,"w":178,"h":389},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":198,"w":178,"h":389},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00100.png",
+	"frame": {"x":722,"y":2,"w":178,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":192,"w":178,"h":403},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00101.png",
+	"frame": {"x":182,"y":431,"w":178,"h":421},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":182,"w":178,"h":421},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00102.png",
+	"frame": {"x":2,"y":1407,"w":178,"h":444},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":171,"w":178,"h":444},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00103.png",
+	"frame": {"x":2,"y":479,"w":178,"h":470},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":162,"w":178,"h":470},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00104.png",
+	"frame": {"x":2,"y":2,"w":178,"h":475},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":161,"w":178,"h":475},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00105.png",
+	"frame": {"x":2,"y":951,"w":178,"h":454},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":174,"w":178,"h":454},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00106.png",
+	"frame": {"x":182,"y":2,"w":178,"h":427},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":180,"w":178,"h":427},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00107.png",
+	"frame": {"x":182,"y":1276,"w":178,"h":418},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":173,"w":178,"h":418},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00108.png",
+	"frame": {"x":362,"y":422,"w":178,"h":414},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":164,"w":178,"h":414},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00109.png",
+	"frame": {"x":362,"y":838,"w":178,"h":414},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":154,"w":178,"h":414},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00110.png",
+	"frame": {"x":362,"y":2,"w":178,"h":418},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":143,"w":178,"h":418},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00111.png",
+	"frame": {"x":182,"y":854,"w":178,"h":420},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":134,"w":178,"h":420},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00112.png",
+	"frame": {"x":542,"y":2,"w":178,"h":407},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":408,"y":133,"w":178,"h":407},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00113.png",
+	"frame": {"x":1621,"y":725,"w":177,"h":386},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":409,"y":146,"w":177,"h":386},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00114.png",
+	"frame": {"x":188,"y":1696,"w":172,"h":347},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":414,"y":164,"w":172,"h":347},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00115.png",
+	"frame": {"x":1080,"y":732,"w":168,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":418,"y":177,"w":168,"h":318},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00116.png",
+	"frame": {"x":1250,"y":939,"w":163,"h":295},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":423,"y":187,"w":163,"h":295},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00117.png",
+	"frame": {"x":542,"y":1242,"w":153,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":433,"y":200,"w":153,"h":268},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00118.png",
+	"frame": {"x":867,"y":998,"w":144,"h":253},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":441,"y":208,"w":144,"h":253},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Swirlies.00119.png",
+	"frame": {"x":1013,"y":1052,"w":121,"h":233},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":460,"y":217,"w":121,"h":233},
+	"sourceSize": {"w":1024,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Swirlies.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:96e8da87360448f02f55889e47be1563:1da25a88fab74fd92126a8be6d270d4a:e916fc73de33f141bd79ed6029bbbfa4$"
+}
+}

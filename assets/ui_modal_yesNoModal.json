@@ -1,0 +1,153 @@
+{
+    "psdName" : "GriffinUiTool-original",
+    "view" : {
+        "children" : [
+            {
+                "anchor-x" : "center",
+                "anchor-y" : "center",
+                "class" : "image",
+                "height" : 160,
+                "image" : "fg_modal_bg.png",
+                "margin-bottom" : 5,
+                "margin-left" : 0,
+                "margin-right" : 0,
+                "margin-top" : 0,
+                "name" : "modal_generic_bg",
+                "position-x" : "center",
+                "position-y" : "center",
+                "width" : 316
+            },
+            {
+                "alignment" : "center",
+                "anchor-x" : "left",
+                "anchor-y" : "bottom",
+                "class" : "label",
+                "color" : [
+                    102,
+                    102,
+                    102
+                ],
+                "font" : "HelveticaNeueLTCom-Md",
+                "height" : 42,
+                "margin-bottom" : 0,
+                "margin-left" : 0,
+                "margin-right" : 115,
+                "margin-top" : 6,
+                "name" : "textLabel",
+                "position-x" : "center",
+                "position-y" : "center",
+                "text" : "We screwed up and something broke.",
+                "width" : 230
+            },
+            {
+                "actions" : [],
+                "anchor-x" : "center",
+                "anchor-y" : "center",
+                "children" : [
+                    {
+                        "alignment" : "center",
+                        "anchor-x" : "center",
+                        "anchor-y" : "center",
+                        "class" : "label",
+                        "color" : [
+                            79,
+                            100,
+                            0
+                        ],
+                        "font" : "ContemporaryCyr",
+                        "font-size" : 18,
+                        "margin-bottom" : -3,
+                        "margin-left" : 0,
+                        "margin-right" : 0,
+                        "margin-top" : 0,
+                        "name" : "label_button_confirm",
+                        "position-x" : "center",
+                        "position-y" : "center",
+                        "shadow-color" : [
+                            225,
+                            255,
+                            131
+                        ],
+                        "shadow-offset" : [
+                            0,
+                            -1
+                        ],
+                        "text" : "OKAY"
+                    }
+                ],
+                "class" : "button",
+                "editor-layerExpanded" : false,
+                "height" : 28,
+                "image" : "button_generic_green.png",
+                "margin-bottom" : 0,
+                "margin-left" : 60,
+                "margin-right" : 0,
+                "margin-top" : 30,
+                "name" : "yesButton",
+                "position-x" : "center",
+                "position-y" : "center",
+                "width" : 110
+            },
+            {
+                "actions" : [],
+                "anchor-x" : "center",
+                "anchor-y" : "center",
+                "children" : [
+                    {
+                        "alignment" : "center",
+                        "anchor-x" : "center",
+                        "anchor-y" : "center",
+                        "class" : "label",
+                        "color" : [
+                            84,
+                            84,
+                            84
+                        ],
+                        "font" : "ContemporaryCyr",
+                        "font-size" : 18,
+                        "margin-bottom" : 11,
+                        "margin-left" : 54,
+                        "margin-right" : 0,
+                        "margin-top" : 0,
+                        "name" : "label_button_no",
+                        "position-x" : "left",
+                        "position-y" : "bottom",
+                        "shadow-color" : [
+                            233,
+                            233,
+                            233
+                        ],
+                        "shadow-offset" : [
+                            1,
+                            -1
+                        ],
+                        "text" : "NAH"
+                    }
+                ],
+                "class" : "button",
+                "editor-layerExpanded" : false,
+                "height" : 28,
+                "image" : "button_generic_gray.png",
+                "margin-bottom" : 0,
+                "margin-left" : 0,
+                "margin-right" : 69,
+                "margin-top" : 30,
+                "name" : "noButton",
+                "position-x" : "center",
+                "position-y" : "center",
+                "width" : 110
+            }
+        ],
+        "class" : "view",
+        "inherit-position" : true,
+        "margin-bottom" : 0,
+        "margin-left" : 0,
+        "margin-right" : 0,
+        "margin-top" : 0,
+        "name" : "rootView",
+        "percent-height" : 1,
+        "percent-width" : 1,
+        "position-x" : "left",
+        "position-y" : "bottom"
+    }
+}

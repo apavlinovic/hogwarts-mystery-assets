@@ -1,0 +1,675 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 100,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "fg_quest",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 353,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 100,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "owl_notification",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 353,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 83,
+						"image" : "hp_container_notification.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 2,
+						"margin-top" : 0,
+						"name" : "containerBg",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 354,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 25,
+								"image" : "hp_icon_notification.png",
+								"margin-bottom" : 0,
+								"margin-left" : 150,
+								"margin-right" : 0,
+								"margin-top" : 0.5,
+								"name" : "new_notification",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 15
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 115,
+								"image" : "hp_container_notification_glow.png",
+								"margin-bottom" : 16,
+								"margin-left" : 0,
+								"margin-right" : 14,
+								"margin-top" : 0,
+								"name" : "containerBgGlow",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 384
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 83,
+						"image" : "hp_container_notification.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 256,
+						"margin-top" : 0,
+						"name" : "containerBgHidden",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 353
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "view",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "infoParent",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "top",
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "button",
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "buttonNext",
+								"percent-height" : 1,
+								"percent-width" : 1,
+								"position-x" : "right",
+								"position-y" : "top",
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"class" : "image",
+										"height" : 30,
+										"image" : "hp_button_pointing_hand.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 5,
+										"margin-top" : 27,
+										"name" : "icon_next",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 50
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "housePointsView",
+								"percent-height" : 1,
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "center",
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
+										"class" : "button",
+										"height" : 32,
+										"image" : "invisible.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 38,
+										"margin-top" : 0,
+										"name" : "buttonHousePointsOkay",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 160,
+										"children" : [
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"actions" : [],
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 31,
+												"image" : "hp_button_secondary_active.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0.5,
+												"margin-top" : 0,
+												"name" : "btn_bg",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 160
+											},
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													221,
+													188,
+													112
+												],
+												"font" : "4privetdrive",
+												"font-size" : 11,
+												"local:text" : "LABELHOUSEPOINTSOKAY",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"max-width" : 120,
+												"name" : "labelHousePointsOkay",
+												"position-x" : "center",
+												"position-y" : "center",
+												"shadow-color" : [
+													16,
+													29,
+													37
+												],
+												"shadow-offset" : [
+													0.5,
+													-0.5
+												],
+												"stroke-thickness" : 0.2,
+												"text" : "HOUSE POINTS"
+											}
+										]
+									},
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "button",
+										"editor-layerExpanded" : false,
+										"height" : 32,
+										"image" : "invisible.png",
+										"margin-bottom" : 0,
+										"margin-left" : 60,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "buttonHousePointsLater",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 94,
+										"children" : [
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"actions" : [],
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 31,
+												"image" : "hp_button_secondary_idle.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0.5,
+												"margin-top" : 0,
+												"name" : "btn_bg",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 94
+											},
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													0,
+													134,
+													134
+												],
+												"font" : "4privetdrive",
+												"font-size" : 11,
+												"local:text" : "GAME_OKAY",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"max-width" : 70,
+												"name" : "labelHousePointsLater",
+												"position-x" : "center",
+												"position-y" : "center",
+												"shadow-color" : [
+													16,
+													29,
+													37
+												],
+												"shadow-offset" : [
+													0.5,
+													-0.5
+												],
+												"stroke-thickness" : 0.2,
+												"text" : "OKAY"
+											}
+										]
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											178,
+											190,
+											193
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 64,
+										"margin-right" : 0,
+										"margin-top" : 26,
+										"max-height" : 42,
+										"name" : "labelHousePointsDescriptionMulti",
+										"position-x" : "left",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "Everyone is heading back to the Slytherin Common Room. Come find me there!",
+										"vertical-spacing" : 0.8,
+										"width" : 236
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											178,
+											190,
+											193
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 64,
+										"margin-right" : 0,
+										"margin-top" : 26,
+										"max-width" : 236,
+										"name" : "labelHousePointsDescription",
+										"position-x" : "left",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "Well done, so-and-so! You're super cool."
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 64,
+										"margin-right" : 0,
+										"margin-top" : 43,
+										"name" : "labelHousePoints",
+										"position-x" : "left",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "+20 House Points",
+										"width" : 246
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "view",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "genericView",
+								"percent-height" : 1,
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "top",
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
+										"class" : "button",
+										"height" : 32,
+										"image" : "invisible.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 38,
+										"margin-top" : 0,
+										"name" : "buttonOkay",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 128,
+										"children" : [
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"actions" : [],
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 31,
+												"image" : "hp_button_secondary_active.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0.5,
+												"margin-top" : 0,
+												"name" : "btn_bg",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 128
+											},
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													221,
+													188,
+													112
+												],
+												"font" : "4privetdrive",
+												"font-size" : 11,
+												"local:text" : "GAME_OKAY",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"max-width" : 100,
+												"name" : "labelOkay",
+												"position-x" : "center",
+												"position-y" : "center",
+												"shadow-color" : [
+													0,
+													0,
+													0
+												],
+												"stroke-thickness" : 0.2,
+												"text" : "OKAY"
+											}
+										]
+									},
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"actions" : [],
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "button",
+										"height" : 32,
+										"image" : "invisible.png",
+										"margin-bottom" : 0,
+										"margin-left" : 61,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "buttonLater",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 128,
+										"children" : [
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"actions" : [],
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 31,
+												"image" : "hp_button_secondary_idle.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0.5,
+												"margin-top" : 0,
+												"name" : "btn_bg",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 128
+											},
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													0,
+													134,
+													134
+												],
+												"font" : "4privetdrive",
+												"font-size" : 11,
+												"local:text" : "HP_CLASS_LATER_BTN",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"max-width" : 100,
+												"name" : "labelLater",
+												"position-x" : "center",
+												"position-y" : "center",
+												"shadow-color" : [
+													0,
+													0,
+													0
+												],
+												"stroke-thickness" : 0.2,
+												"text" : "LATER"
+											}
+										]
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											178,
+											190,
+											193
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 64,
+										"margin-right" : 0,
+										"margin-top" : 26,
+										"max-height" : 42,
+										"name" : "labelDescription",
+										"position-x" : "left",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "Everyone is heading back to the Slytherin Common Room. Come find me there!",
+										"vertical-spacing" : 0.8,
+										"width" : 236
+									}
+								]
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "4privetdrive",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 64,
+								"margin-right" : 0,
+								"margin-top" : 3,
+								"max-width" : 250,
+								"name" : "labelTitle",
+								"position-x" : "left",
+								"position-y" : "top",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "LETTER FROM BILL WEASLEY"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"dynamic-img" : true,
+						"height" : 100,
+						"image" : "invisible.png",
+						"margin-bottom" : 8.5,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconButton",
+						"position-x" : "left",
+						"position-y" : "top",
+						"sizing" : "SpriteAspectFit",
+						"width" : 138,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 80,
+								"image" : "hp_icon_loudspeaker.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 8,
+								"margin-top" : 10,
+								"name" : "iconLoader",
+								"position-x" : "left",
+								"position-y" : "top",
+								"sizing" : "SpriteAspectFit",
+								"width" : 80
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

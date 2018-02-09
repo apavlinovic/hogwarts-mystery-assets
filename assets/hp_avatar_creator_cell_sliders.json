@@ -1,0 +1,87 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 37,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 222,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 30,
+				"margin-bottom" : 4,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "sliderView",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 208,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "slider",
+						"height" : 20,
+						"image" : "hp_bg_slider.png",
+						"margin-bottom" : 10,
+						"margin-left" : 104,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "slider",
+						"nub-image" : "hp_button_slider.png",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 208,
+						"children" : []
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 5,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 208,
+						"name" : "sliderName",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Lip Size"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

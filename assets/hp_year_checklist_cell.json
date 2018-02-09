@@ -1,0 +1,126 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 36,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 250,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.5,
+				"9slicescalezone-width" : 0.5,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 26,
+				"image" : "invisible.png",
+				"name" : "cellChecklist",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							191,
+							194
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"height" : 26,
+						"margin-bottom" : 0,
+						"margin-left" : 32,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "labelDesc",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Complete your Cursed Vault Quest",
+						"vertical-spacing" : 0.9,
+						"width" : 210
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"editor-layerExpanded" : false,
+						"font" : "Avenir-Roman",
+						"height" : 26,
+						"image" : "hp_container_check.png",
+						"max-width" : 70,
+						"name" : "checkBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "65355\/99999",
+						"width" : 26,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Roman",
+								"height" : 16,
+								"image" : "hp_icon_check_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 70,
+								"name" : "check",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "65355\/99999",
+								"width" : 18
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.7"
+}

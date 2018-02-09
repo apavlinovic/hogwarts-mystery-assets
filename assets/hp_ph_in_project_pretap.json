@@ -1,0 +1,123 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 141,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 140,
+		"children" : [
+			{
+				"anchor-x" : 0.5,
+				"anchor-y" : 0.354,
+				"class" : "view",
+				"editor-hide" : true,
+				"editor-lock" : true,
+				"height" : 141,
+				"margin-bottom" : 50,
+				"margin-left" : 70,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "anchorRef",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 140
+			},
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 141,
+				"image" : "hp_ph_hint_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "in_project_action_cell",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 140,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 100,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "spendEnergyBtn",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 100,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 41,
+								"image" : "hp_energy_spending_bubble.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "activeBg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"scale" : 0.57,
+								"sizing" : "SpriteFill",
+								"width" : 41
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 41,
+								"image" : "hp_bg_bubble_difficulty.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderAttributeIcon_difficulty",
+								"position-x" : "center",
+								"position-y" : "center",
+								"scale" : 0.5,
+								"width" : 41
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 30,
+								"image" : "hp_class_action_default_icon_circle.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderAttributeIcon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"scale" : 0.5,
+								"width" : 30
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

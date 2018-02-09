@@ -1,0 +1,749 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 50,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 317,
+		"children" : [
+			{
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 40,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "questObjectiveView",
+				"percent-width" : 1,
+				"position-x" : "right",
+				"position-y" : "center",
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 31,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "questTitleFull",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							-0.5,
+							-0.5
+						],
+						"text" : "Talk with {bold}Ravi in the Great Hall{\/} 4 times. This should go all the way to the end of the cell.",
+						"width" : 270
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 31,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "questTitleToArrow",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							-0.5,
+							-0.5
+						],
+						"text" : "Talk with {bold}Ravi in the Great Hall{\/} 4 times. This should go all the way to the arrow.",
+						"width" : 230
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 31,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 29,
+						"name" : "questTitleToArrowSlim",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							-0.5,
+							-0.5
+						],
+						"text" : "Talk with {bold}Ravi in the Great Hall{\/} 4 times. This should go all the way to the arrow.",
+						"vertical-spacing" : 0.78,
+						"width" : 230
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 31,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "questTitle",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Talk with {bold}Ravi in the Great Hall{\/} {italic}4 times{\/}",
+						"vertical-spacing" : 0.78,
+						"width" : 150
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "Avenir-BookOblique",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 31,
+						"margin-right" : 0,
+						"margin-top" : 12,
+						"max-width" : 280,
+						"name" : "questHint",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Complete more projects to earn XP and Level Up!",
+						"vertical-spacing" : 0.78
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							211,
+							69,
+							69
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-BookOblique",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 31,
+						"margin-right" : 0,
+						"margin-top" : 12,
+						"max-width" : 280,
+						"name" : "questAttributeReq",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Requires Knowledge Level 10",
+						"vertical-spacing" : 0.78
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "CTA",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 61,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.33,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-hide" : true,
+								"height" : 40,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "goBTN",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 317,
+								"children" : [
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 31,
+										"image" : "hp_button_arrow_med.png",
+										"margin-bottom" : 6,
+										"margin-left" : 0,
+										"margin-right" : 16,
+										"margin-top" : 0,
+										"name" : "icon_arrow",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 30
+									}
+								]
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "button",
+								"height" : 34,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 4,
+								"name" : "attributeLock",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 34,
+								"children" : [
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"class" : "image",
+										"dynamic-img" : true,
+										"height" : 40,
+										"image" : "hp_icon_attribute_courage_med.png",
+										"margin-bottom" : 3,
+										"margin-left" : 3,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "loaderAttribute",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 40
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											16,
+											29,
+											37
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 14,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 20,
+										"name" : "labelAttributeLvl",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0,
+											-0.5
+										],
+										"text" : "3"
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"class" : "image",
+										"height" : 17,
+										"image" : "hp_icon_lock_xsm.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "icon_lock",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 13
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.63,
+								"9slicescalezone-x" : 0.18,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-hide" : true,
+								"height" : 31,
+								"image" : "hp_button_secondary_prem.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"name" : "startnowBTN",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 64,
+								"children" : [
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"margin-bottom" : 0,
+										"margin-left" : 34,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 20,
+										"name" : "currencyQuantity",
+										"position-x" : "left",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											-0.5,
+											-0.5
+										],
+										"text" : "5",
+										"vertical-spacing" : 0.8
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 16,
+										"image" : "hp_icons_gem.png",
+										"margin-bottom" : 7,
+										"margin-left" : 0,
+										"margin-right" : 32,
+										"margin-top" : 0,
+										"name" : "currencyIcon",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 16
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											178,
+											190,
+											193
+										],
+										"font" : "Avenir-Book",
+										"font-size" : 11,
+										"local:text" : "HP_START_NOW",
+										"margin-bottom" : 18.5,
+										"margin-left" : 0,
+										"margin-right" : 0.5,
+										"margin-top" : 0,
+										"max-width" : 60,
+										"name" : "startnowLabel",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											-0.5,
+											-0.5
+										],
+										"text" : "Start Now:",
+										"vertical-spacing" : 0.8
+									}
+								]
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"editor-hide" : true,
+						"height" : 42,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 67,
+						"margin-top" : 0,
+						"name" : "timer",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 63,
+						"children" : [
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 42,
+								"image" : "hp_container_blue.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "container_time",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 63,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 1,
+										"image" : "hp_divider_blue.png",
+										"margin-bottom" : 20,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "divider_blue",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 63
+									}
+								]
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "clock-label-v2",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-BookOblique",
+								"font-size" : 11,
+								"format" : "suffixed",
+								"margin-bottom" : 0,
+								"margin-left" : 6,
+								"margin-right" : 0,
+								"margin-top" : 11,
+								"max-width" : 54,
+								"name" : "timerActiveRemaining",
+								"position-x" : "center",
+								"position-y" : "center",
+								"resolution" : 2,
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									-0.5,
+									-0.5
+								],
+								"text" : "1hr 5m",
+								"vertical-spacing" : 0.8
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "clock-label-v2",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-BookOblique",
+								"font-size" : 11,
+								"format" : "suffixed",
+								"margin-bottom" : 10,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "countdownToActive",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"resolution" : 2,
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									-0.5,
+									-0.5
+								],
+								"text" : "in 2h 08m",
+								"vertical-spacing" : 0.78
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Book",
+								"font-size" : 11,
+								"format" : "suffixed",
+								"height" : 12,
+								"image" : "hp_icon_clock_sm.png",
+								"local:text" : "HP_READY_IN",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 21,
+								"margin-top" : 11,
+								"max-width" : 54,
+								"name" : "icon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									-0.5,
+									-0.5
+								],
+								"text" : "Ready In:",
+								"vertical-spacing" : 0.8,
+								"width" : 12
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Book",
+								"font-size" : 11,
+								"format" : "suffixed",
+								"local:text" : "HP_READY_IN",
+								"margin-bottom" : 10,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 54,
+								"name" : "timerActiveLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									-0.5,
+									-0.5
+								],
+								"text" : "Ready In:",
+								"vertical-spacing" : 0.8
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "counter",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 26,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-BookOblique",
+								"font-size" : 11,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 2,
+								"margin-top" : 13,
+								"max-width" : 26,
+								"name" : "counterLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "{gray}3{\/}{white}\/5{\/}",
+								"vertical-spacing" : 0.8
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 26,
+								"image" : "hp_container_check.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "hp_container_check",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 26
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 1,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 16,
+								"image" : "hp_icon_check_sm.png",
+								"margin-bottom" : 19,
+								"margin-left" : 0,
+								"margin-right" : 4,
+								"margin-top" : 0,
+								"name" : "checkmark",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 18
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

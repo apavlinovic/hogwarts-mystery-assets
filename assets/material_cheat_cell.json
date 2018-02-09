@@ -1,0 +1,199 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 190,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 130,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 190,
+				"image" : "pinata_selected.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 130
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 70,
+				"image" : "invisible.png",
+				"margin-bottom" : 108,
+				"margin-left" : 65,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "materialImage",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 70
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 28,
+				"image" : "button_generic_blue.png",
+				"margin-bottom" : 0,
+				"margin-left" : 1,
+				"margin-right" : 0,
+				"margin-top" : 68,
+				"name" : "button2",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 111,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "HelveticaNeueLTCom-Md",
+						"font-size" : 14,
+						"margin-bottom" : 3,
+						"margin-left" : 31,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "buttonLabel2",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Get All"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 28,
+				"image" : "button_generic_blue.png",
+				"margin-bottom" : 0,
+				"margin-left" : 1,
+				"margin-right" : 0,
+				"margin-top" : 38,
+				"name" : "button1",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 111,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "HelveticaNeueLTCom-Md",
+						"font-size" : 14,
+						"margin-bottom" : 12,
+						"margin-left" : 55,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "buttonLabel1",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Get 1"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "label",
+				"font" : "HelveticaNeueLTCom-Md",
+				"font-size" : 14,
+				"height" : 20,
+				"margin-bottom" : 156,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "name",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"shadow-color" : [
+					255,
+					255,
+					255
+				],
+				"text" : "Need: 99",
+				"width" : 109
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "label",
+				"color" : [
+					255,
+					111,
+					141
+				],
+				"font" : "HelveticaNeueLTCom-Md",
+				"font-size" : 10,
+				"height" : 20,
+				"margin-bottom" : 136,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "status",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Current Level: 6",
+				"width" : 109
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

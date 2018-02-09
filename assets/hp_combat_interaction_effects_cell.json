@@ -1,0 +1,73 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 28,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 32,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"dynamic-img" : true,
+				"height" : 20,
+				"image" : "hp_icon_combat_stun.png",
+				"margin-bottom" : 2,
+				"margin-left" : 0,
+				"margin-right" : 2,
+				"margin-top" : 0,
+				"name" : "effectOpponent",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 20,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 10,
+						"margin-right" : 0,
+						"margin-top" : 10,
+						"max-width" : 20,
+						"name" : "labelAttribute",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "99",
+						"vertical-spacing" : 0.9
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

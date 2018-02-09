@@ -1,0 +1,343 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.81425,
+				"9slicescalezone-width" : 0.900647,
+				"9slicescalezone-x" : 0.033,
+				"9slicescalezone-y" : 0.05175,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 280,
+				"image" : "mar_modal_basic_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modal_bg",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 340,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							244,
+							174,
+							5
+						],
+						"font" : "Gotham-Bold",
+						"font-size" : 23,
+						"gradient-top-color" : [
+							248,
+							255,
+							227
+						],
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 2,
+						"margin-top" : 16,
+						"max-width" : 300,
+						"name" : "label_title0",
+						"position-x" : "center",
+						"position-y" : "top",
+						"stroke-color" : [
+							153,
+							63,
+							4
+						],
+						"stroke-thickness" : 2,
+						"text" : "Select a Character"
+					},
+					{
+						"9slicescalezone-height" : 0.93,
+						"9slicescalezone-width" : 0.93,
+						"9slicescalezone-x" : 0.031795,
+						"9slicescalezone-y" : 0.03,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 195,
+						"image" : "action_level_fill_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 3,
+						"margin-top" : 32,
+						"name" : "action_level_fill_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 302
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "table-view",
+						"height" : 195,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 2.5,
+						"margin-top" : 32,
+						"name" : "tableview",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 297
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 20,
+						"image" : "button_close.png",
+						"margin-bottom" : 136,
+						"margin-left" : 168,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "button_close",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 20
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 20,
+						"image" : "settings_signin_textfield.png",
+						"margin-bottom" : 90,
+						"margin-left" : 0,
+						"margin-right" : 154,
+						"margin-top" : 0,
+						"name" : "searchBG",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 202
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "text-input",
+						"color" : [
+							0,
+							0,
+							0
+						],
+						"font-size" : 14,
+						"height" : 20,
+						"margin-bottom" : 88.5,
+						"margin-left" : 0,
+						"margin-right" : 146,
+						"margin-top" : 0,
+						"name" : "searchField",
+						"placeholder-text" : "Search...",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 192
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 24,
+						"image" : "invisible.png",
+						"margin-bottom" : 92.5,
+						"margin-left" : 150,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "button_regex",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 50,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 24,
+								"image" : "button_generic_green.png",
+								"margin-bottom" : 12,
+								"margin-left" : 25,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "regex_enabled",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 50,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											79,
+											100,
+											0
+										],
+										"font" : "Gotham-Black",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 50,
+										"name" : "label_enabled",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											216,
+											235,
+											64
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"text" : "Regex"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.33,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 24,
+								"image" : "button_generic_gray.png",
+								"margin-bottom" : 12,
+								"margin-left" : 25,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "regex_disabled",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 50,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											90,
+											90,
+											90
+										],
+										"font" : "Gotham-Black",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 50,
+										"name" : "label_disabled",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											220,
+											220,
+											220
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"text" : "Regex"
+									}
+								]
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 24,
+						"image" : "button_generic_green.png",
+						"margin-bottom" : 92.5,
+						"margin-left" : 99,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "button_search",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 50,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									79,
+									100,
+									0
+								],
+								"font" : "Gotham-Black",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 50,
+								"name" : "label_search",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									216,
+									235,
+									64
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"text" : "Search"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

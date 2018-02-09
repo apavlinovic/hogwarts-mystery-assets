@@ -1,0 +1,147 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.335989,
+				"9slicescalezone-width" : 0.607653,
+				"9slicescalezone-x" : 0.204975,
+				"9slicescalezone-y" : 0.356098,
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "image",
+				"image" : "hp_ph_modal_bg.png",
+				"inset-margin-y" : 2,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modal_bg",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "top",
+				"width" : 360,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"font" : "AppleGaramond-Bold",
+						"font-size" : 25,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 17,
+						"max-width" : 300,
+						"name" : "label_title0",
+						"position-x" : "center",
+						"position-y" : "top",
+						"stroke-color" : [
+							153,
+							63,
+							4
+						],
+						"text" : "Select a Character"
+					},
+					{
+						"9slicescalezone-height" : 0.13,
+						"9slicescalezone-width" : 0.73,
+						"9slicescalezone-x" : 0.131795,
+						"9slicescalezone-y" : 0.03,
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"image" : "action_level_fill_bg.png",
+						"inset-margin-y" : 60,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 57,
+						"name" : "action_level_fill_bg",
+						"percent-height" : 1,
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 300,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "table-view",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 2.5,
+								"margin-top" : 0,
+								"name" : "tableview",
+								"percent-height" : 1,
+								"percent-width" : 0.99,
+								"position-x" : "center",
+								"position-y" : "center",
+								"children" : []
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 30,
+						"image" : "hp_ph_btn_close.png",
+						"name" : "button_close",
+						"position-x" : "right",
+						"position-y" : "top",
+						"sizing" : "SpriteFill",
+						"width" : 30
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 20,
+						"image" : "settings_signin_textfield.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 43,
+						"name" : "searchBG",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 302
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "text-input",
+						"color" : [
+							0,
+							0,
+							0
+						],
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 146,
+						"margin-top" : 44.5,
+						"name" : "searchField",
+						"placeholder-text" : "Search...",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 292
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

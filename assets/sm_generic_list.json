@@ -1,0 +1,79 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 289,
+				"image" : "hp_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 15.5,
+				"name" : "bkg",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 304
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"cell-json" : "generic_cheat_cell.json",
+				"class" : "table-view",
+				"height" : 244,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "listTable",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 290,
+				"children" : []
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "Avenir-Light",
+				"font-size" : 10,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 22,
+				"name" : "title",
+				"position-x" : "center",
+				"position-y" : "top",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "title"
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

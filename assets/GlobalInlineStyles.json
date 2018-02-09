@@ -1,0 +1,148 @@
+{
+  "font-map": {
+    "boldness": {
+      "Avenir-Light": "Avenir-Black",
+      "Avenir-Medium": "Avenir-Black",
+      "Avenir-Heavy": "Avenir-Black",
+      "Avenir-Roman": "Avenir-Black",
+      "Avenir-Book": "Avenir-Heavy",
+      "Avenir-LightOblique": "Avenir-MediumOblique",
+      "Avenir-MediumOblique": "Avenir-HeavyOblique",
+      "Avenir-HeavyOblique": "Avenir-BlackOblique",
+      "Avenir-RomanOblique": "Avenir-HeavyOblique",
+      "Avenir-BookOblique": "Avenir-HeavyOblique",
+      "EBGaramond12-Regular": "EBGaramond08-Regular",
+      "EBGaramond12-Italic": "EBGaramond08-Italic",
+      "EBGaramondSC12-Regular": "EBGaramondSC08-Regular"
+    },
+    "italicism": {
+      "Avenir-Light": "Avenir-LightOblique",
+      "Avenir-Medium": "Avenir-MediumOblique",
+      "Avenir-Heavy": "Avenir-HeavyOblique",
+      "Avenir-Roman": "Avenir-Oblique",
+      "Avenir-Book": "Avenir-BookOblique",
+      "Avenir-Black": "Avenir-BlackOblique",
+      "EBGaramond08-Regular": "EBGaramond08-Italic",
+      "EBGaramond12-Regular": "EBGaramond12-Italic"
+    },
+    "sc": {
+      "EBGaramond08-Regular": "EBGaramondSC08-Regular",
+      "EBGaramond12-Regular": "EBGaramondSC12-Regular"
+    }
+  },
+  "bold": {
+    "font-map": "boldness"
+  },
+  "italic": {
+    "font-map": "italicism"
+  },
+  "small-caps": {
+    "font-map": "sc"
+  },
+  "white": {
+    "color": [
+      255,
+      255,
+      255
+    ]
+  },
+  "gray": {
+  	"color": [
+  		178,
+  		191,
+  		194
+  	]
+	},
+  "red": {
+    "color": [
+      209,
+      15,
+      13
+    ]
+  },
+  "purple": {
+    "color": [
+      220,
+      108,
+      220
+  ]
+},
+  "black": {
+    "color": [
+      16,
+      30,
+      38
+    ]
+  },
+  "blue": {
+    "color": [
+      136,
+      217,
+      197
+    ]
+  },
+  "green": {
+    "color": [
+      43,
+      182,
+      115
+    ]
+  },
+  "lt-brown": {
+    "color": [
+      185,
+      160,
+      105
+    ]
+  },
+    "orange": {
+    "color": [
+      253,
+      175,
+      107
+      ]
+    },
+  "yellow": {
+    "color": [
+      233,
+      211,
+      162
+    ]
+  },
+  "magenta": {
+    "color": [
+      194,
+      101,
+	  154
+    ]
+  },
+  "grad": {
+    "gradient-top-color": [
+	  233,
+	  211,
+	  162
+    ]
+  },
+  "stroke": {
+    "stroke-color": [
+      16,
+      30,
+      38
+    ],
+    "stroke-thickness": 0.5
+  },
+  "shadow": {
+    "shadow-color": [
+      16,
+      30,
+      38
+    ],
+    "shadow-offset": [
+      -0.5,
+      -0.5
+    ]
+  },
+  "big": {
+    "font-size": 23
+  }
+}

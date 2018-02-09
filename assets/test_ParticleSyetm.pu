@@ -1,0 +1,44 @@
+system canOfWorms
+{
+    category                                    LightFX
+    technique 
+    {
+        visual_particle_quota                   5000
+        emitted_emitter_quota                   20
+        material                                PUMediaPack/Flare_04
+        default_particle_width                  1.2
+        default_particle_height                 1.2
+        renderer                                Billboard
+        {
+        }
+        emitter                                 MeshSurface Worms
+        {
+            emission_rate                       1200
+            angle                               0
+            time_to_live                        dyn_random
+            {
+                min                             2
+                max                             4
+            }
+            velocity                            dyn_random
+            {
+                min                             0
+                max                             0.5
+            }
+            direction                           0 -1 0
+            colour                              1 0.6 0.6 1
+            mesh_name                           p_Cat01_skin
+            auto_direction                      true
+            mesh_surface_distribution           
+        }
+        affector                                Colour Affector1
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.269565  1 1 1 1
+            time_colour                         0.45  1 1 0 1
+            time_colour                         0.591304  1 1 0 1
+            time_colour                         0.784783  0 1 1 1
+            time_colour                         1    0 1 1 1
+        }
+    }
+}

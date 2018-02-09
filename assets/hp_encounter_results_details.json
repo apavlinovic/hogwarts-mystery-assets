@@ -1,0 +1,182 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 72,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 380,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 72,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "entryBg",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 380,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 72,
+						"image" : "hp_bg_container_smoke_dark.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "smoke1",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 209
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"flipX" : true,
+						"flipY" : true,
+						"height" : 72,
+						"image" : "hp_bg_container_smoke_dark.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "smoke2",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 209
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"local:text" : "HP_CUSTOM_CONFIRM_DESC",
+						"margin-bottom" : 0,
+						"margin-left" : 36,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 260,
+						"name" : "labelDesc",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "Your high [attribute] skill made this more effective!",
+						"vertical-spacing" : 0.9
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							211,
+							69,
+							69
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 318,
+						"margin-right" : 0,
+						"margin-top" : 36,
+						"max-width" : 40,
+						"name" : "labelNegative",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "-10"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							51,
+							167,
+							112
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 318,
+						"margin-right" : 0,
+						"margin-top" : 36,
+						"max-width" : 40,
+						"name" : "labelPositive",
+						"position-x" : "left",
+						"position-y" : "top",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "+10"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8"
+}

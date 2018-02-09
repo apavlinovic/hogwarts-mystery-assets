@@ -1,0 +1,86 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 120,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 241,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "view",
+				"image" : ".",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "RoomMenu",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "top",
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "roomMenuView",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "top",
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.713165,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.043744,
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 100,
+								"image" : "hp_container_gradient.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "questBg",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 200
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"cell-json" : "hp_room_menu_cell.json",
+								"class" : "table-view",
+								"height" : 120,
+								"margin-bottom" : 0,
+								"margin-left" : 8,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "menuLoader",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 225,
+								"children" : []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.6"
+}

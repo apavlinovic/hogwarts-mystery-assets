@@ -1,0 +1,135 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 40,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 270,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "CoinWidget",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							204,
+							204,
+							204
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 178.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 40,
+						"name" : "labelRewardTotal",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "999"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							204,
+							204,
+							204
+						],
+						"font" : "Avenir-Heavy",
+						"font-size" : 11,
+						"margin-bottom" : 0,
+						"margin-left" : 172.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 10,
+						"name" : "Divider",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "\/"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							174,
+							0
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"margin-bottom" : 1,
+						"margin-left" : 172.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 60,
+						"name" : "labelRewardEarned",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "+999"
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 34,
+						"image" : "hp_icon_currency_coin.png",
+						"margin-bottom" : 1,
+						"margin-left" : 0,
+						"margin-right" : 7,
+						"margin-top" : 0,
+						"name" : "loaderIcon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 34
+					}
+				]
+			}
+		]
+	},
+	"psdName" : ""
+}

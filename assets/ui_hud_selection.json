@@ -1,0 +1,23 @@
+{
+	"psdName" : "HUD_selection.psd",
+	"view" : {
+		"children" : [
+			{
+				"anchor-x" : 0,
+				"anchor-y" : 0,
+				"class" : "button",
+				"height" : 69,
+				"image" : "invisible.png",
+				"margin-left" : -1,
+				"margin-top" : 144,
+				"name" : "backButton",
+				"position-y" : "top",
+				"width" : 57
+			}
+		],
+		"inherit-position" : true,
+		"name" : "ui_hud_selection",
+		"percent-height" : 1,
+		"percent-width" : 1
+	}
+}

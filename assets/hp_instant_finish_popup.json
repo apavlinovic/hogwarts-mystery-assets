@@ -1,0 +1,291 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "fg_quest",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrimBg_copy",
+				"percent-height" : 1,
+				"percent-width" : 1.002083,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 184,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "not_enough_popup",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 280,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.626478,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0.500857,
+						"9slicescalezone-y" : 0.186261,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"image" : "hp_container_sm_9s.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom"
+					},
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 0.32213,
+						"9slicescalezone-x" : 0.34387,
+						"9slicescalezone-y" : 0.666,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 24,
+						"image" : "hp_button_purple.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0.5,
+						"margin-top" : 52,
+						"name" : "button_premium_buy",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 92,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Medium",
+								"font-size" : 12,
+								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 90,
+								"name" : "label_premium_buy",
+								"percent-height" : 0.666667,
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									51,
+									51,
+									51
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "BUY"
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 16,
+						"margin-bottom" : 47,
+						"margin-left" : 114,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "cost_area",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 41,
+						"children" : [
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 16,
+								"image" : "hp_icons_gem.png",
+								"margin-bottom" : 8,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "currency_icon_loader",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 16
+							},
+							{
+								"alignment" : "right",
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Medium",
+								"font-size" : 12,
+								"margin-bottom" : 6,
+								"margin-left" : 0,
+								"margin-right" : 12,
+								"margin-top" : 0,
+								"max-width" : 23,
+								"name" : "label_price",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									108,
+									107,
+									134
+								],
+								"stroke-color" : [
+									108,
+									107,
+									134
+								],
+								"text" : "225"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 30,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 4,
+						"margin-top" : 4,
+						"name" : "closeButton",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 30,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 9,
+								"image" : "hp_button_close_bright.png",
+								"margin-bottom" : 0,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 5.5,
+								"name" : "closeButtonIcon",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 9
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 12,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 60,
+						"name" : "label_item_description",
+						"position-x" : "center",
+						"position-y" : "center",
+						"text" : "You need more stuff to make Odorous Vegetable Soup. Purchase Now?  Purchase Now?",
+						"vertical-spacing" : 0.9,
+						"width" : 205
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "DIN Condensed Bold",
+						"font-size" : 22,
+						"local:text" : "GAME_INSTANT_FINISH_TITLE",
+						"margin-bottom" : 50,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 205,
+						"name" : "label_not_enough_title",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"shadow-offset" : [
+							0.3,
+							0
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "INSTANT FINISH"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

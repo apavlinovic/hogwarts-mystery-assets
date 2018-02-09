@@ -1,0 +1,334 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "dialog_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "dialog_bg",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.453833,
+				"9slicescalezone-x" : 0.2705,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 160,
+				"image" : "mar_OB_story_timed_modal_bg.png",
+				"margin-bottom" : 9,
+				"margin-left" : 0,
+				"margin-right" : 1,
+				"margin-top" : 0,
+				"name" : "push_prompt_modal",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 158,
+						"image" : "mar_rate_modal_stripes.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 86,
+						"margin-top" : 0,
+						"name" : "modal_stripes",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 333
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 158,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 7,
+						"margin-top" : 0,
+						"name" : "model_info",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 354,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.266333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"height" : 30,
+								"image" : "mar_green_btn.png",
+								"margin-bottom" : 9,
+								"margin-left" : 259,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "ok_btn",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 100,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamXNarrow-BlackItalic",
+										"font-size" : 14,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "PUSH_PROMP_BUTTON_LABEL",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 80,
+										"name" : "label_ok",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											0,
+											59,
+											0
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											0,
+											59,
+											0
+										],
+										"stroke-thickness" : 1,
+										"text" : "Sure!"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.266333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"height" : 30,
+								"image" : "mar_btn_null_bg.png",
+								"margin-bottom" : 9,
+								"margin-left" : 151,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "no_btn",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 100,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "GothamXNarrow-BlackItalic",
+										"font-size" : 14,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "PUSH_PROMP_BUTTON_LABEL",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 80,
+										"name" : "label_cancel",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											89,
+											86,
+											116
+										],
+										"shadow-offset" : [
+											0,
+											-1
+										],
+										"stroke-color" : [
+											89,
+											86,
+											116
+										],
+										"stroke-thickness" : 1,
+										"text" : "Maybe Later"
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 50,
+								"image" : "mar_premium_modal_sparkle.png",
+								"margin-bottom" : 0,
+								"margin-left" : 180,
+								"margin-right" : 0,
+								"margin-top" : 43,
+								"name" : "sparkle",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 50
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 138,
+								"image" : "mar_OB_story_timed_cell_bg.png",
+								"margin-bottom" : 10,
+								"margin-left" : 0,
+								"margin-right" : 5,
+								"margin-top" : 0,
+								"name" : "character_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 144
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 170,
+								"image" : "wasp_rate.png",
+								"margin-bottom" : 17,
+								"margin-left" : 0,
+								"margin-right" : 110,
+								"margin-top" : 0,
+								"name" : "character_loader",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 142
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"height" : 80,
+								"local:text" : "PUSH_PROMP_TEXT_LABEL",
+								"margin-bottom" : 0,
+								"margin-left" : 151,
+								"margin-right" : 0,
+								"margin-top" : 29,
+								"name" : "text_label",
+								"position-x" : "left",
+								"position-y" : "top",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "How 'bout enabling push notifications? Then your phone goes off you can pretend it's a text so people think you're popular.",
+								"vertical-spacing" : 0.94,
+								"width" : 208
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamNarrow-UltraItalic",
+								"font-size" : 17,
+								"height" : 24,
+								"local:text" : "PUSH_PROMP_TITLE_LABEL",
+								"margin-bottom" : 62,
+								"margin-left" : 149,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 220,
+								"name" : "title_label",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									30,
+									97
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"stroke-thickness" : 1,
+								"text" : "Enable Push Notifitions?"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

@@ -1,0 +1,211 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 55,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 227,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"height" : 1,
+				"image" : "hp_crafter_divider.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "divider",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 227
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 55,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bribeMenuCell",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 227,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Roman",
+						"margin-bottom" : 20,
+						"margin-left" : 61,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 114,
+						"name" : "labelBribeMenuCell",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"text" : "Wide Eye Potion"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 41,
+						"image" : "invisible.png",
+						"margin-bottom" : 7,
+						"margin-left" : 13,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "viewRequirement",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 41
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 9,
+						"image" : "hp_icon_complete_indicator.png",
+						"margin-bottom" : 23,
+						"margin-left" : 0,
+						"margin-right" : 18,
+						"margin-top" : 0,
+						"name" : "iconRequirementMet",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 9
+					},
+					{
+						"9slicescalezone-height" : 0.499667,
+						"9slicescalezone-width" : 0.511082,
+						"9slicescalezone-x" : 0.23711,
+						"9slicescalezone-y" : 0.233,
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 21,
+						"image" : "hp_clubhouse_cta_button.png",
+						"margin-bottom" : 17,
+						"margin-left" : 0,
+						"margin-right" : 1,
+						"margin-top" : 0,
+						"name" : "btnGet",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 45,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									255,
+									235,
+									105
+								],
+								"font" : "Avenir-Medium",
+								"font-size" : 9,
+								"local:text" : "HP_LABEL_BRIBE_MENU_GET_BTN",
+								"margin-bottom" : 3,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 0,
+								"max-width" : 31,
+								"name" : "labelGet",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									0,
+									59,
+									0
+								],
+								"stroke-color" : [
+									0,
+									59,
+									0
+								],
+								"text" : "GET"
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.499667,
+						"9slicescalezone-width" : 0.511082,
+						"9slicescalezone-x" : 0.23711,
+						"9slicescalezone-y" : 0.233,
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 21,
+						"image" : "hp_clubhouse_cta_button.png",
+						"margin-bottom" : 17,
+						"margin-left" : 0,
+						"margin-right" : 12,
+						"margin-top" : 0,
+						"name" : "btnTurnIn",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 155,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									255,
+									235,
+									105
+								],
+								"font" : "Avenir-Medium",
+								"font-size" : 9,
+								"local:text" : "HP_LABEL_BRIBE_MENU_TURN_IN_BTN",
+								"margin-bottom" : 3,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 0,
+								"max-width" : 135,
+								"name" : "labelTurnIn",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									0,
+									59,
+									0
+								],
+								"stroke-color" : [
+									0,
+									59,
+									0
+								],
+								"text" : "TAP TO TURN IN!"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.1"
+}

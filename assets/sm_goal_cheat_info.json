@@ -1,0 +1,134 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"image" : "mar_modal_basic_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bkg",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 480,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"dynamic-text" : true,
+						"font" : "Avenir-Roman",
+						"font-size" : 15,
+						"height" : 200,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 50,
+						"name" : "labelBody",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "BODY COPY BODY COPY BODY COPYBODY COPY BODY COPY BODY COPYBODY COPY BODY COPY BODY COPYBODY COPY BODY COPY BODY COPYBODY COPY BODY COPY BODY COPY",
+						"width" : 460
+					}
+				]
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					225,
+					135
+				],
+				"dynamic-text" : true,
+				"font" : "Avenir-Roman",
+				"font-size" : 15,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 22,
+				"name" : "labelTitle",
+				"position-x" : "center",
+				"position-y" : "top",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Goal id and name"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 46,
+				"image" : "placeholder.png",
+				"margin-bottom" : 37,
+				"margin-left" : 441.5,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "startNowBtn",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 125,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							225,
+							135
+						],
+						"font" : "Avenir-Roman",
+						"font-size" : 15,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 22,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "START now"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

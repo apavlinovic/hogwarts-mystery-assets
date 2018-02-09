@@ -1,0 +1,122 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 53,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 58,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 53,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "material_cell",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 58,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 43,
+						"image" : "hp_orderboard_order_bg_normal.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "requirement_icon_bg",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 43
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 43,
+						"image" : "hp_orderboard_order_bg_selected.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "requirement_icon_bg_selected",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 43
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 35,
+						"image" : "hp_material_earmuffs.png",
+						"margin-bottom" : 14,
+						"margin-left" : 4,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loader_material_icon",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 35
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 7.5,
+						"margin-top" : 4,
+						"name" : "label_requirement",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							108,
+							107,
+							134
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"text" : "6 \/ 10"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.1.1"
+}

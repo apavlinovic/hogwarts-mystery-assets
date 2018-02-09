@@ -1,0 +1,83 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 28,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 297,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 28,
+				"image" : "placeholder.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "button_select",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 297,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Roman",
+						"font-size" : 14,
+						"height" : 20,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 17.5,
+						"margin-top" : 2,
+						"name" : "filename",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "TestFileNameg",
+						"width" : 240
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 16,
+						"image" : "collection_like_picture.png",
+						"margin-bottom" : 0,
+						"margin-left" : 129,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "select_mark",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 22
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

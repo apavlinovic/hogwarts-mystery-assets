@@ -1,0 +1,305 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 224,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 304,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.576243,
+						"9slicescalezone-width" : 0.717106,
+						"9slicescalezone-x" : 0.071411,
+						"9slicescalezone-y" : 0.251919,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 224,
+						"image" : "mar_modal_basic_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 304,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 2,
+								"image" : "mar_divider.png",
+								"margin-bottom" : 5,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "mar_divider",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 223
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 32,
+						"image" : "mar_green_btn.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 83,
+						"name" : "ok_btn",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 114,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "GothamNarrow-UltraItalic",
+								"font-size" : 12,
+								"local:text" : "GAME_AGE_GATE_BTN_OK",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "label_ok",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									59,
+									0
+								],
+								"shadow-offset" : [
+									0,
+									-1
+								],
+								"stroke-color" : [
+									0,
+									59,
+									0
+								],
+								"stroke-thickness" : 1,
+								"text" : "Accept"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 14,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 27,
+						"margin-top" : 53,
+						"name" : "tos_button",
+						"position-x" : "right",
+						"position-y" : "center",
+						"width" : 70,
+						"children" : [
+							{
+								"alignment" : "right",
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									23,
+									60,
+									111
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"local:text" : "GAME_AGE_GATE_TOS",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "tos",
+								"position-x" : "right",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "Terms of Service"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 14,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 125,
+						"margin-top" : 53,
+						"name" : "privacy_policy_button",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 91,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									23,
+									60,
+									111
+								],
+								"font" : "GothamXNarrow-Medium",
+								"font-size" : 12,
+								"height" : 17,
+								"local:text" : "GAME_AGE_GATE_PRIVACY_POLICY",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "privacy_policy",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "TinyCo Privacy Policy"
+							}
+						]
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							108,
+							107,
+							134
+						],
+						"font" : "GothamXNarrow-Medium",
+						"font-size" : 12,
+						"height" : 48,
+						"local:text" : "GAME_TOS_READ_AND_ACCEPT",
+						"margin-bottom" : 0,
+						"margin-left" : 27,
+						"margin-right" : 0,
+						"margin-top" : 20,
+						"name" : "label_text",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "Two lines of text goes here. Two lines of text goes here. Two lines of text goes here. Two lines of text goes here. Two lines of text goes here. ",
+						"width" : 250
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 71,
+						"image" : "mar_keyart_banner_coppa.png",
+						"margin-bottom" : 43,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "mar_keyart_banner_coppa",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 192
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "GothamNarrow-UltraItalic",
+						"font-size" : 14,
+						"local:text" : "GAME_TOS_MODAL_TITLE",
+						"margin-bottom" : 209,
+						"margin-left" : 26,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "label_title",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"shadow-offset" : [
+							0,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"stroke-thickness" : 1,
+						"text" : "Title"
+					}
+				]
+			}
+		]
+	},
+	"psdName" : "GriffinUiTool-original"
+}

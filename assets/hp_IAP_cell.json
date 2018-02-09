@@ -1,0 +1,472 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 242,
+		"inherit-position" : true,
+		"name" : "fg_quest",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 158,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 250,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "buttonIAP",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 168,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 250,
+						"horizontal" : true,
+						"image" : "hp_container_IAP_default.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg_default",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 168
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 234,
+						"horizontal" : true,
+						"image" : "hp_container_iap_fx.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 23,
+						"name" : "bg_fx",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 213
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 139,
+						"image" : "hp_icon_iap_gem_trainload.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 24,
+						"name" : "loader_currency_splash",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 139
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 20,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 95,
+						"name" : "price_regular_view",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 140,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 17,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "priceLabel",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "$99.99"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 20,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 95,
+						"name" : "price_premium_view",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 110,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 17,
+								"margin-bottom" : 0,
+								"margin-left" : 45,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "priceLabel",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "120"
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 16,
+								"image" : "hp_icons_gem.png",
+								"margin-bottom" : 0,
+								"margin-left" : 28,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "premium_currency",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 16
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 20,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 95,
+						"name" : "price_discount_view",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 140,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									179,
+									179,
+									179
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 13,
+								"margin-bottom" : 10,
+								"margin-left" : 0,
+								"margin-right" : 28.5,
+								"margin-top" : 0,
+								"max-width" : 60,
+								"name" : "oldPrice",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									164,
+									96,
+									0
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "$99.99"
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 1,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 10,
+								"image" : "hp_icon_sale_slash.png",
+								"margin-bottom" : 11,
+								"margin-left" : 41,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "slash",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 38
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 17,
+								"margin-bottom" : 10,
+								"margin-left" : 65,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 70,
+								"name" : "newPrice",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									81,
+									35,
+									0
+								],
+								"text" : "$99.99"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 27,
+						"horizontal" : true,
+						"image" : "hp_badge_iap_special.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "sale",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 134,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "4privetdrive",
+								"font-size" : 12,
+								"local:text" : "LABEL_IAP_SPECIAL",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0.5,
+								"max-width" : 110,
+								"name" : "label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "LABEL_IAP_SPECIAL"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 20,
+						"margin-bottom" : 158,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "priceView",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 140,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									178,
+									191,
+									194
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 17,
+								"margin-bottom" : 1,
+								"margin-left" : 0,
+								"margin-right" : 15,
+								"margin-top" : 0,
+								"name" : "label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shader-id" : "uiTitle",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "99,999"
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"color" : [
+									178,
+									191,
+									194
+								],
+								"dynamic-img" : true,
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 17,
+								"height" : 16,
+								"image" : "hp_icons_gem.png",
+								"margin-bottom" : 1,
+								"margin-left" : 0,
+								"margin-right" : 31,
+								"margin-top" : 0,
+								"max-width" : 70,
+								"name" : "icon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shader-id" : "uiTitle",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "99,999",
+								"width" : 16
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 15,
+						"margin-bottom" : 75,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label_currency_item",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "PURSE OF GEMS",
+						"vertical-spacing" : 0.95,
+						"width" : 116
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

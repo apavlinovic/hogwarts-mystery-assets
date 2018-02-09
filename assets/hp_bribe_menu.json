@@ -1,0 +1,292 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 270,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 14,
+				"margin-top" : 0,
+				"name" : "bribeMenu",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 240,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 270,
+						"image" : "hp_full_screen_modal_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modalBg",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 240
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.082834,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 27,
+						"image" : "hp_bribe_menu_instant_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modalFooter",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 240,
+						"children" : [
+							{
+								"alignment" : "right",
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Roman",
+								"font-size" : 11,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 0,
+								"margin-left" : 152,
+								"margin-right" : 0,
+								"margin-top" : 5,
+								"max-width" : 120,
+								"name" : "labelUnlock",
+								"position-x" : "left",
+								"position-y" : "top",
+								"shadow-color" : [
+									0,
+									30,
+									97
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "Instant Unlock for 22 "
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 17,
+								"image" : "hp_bribe_menu_unlock_icon.png",
+								"margin-bottom" : 5,
+								"margin-left" : 11,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconUnlock",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 19
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 18,
+								"image" : "hp_icons_gem.png",
+								"margin-bottom" : 4.5,
+								"margin-left" : 0,
+								"margin-right" : 66,
+								"margin-top" : 0,
+								"name" : "iconPremiumCurrency",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 18
+							},
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"height" : 20,
+								"image" : "hp_button_purple.png",
+								"margin-bottom" : 4,
+								"margin-left" : 0,
+								"margin-right" : 13,
+								"margin-top" : 0,
+								"name" : "btnUnlock",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 45,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "top",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Avenir-Medium",
+										"font-size" : 11,
+										"gradient-top-color" : [
+											255,
+											255,
+											255
+										],
+										"local:text" : "LABEL_BRIBE_MENU_UNLOCK_BTN",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 1,
+										"margin-top" : 2,
+										"max-width" : 31,
+										"name" : "labelUnlockBtn",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											0,
+											30,
+											97
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "BUY"
+									}
+								]
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.082834,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 23,
+						"image" : "hp_crafting_header_bg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modalHeader",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 240,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "button",
+								"height" : 10,
+								"image" : "hp_button_close.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 10,
+								"margin-top" : 6.5,
+								"name" : "closeButton",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 10
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Medium",
+								"font-size" : 12,
+								"gradient-top-color" : [
+									255,
+									255,
+									255
+								],
+								"margin-bottom" : 0,
+								"margin-left" : 6,
+								"margin-right" : 0,
+								"margin-top" : 3,
+								"max-width" : 197,
+								"name" : "labelModalTitle",
+								"position-x" : "left",
+								"position-y" : "top",
+								"shadow-color" : [
+									0,
+									30,
+									97
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "UNLOCK MURULA"
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "table-view",
+						"height" : 220,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 23,
+						"name" : "bribeMenuListScrollArea",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 227,
+						"children" : []
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

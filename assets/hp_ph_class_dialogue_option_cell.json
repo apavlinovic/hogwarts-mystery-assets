@@ -1,0 +1,169 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 28,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 167,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 28,
+				"image" : "hp_button_dialogue.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "optionButton",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 167,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"editor-hide" : true,
+						"font" : "Avenir-BookOblique",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 169,
+						"name" : "labelOption",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"text" : "This should be interesting"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0.5,
+						"margin-top" : 0,
+						"name" : "attributeView",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-BookOblique",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 13.5,
+								"margin-top" : 0,
+								"max-width" : 141,
+								"name" : "lockedOption",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "This should be interesting"
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 30,
+								"image" : "hp_icon_attribute_courage_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 2.5,
+								"margin-top" : 2,
+								"name" : "loaderAttribute",
+								"position-x" : "right",
+								"position-y" : "top",
+								"scale" : 0.8,
+								"width" : 30,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											16,
+											29,
+											37
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 20,
+										"name" : "labelAttributeLvl",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"text" : "3"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 20,
+				"image" : "hp_icon_lock_sm.png",
+				"margin-bottom" : 6,
+				"margin-left" : 0,
+				"margin-right" : 2.5,
+				"margin-top" : 0,
+				"name" : "lockedImg",
+				"position-x" : "right",
+				"position-y" : "center",
+				"scale" : 0.5,
+				"width" : 16
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

@@ -1,0 +1,97 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 44,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 44,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 60,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 11,
+				"margin-top" : 14,
+				"name" : "btnDefault",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 60,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 62,
+						"image" : "hp_button_filter_square_inactive_sm.png",
+						"margin-bottom" : 5,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 62
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 62,
+						"image" : "hp_button_filter_square_active_sm.png",
+						"margin-bottom" : 5,
+						"margin-left" : 3,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnSelected",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 62
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 35,
+						"image" : "hp_icon_filter_onepiece_inactive.png",
+						"margin-bottom" : 18,
+						"margin-left" : 17,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 35
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 17,
+						"image" : "hp_icon_alert_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 4,
+						"margin-top" : 2,
+						"name" : "unseen",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 17
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.6"
+}

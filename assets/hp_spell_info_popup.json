@@ -1,0 +1,295 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "fg_quest",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrim",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 142,
+				"image" : "hp_bg_modal_sm.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalSm",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 313,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 38,
+						"image" : "hp_bg_header_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 1,
+						"margin-top" : 1,
+						"name" : "header_bg",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 310
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							178,
+							190,
+							193
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 11,
+						"height" : 54,
+						"local:text" : "HP_CUSTOM_CONFIRM_DESC",
+						"margin-bottom" : 8,
+						"margin-left" : 0,
+						"margin-right" : 53,
+						"margin-top" : 0,
+						"name" : "labelDesc",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Awesome choices! Would you like to purchase the items you're wearing?",
+						"vertical-spacing" : 0.9,
+						"width" : 180
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 13,
+						"margin-bottom" : 18,
+						"margin-left" : 0,
+						"margin-right" : 53,
+						"margin-top" : 0,
+						"max-width" : 180,
+						"name" : "labelName",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "ANTI CHEATING SPELL",
+						"vertical-spacing" : 0.9
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "4privetdrive",
+						"font-size" : 13,
+						"local:text" : "SPELL_INFO_TITLE",
+						"margin-bottom" : 55,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "labelIncantation",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "SPELL_INFO_TITLE"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"editor-hide" : true,
+						"height" : 74,
+						"image" : "invisible.png",
+						"margin-bottom" : 62,
+						"margin-left" : 58.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconSpellBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 74,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 74,
+								"image" : "hp_icon_spell_ph_disabled.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderSpellImage",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 74
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 20,
+								"image" : "hp_icon_lock_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconLocked",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 16
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 74,
+						"image" : "hp_container_spell.png",
+						"margin-bottom" : 62,
+						"margin-left" : 58.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconPotionBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 74,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 60,
+								"image" : "hp_icon_potion_ph_disabled.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderPotionImage",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 60
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 24,
+								"image" : "hp_icon_lock_lrg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 28,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconLocked",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 17
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 5,
+						"margin-left" : 276,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "closeButton",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 13,
+								"image" : "hp_button_close.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_bg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 13
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

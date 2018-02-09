@@ -1,0 +1,256 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 120,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "hud_dialog",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 238,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 120,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "dialog_bubble",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 238,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.669274,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.206529,
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"flipX" : true,
+								"height" : 120,
+								"image" : "hp_modal_bg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "dialog_bubble_bg",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"width" : 238
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Roman",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 26,
+								"margin-right" : 0,
+								"margin-top" : 42,
+								"name" : "label_description",
+								"position-x" : "center",
+								"position-y" : "top",
+								"shadow-color" : [
+									0,
+									0,
+									0
+								],
+								"text" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod!",
+								"vertical-spacing" : 0.85,
+								"width" : 175
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-MediumOblique",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 60,
+								"margin-right" : 0,
+								"margin-top" : 22,
+								"name" : "label_available",
+								"position-x" : "left",
+								"position-y" : "top",
+								"text" : "Available in ",
+								"width" : 62
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "clock-label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-MediumOblique",
+								"font-size" : 12,
+								"format" : "suffixed",
+								"height" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 263,
+								"margin-right" : 0,
+								"margin-top" : 21.5,
+								"name" : "label_timer",
+								"position-x" : "left",
+								"position-y" : "top",
+								"spacing" : 1,
+								"text" : "",
+								"width" : 92,
+								"children" : []
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 58,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"max-width" : 169,
+								"name" : "label_title",
+								"position-x" : "left",
+								"position-y" : "top",
+								"text" : "Goal Title"
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"height" : 50,
+						"margin-bottom" : 0,
+						"margin-left" : 2,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "character",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 52,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 42,
+								"image" : "placeholder.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 21,
+								"margin-top" : 21,
+								"name" : "loaderPortrait",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 42
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 1,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0,
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 20,
+						"image" : "hp_button_active.png",
+						"margin-bottom" : 8,
+						"margin-left" : 0,
+						"margin-right" : 7,
+						"margin-top" : 0,
+						"name" : "cta_btn",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 73,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									255,
+									235,
+									105
+								],
+								"font" : "EBGaramond08-Regular",
+								"font-size" : 12,
+								"margin-bottom" : 3,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 50,
+								"name" : "cta_btn_label",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shadow-color" : [
+									255,
+									235,
+									105
+								],
+								"stroke-color" : [
+									255,
+									235,
+									105
+								],
+								"text" : "OK"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.3.2"
+}

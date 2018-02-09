@@ -1,0 +1,242 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 42,
+		"inherit-position" : true,
+		"margin-bottom" : 0,
+		"margin-left" : 0,
+		"margin-right" : 0,
+		"margin-top" : 0,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 217,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"flipX" : true,
+				"glow" : "\/Users\/sallysu\/sally_HP\/Potter\/UI\/Production\/ui\/hp_button_choice_active_glow.png",
+				"height" : 42,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "optionButton",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 217,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"flipX" : true,
+						"glow" : "\/Users\/sallysu\/sally_HP\/Potter\/UI\/Production\/ui\/hp_button_choice_active_glow.png",
+						"height" : 42,
+						"image" : "hp_button_choice_inactive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0.5,
+						"margin-top" : 0,
+						"name" : "bgInactive",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 217
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"flipX" : true,
+						"glow" : "\/Users\/sallysu\/sally_HP\/Potter\/UI\/Production\/ui\/hp_button_choice_active_glow.png",
+						"height" : 42,
+						"image" : "hp_button_choice_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0.5,
+						"margin-top" : 0,
+						"name" : "bgActive",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 217,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-HeavyOblique",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 20,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 144,
+								"name" : "labelOptionActive",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Listen"
+							}
+						]
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 24,
+						"margin-bottom" : 9,
+						"margin-left" : 0,
+						"margin-right" : 20,
+						"margin-top" : 0,
+						"name" : "loaderAttribute",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 24
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 42,
+						"image" : "hp_bg_cell_white.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "viewLocked",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 217,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 28,
+								"image" : "hp_button_choice_scrim.png",
+								"margin-bottom" : 7,
+								"margin-left" : 8,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "lockScrim",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 202
+							},
+							{
+								"alignment" : "right",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									178,
+									190,
+									193
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"margin-bottom" : 0,
+								"margin-left" : 20,
+								"margin-right" : 0,
+								"margin-top" : 5,
+								"max-width" : 154,
+								"name" : "labelLock",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Requires: Something Level 99"
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-HeavyOblique",
+								"font-size" : 12,
+								"margin-bottom" : 5,
+								"margin-left" : 20,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 144,
+								"name" : "labelOptionLocked",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Listen"
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 17,
+								"image" : "hp_icon_lock_xsm.png",
+								"margin-bottom" : 13,
+								"margin-left" : 0,
+								"margin-right" : 25,
+								"margin-top" : 0,
+								"name" : "iconLock",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 13
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.4"
+}

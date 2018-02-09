@@ -1,0 +1,20 @@
+{
+    "view": {
+        "position-x": "center",
+        "position-y": "center",
+        "children": [
+            {
+            "class": "image",
+            "position-x": "center",
+            "position-y": "center",
+            "image": "loading.png"
+            },
+            {
+                "class": "label",
+                "position-x": "center",
+                "position-y": "center",
+                "name" : "statusLabel" 
+            }
+        ]
+    }
+}

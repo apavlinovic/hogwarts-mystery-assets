@@ -1,0 +1,117 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"image" : "mar_modal_basic_bg.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bkg",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 480,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"image" : "hp_bg_black_50%.png",
+						"inset-margin-y" : 80,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bkg_copy1",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "bottom"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"cell-json" : "sm_goal_cheat_cell.json",
+						"class" : "table-view",
+						"divisions" : 2,
+						"inset-margin-y" : 80,
+						"margin-bottom" : 2,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "listTable",
+						"percent-height" : 0.99,
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 470,
+						"children" : []
+					}
+				]
+			},
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "text-input",
+				"color" : [
+					0,
+					0,
+					0
+				],
+				"font" : "Avenir-Roman",
+				"font-size" : 15,
+				"height" : 32,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 232,
+				"margin-top" : 48,
+				"name" : "searchField",
+				"placeholder-text" : "Search...",
+				"position-x" : "center",
+				"position-y" : "top",
+				"width" : 320
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "Avenir-Light",
+				"font-size" : 15,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 22,
+				"name" : "labelTitle",
+				"position-x" : "center",
+				"position-y" : "top",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Goal Cheat: type an id or text"
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}
