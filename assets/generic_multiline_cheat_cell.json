@@ -1,0 +1,66 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 44,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 297,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 44,
+				"image" : "placeholder.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "button_select",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 297
+			},
+			{
+				"alignment" : "left",
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "HelveticaNeueLTCom-Md",
+				"font-size" : 16,
+				"height" : 42,
+				"margin-bottom" : 0,
+				"margin-left" : 8,
+				"margin-right" : 0,
+				"margin-top" : 2,
+				"max-width" : 280,
+				"name" : "name",
+				"position-x" : "left",
+				"position-y" : "top",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "TestFileNameg\\nSup"
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

@@ -1,0 +1,97 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 72,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 72,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"dynamic-img" : true,
+				"height" : 72,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnSideQuest",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 72,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 81,
+						"image" : "hp_btn_quest_tab_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 4,
+						"margin-top" : 4,
+						"name" : "bgActive",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 81
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 81,
+						"image" : "hp_btn_quest_tab_inactive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 4,
+						"margin-top" : 4,
+						"name" : "bgInactive",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 81
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 40,
+						"image" : "hp_icon_hogwarts_castle.png",
+						"margin-bottom" : 0,
+						"margin-left" : 16,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "questLoader",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 40
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 30,
+						"image" : "hp_icon_notif_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 1,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconNotif",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 30
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.2"
+}

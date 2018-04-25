@@ -1,0 +1,608 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"actions" : [],
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "hp_clubhouse_character_icon_scrim.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "tapAway",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center"
+				}
+			]
+		}
+	},
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 30,
+				"image" : "hp_btn_close.png",
+				"margin-bottom" : 10,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "closeButton",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 30
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_green.png",
+				"margin-bottom" : 100,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 0,
+				"name" : "winButton",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Win"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 60,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 0,
+				"name" : "attributes",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Attributes"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 20,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 0,
+				"name" : "showWhitelist",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Show Whitelisted Choices"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_red.png",
+				"margin-bottom" : 100,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "loseButton",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lose"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_red.png",
+				"margin-bottom" : 60,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "loseCameraderie",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lose 5 Progress"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_red.png",
+				"margin-bottom" : 20,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "loseRound",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lose 1 Round"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_green.png",
+				"margin-bottom" : 60,
+				"margin-left" : 100,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "gainCameraderie",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Gain 5 Progress"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_green.png",
+				"margin-bottom" : 20,
+				"margin-left" : 100,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "gainRound",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Gain 1 Round"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "Avenir-Heavy",
+				"font-size" : 14,
+				"margin-bottom" : 138,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "labelEncId",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "encounter: eatingEnc1"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "4privetdrive",
+				"font-size" : 24,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 8,
+				"name" : "title",
+				"position-x" : "center",
+				"position-y" : "top",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Social Cheats"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 10,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 0,
+				"name" : "mainCheats",
+				"position-x" : "right",
+				"position-y" : "bottom",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Main Cheat Menu"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_bg_container_gold.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 32,
+				"name" : "choiceListView",
+				"percent-height" : 0.75,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 252,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"cell-json" : "hp_social_option_cell_v2.json",
+						"class" : "table-view",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"name" : "choiceTable",
+						"percent-height" : 0.97,
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 220,
+						"children" : []
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "button",
+						"height" : 30,
+						"image" : "hp_btn_close.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 5,
+						"margin-top" : 3,
+						"name" : "closeChoices",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 30
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

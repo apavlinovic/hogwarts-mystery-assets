@@ -1,0 +1,275 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 51,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 178,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 50,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "friendView",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"width" : 178,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "ArialMT",
+						"font-size" : 10,
+						"height" : 50,
+						"image" : "hp_container_unlocked_inactive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bgInactive",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "",
+						"width" : 178
+					},
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"editor-hide" : true,
+						"font" : "ArialMT",
+						"font-size" : 10,
+						"height" : 50,
+						"image" : "hp_container_unlocked_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bgActive",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "",
+						"width" : 178
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 14,
+						"image" : "hp_hud_progress_bg.png",
+						"margin-bottom" : 10.5,
+						"margin-left" : 65,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "progressBg",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 104,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 12,
+								"image" : "hp_progress_relationship_fill.png",
+								"margin-bottom" : 0,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "progressFill",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 102
+							}
+						]
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"editor-layerExpanded" : false,
+						"height" : 25,
+						"image" : "hp_icon_relationship_blank_sm.png",
+						"margin-bottom" : 4.5,
+						"margin-left" : 0,
+						"margin-right" : 103,
+						"margin-top" : 0,
+						"name" : "iconRelationship",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 25,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									16,
+									29,
+									37
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 1,
+								"max-width" : 20,
+								"name" : "labelReal",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"text" : "5"
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 9,
+						"margin-left" : 0,
+						"margin-right" : 8,
+						"margin-top" : 0,
+						"max-width" : 48,
+						"name" : "labelStatusQuantity",
+						"position-x" : "right",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-color" : [
+							16,
+							29,
+							37
+						],
+						"text" : "999\/999"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 12,
+						"margin-bottom" : 10,
+						"margin-left" : 54,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 70,
+						"name" : "labelName",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-color" : [
+							16,
+							29,
+							37
+						],
+						"text" : "Penny"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "model",
+						"dynamic-img" : true,
+						"height" : 42,
+						"image" : "invisible.png",
+						"margin-bottom" : 3.5,
+						"margin-left" : 7,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loaderPortrait",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 42
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

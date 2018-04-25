@@ -1,0 +1,82 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 42,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 137,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.3,
+				"9slicescalezone-width" : 0.3,
+				"9slicescalezone-x" : 0.3,
+				"9slicescalezone-y" : 0.3,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 35,
+				"image" : "hp_btn_tab_active.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "language_button",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 123,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Crimson-Semibold",
+						"font-size" : 14,
+						"margin-bottom" : 2,
+						"margin-left" : 0,
+						"margin-right" : 15,
+						"margin-top" : 0,
+						"max-width" : 71,
+						"name" : "label_language",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							30,
+							97
+						],
+						"stroke-thickness" : 1,
+						"text" : "Country \/ Lang"
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 24,
+						"image" : "hp_flag_french.png",
+						"margin-bottom" : 0,
+						"margin-left" : 10,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "flag",
+						"position-x" : "left",
+						"position-y" : "center",
+						"sizing" : "SpriteFill",
+						"width" : 34
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

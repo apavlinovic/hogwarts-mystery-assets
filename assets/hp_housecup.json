@@ -1,0 +1,275 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.33,
+					"9slicescalezone-width" : 0.33,
+					"9slicescalezone-x" : 0.33,
+					"9slicescalezone-y" : 0.33,
+					"alignment" : "center",
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"color" : [
+						255,
+						255,
+						255
+					],
+					"font" : "Crimson-Semibold",
+					"font-size" : 24,
+					"image" : "hp_general_bg_black_50%.png",
+					"local:text" : "HP_TITLE",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"max-width" : 350,
+					"name" : "bgSkrim",
+					"percent-height" : 1.01,
+					"percent-width" : 1.01,
+					"position-x" : "center",
+					"position-y" : "center",
+					"shadow-offset" : [
+						0.5,
+						-0.5
+					],
+					"stroke-color" : [
+						0,
+						30,
+						97
+					],
+					"text" : "YEAR 1 HOUSE CUP RESULTS"
+				}
+			]
+		}
+	},
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 306,
+				"image" : "hp_modal_bg_lrg.png",
+				"margin-bottom" : 0.5,
+				"margin-left" : 0.5,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "housecupView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 440,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"editor-hide" : true,
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 8,
+						"margin-top" : 8,
+						"name" : "button_close",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 25,
+								"image" : "hp_btn_close.png",
+								"margin-bottom" : 7,
+								"margin-left" : 7,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "hp_btn_close",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 25
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"height" : 36,
+						"image" : "invisible.png",
+						"margin-bottom" : 16,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "btnCTA",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 120,
+						"children" : [
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 5,
+								"name" : "btnBg",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 130
+							},
+							{
+								"alignment" : "center",
+								"all-caps" : true,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 18,
+								"local:text" : "GAME_NEXT",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "labelBtnOkay",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "NEXT"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 30,
+						"image" : "hp_bg_modal_header_sm.png",
+						"inset-margin-x" : 30,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 14,
+						"name" : "header_sm",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "top",
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"inset-margin-x" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "divider",
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "bottom"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"cell-json" : "hp_housepoints_cell.json",
+						"class" : "table-view",
+						"height" : 208,
+						"image" : "hp_container_list_large.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 46,
+						"name" : "tableHousepoints",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 363,
+						"children" : []
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Crimson-Semibold",
+						"font-size" : 23,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 26,
+						"max-width" : 350,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "YEAR 1 HOUSE CUP RESULTS"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

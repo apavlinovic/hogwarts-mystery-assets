@@ -1,16 +1,12 @@
 {
 	"view" : {
 		"class" : "view",
-		"height" : 66,
+		"height" : 70,
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"position-x" : "left",
 		"position-y" : "bottom",
-		"width" : 220,
+		"width" : 313,
 		"children" : [
 			{
 				"9slicescalezone-height" : 0.718965,
@@ -20,16 +16,16 @@
 				"anchor-x" : "center",
 				"anchor-y" : "center",
 				"class" : "image",
-				"height" : 66,
-				"image" : "hp_bg_nux_modal.png",
-				"margin-bottom" : 33,
-				"margin-left" : 110,
+				"height" : 70,
+				"image" : "hp_nux_container.png",
+				"margin-bottom" : 35,
+				"margin-left" : 156.5,
 				"margin-right" : 0,
 				"margin-top" : 0,
 				"name" : "bg",
 				"position-x" : "left",
 				"position-y" : "bottom",
-				"width" : 220
+				"width" : 313
 			},
 			{
 				"alignment" : "center",
@@ -37,15 +33,15 @@
 				"anchor-y" : "top",
 				"class" : "label",
 				"color" : [
-					255,
-					255,
-					255
+					16,
+					29,
+					37
 				],
 				"dynamic-text" : true,
-				"font" : "Avenir-Book",
-				"font-size" : 13,
-				"margin-bottom" : 59,
-				"margin-left" : 12,
+				"font" : "Avenir-Heavy",
+				"font-size" : 14,
+				"margin-bottom" : 54,
+				"margin-left" : 26.5,
 				"margin-right" : 0,
 				"margin-top" : 0,
 				"max-height" : 50,
@@ -57,11 +53,11 @@
 					0,
 					0
 				],
-				"text" : "blah blah blah",
+				"text" : "Look here! And scroll to this side of the screen!",
 				"vertical-spacing" : 0.85,
-				"width" : 200
+				"width" : 260
 			}
 		]
 	},
-	"version" : "1.8.3.6"
+	"version" : "1.8.8.3"
 }

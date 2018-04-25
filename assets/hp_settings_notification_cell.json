@@ -3,10 +3,6 @@
 		"class" : "view",
 		"height" : 32,
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"position-x" : "left",
 		"position-y" : "bottom",
@@ -36,9 +32,9 @@
 						"actions" : [],
 						"anchor-x" : "left",
 						"anchor-y" : "top",
-						"class" : "button",
+						"class" : "image",
 						"height" : 26,
-						"image" : "hp_container_check.png",
+						"image" : "hp_container_blue.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
@@ -75,12 +71,12 @@
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							178,
-							191,
-							194
+							210,
+							235,
+							239
 						],
 						"font" : "Avenir-Book",
-						"font-size" : 13,
+						"font-size" : 14,
 						"local:text" : "SETTINGS_MUSIC",
 						"margin-bottom" : 0,
 						"margin-left" : 78,
@@ -95,10 +91,6 @@
 							29,
 							37
 						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
 						"stroke-color" : [
 							0,
 							30,
@@ -112,5 +104,5 @@
 			}
 		]
 	},
-	"version" : "1.8.3.7"
+	"version" : "1.8.8.2"
 }

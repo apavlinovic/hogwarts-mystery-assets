@@ -1,0 +1,59 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 105,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 330,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 105,
+				"image" : "hp_nux_container_lrg.png",
+				"margin-bottom" : 52.5,
+				"margin-left" : 165,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 330
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "left",
+				"anchor-y" : "top",
+				"class" : "label",
+				"color" : [
+					16,
+					29,
+					37
+				],
+				"dynamic-text" : true,
+				"font" : "Avenir-Heavy",
+				"font-size" : 14,
+				"margin-bottom" : 86.5,
+				"margin-left" : 25,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-height" : 66,
+				"name" : "dialogue",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"text" : "Look here! And scroll to this side of the screen! And scroll to this side of the screen! And scroll to this side of the screen! And scroll to this side of the screen!",
+				"vertical-spacing" : 0.85,
+				"width" : 280
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

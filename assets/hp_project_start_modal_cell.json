@@ -14,6 +14,7 @@
 				"anchor-y" : "center",
 				"class" : "button",
 				"editor-hide" : true,
+				"editor-layerExpanded" : false,
 				"height" : 45,
 				"image" : "invisible.png",
 				"margin-bottom" : 0,
@@ -34,6 +35,7 @@
 						"anchor-x" : "left",
 						"anchor-y" : "bottom",
 						"class" : "image",
+						"editor-layerExpanded" : false,
 						"height" : 45,
 						"image" : "hp_button_secondary_idle_med.png",
 						"margin-bottom" : 0,
@@ -58,10 +60,10 @@
 								"dynamic-text" : true,
 								"font" : "4privetdrive",
 								"font-size" : 13,
-								"margin-bottom" : 0,
+								"margin-bottom" : 2,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 0.5,
+								"margin-top" : 0,
 								"max-width" : 136,
 								"name" : "labelTitle",
 								"position-x" : "center",
@@ -87,27 +89,28 @@
 				]
 			},
 			{
-				"9slicescalezone-height" : 0.33,
-				"9slicescalezone-width" : 0.33,
-				"9slicescalezone-x" : 0.33,
-				"9slicescalezone-y" : 0.33,
+				"9slicescalezone-height" : 1,
+				"9slicescalezone-width" : 0.4,
+				"9slicescalezone-x" : 0.1,
+				"9slicescalezone-y" : 0,
 				"actions" : [],
 				"anchor-x" : "center",
-				"anchor-y" : "bottom",
+				"anchor-y" : "center",
 				"breathe" : false,
-				"class" : "hp_button_particles",
+				"class" : "button",
+				"editor-layerExpanded" : false,
 				"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
-				"height" : 45,
-				"image" : "hp_button_secondary_active_med.png",
-				"margin-bottom" : 0.5,
-				"margin-left" : 0.5,
+				"height" : 46,
+				"image" : "hp_btn_cta_med.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
 				"margin-right" : 0,
 				"margin-top" : 0,
 				"name" : "btnStartWithTimer",
 				"particles" : false,
 				"position-x" : "center",
-				"position-y" : "bottom",
-				"width" : 175,
+				"position-y" : "center",
+				"width" : 170,
 				"children" : [
 					{
 						"alignment" : "left",
@@ -120,16 +123,16 @@
 							255
 						],
 						"dynamic-text" : true,
-						"font" : "Avenir-BookOblique",
-						"font-size" : 12,
+						"font" : "Crimson-Semibold",
+						"font-size" : 16,
 						"format" : "suffixed",
-						"margin-bottom" : 0,
-						"margin-left" : 140.5,
+						"margin-bottom" : 2,
+						"margin-left" : 30,
 						"margin-right" : 0,
-						"margin-top" : 1.5,
-						"max-width" : 28,
+						"margin-top" : 0,
+						"max-width" : 40,
 						"name" : "labelTime",
-						"position-x" : "left",
+						"position-x" : "center",
 						"position-y" : "center",
 						"resolution" : 1,
 						"shadow-color" : [
@@ -142,9 +145,9 @@
 							-0.5
 						],
 						"stroke-color" : [
-							81,
-							35,
-							0
+							0,
+							30,
+							97
 						],
 						"text" : "30m"
 					},
@@ -152,51 +155,51 @@
 						"anchor-x" : "right",
 						"anchor-y" : "center",
 						"class" : "image",
-						"height" : 12,
-						"image" : "hp_icon_clock.png",
+						"height" : 13,
+						"image" : "hp_icon_time_med.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 41.5,
-						"margin-top" : 0.5,
+						"margin-right" : 57,
+						"margin-top" : 0,
 						"name" : "iconClock",
 						"position-x" : "right",
 						"position-y" : "center",
-						"width" : 12
+						"width" : 13
 					},
 					{
-						"anchor-x" : "right",
+						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
 						"height" : 17,
-						"image" : "hp_divider_small.png",
+						"image" : "hp_divider_white.png",
 						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 57.5,
+						"margin-left" : 5,
+						"margin-right" : 0,
 						"margin-top" : 0,
 						"name" : "dividerSmall",
-						"position-x" : "right",
+						"position-x" : "center",
 						"position-y" : "center",
-						"width" : 2
+						"width" : 1
 					},
 					{
-						"alignment" : "center",
+						"alignment" : "right",
 						"all-caps" : true,
-						"anchor-x" : "center",
+						"anchor-x" : "right",
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							233,
-							204,
-							140
+							255,
+							255,
+							255
 						],
-						"font" : "4privetdrive",
-						"font-size" : 13,
+						"font" : "Crimson-Semibold",
+						"font-size" : 18,
 						"local:text" : "HP_CLASS_START_BTN",
-						"margin-bottom" : 0,
+						"margin-bottom" : 2,
 						"margin-left" : 0,
-						"margin-right" : 24.5,
+						"margin-right" : 3.5,
 						"margin-top" : 0,
-						"max-width" : 100,
+						"max-width" : 70,
 						"name" : "labelTitle",
 						"position-x" : "center",
 						"position-y" : "center",
@@ -210,27 +213,28 @@
 							-0.5
 						],
 						"stroke-color" : [
-							81,
-							35,
-							0
+							0,
+							30,
+							97
 						],
 						"text" : "START"
 					}
 				]
 			},
 			{
-				"9slicescalezone-height" : 0.33,
-				"9slicescalezone-width" : 0.33,
-				"9slicescalezone-x" : 0.33,
-				"9slicescalezone-y" : 0.33,
+				"9slicescalezone-height" : 1,
+				"9slicescalezone-width" : 0.4,
+				"9slicescalezone-x" : 0.1,
+				"9slicescalezone-y" : 0,
 				"actions" : [],
 				"anchor-x" : "center",
 				"anchor-y" : "center",
-				"class" : "hp_button_particles",
+				"class" : "button",
 				"editor-hide" : true,
+				"editor-layerExpanded" : false,
 				"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
-				"height" : 45,
-				"image" : "hp_button_secondary_active_med.png",
+				"height" : 46,
+				"image" : "hp_btn_cta_med.png",
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
@@ -238,7 +242,7 @@
 				"name" : "btnStart",
 				"position-x" : "center",
 				"position-y" : "center",
-				"width" : 175,
+				"width" : 170,
 				"children" : [
 					{
 						"alignment" : "center",
@@ -247,17 +251,17 @@
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							233,
-							204,
-							140
+							255,
+							255,
+							255
 						],
-						"font" : "4privetdrive",
-						"font-size" : 13,
+						"font" : "Crimson-Semibold",
+						"font-size" : 18,
 						"local:text" : "HP_CLASS_START_BTN",
-						"margin-bottom" : 0,
+						"margin-bottom" : 2,
 						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 0.5,
+						"margin-top" : 0,
 						"max-width" : 150,
 						"name" : "labelTitle",
 						"position-x" : "center",
@@ -272,11 +276,137 @@
 							-0.5
 						],
 						"stroke-color" : [
-							81,
-							35,
-							0
+							0,
+							30,
+							97
 						],
 						"text" : "START"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 1,
+				"9slicescalezone-width" : 0.4,
+				"9slicescalezone-x" : 0.1,
+				"9slicescalezone-y" : 0,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+				"height" : 46,
+				"image" : "hp_btn_cta_med.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnCollect",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 170,
+				"children" : [
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Crimson-Semibold",
+						"font-size" : 18,
+						"local:text" : "PROJECT_END_BUTTON_COLLECT",
+						"margin-bottom" : 2,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 150,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "COLLECT"
+					}
+				]
+			},
+			{
+				"9slicescalezone-height" : 1,
+				"9slicescalezone-width" : 0.4,
+				"9slicescalezone-x" : 0.1,
+				"9slicescalezone-y" : 0,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-hide" : true,
+				"editor-layerExpanded" : false,
+				"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+				"height" : 46,
+				"image" : "hp_btn_secondary_med.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnTryAgain",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 170,
+				"children" : [
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Crimson-Semibold",
+						"font-size" : 18,
+						"local:text" : "PROJECT_END_BUTTON_TRY_AGAIN",
+						"margin-bottom" : 2,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 150,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "TRY AGAIN"
 					}
 				]
 			},
@@ -286,6 +416,7 @@
 				"anchor-y" : "center",
 				"class" : "button",
 				"editor-hide" : true,
+				"editor-layerExpanded" : false,
 				"height" : 45,
 				"image" : "invisible.png",
 				"margin-bottom" : 0,
@@ -428,5 +559,5 @@
 			}
 		]
 	},
-	"version" : "1.8.8.2"
+	"version" : "1.8.8"
 }

@@ -1,0 +1,553 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 47,
+				"margin-top" : 14,
+				"name" : "sceneBtn",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 13,
+						"height" : 21,
+						"margin-bottom" : 1,
+						"margin-left" : 4.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Select Scene",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 47,
+				"margin-top" : 41,
+				"name" : "lightSetupBtn",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 13,
+						"height" : 21,
+						"margin-bottom" : 1,
+						"margin-left" : 4.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Select Lights",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 47,
+				"margin-top" : 68,
+				"name" : "spawnBtn",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 12,
+						"height" : 21,
+						"margin-bottom" : 0,
+						"margin-left" : 5.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Spawn Object",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 13,
+				"margin-left" : 45,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "waypointBtn",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 12,
+						"height" : 21,
+						"margin-bottom" : 0,
+						"margin-left" : 5.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Waypoints",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 13,
+				"margin-left" : 227,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "labelBtn",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 12,
+						"height" : 21,
+						"margin-bottom" : 0,
+						"margin-left" : 5.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Debug Labels",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 13,
+				"margin-left" : 136,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "hotspotBtn",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 12,
+						"height" : 21,
+						"margin-bottom" : 0,
+						"margin-left" : 5.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Hotspots",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"editor-layerExpanded" : false,
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 47,
+				"margin-top" : 122,
+				"name" : "lightBtn",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 12,
+						"height" : 21,
+						"margin-bottom" : 0,
+						"margin-left" : 5.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lights",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 47,
+				"margin-top" : 148,
+				"name" : "advanceSeqBtn",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"height" : 26,
+						"margin-bottom" : 0,
+						"margin-left" : 5.5,
+						"margin-right" : 0,
+						"margin-top" : 1,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Advance Sequence",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 13,
+				"margin-left" : 318,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "camBtn",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"font-size" : 12,
+						"height" : 21,
+						"margin-bottom" : 0,
+						"margin-left" : 5.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "camText",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Free Cam",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 26,
+				"image" : "button_debug.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 47,
+				"margin-top" : 95,
+				"name" : "uniformBtn",
+				"position-x" : "right",
+				"position-y" : "top",
+				"width" : 91,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Helvetica Rounded LT Std",
+						"height" : 25,
+						"margin-bottom" : 0,
+						"margin-left" : 3.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "text",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Uniform Inspector",
+						"width" : 81
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 36,
+				"image" : "hp_hud_icon_cheat.png",
+				"margin-bottom" : 17,
+				"margin-left" : 0,
+				"margin-right" : 19,
+				"margin-top" : 0,
+				"name" : "cheatBtn",
+				"position-x" : "right",
+				"position-y" : "bottom",
+				"width" : 36
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 40,
+				"image" : "hp_default_tooltip.png",
+				"margin-bottom" : 23,
+				"margin-left" : 0,
+				"margin-right" : 61,
+				"margin-top" : 0,
+				"name" : "leaveBtn",
+				"position-x" : "right",
+				"position-y" : "bottom",
+				"width" : 40
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

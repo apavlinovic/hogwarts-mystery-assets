@@ -1,0 +1,134 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_modal_bg_lrg.png",
+				"inset-margin-y" : 40,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modal_bg",
+				"percent-height" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 360,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"cell-json" : "cheat_companions_cell.json",
+						"class" : "table-view",
+						"margin-bottom" : 13,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "tableview",
+						"percent-height" : 0.82,
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 320,
+						"children" : []
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 4,
+						"margin-top" : 4,
+						"name" : "button_close",
+						"position-x" : "right",
+						"position-y" : "top",
+						"sizing" : "SpriteNewSize",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 30,
+								"image" : "hp_btn_close.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_img",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteAspectFit",
+								"width" : 30
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 1,
+						"image" : "hp_divider_gold_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 44,
+						"name" : "divider",
+						"percent-width" : 0.8,
+						"position-x" : "center",
+						"position-y" : "top"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Crimson-Semibold",
+						"font-size" : 25,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 7,
+						"max-width" : 300,
+						"name" : "label_title",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Companion Cheats"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

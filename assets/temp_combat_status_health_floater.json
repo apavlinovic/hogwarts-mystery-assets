@@ -1,0 +1,125 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 26,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 60,
+		"children" : [
+			{
+				"alignment" : "left",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "Avenir-Heavy",
+				"font-size" : 14,
+				"height" : 26,
+				"local:text" : "HP_ENC_COMBAT_STAMINA",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"max-width" : 250,
+				"name" : "floaterView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					16,
+					29,
+					37
+				],
+				"shadow-offset" : [
+					0.5,
+					-0.5
+				],
+				"stroke-color" : [
+					16,
+					29,
+					36
+				],
+				"stroke-thickness" : 0.5,
+				"text" : "Stamina",
+				"vertical-spacing" : 0.9,
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							91,
+							58
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"name" : "labelNegative",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "10"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							43,
+							251,
+							251
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"name" : "labelPositive",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "10"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

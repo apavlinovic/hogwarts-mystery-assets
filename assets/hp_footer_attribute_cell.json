@@ -1,0 +1,95 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 22,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 43,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 20,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "attributeView",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 43,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 23,
+						"image" : "hp_hud_bg_attrib_blue.png",
+						"margin-bottom" : 1,
+						"margin-left" : 9,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bgAttrib",
+						"position-x" : "left",
+						"position-y" : "top",
+						"width" : 35,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 2,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 20,
+								"name" : "labelAttrib",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"text" : "10"
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "top",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 24,
+								"image" : "hp_icon_attribute_courage_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 9,
+								"margin-top" : 0,
+								"name" : "iconAttrib",
+								"position-x" : "left",
+								"position-y" : "top",
+								"width" : 24
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

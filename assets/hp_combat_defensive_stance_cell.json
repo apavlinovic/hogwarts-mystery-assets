@@ -1,0 +1,66 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 37,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 37,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 37,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "stanceView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 37,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"cell-json" : "hp_combat_interaction_choices_cell.json",
+						"class" : "image",
+						"height" : 37,
+						"image" : "hp_bg_combat_stance_disabled.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "stanceBg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill",
+						"width" : 37
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"cell-json" : "hp_combat_interaction_choices_cell.json",
+						"class" : "image",
+						"height" : 21,
+						"image" : "hp_icon_rps_sneaky.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "stanceIcon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill",
+						"width" : 21
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

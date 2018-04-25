@@ -1,0 +1,237 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 130,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 84,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_modal_bg_lrg.png",
+				"inset-margin-x" : 2,
+				"inset-margin-y" : 2,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bg",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "button",
+				"height" : 100,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "infoView",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "top",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0,
+						"9slicescalezone-width" : 0,
+						"9slicescalezone-x" : 0,
+						"9slicescalezone-y" : 0,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 68,
+						"image" : "hp_container_spell.png",
+						"margin-bottom" : 10,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "viewIcon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 68,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 70,
+								"image" : "hp_icon_spells_inactive_alohomora.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "icon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 70
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 20,
+								"image" : "hp_icon_lock_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "iconLocked",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 16
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							221,
+							188,
+							112
+						],
+						"dynamic-text" : true,
+						"font" : "4privetdrive",
+						"font-size" : 8,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 26,
+						"max-height" : 20,
+						"name" : "labelName",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							108,
+							107,
+							134
+						],
+						"text" : "FINITE INCANTATEM",
+						"width" : 74
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 20,
+				"image" : "hp_button_choice_green.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "unlockButton",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "lockLabel",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Unlock",
+						"width" : 70
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 20,
+				"image" : "hp_button_choice_red.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "lockButton",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "lockLabel",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lock",
+						"width" : 70
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

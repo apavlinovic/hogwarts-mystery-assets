@@ -1,0 +1,482 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 36,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 260,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 32,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnActive",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 260,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"actions" : [],
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"image" : "hp_btn_dialogue_choice_default.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loaderAttrBtn",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom"
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 11,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 30,
+						"name" : "labelOption",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-thickness" : 0.2,
+						"text" : "Lorem ipsum dolor sit amet, co",
+						"vertical-spacing" : 0.75,
+						"width" : 198
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-lock" : true,
+						"height" : 32,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "attributeView",
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									169,
+									169,
+									169
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 11,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-height" : 30,
+								"name" : "labelLocked",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "Lorem ipsum dolor sit amet, co",
+								"vertical-spacing" : 0.75,
+								"width" : 198
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"editor-hide" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 11,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-height" : 30,
+								"name" : "labelUnlocked",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "Lorem ipsum dolor sit amet, co",
+								"vertical-spacing" : 0.75,
+								"width" : 198
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 30,
+								"image" : "hp_flag_dialogue_choice_blue.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 0,
+								"name" : "loaderAttributeFlag",
+								"position-x" : "right",
+								"position-y" : "center",
+								"width" : 42
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 36,
+								"image" : "hp_icon_attribute_knowledge_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 3,
+								"margin-top" : 0,
+								"name" : "loaderAttribute",
+								"position-x" : "right",
+								"position-y" : "center",
+								"scale" : 0.8,
+								"width" : 36,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											91,
+											58
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 14,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 20,
+										"name" : "labelAttributeRed",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-thickness" : 0.5,
+										"text" : "99"
+									},
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"dynamic-text" : true,
+										"editor-hide" : true,
+										"font" : "Avenir-Black",
+										"font-size" : 14,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 20,
+										"name" : "labelAttributeLvl",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											16,
+											29,
+											37
+										],
+										"text" : "99"
+									}
+								]
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 26,
+								"image" : "hp_icon_lock_lrg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 38,
+								"margin-top" : 0,
+								"name" : "iconLock",
+								"position-x" : "right",
+								"position-y" : "center",
+								"scale" : 0.6,
+								"width" : 20
+							}
+						]
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"editor-hide" : true,
+						"height" : 36,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "relationshipView",
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									169,
+									169,
+									169
+								],
+								"dynamic-text" : true,
+								"editor-hide" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 14,
+								"height" : 16,
+								"margin-bottom" : 0,
+								"margin-left" : 11,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"name" : "labelLocked",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "Lorem ipsum",
+								"vertical-spacing" : 0.75,
+								"width" : 198
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 14,
+								"margin-bottom" : 0,
+								"margin-left" : 11,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"max-height" : 30,
+								"name" : "labelUnlocked",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-thickness" : 0.2,
+								"text" : "Lorem ipsum dolor sit",
+								"vertical-spacing" : 0.75,
+								"width" : 198
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 36,
+								"image" : "hp_icon_relationship_blank_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 5,
+								"margin-top" : 2,
+								"name" : "iconRelationship",
+								"position-x" : "right",
+								"position-y" : "center",
+								"scale" : 0.8,
+								"width" : 36,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											199,
+											19,
+											0
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 16,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 20,
+										"name" : "labelRelationshipRed",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											16,
+											29,
+											37
+										],
+										"text" : "5"
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											16,
+											29,
+											36
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 16,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 20,
+										"name" : "labelRelationship",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											16,
+											29,
+											37
+										],
+										"text" : "5"
+									}
+								]
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 27,
+								"image" : "hp_icon_lock_lrg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 34,
+								"margin-top" : 2,
+								"name" : "iconLevelLock",
+								"position-x" : "right",
+								"position-y" : "center",
+								"scale" : 0.6,
+								"width" : 21
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 27,
+								"image" : "hp_icon_lock_lrg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 10,
+								"margin-top" : 2,
+								"name" : "iconCompanionLock",
+								"position-x" : "right",
+								"position-y" : "center",
+								"scale" : 0.6,
+								"width" : 21
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

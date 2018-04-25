@@ -1,0 +1,31 @@
+﻿1
+00:00:00,000 --> 00:00:02,319
+Professoressa McGonagall: Congratulazioni!
+
+2
+00:00:02,400 --> 00:00:04,800
+Siamo lieti di informarti
+
+3
+00:00:04,800 --> 00:00:07,700
+che frequenterai la Scuola di Magia e Stregoneria
+
+4
+00:00:07,700 --> 00:00:10,050
+di Hogwarts.
+
+5
+00:00:16,800 --> 00:00:19,800
+Insieme alla lettera troverai l'elenco
+
+6
+00:00:19,800 --> 00:00:22,000
+dei libri e dell'equipaggiamento necessari.
+
+7
+00:00:22,250 --> 00:00:25,050
+Le lezioni inizieranno presto.
+
+8
+00:00:25,750 --> 00:00:28,850
+Attendiamo il tuo gufo.

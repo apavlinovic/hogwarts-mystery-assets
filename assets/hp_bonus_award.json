@@ -1,0 +1,181 @@
+{
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "skrimBg",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "bonusView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							0,
+							230,
+							54
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"margin-bottom" : 20,
+						"margin-left" : 27,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 40,
+						"name" : "labelPoints",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "-999"
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"color" : [
+							147,
+							131,
+							97
+						],
+						"dynamic-img" : true,
+						"font" : "Crimson-Semibold",
+						"font-size" : 18,
+						"gradient-top-color" : [
+							233,
+							211,
+							162
+						],
+						"height" : 34,
+						"image" : "hp_icon_attribute_empathy_med.png",
+						"margin-bottom" : 22,
+						"margin-left" : 12,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconLoader",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							1,
+							1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "CHAPTER COMPLETE",
+						"width" : 34
+					},
+					{
+						"alignment" : "right",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-img" : true,
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"image" : "hp_ph_icon_potion.png",
+						"margin-bottom" : 20,
+						"margin-left" : 0,
+						"margin-right" : 6,
+						"margin-top" : 0,
+						"max-width" : 200,
+						"name" : "labelReward",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"sizing" : "SpriteAspectFill",
+						"text" : "Empathy",
+						"vertical-spacing" : 0.9
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Crimson-Semibold",
+						"font-size" : 32,
+						"margin-bottom" : 23.5,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 350,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-thickness" : 1,
+						"text" : "Great Job!"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

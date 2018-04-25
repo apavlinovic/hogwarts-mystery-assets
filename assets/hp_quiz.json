@@ -1,0 +1,122 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.33,
+					"9slicescalezone-width" : 0.33,
+					"9slicescalezone-x" : 0.33,
+					"9slicescalezone-y" : 0.33,
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "hp_bg_black_50%.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "scrim",
+					"percent-height" : 1.01,
+					"percent-width" : 1.01,
+					"position-x" : "center",
+					"position-y" : "center"
+				}
+			]
+		}
+	},
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 0.33,
+				"9slicescalezone-x" : 0.33,
+				"9slicescalezone-y" : 0.33,
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"image" : "hp_general_bg_black_50%.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "quizView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"cell-json" : "hp_social_option_cell_v2.json",
+						"class" : "table-view",
+						"height" : 120,
+						"margin-bottom" : 0,
+						"margin-left" : 121.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "choiceTable",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 230,
+						"children" : []
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-img" : true,
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 14,
+						"image" : "hp_ph_icon_potion.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 129,
+						"margin-top" : 0,
+						"max-height" : 126,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"sizing" : "SpriteAspectFill",
+						"text" : "Which of the following is NOT one of the ingredients in Polyjuice Potion?",
+						"vertical-spacing" : 0.9,
+						"width" : 200
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

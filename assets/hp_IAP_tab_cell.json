@@ -1,0 +1,97 @@
+{
+	"view" : {
+		"class" : "view",
+		"height" : 34,
+		"inherit-position" : true,
+		"name" : "fg_quest",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 79,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "tabIAP",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 34,
+						"image" : "hp_tabs_IAP_inactive.png",
+						"margin-bottom" : 1,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "tabInactive",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 79,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 20,
+								"image" : "hp_icon_currency_coin.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 2,
+								"name" : "loaderIcon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 20
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 34,
+						"image" : "hp_tabs_IAP_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "tabActive",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 79,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 22,
+								"image" : "hp_icon_currency_coin.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderIcon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 22
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

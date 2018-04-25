@@ -13,36 +13,55 @@
 				"anchor-x" : "center",
 				"anchor-y" : "top",
 				"class" : "button",
+				"height" : 240,
+				"image" : "hp_bg_scrim_sm.png",
+				"margin-bottom" : 113,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "scrim_sm",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "top"
+			},
+			{
+				"9slicescalezone-height" : 0.33,
+				"9slicescalezone-width" : 1,
+				"9slicescalezone-x" : 0,
+				"9slicescalezone-y" : 0.33,
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "button",
+				"height" : 48,
+				"image" : "hp_bg_gradient_wGold.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 98,
+				"name" : "bgBar",
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "top"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "button",
 				"height" : 110,
 				"image" : "invisible.png",
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
-				"margin-top" : 18,
+				"margin-top" : 39,
 				"name" : "levelUpView",
+				"percent-width" : 0.833333,
 				"position-x" : "center",
 				"position-y" : "top",
-				"width" : 400,
 				"children" : [
 					{
-						"actions" : [],
-						"anchor-x" : "center",
-						"anchor-y" : "top",
-						"class" : "button",
-						"height" : 240,
-						"image" : "hp_bg_scrim_sm.png",
-						"margin-bottom" : 101,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "scrim_sm",
-						"position-x" : "center",
-						"position-y" : "top",
-						"width" : 460
-					},
-					{
 						"alignment" : "center",
-						"all-caps" : true,
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "label",
@@ -52,9 +71,9 @@
 							255
 						],
 						"dynamic-text" : true,
-						"font" : "4privetdrive",
-						"font-size" : 12,
-						"margin-bottom" : 10,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
+						"margin-bottom" : 19,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
@@ -67,16 +86,15 @@
 							0.5,
 							-0.5
 						],
-						"text" : "KNOWLEDGE"
+						"text" : "Empathy"
 					},
 					{
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
 						"dynamic-img" : true,
-						"editor-layerExpanded" : false,
-						"height" : 50,
-						"image" : "hp_spell_unlock_ability_icon_placeholder.png",
+						"height" : 54,
+						"image" : "hp_icon_attribute_empathy_med.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
@@ -84,7 +102,7 @@
 						"name" : "loaderAttribute",
 						"position-x" : "center",
 						"position-y" : "center",
-						"width" : 50,
+						"width" : 54,
 						"children" : [
 							{
 								"alignment" : "center",
@@ -118,6 +136,7 @@
 					},
 					{
 						"alignment" : "center",
+						"all-caps" : true,
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "label",
@@ -126,8 +145,8 @@
 							255,
 							255
 						],
-						"font" : "4privetdrive",
-						"font-size" : 18,
+						"font" : "Crimson-Roman",
+						"font-size" : 28,
 						"local:text" : "HP_ATTRIBUTE_LEVEL_UP",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
@@ -139,8 +158,8 @@
 						"position-y" : "top",
 						"shader-id" : "uiTitle",
 						"shadow-offset" : [
-							0.5,
-							-0.5
+							1,
+							-1
 						],
 						"text" : "ATTRIBUTE LEVEL UP"
 					}
@@ -148,5 +167,5 @@
 			}
 		]
 	},
-	"version" : "1.8.8.1"
+	"version" : "1.8.8.3"
 }

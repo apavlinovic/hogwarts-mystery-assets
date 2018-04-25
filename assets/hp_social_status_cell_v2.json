@@ -3,10 +3,6 @@
 		"class" : "view",
 		"height" : 32,
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"position-x" : "left",
 		"position-y" : "bottom",
@@ -20,6 +16,10 @@
 				"flipX" : true,
 				"height" : 32,
 				"image" : "hp_bg_container_partner.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
 				"name" : "opponentStatus",
 				"position-x" : "left",
 				"position-y" : "bottom",
@@ -30,34 +30,16 @@
 						"anchor-x" : "left",
 						"anchor-y" : "center",
 						"class" : "image",
-						"editor-layerExpanded" : false,
 						"height" : 42,
 						"image" : "hp_bg_container_partner.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 0,
+						"margin-right" : 13,
 						"margin-top" : 0,
 						"name" : "inactiveBg",
 						"position-x" : "left",
 						"position-y" : "center",
-						"width" : 217,
-						"children" : [
-							{
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
-								"class" : "image",
-								"height" : 20,
-								"image" : "hp_icon_question_white_sm.png",
-								"margin-bottom" : 11,
-								"margin-left" : 18,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "icon_question",
-								"position-x" : "left",
-								"position-y" : "bottom",
-								"width" : 20
-							}
-						]
+						"width" : 230
 					},
 					{
 						"actions" : [],
@@ -68,12 +50,12 @@
 						"image" : "hp_bg_container_partner_glow.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 0,
+						"margin-right" : 13,
 						"margin-top" : 0,
 						"name" : "activeBg",
 						"position-x" : "left",
 						"position-y" : "center",
-						"width" : 217
+						"width" : 230
 					},
 					{
 						"alignment" : "center",
@@ -86,13 +68,13 @@
 							255
 						],
 						"dynamic-text" : true,
-						"font" : "Avenir-HeavyOblique",
+						"font" : "Avenir-Roman",
 						"font-size" : 12,
 						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 24,
+						"margin-right" : 41,
 						"margin-top" : 0,
-						"max-width" : 140,
+						"max-width" : 158,
 						"name" : "labelTitle",
 						"position-x" : "right",
 						"position-y" : "center",
@@ -111,5 +93,5 @@
 			}
 		]
 	},
-	"version" : "1.8.4"
+	"version" : "1.8.8.3"
 }

@@ -1,305 +1,564 @@
 {
-    "FORCEUPGRADE_SUGGESTED": {
-        "ru": "Похоже, у тебя установлена не самая новая версия игры. Обнови ее, чтобы получить доступ ко всем новым возможностям.",
-        "fr": "On dirait bien que vous n'utilisez pas la dernière version du jeu. Effectuez la mise à jour et profitez d'améliorations vraiment super cool",
-        "pt": "Parece que você não está rodando a versão mais recente do jogo. Atualize para ter melhorias realmente muito legais",
-        "de": "Du hast anscheinend nicht die aktuellste Version des Spiels. Führe eine Aktualisierung für wirklich tolle Verbesserungen durch",
-        "it": "Sembra che non hai l'ultima versione del gioco. Aggiorna per miglioramenti molto fighi",
-        "en_US": "Update your game! Download now for exciting new features!",
-        "es": "Parece que no estás utilizando la versión más actualizada del juego. Actualiza la versión para ver mejoras."
+    "DOWNLOAD_WARNING_LABEL": {
+        "de": "Bei diesem Spiel werden w\u00e4hrend des Spielens Daten heruntergeladen. Wir empfehlen, eine WLAN-Verbindung zu nutzen.",
+        "en_US": "This game downloads data while playing. We recommend playing on Wifi.",
+        "es": "Este juego descarga datos mientras juegas. Recomendamos jugar utilizando Wifi.",
+        "fr": "Ce jeu t\u00e9l\u00e9charge des donn\u00e9es en cours de partie. Nous vous conseillons une connexion Wi-Fi pour jouer.",
+        "it": "La app scarica dati durante il gioco. Consigliamo di giocare con Wifi.",
+        "jp": "\u30d7\u30ec\u30a4\u4e2d\u306b\u30c7\u30fc\u30bf\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3067\u304d\u307e\u3059\u3002Wi-Fi \u306b\u63a5\u7d9a\u3057\u3066\u30d7\u30ec\u30a4\u3059\u308b\u3053\u3068\u3092\u304a\u52e7\u3081\u3057\u307e\u3059\u3002",
+        "pt": "Este jogo baixa dados enquanto voc\u00ea joga. Recomendamos jogar conectado ao Wi-fi."
     },
-    "GAME_ERROR_MODAL_TITLE": {
-        "ru": "ПРОИЗОШЛА ОШИБКА!",
-        "fr": "UNE ERREUR S'EST PRODUITE !",
-        "pt": "OCORREU UM ERRO",
-        "de": "EIN FEHLER IST AUFGETRETEN!",
-        "it": "SI È VERIFICATO UN ERRORE!",
-        "en_US": "An Error Has Occurred",
-        "es": "SE PRODUJO UN ERROR."
+    "ENGINE_CANCEL_BUTTON_TEXT": {
+        "de": "Abbrechen",
+        "en_US": "Cancel",
+        "es": "Cancelar",
+        "fr": "Annuler",
+        "it": "Annulla",
+        "jp": "\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "pt": "Cancelar"
     },
-    "GAME_PUSHPROMPT_TITLE": {
-        "ru": "Включить уведомления?",
-        "fr": "Activer les notifications ?",
-        "pt": "Deseja habilitar avisos por push?",
-        "de": "Push-Benachrichtigungen aktivieren?",
-        "it": "Consenti notifiche push?",
-        "en_US": "Enable Push Notifications?",
-        "es": "¿Habilitar notificaciones automáticas?"
+    "ENGINE_CONFIG_ERROR": {
+        "de": "Beim Konfigurieren des Spiels ist ein Fehler aufgetreten.\\nBitte versuche es noch einmal.",
+        "en_US": "There was a problem configuring the game.\\nPlease try again.",
+        "es": "Hubo un problema al configurar el juego.\\nPor favor, intenta de nuevo.",
+        "fr": "La configuration du jeu a connu un probl\u00e8me.\\nVeuillez essayer \u00e0 nouveau.",
+        "it": "Si \u00e8 verificato un problema nella configurazione del gioco.\\n Si prega di riprovare.",
+        "jp": "\u30b2\u30fc\u30e0\u306e\u8a2d\u5b9a\u4e2d\u306b\u554f\u984c\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\\n\u518d\u8a66\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Ocorreu um problema ao configurar o jogo.\\nTente outra vez."
     },
-    "FORCEUPGRADE_REQUIRED": {
-        "ru": "Похоже, у тебя установлена не самая новая версия игры. Обнови ее, чтобы получить доступ ко всем новым возможностям.",
-        "fr": "On dirait bien que vous n'utilisez pas la dernière version du jeu. Effectuez la mise à jour et profitez d'améliorations vraiment super cool",
-        "pt": "Parece que você não está rodando a versão mais recente do jogo. Atualize para ter melhorias realmente muito legais",
-        "de": "Du hast anscheinend nicht die aktuellste Version des Spiels. Führe eine Aktualisierung für wirklich tolle Verbesserungen durch",
-        "it": "Sembra che non hai l'ultima versione del gioco. Aggiorna per miglioramenti molto fighi",
-        "en_US": "A new update is available! Please upgrade to the latest version to continue.",
-        "es": "Parece que no estás utilizando la versión más actualizada del juego. Actualiza la versión para ver mejoras."
+    "ENGINE_CONFIG_ERROR_TITLE": {
+        "de": "Datenfehler",
+        "en_US": "Data Error",
+        "es": "Error de datos",
+        "fr": "Erreur de donn\u00e9es",
+        "it": "Errore dati",
+        "jp": "\u30c7\u30fc\u30bf\u30a8\u30e9\u30fc",
+        "pt": "Erro de dados"
     },
-    "GAME_AAGAME_CONNNECT_LOST_CONFIRM": {
-        "ru": "Попробуй еще раз",
-        "fr": "Essaie encore",
-        "pt": "Tente novamente",
-        "de": "Erneut versuchen",
-        "it": "Riprova",
-        "en_US": "RETRY",
-        "es": "Vuelve a intentarlo"
+    "ENGINE_CONNECTION_LOST": {
+        "de": "Verbindung mit dem Server unterbrochen.\\n Der Spielstand wird erst dann gespeichert,\\n wenn die Verbindung wiederhergestellt ist.",
+        "en_US": "Lost connection to server.\\nGame progress will not be saved\\nuntil connection is restored.",
+        "es": "Se perdi\u00f3 la conexi\u00f3n con el servidor.\\nNo se guardar\u00e1 un juego en progreso\\nhasta que la conexi\u00f3n se restablezca.",
+        "fr": "Connexion au serveur interrompue.\\nLa progression ne pourra \u00eatre\\nsauvegard\u00e9e qu'apr\u00e8s reconnexion.",
+        "it": "Connessione al server interrotta. \\nI progressi di gioco non saranno salvati\\n finch\u00e9 non sar\u00e0 ripristinata la connessione.",
+        "jp": "\u30b5\u30fc\u30d0\u30fc\u3078\u306e\u63a5\u7d9a\u3092\u5931\u3044\u307e\u3057\u305f\u3002\\n\u63a5\u7d9a\u304c\u56de\u5fa9\u3055\u308c\u308b\u307e\u3067\\n\u30b2\u30fc\u30e0\u306e\u9032\u884c\u72b6\u6cc1\u306f\u4fdd\u5b58\u3055\u308c\u307e\u305b\u3093\u3002",
+        "pt": "Conex\u00e3o com o servidor perdida.\\nO progresso do jogo n\u00e3o ser\u00e1 salvo\\nat\u00e9 que a conex\u00e3o seja restaurada."
     },
-    "GAME_PUSHPROMPT_ACCEPTBUTTON": {
-        "ru": "КОНЕЧНО!",
-        "fr": "BIEN SÛR !",
-        "pt": "CLARO!",
-        "de": "NA KLAR!",
-        "it": "CERTO!",
-        "en_US": "SURE!",
-        "es": "¡POR SUPUESTO!"
+    "ENGINE_CONNECTION_LOST_TITLE": {
+        "de": "Verbindung getrennt",
+        "en_US": "Connection Lost",
+        "es": "Se perdi\u00f3 la conexi\u00f3n",
+        "fr": "Connexion interrompue",
+        "it": "Connessione interrotta",
+        "jp": "\u63a5\u7d9a\u3092\u5931\u3044\u307e\u3057\u305f",
+        "pt": "Conex\u00e3o perdida"
     },
-    "GAME_AAGAME_CONNNECT_LOST_RETRY": {
-        "en_US": "Please try again in %1% seconds.",
-        "ru": "Повтори попытку через %1% секунд",
-        "fr": "Veuillez réessayer dans %1% secondes",
-        "pt": "Tente novamente em %1% segundos",
-        "de": "Bitte versuche es in %1% Sekunden erneut",
-        "it": "Riprova in %1% secondi",
-        "es": "Por favor, prueba de nuevo en %1% segundos"
+    "ENGINE_CONNECT_ERROR": {
+        "de": "Es konnte keine Verbindung mit dem Server aufgebaut werden",
+        "en_US": "Could not connect to server",
+        "es": "No se pudo conectar al servidor",
+        "fr": "Connexion au serveur impossible.",
+        "it": "Impossibile connettersi al server",
+        "jp": "\u30b5\u30fc\u30d0\u30fc\u306b\u63a5\u7d9a\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f",
+        "pt": "N\u00e3o foi poss\u00edvel conectar ao servidor"
     },
-    "GAME_AAGAME_CONNNECT_LOST_LOCKED": {
-        "en_US": "WAIT",
-        "ru": "Подождите",
-        "fr": "Attends",
-        "pt": "Aguarde",
-        "de": "Warte ab",
-        "it": "",
-        "es": "Espera"
+    "ENGINE_CONNECT_ERROR_TITLE": {
+        "de": "Verbindungsfehler!",
+        "en_US": "Connect Error!",
+        "es": "\u00a1Error de conexi\u00f3n!",
+        "fr": "Erreur de connexion\u00a0!",
+        "it": "Errore di connessione!",
+        "jp": "\u63a5\u7d9a\u30a8\u30e9\u30fc\uff01",
+        "pt": "Erro ao conectar!"
+    },
+    "ENGINE_DATA_ERROR": {
+        "de": "Beim Laden des Spiels ist ein Fehler aufgetreten.\\nBitte versuche es noch einmal.",
+        "en_US": "There was a problem loading the game.\\nPlease try again.",
+        "es": "Hubo un problema al cargar el juego.\\nPor favor, intenta de nuevo.",
+        "fr": "Un probl\u00e8me est survenu lors du chargement du jeu.\\nVeuillez r\u00e9essayer.",
+        "it": "Si \u00e8 verificato un problema nel caricare il gioco. \\nSi prega di riprovare.",
+        "jp": "\u30ed\u30fc\u30c9\u4e2d\u306b\u554f\u984c\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\\n\u518d\u8a66\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Ocorreu um problema ao carregar o jogo.\\nTente outra vez."
+    },
+    "ENGINE_DATA_ERROR_TITLE": {
+        "de": "Datenfehler",
+        "en_US": "Data Error",
+        "es": "Error de datos",
+        "fr": "Erreur de donn\u00e9es",
+        "it": "Errore dati",
+        "jp": "\u30c7\u30fc\u30bf\u30a8\u30e9\u30fc",
+        "pt": "Erro de dados"
+    },
+    "ENGINE_DEVICE_FULL_TEXT": {
+        "de": "Auf deinem Ger\u00e4t ist nicht mehr viel freier Speicherplatz vorhanden. Das Spiel kann wom\u00f6glich nicht korrekt ausgef\u00fchrt werden, bis du Speicherplatz auf deinem Ger\u00e4t freigemacht hast. Es k\u00f6nnte helfen, andere Medien auf deinem Ger\u00e4t (wie Apps oder Filme) zu l\u00f6schen.",
+        "en_US": "Your device is low on free space. The game may not run correctly until you free up some storage space on your device. Deleting other media on your device (such as apps or movies) may help.",
+        "es": "Su dispositivo tiene poco espacio. El juego tal vez no se ejecute correctamente hasta que libere espacio en su dispositivo. Borrar otros archivos en tu dispositivo (como aplicaciones o pel\u00edculas) puede ayudar.",
+        "fr": "Votre appareil manque d'espace libre. Le jeu pourrait ne pas fonctionner correctement si vous ne lib\u00e9rez pas d'espace. Supprimer d'autres m\u00e9dias (applications, films) pourrait r\u00e9soudre le probl\u00e8me.",
+        "it": "Il tuo dispositivo ha poco spazio disponibile. Il gioco potrebbe non funzionare correttamente finch\u00e9 non libererai spazio sul tuo dispositivo. Potrebbe essere utile cancellare altri media sul dispositivo (per esempio app e film).",
+        "jp": "\u30c7\u30d0\u30a4\u30b9\u306e\u7a7a\u304d\u5bb9\u91cf\u304c\u5c11\u306a\u304f\u306a\u3063\u3066\u3044\u307e\u3059\u3002\u7a7a\u304d\u5bb9\u91cf\u3092\u5897\u3084\u3055\u306a\u3044\u3068\u30b2\u30fc\u30e0\u304c\u6b63\u5e38\u306b\u6a5f\u80fd\u3057\u306a\u3044\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002\u4ed6\u306e\u30e1\u30c7\u30a3\u30a2\uff08\u30a2\u30d7\u30ea\u3084\u52d5\u753b\u7b49\uff09\u3092\u30c7\u30d0\u30a4\u30b9\u304b\u3089\u524a\u9664\u3057\u3066\u7a7a\u304d\u5bb9\u91cf\u3092\u5897\u3084\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Seu dispositivo est\u00e1 com pouco espa\u00e7o livre. O jogo pode n\u00e3o rodar corretamente at\u00e9 que voc\u00ea libere mais espa\u00e7o. Excluir outras m\u00eddias (como aplicativos ou filmes) pode ajudar."
+    },
+    "ENGINE_DEVICE_FULL_TITLE": {
+        "de": "Nicht gen\u00fcgend Speicherplatz",
+        "en_US": "Not Enough Storage",
+        "es": "No hay suficiente espacio",
+        "fr": "Espace insuffisant",
+        "it": "Spazio insufficiente",
+        "jp": "\u7a7a\u304d\u5bb9\u91cf\u304c\u8db3\u308a\u307e\u305b\u3093",
+        "pt": "Espa\u00e7o insuficiente"
+    },
+    "ENGINE_DOWNLOAD_ERROR": {
+        "de": "Es wurden nicht alle erforderlichen Dateien heruntergeladen.",
+        "en_US": "Did not download all needed files.",
+        "es": "No descarg\u00f3 todos los archivos necesarios.",
+        "fr": "Tous les fichiers n\u00e9cessaires n'ont pas \u00e9t\u00e9 t\u00e9l\u00e9charg\u00e9s.",
+        "it": "Impossibile scaricare tutti i file necessari.",
+        "jp": "\u5fc5\u8981\u306a\u30d5\u30a1\u30a4\u30eb\u304c\u4e00\u90e8\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3055\u308c\u307e\u305b\u3093\u3067\u3057\u305f\u3002",
+        "pt": "N\u00e3o foram baixados todos os arquivos necess\u00e1rios."
+    },
+    "ENGINE_DOWNLOAD_ERROR_TITLE": {
+        "de": "Fehler beim Herunterladen!",
+        "en_US": "Download error!",
+        "es": "\u00a1Error de descarga!",
+        "fr": "Erreur de t\u00e9l\u00e9chargement\u00a0!",
+        "it": "Errore di download!",
+        "jp": "\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u30a8\u30e9\u30fc\uff01",
+        "pt": "Erro ao baixar!"
+    },
+    "ENGINE_EXIT_PROMPT": {
+        "de": "M\u00f6chtest du das Spiel wirklich beenden?",
+        "en_US": "Are you sure you want to quit?",
+        "es": "\u00bfEst\u00e1s seguro de que quieres salir?",
+        "fr": "Voulez-vous vraiment quitter\u00a0?",
+        "it": "Vuoi davvero uscire?",
+        "jp": "\u672c\u5f53\u306b\u4e2d\u65ad\u3057\u307e\u3059\u304b\uff1f",
+        "pt": "Tem certeza que deseja sair?"
+    },
+    "ENGINE_EXIT_PROMPT_TITLE": {
+        "de": "Spiel beenden?",
+        "en_US": "Exit Game?",
+        "es": "\u00bfSalir del juego?",
+        "fr": "Quitter le jeu\u00a0?",
+        "it": "Uscire dal gioco?",
+        "jp": "\u30b2\u30fc\u30e0\u3092\u7d42\u4e86\u3057\u307e\u3059\u304b\uff1f",
+        "pt": "Sair do jogo?"
+    },
+    "ENGINE_FUNCTION_ERROR_TITLE": {
+        "de": "Fehler",
+        "en_US": "Error",
+        "es": "Error",
+        "fr": "Erreur",
+        "it": "Errore",
+        "jp": "\u30a8\u30e9\u30fc",
+        "pt": "Erro"
+    },
+    "ENGINE_GAME_ERROR_TITLE": {
+        "de": "Spielfehler",
+        "en_US": "Game Error",
+        "es": "Error en el juego",
+        "fr": "Erreur de jeu vid\u00e9o",
+        "it": "Errore di gioco",
+        "jp": "\u30b2\u30fc\u30e0\u30a8\u30e9\u30fc",
+        "pt": "Erro do jogo"
+    },
+    "ENGINE_GENERIC_ERROR_TITLE": {
+        "de": "Fehler",
+        "en_US": "Error",
+        "es": "Error",
+        "fr": "Erreur",
+        "it": "Errore",
+        "jp": "\u30a8\u30e9\u30fc",
+        "pt": "Erro"
+    },
+    "ENGINE_HELP_BUTTON_TEXT": {
+        "de": "HILFE",
+        "en_US": "HELP",
+        "es": "AYUDA",
+        "fr": "AIDE",
+        "it": "ASSISTENZA",
+        "jp": "\u30d8\u30eb\u30d7",
+        "pt": "AJUDA"
+    },
+    "ENGINE_IAP_FAIL_MESSAGE": {
+        "de": "Bitte versuche es sp\u00e4ter noch einmal.",
+        "en_US": "Please try again later.",
+        "es": "Por favor, intenta de nuevo despu\u00e9s.",
+        "fr": "Veuillez r\u00e9essayer ult\u00e9rieurement.",
+        "it": "Riprovare pi\u00f9 tardi.",
+        "jp": "\u5f8c\u307b\u3069\u518d\u8a66\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Tente de novo mais tarde."
+    },
+    "ENGINE_IAP_FAIL_TITLE": {
+        "de": "Oh je. Dein Kauf ist fehlgeschlagen.",
+        "en_US": "Uh-oh. Your purchase failed.",
+        "es": "Oh, oh. Tu compra fall\u00f3.",
+        "fr": "Oh, oh. Votre achat a \u00e9chou\u00e9.",
+        "it": "Ops. Acquisto fallito.",
+        "jp": "\u304a\u3063\u3068\uff01\u8cfc\u5165\u306b\u5931\u6557\u3057\u307e\u3057\u305f\u3002",
+        "pt": "Uh-oh. Sua compra falhou."
+    },
+    "ENGINE_LOAD_ERROR_TITLE": {
+        "de": "Ladefehler",
+        "en_US": "Load Error",
+        "es": "Error de carga",
+        "fr": "Erreur de chargement",
+        "it": "Errore di caricamento",
+        "jp": "\u30ed\u30fc\u30c9\u30a8\u30e9\u30fc",
+        "pt": "Erro ao carregar"
+    },
+    "ENGINE_LOGIN_ERROR_TITLE": {
+        "de": "Anmeldefehler!",
+        "en_US": "Log-in Error!",
+        "es": "\u00a1Error de inicio de sesi\u00f3n!",
+        "fr": "Erreur de connexion",
+        "it": "Errore di Log-in!",
+        "jp": "\u30ed\u30b0\u30a4\u30f3\u30a8\u30e9\u30fc\uff01",
+        "pt": "Erro de login!"
+    },
+    "ENGINE_OK_BUTTON_TEXT": {
+        "de": "OK",
+        "en_US": "OK",
+        "es": "DE ACUERDO",
+        "fr": "OK",
+        "it": "OK",
+        "jp": "OK",
+        "pt": "OK"
+    },
+    "ENGINE_RESPONSE_ERROR_TITLE": {
+        "de": "Fehler beim Antworten",
+        "en_US": "Response Error",
+        "es": "Error de respuesta",
+        "fr": "Erreur de r\u00e9ponse",
+        "it": "Errore di risposta",
+        "jp": "\u30ec\u30b9\u30dd\u30f3\u30b9\u30a8\u30e9\u30fc",
+        "pt": "Erro de resposta"
+    },
+    "ENGINE_SAVE_LOCKED": {
+        "de": "Bitte starte das Spiel neu, damit die Wiederherstellung wirksam wird.",
+        "en_US": "Please restart your game for the restoration to take effect.",
+        "es": "Por favor, reinicia tu juego para que la restauraci\u00f3n tenga efecto.",
+        "fr": "Veuillez red\u00e9marrer le jeu pour que la restauration soit prise en compte.",
+        "it": "Riavvia il gioco per rendere effettive le modifiche.",
+        "jp": "\u5fa9\u65e7\u51e6\u7406\u3092\u5b9f\u884c\u3059\u308b\u305f\u3081\u306b\u30b2\u30fc\u30e0\u3092\u518d\u8d77\u52d5\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Reinicie seu jogo para que a restaura\u00e7\u00e3o tenha efeito."
+    },
+    "ENGINE_SAVE_LOCKED_TITLE": {
+        "de": "Fehler beim Speichern",
+        "en_US": "Error Saving",
+        "es": "Error de guardado",
+        "fr": "Erreur de sauvegarde",
+        "it": "Errore di salvataggio",
+        "jp": "\u4fdd\u5b58\u306b\u5931\u6557\u3057\u307e\u3057\u305f",
+        "pt": "Erro ao salvar"
+    },
+    "ENGINE_START_ERROR_TITLE": {
+        "de": "Startfehler",
+        "en_US": "Start Error",
+        "es": "Error de inicio",
+        "fr": "Erreur de d\u00e9marrage",
+        "it": "Errore di avvio",
+        "jp": "\u8d77\u52d5\u30a8\u30e9\u30fc",
+        "pt": "Erro ao iniciar"
+    },
+    "ENGINE_TIMEABBR_DAYS": {
+        "de": "t",
+        "en_US": "d",
+        "es": "d",
+        "fr": "j",
+        "it": "g",
+        "jp": "\u65e5",
+        "pt": "d"
+    },
+    "ENGINE_TIMEABBR_HOURS": {
+        "de": "h",
+        "en_US": "h",
+        "es": "h",
+        "fr": "h",
+        "it": "h",
+        "jp": "\u6642\u9593",
+        "pt": "h"
+    },
+    "ENGINE_TIMEABBR_MINUTES": {
+        "de": "m",
+        "en_US": "m",
+        "es": "m",
+        "fr": "m",
+        "it": "m",
+        "jp": "\u5206",
+        "pt": "m"
+    },
+    "ENGINE_TIMEABBR_SECONDS": {
+        "de": "s",
+        "en_US": "s",
+        "es": "s",
+        "fr": "s",
+        "it": "s",
+        "jp": "\u79d2",
+        "pt": "s"
+    },
+    "ENGINE_UNKNOWN_SAVE_MESSAGE": {
+        "de": "Unbekanntes Speicherformat!",
+        "en_US": "Unknown Save Format!",
+        "es": "\u00a1Formato de guardado desconocido!",
+        "fr": "Format de sauvegarde inconnu\u00a0!",
+        "it": "Formato di salvataggio sconosciuto!",
+        "jp": "\u4e0d\u660e\u306a\u4fdd\u5b58\u5f62\u5f0f\u3067\u3059\uff01",
+        "pt": "Formato de jogo desconhecido!"
+    },
+    "ENGINE_UNKNOWN_SAVE_TITLE": {
+        "de": "Speichervorgang fehlgeschlagen",
+        "en_US": "Save Failed",
+        "es": "Fall\u00f3 Guardar",
+        "fr": "\u00c9chec de la sauvegarde",
+        "it": "Salvataggio fallito",
+        "jp": "\u4fdd\u5b58\u306b\u5931\u6557\u3057\u307e\u3057\u305f",
+        "pt": "Falha ao salvar"
+    },
+    "ENGINE_VCBUTTON_ERROR_TITLE": {
+        "de": "Fehler",
+        "en_US": "Error",
+        "es": "Error",
+        "fr": "Erreur",
+        "it": "Errore",
+        "jp": "\u30a8\u30e9\u30fc",
+        "pt": "Erro"
     },
     "FORCEUPGRADE_NO": {
-        "ru": "Позже",
-        "fr": "Plus tard",
-        "pt": "Mais tarde",
-        "de": "Später",
-        "it": "Più tardi",
+        "de": "SP\u00c4TER",
         "en_US": "LATER",
-        "es": "Más tarde"
+        "es": "DESPU\u00c9S",
+        "fr": "PLUS TARD",
+        "it": "PI\u00d9 TARDI",
+        "jp": "\u5f8c\u3067",
+        "pt": "MAIS TARDE"
+    },
+    "FORCEUPGRADE_REQUIRED": {
+        "de": "Es ist ein neues Update verf\u00fcgbar! Bitte aktualisiere auf die neueste Version, um fortzufahren.",
+        "en_US": "A new update is available! Please upgrade to the latest version to continue.",
+        "es": "\u00a1Hay una nueva actualizaci\u00f3n disponible! Por favor, actualiza a la \u00faltima versi\u00f3n para continuar.",
+        "fr": "Une nouvelle mise \u00e0 jour est disponible\u00a0! T\u00e9l\u00e9chargez la derni\u00e8re version du jeu pour continuer.",
+        "it": "\u00c8 disponibile un nuovo aggiornamento. Aggiorna all'ultima versione per continuare.",
+        "jp": "\u65b0\u3057\u3044\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u306e\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u304c\u53ef\u80fd\u3067\u3059\uff01\u6700\u65b0\u7248\u306b\u30a2\u30c3\u30d7\u30b0\u30ec\u30fc\u30c9\u3057\u3066\u304b\u3089\u7d9a\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Uma nova atualiza\u00e7\u00e3o est\u00e1 dispon\u00edvel! Atualize para a vers\u00e3o mais recente para continuar."
+    },
+    "FORCEUPGRADE_SUGGESTED": {
+        "de": "Aktualisiere dein Spiel mit tollen neuen Funktionen! Jetzt herunterladen!",
+        "en_US": "Update your game! Download now for exciting new features!",
+        "es": "\u00a1Actualiza tu juego! \u00a1Descarga ahora para nuevas y emocionantes propiedades!",
+        "fr": "Faites une mise \u00e0 jour du jeu\u00a0! T\u00e9l\u00e9chargez vite les nouvelles fonctionnalit\u00e9s\u00a0!",
+        "it": "Aggiorna il gioco! Scarica subito le nuove funzionalit\u00e0!",
+        "jp": "\u30b2\u30fc\u30e0\u3092\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8\u3057\u3066\u3001\u4eca\u3059\u3050\u65b0\u3057\u3044\u6a5f\u80fd\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3057\u307e\u3057\u3087\u3046\uff01",
+        "pt": "Atualize seu jogo! Baixe para conferir novos recursos incr\u00edveis!"
     },
     "FORCEUPGRADE_TITLE": {
-        "ru": "Обновить",
-        "fr": "Effectuez la mise à niveau",
-        "pt": "Atualizar",
-        "de": "Bitte aktualisieren",
-        "it": "Aggiorna",
+        "de": "Bitte f\u00fchre ein Upgrade durch",
         "en_US": "Please Upgrade",
-        "es": "Cambia a una versión superior"
+        "es": "Por favor, Actualizar",
+        "fr": "Veuiller effectuer la mise \u00e0 jour",
+        "it": "Si prega di aggiornare",
+        "jp": "\u30a2\u30c3\u30d7\u30b0\u30ec\u30fc\u30c9\u3057\u3066\u304f\u3060\u3055\u3044",
+        "pt": "Fa\u00e7a a atualiza\u00e7\u00e3o"
     },
     "FORCEUPGRADE_YES": {
-        "ru": "Обнови приложение.",
-        "fr": "Mettre à niveau",
-        "pt": "Faça uma atualização",
-        "de": "Hochrüsten",
-        "it": "Aggiorna",
+        "de": "UPGRADE",
         "en_US": "UPGRADE",
-        "es": "Cambia a una versión superior"
+        "es": "ACTUALIZAR",
+        "fr": "METTRE \u00c0 JOUR",
+        "it": "AGGIORNA",
+        "jp": "\u30a2\u30c3\u30d7\u30b0\u30ec\u30fc\u30c9",
+        "pt": "ATUALIZAR"
     },
-    "GAME_PUSHPROMPT_MESSAGE": {
-        "ru": "Может, включить уведомления, м-м? Хочешь? Хочешь, чтобы мы посылали лучи света в твою никчемную жизнь?",
-        "fr": "Et si on activait les notifications, hmm ? Laisse-nous t'offrir quelques rayons de soleil dans ta vie pourrie ?",
-        "pt": "Que tal habilitar avisos por push, hein? Vai nos deixar irradiar alguns raios de sol em sua vida monótona?",
-        "de": "Was hältst du davon, Push-Benachrichtigungen zu aktivieren? Können wir dir ein paar Sonnenstrahlen in dein trostloses Leben senden?",
-        "it": "Cosa ne pensi di abilitare ne notifiche push, mmm? Cosa ne pensi di far entrare i raggi di sole nella tua triste vita?",
-        "en_US": "Please enable notifications to receive updates from the Avengers Academy.",
-        "es": "¿Qué te parece si habilitamos las notificaciones automáticas? ¿Nos dejarás que llevemos un poco de alegría a tu vida miserable?"
+    "GAME_AAGAME_CONNNECT_LOST_CONFIRM": {
+        "de": "ERNEUT VERSUCHEN",
+        "en_US": "RETRY",
+        "es": "INTENTA DE NUEVO",
+        "fr": "R\u00c9ESSAYER",
+        "it": "RIPROVA",
+        "jp": "\u518d\u8a66\u884c",
+        "pt": "RECONECTAR"
     },
-    "GAME_PUSHPROMPT_DELAYBUTTON": {
-        "ru": "НЕ СЕЙЧАС",
-        "fr": "PAS MAINTENANT",
-        "pt": "AGORA NÃO",
-        "de": "JETZT NICHT",
-        "it": "NON ORA",
-        "en_US": "NOT NOW",
-        "es": "NO AHORA"
-    },
-    "GAME_AAGAME_CONNNECT_LOST_TITLE": {
-        "ru": "Соединение потеряно",
-        "fr": "Ya plus de connexion",
-        "pt": "Conexão perdida",
-        "de": "Verbindung verloren",
-        "it": "Connessione persa",
-        "en_US": "Connection Error",
-        "es": "Se perdió la conexión"
+    "GAME_AAGAME_CONNNECT_LOST_LOCKED": {
+        "de": "WARTEN",
+        "en_US": "WAIT",
+        "es": "ESPERAR",
+        "fr": "ATTENDRE",
+        "it": "ATTENDI",
+        "jp": "\u5f85\u3064",
+        "pt": "ESPERE"
     },
     "GAME_AAGAME_CONNNECT_LOST_MESSAGE": {
+        "de": "Wir konnten keine Verbindung mit dem Spiel herstellen. Bitte \u00fcberpr\u00fcfe deine Verbindung und versuche es erneut.",
         "en_US": "We were unable to connect to the game. Please verify your connection and retry.",
-        "ru": "Нам не удалось подключиться к игре. Проверь подключение и повтори попытку",
-        "fr": "Impossible de se connecter au jeu. Veuillez vérifier votre connexion avant de réessayer",
-        "pt": "Não é possível conectar ao jogo. Verifique sua conexão e tente novamente",
-        "de": "Wir konnten keine Verbindung zum Spiel herstellen. Bitte überprüfe deine Verbindung und versuche es erneut",
-        "it": "Impossibile connettersi alla partita. Verifica la connessione e riprova",
-        "es": "No hemos podido conectar al juego. Por favor, verifica tu conexión y vuelve a intentarlo"
+        "es": "No pudimos conectarnos al juego. Por favor, verifique su conexi\u00f3n y vuelva a intentarlo.",
+        "fr": "Nous n'avons pas r\u00e9ussi \u00e0 nous connecter au jeu. Veuillez v\u00e9rifier l'\u00e9tat de votre connexion et essayer \u00e0 nouveau.",
+        "it": "Impossibile connettersi al gioco. Verifica la tua connessione e riprova.",
+        "jp": "\u30b2\u30fc\u30e0\u306b\u63a5\u7d9a\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u63a5\u7d9a\u72b6\u6cc1\u3092\u78ba\u8a8d\u3057\u3066\u518d\u8a66\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "N\u00e3o conseguimos conectar ao jogo. Verifique sua conex\u00e3o e tente novamente."
     },
-    "HP_LOGIN_PLATFORM_LOGIN_ERROR_TITLE": {
-        "en_US": "Unable to connect",
-        "ru": "Не удается подключиться",
-        "fr": "Impossible de se connecter",
-        "pt": "Não é possível conectar",
-        "de": "Konnte nicht verbinden",
-        "it": "Impossibile effettuare la connessione",
-        "es": "No se ha podido conectar"
+    "GAME_AAGAME_CONNNECT_LOST_RETRY": {
+        "de": "Bitte versuche es in %1% Sekunden noch einmal.",
+        "en_US": "Please try again in %1% seconds.",
+        "es": "Por favor, intenta de nuevo en %1% segundos.",
+        "fr": "Veuillez essayer \u00e0 nouveau dans %1%\u00a0secondes.",
+        "it": "Riprova fra %1% secondi.",
+        "jp": "%1%\u79d2\u5f8c\u306b\u518d\u8a66\u884c\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Tente de novo em %1% segundos."
     },
-    "HP_LOGIN_PLATFORM_LOGIN_ERROR_BODY": {
-        "en_US": "Unable to connect to %1%. Loading into a device-based game. To retrieve your game, exit the app and log back in to %1% then restart the game.",
-        "ru": "Не удается подключиться к %1%. Загрузка в игру на устройстве. Чтобы продолжить игру, выйди из приложения и снова войди в Facebook, а затем перезапусти игру",
-        "fr": "Impossible de se connecter à %1%. Chargement dans une basée sur l'appareil. Pour récupérer votre partie, sortez de l'appi et reconnectez-vous à Facebook puis redémarrez le jeu",
-        "pt": "Não é possível conectar ao %1%. Carregando em um jogo baseado no dispositivo. Para tentar novamente o seu jogo, feche o app, entre novamente no Facebook e reinicie o jogo",
-        "de": "Konnte nicht mit %1% verbinden. Lädt ein Geräte-basiertes Spiel. Um dein Spiel wiederherzustellen, schließe die App, melde dich erneut bei Facebook an und starte das Spiel neu",
-        "it": "Impossibile effettuare la connessione a %1%. Caricamento di partita installata sul dispositivo. Per recuperare la partita, chiudi l'app e riconnettiti a Facebook, quindi riavvia la partita",
-        "es": "No se ha podido conectar a %1%. Cargando en un juego basado en dispositivos. Para recuperar tu juego, sal de la app e inicia sesión de nuevo en Facebook para reiniciar el juego"
+    "GAME_AAGAME_CONNNECT_LOST_TITLE": {
+        "de": "Verbindungsfehler",
+        "en_US": "Connection Error",
+        "es": "Error de conexi\u00f3n",
+        "fr": "Erreur de connexion",
+        "it": "Errore di connessione",
+        "jp": "\u63a5\u7d9a\u30a8\u30e9\u30fc",
+        "pt": "Erro de conex\u00e3o"
     },
-    "HP_LOGIN_RELOAD": {
-        "en_US": "Reload",
-        "ru": "Перезагрузить",
-        "fr": "Recharger",
-        "pt": "Recarregar",
-        "de": "Neu laden",
-        "it": "Ricarica",
-        "es": "Recargar"
+    "GAME_ERROR_MODAL_TITLE": {
+        "de": "Ein Fehler ist aufgetreten",
+        "en_US": "An Error Has Occurred",
+        "es": "Ocurri\u00f3 un error",
+        "fr": "Une erreur est survenue",
+        "it": "Si \u00e8 verificato un errore",
+        "jp": "\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f",
+        "pt": "Ocorreu um erro"
     },
-    "HP_LOGIN_LOAD": {
-        "en_US": "Load",
-        "ru": "Загрузить",
-        "fr": "Charger",
-        "pt": "Carregar",
-        "de": "Laden",
-        "it": "Carica",
-        "es": "Cargar"
+    "GAME_PUSHPROMPT_ACCEPTBUTTON": {
+        "de": "SICHER!",
+        "en_US": "SURE!",
+        "es": "\u00a1CLARO!",
+        "fr": "D'ACCORD\u00a0!",
+        "it": "CERTO!",
+        "jp": "OK\uff01",
+        "pt": "CLARO!"
     },
-    "HP_LOGIN_GC": {
-        "en_US": "Game Center",
-        "ru": "Game Center",
-        "fr": "Game Center",
-        "pt": "Game Center",
-        "de": "Game Center",
-        "it": "Game Center",
-        "es": "Game Center"
+    "GAME_PUSHPROMPT_DELAYBUTTON": {
+        "de": "NICHT JETZT",
+        "en_US": "NOT NOW",
+        "es": "AHORA NO",
+        "fr": "PLUS TARD",
+        "it": "NON ORA",
+        "jp": "\u5f8c\u3067",
+        "pt": "AGORA N\u00c3O"
     },
-    "HP_LOGIN_GP": {
-        "en_US": "Google Play Games",
-        "ru": "Google Play Games",
-        "fr": "Google Play Games",
-        "pt": "Google Play Games",
-        "de": "Google Play Games",
-        "it": "Google Play Games",
-        "es": "Google Play Games"
+    "GAME_PUSHPROMPT_MESSAGE": {
+        "de": "Bitte aktiviere die Benachrichtigungen, damit du Updates zu Das Geheimnis von Hogwarts erh\u00e4ltst.",
+        "en_US": "Please enable notifications to receive updates from the Hogwarts Mystery",
+        "es": "Por favor, habilita notificaciones para recibir actualizaciones desde el Hogwarts Mystery",
+        "fr": "Veuillez activer les notifications pour recevoir des mises \u00e0 jour pour Hogwarts Mystery",
+        "it": "Abilita le notifiche per ricevere aggiornamenti da Hogwarts Mystery",
+        "jp": "\u30db\u30b0\u30ef\u30fc\u30c4\u306e\u8b0e\u306e\u66f4\u65b0\u60c5\u5831\u3092\u53d7\u3051\u53d6\u308b\u306b\u306f\u901a\u77e5\u6a5f\u80fd\u3092\u30aa\u30f3\u306b\u3057\u3066\u304f\u3060\u3055\u3044",
+        "pt": "Ative as notifica\u00e7\u00f5es para receber atualiza\u00e7\u00f5es de Hogwarts Mystery"
     },
-    "HP_LOGIN_FB": {
-        "en_US": "Facebook",
-        "ru": "Facebook",
-        "fr": "Facebook",
-        "pt": "Facebook",
-        "de": "Facebook",
-        "it": "Facebook",
-        "es": "Facebook"
-    },
-    "HP_LOGIN_CURRENT_USER": {
-        "en_US": "Current User:",
-        "ru": "Текущий пользователь:",
-        "fr": "Utilisateur actuel:",
-        "pt": "Usuário atual:",
-        "de": "Aktueller Benutzer:",
-        "it": "Utente corrente:",
-        "es": "Usuario actual:"
-    },
-    "HP_LOGIN_PLATFORM_USER": {
-        "en_US": "%1% ID:",
-        "ru": "%1% ID:",
-        "fr": "%1% ID:",
-        "pt": "%1% ID:",
-        "de": "%1% ID:",
-        "it": "%1% ID:",
-        "es": "%1% ID:"
-    },
-    "HP_LOGIN_GUEST": {
-        "en_US": "Not Logged In",
-        "ru": "Не выполнен вход в систему",
-        "fr": "Pas connecté",
-        "pt": "Não logado",
-        "de": "Nicht angemeldet",
-        "it": "Non connesso",
-        "es": "No ha iniciado sesión"
-    },
-    "HP_LOGIN_TITLE": {
-        "en_US": "Login With %1%",
-        "ru": "Войти с %1%",
-        "fr": "Se connecter avec %1%",
-        "pt": "Login com %1%",
-        "de": "Mit %1% anmelden",
-        "it": "Accesso con %1%",
-        "es": "Iniciar sesión con %1%"
-    },
-    "HP_LOGIN_RELOAD_PLATFORM_PROMPT": {
-        "en_US": "This %2% account is currently linked to a level %1% save. Would you like to load this save now?",
-        "ru": "Этот аккаунт %2% в настоящее время привязан к сохраненному уровню %1%. Хочешь загрузить этот сохраненный уровень сейчас?",
-        "fr": "Ce compte %2% est actuellement lié à une sauvegarde de niveau %1%. Souhaitez-vous charger cette sauvegarde maintenant ?",
-        "pt": "No momento, esta conta %2% está ligada ao nível salvo %1%. Gostaria de carregar o que está salvo agora?",
-        "de": "Dieses %2%-Konto ist momentan mit einem Speicherstand auf Level %1% verbunden. Möchtest du diesen Speicherstand jetzt laden?",
-        "it": "Questo account %2% è attualmente collegato a un salvataggio di livello %1%. Caricare questo salvataggio ora?",
-        "es": "Esta cuenta de %2% ya está vinculada a un archivo guardado de nivel %1%. ¿Quieres guardar este archivo guardado ahora?"
-    },
-    "HP_LOGIN_YOUR_SAVE_DATA": {
-        "en_US": "Your save data",
-        "ru": "Твои сохраненные данные",
-        "fr": "Données de votre sauvegarde",
-        "pt": "Seus dados salvo",
-        "de": "Dein Speicherstand",
-        "it": "Dati salvataggio ",
-        "es": "Tus datos guardados"
-    },
-    "HP_LOGIN_LAST_LOGIN": {
-        "en_US": "Last login:",
-        "ru": "Последний Войти:",
-        "fr": "Dernière connexion:",
-        "pt": "Último login:",
-        "de": "Letzte Anmeldung:",
-        "it": "Ultimo accesso:",
-        "es": "Ultima session:"
-    },
-    "HP_LOGIN_SKIP": {
-        "en_US": "Skip",
-        "ru": "Пропустить",
-        "fr": "Passer",
-        "pt": "Pular",
-        "de": "Überspringen",
-        "it": "Salta",
-        "es": "Omitir"
-    },
-    "HP_LOGIN_NOTHANKS": {
-        "en_US": "No Thanks",
-        "ru": "Нет, спасибо",
-        "fr": "Non merci",
-        "pt": "Não, obrigado",
-        "de": "Nein, danke",
-        "it": "No grazie",
-        "es": "No, gracias"
-    },
-    "HP_LOGIN_CONFIRM": {
-        "en_US": "Confirm",
-        "ru": "Подтвердить",
-        "fr": "Confirmer",
-        "pt": "Confirmar",
-        "de": "Bestätigen",
-        "it": "Conferma",
-        "es": "Confirmar"
-    },
-    "SETTINGS_HELP": {
-        "en_US": "Help",
-        "ru": "Помощь",
-        "fr": "Aide",
-        "pt": "Ajuda",
-        "de": "Hilfe",
-        "it": "Aiuta",
-        "es": "Ayuda"
+    "GAME_PUSHPROMPT_TITLE": {
+        "de": "Push-Benachrichtigungen aktivieren?",
+        "en_US": "Enable Push Notifications?",
+        "es": "\u00bfHabilitar Enviar notificaciones?",
+        "fr": "Activer les notifications push\u00a0?",
+        "it": "Abilitare notifiche push?",
+        "jp": "\u30d7\u30c3\u30b7\u30e5\u901a\u77e5\u3092\u30aa\u30f3\u306b\u3057\u307e\u3059\u304b\uff1f",
+        "pt": "Deseja ativar as notifica\u00e7\u00f5es?"
     },
     "HELP_PLEASE_DESCRIBE": {
-        "en_US": "Please describe what you were doing when the error happened:"
+        "de": "Bitte beschreibe, was du gerade getan hast, als der Fehler aufgetreten ist:",
+        "en_US": "Please describe what you were doing when the error happened:",
+        "es": "Por favor, describe lo que estabas haciendo cuando sucedi\u00f3 el error:",
+        "fr": "Veuillez d\u00e9crire ce que vous faisiez lorsque l'erreur est survenue\u00a0:",
+        "it": "Descrivi cosa stavi facendo quando si \u00e8 verificato l'errore:",
+        "jp": "\u30a8\u30e9\u30fc\u304c\u8d77\u3053\u3063\u305f\u6642\u3001\u4f55\u3092\u3057\u3066\u3044\u305f\u304b\u8a73\u3057\u304f\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "pt": "Descreva o que voc\u00ea estava fazendo quando o erro ocorreu:"
     },
-    "FontMap_ContemporaryCyr" : {
-         "en_US": "ContemporaryCyr"
+    "HP_LOGIN_CURRENT_USER": {
+        "de": "Aktueller Benutzer:",
+        "en_US": "Current User:",
+        "es": "Usuario actual:",
+        "fr": "Utilisateur actuel\u00a0:",
+        "it": "Utente attuale:",
+        "jp": "\u73fe\u5728\u306e\u30e6\u30fc\u30b6\u30fc\uff1a",
+        "pt": "Usu\u00e1rio atual:"
+    },
+    "HP_LOGIN_FB": {
+        "de": "Facebook",
+        "en_US": "Facebook",
+        "es": "Facebook",
+        "fr": "Facebook",
+        "it": "Facebook",
+        "jp": "Facebook",
+        "pt": "Facebook"
+    },
+    "HP_LOGIN_LAST_LOGIN": {
+        "de": "Letzte Anmeldung:",
+        "en_US": "Last login:",
+        "es": "\u00daltimo inicio de sesi\u00f3n:",
+        "fr": "Derni\u00e8re connexion\u00a0:",
+        "it": "Ultimo accesso:",
+        "jp": "\u6700\u5f8c\u306e\u30ed\u30b0\u30a4\u30f3\uff1a",
+        "pt": "\u00daltimo login:"
+    },
+    "HP_LOGIN_LOAD": {
+        "de": "LADEN",
+        "en_US": "LOAD",
+        "es": "CARGAR",
+        "fr": "CHARGER",
+        "it": "CARICA",
+        "jp": "\u30ed\u30fc\u30c9",
+        "pt": "CARREGAR"
+    },
+    "HP_LOGIN_PLATFORM_LOGIN_ERROR_TITLE": {
+        "de": "Verbindung nicht m\u00f6glich",
+        "en_US": "Unable to connect",
+        "es": "No es posible conectarse",
+        "fr": "Connexion impossible",
+        "it": "Impossibile connettersi",
+        "jp": "\u63a5\u7d9a\u3067\u304d\u307e\u305b\u3093",
+        "pt": "N\u00e3o foi poss\u00edvel conectar"
+    },
+    "HP_LOGIN_RELOAD": {
+        "de": "Erneut laden",
+        "en_US": "Reload",
+        "es": "Volver a cargar",
+        "fr": "Recharger",
+        "it": "Ricarica",
+        "jp": "\u30ea\u30ed\u30fc\u30c9",
+        "pt": "Recarregar"
+    },
+    "HP_LOGIN_SKIP": {
+        "de": "\u00dcberspringen",
+        "en_US": "Skip",
+        "es": "Saltar",
+        "fr": "Passer",
+        "it": "Salta",
+        "jp": "\u30b9\u30ad\u30c3\u30d7",
+        "pt": "Pular"
+    },
+    "HP_LOGIN_TITLE": {
+        "de": "Mit %1% anmelden",
+        "en_US": "Login With %1%",
+        "es": "Inicia sesi\u00f3n con %1%",
+        "fr": "Se connecter avec %1%",
+        "it": "Login con %1%",
+        "jp": "%1%\u3067\u30ed\u30b0\u30a4\u30f3\u3059\u308b",
+        "pt": "Fa\u00e7a login com %1%"
+    },
+    "HP_LOGIN_YOUR_SAVE_DATA": {
+        "de": "Deine gespeicherten Daten",
+        "en_US": "Your save data",
+        "es": "Tu guardar de datos",
+        "fr": "Votre sauvegarde",
+        "it": "I tuoi dati salvati",
+        "jp": "\u4fdd\u5b58\u3055\u308c\u305f\u30c7\u30fc\u30bf",
+        "pt": "Seus dados salvos"
+    },
+    "SETTINGS_HELP": {
+        "de": "Hilfe",
+        "en_US": "Help",
+        "es": "Ayuda",
+        "fr": "Aide",
+        "it": "Assistenza",
+        "jp": "\u30d8\u30eb\u30d7",
+        "pt": "Ajuda"
+    },
+    "defaultUniversalFont" : {
+        "en_US": "AMEMUCHIGOTHIC-03-Regular"
     }
 }
+

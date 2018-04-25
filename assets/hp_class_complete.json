@@ -1,0 +1,2213 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.33,
+					"9slicescalezone-width" : 0.33,
+					"9slicescalezone-x" : 0.33,
+					"9slicescalezone-y" : 0.33,
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "hp_general_bg_black_50%.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "skrimBg",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center"
+				},
+				{
+					"9slicescalezone-height" : 0.333,
+					"9slicescalezone-width" : 0.333,
+					"9slicescalezone-x" : 0.333,
+					"9slicescalezone-y" : 0.333,
+					"anchor-x" : "center",
+					"anchor-y" : "top",
+					"class" : "view",
+					"height" : 60,
+					"image" : "hp_modal_bg_footer.png",
+					"margin-bottom" : 40,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "footerView",
+					"percent-width" : 1.2,
+					"position-x" : "center",
+					"position-y" : "bottom",
+					"children" : [
+						{
+							"9slicescalezone-height" : 0.333,
+							"9slicescalezone-width" : 0.333,
+							"9slicescalezone-x" : 0.333,
+							"9slicescalezone-y" : 0.333,
+							"anchor-x" : "center",
+							"anchor-y" : "center",
+							"class" : "image",
+							"image" : "hp_modal_bg_footer.png",
+							"margin-bottom" : 0,
+							"margin-left" : 0,
+							"margin-right" : 0,
+							"margin-top" : 0,
+							"name" : "footerBg",
+							"percent-height" : 1,
+							"percent-width" : 1,
+							"position-x" : "center",
+							"position-y" : "center"
+						},
+						{
+							"anchor-x" : "right",
+							"anchor-y" : "center",
+							"class" : "view",
+							"editor-layerExpanded" : false,
+							"height" : 5,
+							"margin-bottom" : 12,
+							"margin-left" : 0,
+							"margin-right" : 158.5,
+							"margin-top" : 0,
+							"name" : "btnEnergy",
+							"position-x" : "right",
+							"position-y" : "center",
+							"width" : 7,
+							"children" : [
+								{
+									"actions" : [],
+									"anchor-x" : "right",
+									"anchor-y" : "top",
+									"class" : "button",
+									"editor-layerExpanded" : false,
+									"height" : 28,
+									"image" : "invisible.png",
+									"margin-bottom" : 10,
+									"margin-left" : 85,
+									"margin-right" : 0,
+									"margin-top" : 0,
+									"name" : "btnEnergy",
+									"position-x" : "right",
+									"position-y" : "top",
+									"sizing" : "SpriteFill",
+									"width" : 88,
+									"children" : [
+										{
+											"9slicescalezone-height" : 0.333,
+											"9slicescalezone-width" : 0.333,
+											"9slicescalezone-x" : 0.333,
+											"9slicescalezone-y" : 0.333,
+											"anchor-x" : "right",
+											"anchor-y" : "bottom",
+											"class" : "image",
+											"height" : 22,
+											"image" : "hp_hud_container.png",
+											"margin-bottom" : 1,
+											"margin-left" : 0,
+											"margin-right" : 0,
+											"margin-top" : 0,
+											"name" : "energyProgressBarBg",
+											"position-x" : "right",
+											"position-y" : "bottom",
+											"width" : 88
+										},
+										{
+											"9slicescalezone-height" : 0.333,
+											"9slicescalezone-width" : 0.333,
+											"9slicescalezone-x" : 0.333,
+											"9slicescalezone-y" : 0.333,
+											"anchor-x" : "left",
+											"anchor-y" : "bottom",
+											"class" : "progress-linear",
+											"flipX" : true,
+											"height" : 15,
+											"image" : "hp_hud_progress_fill_energy.png",
+											"margin-bottom" : 4.5,
+											"margin-left" : 3,
+											"margin-right" : 0,
+											"margin-top" : 0,
+											"name" : "energyProgressBar",
+											"position-x" : "left",
+											"position-y" : "bottom",
+											"width" : 65
+										},
+										{
+											"anchor-x" : "right",
+											"anchor-y" : "bottom",
+											"class" : "image",
+											"height" : 22,
+											"image" : "hp_hud_btn_plus.png",
+											"margin-bottom" : 1,
+											"margin-left" : 0,
+											"margin-right" : 0,
+											"margin-top" : 0,
+											"name" : "addEnergy",
+											"position-x" : "right",
+											"position-y" : "bottom",
+											"width" : 22
+										},
+										{
+											"anchor-x" : "left",
+											"anchor-y" : "bottom",
+											"class" : "image",
+											"height" : 24,
+											"image" : "hp_icon_currency_energy.png",
+											"margin-bottom" : 0,
+											"margin-left" : 0,
+											"margin-right" : 6,
+											"margin-top" : 0,
+											"name" : "iconEnergy",
+											"position-x" : "left",
+											"position-y" : "bottom",
+											"width" : 24
+										},
+										{
+											"alignment" : "left",
+											"anchor-x" : "left",
+											"anchor-y" : "center",
+											"class" : "label",
+											"color" : [
+												255,
+												255,
+												255
+											],
+											"dynamic-text" : true,
+											"font" : "Avenir-Heavy",
+											"font-size" : 12,
+											"margin-bottom" : 12,
+											"margin-left" : 25,
+											"margin-right" : 0,
+											"margin-top" : 0,
+											"max-width" : 34,
+											"name" : "labelEnergy",
+											"position-x" : "left",
+											"position-y" : "bottom",
+											"shadow-color" : [
+												16,
+												30,
+												38
+											],
+											"shadow-offset" : [
+												0.5,
+												-0.5
+											],
+											"stroke-thickness" : 0.5,
+											"text" : "99\/99"
+										},
+										{
+											"alignment" : "center",
+											"anchor-x" : "right",
+											"anchor-y" : "center",
+											"class" : "label",
+											"color" : [
+												255,
+												255,
+												255
+											],
+											"dynamic-text" : true,
+											"editor-hide" : true,
+											"font" : "Avenir-Heavy",
+											"font-size" : 12,
+											"margin-bottom" : 11.5,
+											"margin-left" : 0,
+											"margin-right" : 33,
+											"margin-top" : 0,
+											"max-width" : 30,
+											"name" : "labelEnergyTimer",
+											"position-x" : "right",
+											"position-y" : "bottom",
+											"shadow-color" : [
+												16,
+												30,
+												38
+											],
+											"shadow-offset" : [
+												0.5,
+												-0.5
+											],
+											"text" : "14:59"
+										}
+									]
+								}
+							]
+						},
+						{
+							"actions" : [],
+							"anchor-x" : "right",
+							"anchor-y" : "center",
+							"class" : "button",
+							"editor-layerExpanded" : false,
+							"height" : 30,
+							"image" : "invisible.png",
+							"margin-bottom" : 8,
+							"margin-left" : 0,
+							"margin-right" : 170,
+							"margin-top" : 0,
+							"name" : "btnHardCurrency",
+							"position-x" : "right",
+							"position-y" : "center",
+							"width" : 88,
+							"children" : [
+								{
+									"9slicescalezone-height" : 1,
+									"9slicescalezone-width" : 1,
+									"9slicescalezone-x" : 0.33,
+									"9slicescalezone-y" : 0.33,
+									"anchor-x" : "left",
+									"anchor-y" : "bottom",
+									"class" : "image",
+									"height" : 22,
+									"image" : "hp_hud_container.png",
+									"margin-bottom" : 4,
+									"margin-left" : 0,
+									"margin-right" : 0,
+									"margin-top" : 0,
+									"name" : "gemBg",
+									"position-x" : "left",
+									"position-y" : "bottom",
+									"width" : 88
+								},
+								{
+									"anchor-x" : "left",
+									"anchor-y" : "center",
+									"class" : "image",
+									"height" : 24,
+									"image" : "hp_hud_icon_hard_currency.png",
+									"margin-bottom" : 15,
+									"margin-left" : 0,
+									"margin-right" : 6,
+									"margin-top" : 0,
+									"name" : "iconHardCurrency",
+									"position-x" : "left",
+									"position-y" : "bottom",
+									"width" : 24
+								},
+								{
+									"alignment" : "left",
+									"anchor-x" : "center",
+									"anchor-y" : "center",
+									"class" : "label",
+									"color" : [
+										255,
+										255,
+										255
+									],
+									"dynamic-text" : true,
+									"font" : "Avenir-Heavy",
+									"font-size" : 12,
+									"margin-bottom" : 0,
+									"margin-left" : 0,
+									"margin-right" : 3,
+									"margin-top" : 1,
+									"max-width" : 44,
+									"name" : "labelHardCurrency",
+									"position-x" : "center",
+									"position-y" : "center",
+									"shadow-color" : [
+										16,
+										29,
+										37
+									],
+									"shadow-offset" : [
+										0.5,
+										-0.5
+									],
+									"text" : "999k"
+								},
+								{
+									"anchor-x" : "right",
+									"anchor-y" : "bottom",
+									"class" : "image",
+									"height" : 22,
+									"image" : "hp_hud_btn_plus.png",
+									"margin-bottom" : 4,
+									"margin-left" : 0,
+									"margin-right" : 0,
+									"margin-top" : 0,
+									"name" : "addGemBtn",
+									"position-x" : "right",
+									"position-y" : "bottom",
+									"width" : 22
+								}
+							]
+						},
+						{
+							"actions" : [],
+							"anchor-x" : "right",
+							"anchor-y" : "center",
+							"class" : "button",
+							"editor-layerExpanded" : false,
+							"height" : 30,
+							"image" : "invisible.png",
+							"margin-bottom" : 8,
+							"margin-left" : 0,
+							"margin-right" : 264,
+							"margin-top" : 0,
+							"name" : "btnSoftCurrency",
+							"position-x" : "right",
+							"position-y" : "center",
+							"width" : 88,
+							"children" : [
+								{
+									"9slicescalezone-height" : 1,
+									"9slicescalezone-width" : 1,
+									"9slicescalezone-x" : 0.33,
+									"9slicescalezone-y" : 0.33,
+									"anchor-x" : "left",
+									"anchor-y" : "bottom",
+									"class" : "image",
+									"height" : 22,
+									"image" : "hp_hud_container.png",
+									"margin-bottom" : 4,
+									"margin-left" : 0,
+									"margin-right" : 0,
+									"margin-top" : 0,
+									"name" : "coinsBg",
+									"position-x" : "left",
+									"position-y" : "bottom",
+									"width" : 88
+								},
+								{
+									"anchor-x" : "left",
+									"anchor-y" : "center",
+									"class" : "image",
+									"height" : 24,
+									"image" : "hp_hud_icon_soft_currency.png",
+									"margin-bottom" : 15,
+									"margin-left" : 0,
+									"margin-right" : 6,
+									"margin-top" : 0,
+									"name" : "iconSoftCurrency",
+									"position-x" : "left",
+									"position-y" : "bottom",
+									"width" : 24
+								},
+								{
+									"alignment" : "left",
+									"anchor-x" : "center",
+									"anchor-y" : "center",
+									"class" : "label",
+									"color" : [
+										255,
+										255,
+										255
+									],
+									"dynamic-text" : true,
+									"font" : "Avenir-Heavy",
+									"font-size" : 12,
+									"margin-bottom" : 0,
+									"margin-left" : 0,
+									"margin-right" : 3,
+									"margin-top" : 0,
+									"max-width" : 44,
+									"name" : "labelSoftCurrency",
+									"position-x" : "center",
+									"position-y" : "center",
+									"shadow-color" : [
+										16,
+										30,
+										38
+									],
+									"shadow-offset" : [
+										0.5,
+										-0.5
+									],
+									"text" : "999k"
+								},
+								{
+									"anchor-x" : "right",
+									"anchor-y" : "bottom",
+									"class" : "image",
+									"height" : 22,
+									"image" : "hp_hud_btn_plus.png",
+									"margin-bottom" : 4,
+									"margin-left" : 0,
+									"margin-right" : 0,
+									"margin-top" : 0,
+									"name" : "addCoinBtn",
+									"position-x" : "right",
+									"position-y" : "bottom",
+									"width" : 22
+								}
+							]
+						},
+						{
+							"anchor-x" : "left",
+							"anchor-y" : "center",
+							"cell-json" : "hp_footer_attribute_cell.json",
+							"class" : "table-view",
+							"height" : 22,
+							"horizontal" : true,
+							"margin-bottom" : 8,
+							"margin-left" : 74,
+							"margin-right" : 0,
+							"margin-top" : 0,
+							"name" : "attributeTable",
+							"position-x" : "left",
+							"position-y" : "center",
+							"width" : 128,
+							"children" : []
+						}
+					]
+				}
+			]
+		}
+	},
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"margin-bottom" : 17,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "modalView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-layerExpanded" : false,
+						"height" : 278,
+						"image" : "hp_modal_bg_lrg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 460,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "hp_bg_modal_header_sm.png",
+								"inset-margin-x" : 30,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 11,
+								"name" : "header_sm",
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "top",
+								"children" : [
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 1,
+										"image" : "hp_bg_modal_divider_2.png",
+										"inset-margin-x" : 20,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "divider",
+										"percent-width" : 1,
+										"position-x" : "center",
+										"position-y" : "bottom"
+									}
+								]
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "top",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"height" : 40,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 6,
+								"margin-top" : 6,
+								"name" : "button_close",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 40,
+								"children" : [
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 25,
+										"image" : "hp_btn_close.png",
+										"margin-bottom" : 7,
+										"margin-left" : 7,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "hp_btn_close",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 25
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : 0,
+						"class" : "view",
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"height" : 94,
+						"margin-bottom" : 0,
+						"margin-left" : 0.5,
+						"margin-right" : 0,
+						"margin-top" : 36.5,
+						"name" : "projectView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 350,
+						"children" : [
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-hide" : true,
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 86,
+								"margin-right" : 0,
+								"margin-top" : 89,
+								"name" : "btnOkay",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "GAME_OKAY",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 120,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "OKAY"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-hide" : true,
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 89,
+								"name" : "btnCollect",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "LABEL_COLLECT",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 140,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "COLLECT"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-hide" : true,
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_secondary_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 86,
+								"margin-top" : 89,
+								"name" : "btnHousePoints",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "HOUSECUP_TITLE_LABEL",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 140,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "HOUSE POINTS"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_prem_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 86,
+								"margin-top" : 89,
+								"name" : "btnBuyTime",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 16,
+										"local:text" : "HP_KEEP_GOING",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 66,
+										"margin-top" : 0,
+										"max-width" : 90,
+										"name" : "labelBtnStart",
+										"position-x" : "right",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "Keep Going"
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 24,
+										"image" : "hp_hud_icon_hard_currency.png",
+										"margin-bottom" : 22.5,
+										"margin-left" : 106,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "iconHardCurrency",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Crimson-Semibold",
+										"font-size" : 16,
+										"margin-bottom" : 2,
+										"margin-left" : 57,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 40,
+										"name" : "labelBtnStartCost",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shader-id" : "uiTitle",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "999"
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											210,
+											235,
+											239
+										],
+										"dynamic-img" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 12,
+										"image" : "hp_ph_icon_potion.png",
+										"local:text" : "HP_CLASS_COMPLETE_HINT",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "labelHint",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"sizing" : "SpriteAspectFill",
+										"text" : "+4 hours to pass and some other text",
+										"vertical-spacing" : 0.8,
+										"width" : 200
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 86,
+								"margin-right" : 0,
+								"margin-top" : 89,
+								"name" : "btnTryAgain",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "PROJECT_END_BUTTON_TRY_AGAIN",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 140,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "Try Again"
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 94,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "starProgressView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 350,
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
+										"editor-layerExpanded" : false,
+										"height" : 44,
+										"image" : "invisible.png",
+										"margin-bottom" : 26,
+										"margin-left" : 0,
+										"margin-right" : 87,
+										"margin-top" : 0,
+										"name" : "failRewardView",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 76,
+										"children" : [
+											{
+												"alignment" : "left",
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													91,
+													58
+												],
+												"dynamic-text" : true,
+												"font" : "Avenir-Heavy",
+												"margin-bottom" : 0,
+												"margin-left" : 28,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"max-width" : 40,
+												"name" : "labelPoints",
+												"position-x" : "left",
+												"position-y" : "center",
+												"shadow-color" : [
+													16,
+													30,
+													38
+												],
+												"shadow-offset" : [
+													0.5,
+													-0.5
+												],
+												"stroke-color" : [
+													0,
+													30,
+													97
+												],
+												"text" : "-999"
+											},
+											{
+												"alignment" : "center",
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "image",
+												"color" : [
+													147,
+													131,
+													97
+												],
+												"dynamic-img" : true,
+												"font" : "Crimson-Semibold",
+												"font-size" : 18,
+												"gradient-top-color" : [
+													233,
+													211,
+													162
+												],
+												"height" : 24,
+												"image" : "hp_icon_points_sly_xsm.png",
+												"margin-bottom" : 0,
+												"margin-left" : 7,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "iconLoader",
+												"position-x" : "left",
+												"position-y" : "center",
+												"shadow-offset" : [
+													1,
+													1
+												],
+												"stroke-color" : [
+													0,
+													30,
+													97
+												],
+												"text" : "CHAPTER COMPLETE",
+												"width" : 24
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 24,
+										"image" : "hp_progress_bg_star_lrg.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"name" : "progressView",
+										"position-x" : "center",
+										"position-y" : "center",
+										"sizing" : "SpriteFill",
+										"width" : 225,
+										"children" : [
+											{
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "progress-linear",
+												"height" : 23,
+												"image" : "hp_progress_fill_star_lrg.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "progressFill",
+												"position-x" : "left",
+												"position-y" : "center",
+												"sizing" : "SpriteFill",
+												"width" : 225
+											},
+											{
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "progress-linear",
+												"editor-hide" : true,
+												"height" : 23,
+												"image" : "hp_progress_fill_star_loss_lrg.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "progressLoss",
+												"position-x" : "left",
+												"position-y" : "center",
+												"sizing" : "SpriteFill",
+												"width" : 225
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
+										"height" : 30,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 2,
+										"margin-top" : 1,
+										"name" : "starsView",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 216
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											210,
+											235,
+											239
+										],
+										"dynamic-img" : true,
+										"dynamic-text" : true,
+										"editor-hide" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"image" : "hp_ph_icon_potion.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 84.5,
+										"max-width" : 200,
+										"name" : "labelStarsToPass",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"sizing" : "SpriteAspectFill",
+										"text" : "4 stars to pass",
+										"vertical-spacing" : 0.9
+									}
+								]
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 270,
+						"image" : "hp_bg_container_lite.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "classGoalView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteFill",
+						"width" : 420,
+						"children" : [
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_secondary_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 86,
+								"margin-top" : 104,
+								"name" : "btnHousePoints",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "HOUSECUP_TITLE_LABEL",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 140,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "HOUSE CUP"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 86,
+								"margin-right" : 0,
+								"margin-top" : 104,
+								"name" : "btnCollect",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "LABEL_COLLECT",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 140,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "COLLECT"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-hide" : true,
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 86,
+								"margin-right" : 0,
+								"margin-top" : 104,
+								"name" : "btnOkay",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "GAME_OKAY",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 70,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "OKAY"
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_prem_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 86,
+								"margin-top" : 104,
+								"name" : "btnBuyTime",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 16,
+										"local:text" : "HP_PROJECT_EXTEND_KEEP_GOING",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 66,
+										"margin-top" : 0,
+										"max-width" : 90,
+										"name" : "labelBtnStart",
+										"position-x" : "right",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "Keep Going"
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 24,
+										"image" : "hp_hud_icon_hard_currency.png",
+										"margin-bottom" : 22.5,
+										"margin-left" : 106,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "iconHardCurrency",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Crimson-Semibold",
+										"font-size" : 16,
+										"margin-bottom" : 2,
+										"margin-left" : 57,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 40,
+										"name" : "labelBtnStartCost",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shader-id" : "uiTitle",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "999"
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											210,
+											235,
+											239
+										],
+										"dynamic-img" : true,
+										"dynamic-text" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 12,
+										"image" : "hp_ph_icon_potion.png",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "labelHint",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"sizing" : "SpriteAspectFill",
+										"text" : "+4 hours to pass and some other text",
+										"vertical-spacing" : 0.8,
+										"width" : 200
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"breathe" : false,
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 86,
+								"margin-right" : 0,
+								"margin-top" : 104,
+								"name" : "btnTryAgain",
+								"particles" : false,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 170,
+								"children" : [
+									{
+										"alignment" : "right",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "PROJECT_END_BUTTON_TRY_AGAIN",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 140,
+										"name" : "labelTitle",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "Try Again"
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 41,
+								"image" : "hp_bg_container_blue.png",
+								"margin-bottom" : 0,
+								"margin-left" : 147,
+								"margin-right" : 0,
+								"margin-top" : 24,
+								"name" : "starView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 41,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-img" : true,
+										"dynamic-text" : true,
+										"editor-hide" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 14,
+										"image" : "hp_ph_icon_potion.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 30,
+										"max-width" : 50,
+										"name" : "labelStarCountTotal",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"sizing" : "SpriteAspectFill",
+										"text" : "7\/10",
+										"vertical-spacing" : 0.9
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											0,
+											230,
+											54
+										],
+										"dynamic-img" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"image" : "hp_ph_icon_potion.png",
+										"local:text" : "SKILL_READY",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 30,
+										"max-width" : 60,
+										"name" : "labelReady",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"sizing" : "SpriteAspectFill",
+										"text" : "READY!",
+										"vertical-spacing" : 0.9
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 35,
+										"image" : "hp_icon_HUD_stars_fill.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "iconStar",
+										"position-x" : "center",
+										"position-y" : "center",
+										"sizing" : "SpriteFill",
+										"width" : 35
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-hide" : true,
+										"height" : 35,
+										"image" : "hp_icon_HUD_stars_fill_glowAnim.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"name" : "star_glowAnim",
+										"position-x" : "center",
+										"position-y" : "center",
+										"sizing" : "SpriteFill",
+										"width" : 35
+									}
+								]
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 48,
+								"image" : "hp_icon_check_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 147,
+								"margin-right" : 0,
+								"margin-top" : 29,
+								"name" : "iconCheck",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 48
+							},
+							{
+								"9slicescalezone-height" : 0.33,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 70,
+								"image" : "hp_bg_container_lite.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 30,
+								"name" : "container",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 370
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									210,
+									235,
+									239
+								],
+								"dynamic-img" : true,
+								"dynamic-text" : true,
+								"font" : "Avenir-Book",
+								"font-size" : 11,
+								"image" : "hp_ph_icon_potion.png",
+								"margin-bottom" : 0,
+								"margin-left" : 92,
+								"margin-right" : 0,
+								"margin-top" : 40,
+								"max-height" : 60,
+								"name" : "labelDesc",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"sizing" : "SpriteAspectFill",
+								"text" : "Earn 10 stars from Potions classes to unlock this lesson.",
+								"vertical-spacing" : 0.9,
+								"width" : 230
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-img" : true,
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 14,
+								"image" : "hp_ph_icon_potion.png",
+								"margin-bottom" : 0,
+								"margin-left" : 92,
+								"margin-right" : 0,
+								"margin-top" : 15,
+								"max-height" : 60,
+								"name" : "labelUnlockTitle",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"sizing" : "SpriteAspectFill",
+								"text" : "Unlock Wiggenweld Potion",
+								"vertical-spacing" : 0.9,
+								"width" : 230
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 50,
+								"image" : "potion1.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 150,
+								"margin-top" : 30,
+								"name" : "iconLoader",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteAspectFit",
+								"width" : 55
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 94,
+								"margin-bottom" : 51,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "starProgressView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 350,
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
+										"editor-layerExpanded" : false,
+										"height" : 44,
+										"image" : "invisible.png",
+										"margin-bottom" : 26,
+										"margin-left" : 0,
+										"margin-right" : 87,
+										"margin-top" : 0,
+										"name" : "failRewardView",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 76,
+										"children" : [
+											{
+												"alignment" : "left",
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													91,
+													58
+												],
+												"dynamic-text" : true,
+												"font" : "Avenir-Heavy",
+												"margin-bottom" : 0,
+												"margin-left" : 28,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"max-width" : 40,
+												"name" : "labelPoints",
+												"position-x" : "left",
+												"position-y" : "center",
+												"shadow-color" : [
+													16,
+													30,
+													38
+												],
+												"shadow-offset" : [
+													0.5,
+													-0.5
+												],
+												"stroke-color" : [
+													0,
+													30,
+													97
+												],
+												"text" : "-999"
+											},
+											{
+												"alignment" : "center",
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "image",
+												"color" : [
+													147,
+													131,
+													97
+												],
+												"dynamic-img" : true,
+												"font" : "Crimson-Semibold",
+												"font-size" : 18,
+												"gradient-top-color" : [
+													233,
+													211,
+													162
+												],
+												"height" : 24,
+												"image" : "hp_icon_points_sly_xsm.png",
+												"margin-bottom" : 0,
+												"margin-left" : 7,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "iconLoader",
+												"position-x" : "left",
+												"position-y" : "center",
+												"shadow-offset" : [
+													1,
+													1
+												],
+												"stroke-color" : [
+													0,
+													30,
+													97
+												],
+												"text" : "CHAPTER COMPLETE",
+												"width" : 24
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 24,
+										"image" : "hp_progress_bg_star_lrg.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"name" : "progressView",
+										"position-x" : "center",
+										"position-y" : "center",
+										"sizing" : "SpriteFill",
+										"width" : 225,
+										"children" : [
+											{
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "progress-linear",
+												"height" : 23,
+												"image" : "hp_progress_fill_star_lrg.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "progressFill",
+												"position-x" : "left",
+												"position-y" : "center",
+												"sizing" : "SpriteFill",
+												"width" : 225
+											},
+											{
+												"anchor-x" : "left",
+												"anchor-y" : "center",
+												"class" : "progress-linear",
+												"editor-hide" : true,
+												"height" : 23,
+												"image" : "hp_progress_fill_star_loss_lrg.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "progressLoss",
+												"position-x" : "left",
+												"position-y" : "center",
+												"sizing" : "SpriteFill",
+												"width" : 225
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
+										"height" : 30,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 2,
+										"margin-top" : 1,
+										"name" : "starsView",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 216
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											210,
+											235,
+											239
+										],
+										"dynamic-img" : true,
+										"dynamic-text" : true,
+										"editor-hide" : true,
+										"font" : "Avenir-Book",
+										"font-size" : 13,
+										"image" : "hp_ph_icon_potion.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 84.5,
+										"max-width" : 200,
+										"name" : "labelStarsToPass",
+										"position-x" : "center",
+										"position-y" : "top",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"sizing" : "SpriteAspectFill",
+										"text" : "4 stars to pass",
+										"vertical-spacing" : 0.9
+									}
+								]
+							},
+							{
+								"9slicescalezone-height" : 0.33,
+								"9slicescalezone-width" : 0.33,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 74,
+								"image" : "hp_bg_container_lite_glowAnim.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 30,
+								"name" : "container_glowAnim",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 374
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							63,
+							25
+						],
+						"editor-layerExpanded" : false,
+						"font" : "Crimson-Semibold",
+						"font-size" : 20,
+						"local:text" : "PROJECT_FAIL_LABEL",
+						"margin-bottom" : 114,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 30,
+						"name" : "labelTitleFail",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Almost There!",
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 30,
+								"image" : "hp_icon_attribute_empathy_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 27,
+								"margin-top" : 2,
+								"name" : "iconAttribute",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 30
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"editor-hide" : true,
+						"editor-layerExpanded" : false,
+						"font" : "Crimson-Semibold",
+						"font-size" : 20,
+						"local:text" : "HP_BUY_ENERGY_SUCCESS_TITLE",
+						"margin-bottom" : 114.5,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-height" : 30,
+						"name" : "labelTitleSuccess",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Success!",
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"height" : 30,
+								"image" : "hp_icon_attribute_empathy_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 31,
+								"margin-top" : 2,
+								"name" : "iconAttribute",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 30
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

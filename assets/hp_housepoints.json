@@ -1,11 +1,40 @@
 {
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "hp_housepoints_bg.png",
+					"inset-margin-x" : -40,
+					"inset-margin-y" : -40,
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 13,
+					"margin-top" : 0,
+					"name" : "bg",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center",
+					"sizing" : "SpriteAspectFill"
+				}
+			]
+		}
+	},
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"percent-height" : 1,
 		"percent-width" : 1,
@@ -28,109 +57,109 @@
 				"position-y" : "center",
 				"children" : [
 					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "image",
-						"image" : "hp_housepoints_bg.png",
-						"inset-margin-x" : -40,
-						"inset-margin-y" : -40,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 13,
-						"margin-top" : 0,
-						"name" : "bg",
-						"percent-height" : 1,
-						"percent-width" : 1,
-						"position-x" : "center",
-						"position-y" : "center",
-						"sizing" : "SpriteAspectFill"
-					},
-					{
 						"anchor-x" : "left",
-						"anchor-y" : "center",
+						"anchor-y" : "top",
 						"class" : "view",
+						"height" : 400,
 						"margin-bottom" : 0,
-						"margin-left" : 54,
+						"margin-left" : 60,
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"name" : "nuxRewardScrim",
-						"percent-height" : 1,
 						"position-x" : "center",
-						"position-y" : "center",
-						"width" : 250
+						"position-y" : "top",
+						"width" : 168
 					},
 					{
 						"9slicescalezone-height" : 0.333,
 						"9slicescalezone-width" : 0.333,
 						"9slicescalezone-x" : 0.333,
 						"9slicescalezone-y" : 0.333,
-						"anchor-x" : "center",
-						"anchor-y" : "center",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
 						"class" : "image",
-						"image" : "hp_bg_modal_tall_80.png",
+						"image" : "invisible.png",
 						"margin-bottom" : 0,
-						"margin-left" : 144,
+						"margin-left" : 76,
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"name" : "rewardModal",
 						"percent-height" : 1,
 						"position-x" : "center",
-						"position-y" : "center",
+						"position-y" : "top",
 						"width" : 136,
 						"children" : [
 							{
-								"actions" : [],
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
-								"class" : "button",
-								"height" : 40,
-								"image" : "invisible.png",
-								"margin-bottom" : 4,
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 400,
+								"image" : "hp_bg_modal_tall_80.png",
+								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
+								"name" : "bg",
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "top"
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"height" : 36,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 132,
 								"name" : "LeadeboardBtn",
-								"position-x" : "left",
-								"position-y" : "bottom",
-								"width" : 134,
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 120,
 								"children" : [
 									{
-										"9slicescalezone-height" : 0.333,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "center",
-										"anchor-y" : "center",
+										"actions" : [],
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
 										"class" : "image",
-										"height" : 42,
-										"image" : "hp_button_filter_inactive_sm.png",
+										"height" : 46,
+										"image" : "hp_btn_cta_med.png",
 										"margin-bottom" : 0,
-										"margin-left" : 0,
+										"margin-left" : 5,
 										"margin-right" : 0,
-										"margin-top" : 4,
-										"name" : "btn_bg",
-										"position-x" : "center",
-										"position-y" : "center",
-										"width" : 134
+										"margin-top" : 5,
+										"name" : "Bg",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 130
 									},
 									{
 										"alignment" : "center",
+										"all-caps" : true,
 										"anchor-x" : "center",
 										"anchor-y" : "center",
 										"class" : "label",
 										"color" : [
-											147,
-											131,
-											97
+											255,
+											255,
+											255
 										],
-										"font" : "Avenir-Book",
-										"font-size" : 11,
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
 										"local:text" : "HOUSEPOINTS_LEADERBOARD_TITLE_LABEL",
-										"margin-bottom" : 0,
-										"margin-left" : 11.5,
+										"margin-bottom" : 2,
+										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 4,
-										"max-width" : 90,
+										"margin-top" : 0,
+										"max-width" : 100,
 										"name" : "labelLeaderboard",
 										"position-x" : "center",
 										"position-y" : "center",
@@ -139,26 +168,12 @@
 											29,
 											37
 										],
-										"shadow-offset" : [
-											0.5,
-											-0.5
+										"stroke-color" : [
+											0,
+											30,
+											97
 										],
 										"text" : "LEADERBOARD"
-									},
-									{
-										"anchor-x" : "left",
-										"anchor-y" : "bottom",
-										"class" : "image",
-										"height" : 17,
-										"image" : "hp_button_rank_graph.png",
-										"margin-bottom" : 8,
-										"margin-left" : 15,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "icon_leaderboard",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 17
 									}
 								]
 							},
@@ -168,17 +183,18 @@
 								"anchor-y" : "top",
 								"class" : "label",
 								"color" : [
-									178,
-									191,
-									194
+									210,
+									235,
+									239
 								],
 								"font" : "Avenir-Book",
-								"height" : 38,
+								"font-size" : 12,
 								"local:text" : "HOUSECUP_REWARD_DESCRIPTION",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 88,
+								"margin-top" : 65,
+								"max-height" : 50,
 								"name" : "labelDescription",
 								"position-x" : "center",
 								"position-y" : "center",
@@ -191,172 +207,24 @@
 									0.5,
 									-0.5
 								],
-								"text" : "Earn House Points and help your house win the Cup at the end of the year!",
+								"text" : "Earn House Points to help your house win the cup!",
 								"vertical-spacing" : 0.9,
 								"width" : 120
 							},
 							{
 								"anchor-x" : "center",
 								"anchor-y" : "center",
-								"cell-json" : "hp_house_points_reward_cell.json",
-								"class" : "table-view",
-								"height" : 120,
-								"image" : "hp_bg_cell_white.png",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 24,
-								"name" : "rewardTable",
+								"margin-top" : 58,
+								"name" : "divider_bottom",
 								"position-x" : "center",
 								"position-y" : "center",
-								"width" : 114,
-								"children" : []
-							},
-							{
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "image",
-								"editor-layerExpanded" : false,
-								"height" : 41,
-								"image" : "hp_bg_cell_white.png",
-								"margin-bottom" : 56,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "viewFirstReward",
-								"position-x" : "center",
-								"position-y" : "center",
-								"width" : 114,
-								"children" : [
-									{
-										"anchor-x" : "left",
-										"anchor-y" : "bottom",
-										"class" : "view",
-										"editor-layerExpanded" : false,
-										"height" : 18,
-										"margin-bottom" : 12,
-										"margin-left" : 6,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "viewFirst",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 38,
-										"children" : [
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "image",
-												"height" : 15,
-												"image" : "hp_icon_star_first.png",
-												"margin-bottom" : 4,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "hp_icon_star_first",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 15
-											},
-											{
-												"alignment" : "center",
-												"anchor-x" : "left",
-												"anchor-y" : "center",
-												"class" : "label",
-												"color" : [
-													255,
-													255,
-													255
-												],
-												"font" : "4privetdrive",
-												"font-size" : 18,
-												"margin-bottom" : 2,
-												"margin-left" : 0,
-												"margin-right" : 3,
-												"margin-top" : 0,
-												"max-width" : 30,
-												"name" : "labelFirst",
-												"position-x" : "center",
-												"position-y" : "center",
-												"shader-id" : "uiTitle",
-												"shadow-offset" : [
-													0.5,
-													-0.5
-												],
-												"text" : "1st"
-											}
-										]
-									},
-									{
-										"actions" : [],
-										"anchor-x" : "right",
-										"anchor-y" : "bottom",
-										"class" : "view",
-										"editor-layerExpanded" : false,
-										"height" : 34,
-										"image" : "hp_container_blue.png",
-										"margin-bottom" : 3.5,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "reward",
-										"position-x" : "right",
-										"position-y" : "bottom",
-										"width" : 60,
-										"children" : [
-											{
-												"alignment" : "left",
-												"anchor-x" : "left",
-												"anchor-y" : "center",
-												"class" : "label",
-												"color" : [
-													255,
-													255,
-													255
-												],
-												"font" : "Avenir-Book",
-												"font-size" : 13,
-												"format" : "suffixed",
-												"local:text" : "HP_PH_COST",
-												"margin-bottom" : 1,
-												"margin-left" : 0,
-												"margin-right" : 3,
-												"margin-top" : 0,
-												"max-width" : 26,
-												"name" : "labelQuantity",
-												"position-x" : "center",
-												"position-y" : "center",
-												"shadow-color" : [
-													16,
-													29,
-													37
-												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
-												],
-												"text" : "999",
-												"vertical-spacing" : 0.8
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "center",
-												"class" : "image",
-												"dynamic-img" : true,
-												"height" : 20,
-												"image" : "hp_icon_currency_coin.png",
-												"margin-bottom" : 0,
-												"margin-left" : 4,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "rewardLoader",
-												"position-x" : "left",
-												"position-y" : "center",
-												"width" : 20
-											}
-										]
-									}
-								]
+								"width" : 110
 							},
 							{
 								"alignment" : "center",
@@ -368,14 +236,15 @@
 									255,
 									255
 								],
-								"font" : "4privetdrive",
-								"local:text" : "HOUSECUP_TITLE_LABEL",
-								"margin-bottom" : 98,
+								"font" : "Crimson-Semibold",
+								"font-size" : 24,
+								"local:text" : "RANK_FIRST",
+								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 0,
-								"max-height" : 24,
-								"name" : "labelTitle",
+								"margin-top" : 37,
+								"max-width" : 120,
+								"name" : "labelFirst",
 								"position-x" : "center",
 								"position-y" : "center",
 								"shader-id" : "uiTitle",
@@ -383,23 +252,108 @@
 									0.5,
 									-0.5
 								],
-								"text" : "YEAR 3\\nREWARDS",
-								"width" : 100
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "5000 Gems!"
 							},
 							{
-								"anchor-x" : "left",
+								"anchor-x" : "center",
 								"anchor-y" : "center",
 								"class" : "image",
-								"height" : 31,
-								"image" : "hp_icon_housecup.png",
-								"margin-bottom" : 129,
-								"margin-left" : 55,
+								"height" : 120,
+								"image" : "house_cup_w_effects.png",
+								"margin-bottom" : 34,
+								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "icon_housecup",
-								"position-x" : "left",
+								"position-x" : "center",
 								"position-y" : "center",
-								"width" : 26
+								"width" : 120
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"margin-bottom" : 99,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "divider_top",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 110
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 24,
+								"margin-bottom" : 120,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-height" : 24,
+								"name" : "labelRewards",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "Rewards",
+								"width" : 100
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 24,
+								"margin-bottom" : 141,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-height" : 24,
+								"name" : "labelPlace",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "1st Place",
+								"width" : 100
 							}
 						]
 					},
@@ -439,7 +393,7 @@
 								"class" : "image",
 								"height" : 150,
 								"image" : "hp_bg_scrim_70.png",
-								"margin-bottom" : 153,
+								"margin-bottom" : 143,
 								"margin-left" : 11,
 								"margin-right" : 0,
 								"margin-top" : 0,
@@ -665,6 +619,66 @@
 								"anchor-x" : "center",
 								"anchor-y" : "center",
 								"class" : "image",
+								"height" : 217,
+								"image" : "hp_fill_housepoints_glow.png",
+								"margin-bottom" : 0,
+								"margin-left" : 95,
+								"margin-right" : 0,
+								"margin-top" : 5,
+								"name" : "fill_hufflepuff_glow",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 48
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 217,
+								"image" : "hp_fill_housepoints_glow.png",
+								"margin-bottom" : 0,
+								"margin-left" : 42,
+								"margin-right" : 0,
+								"margin-top" : 5,
+								"name" : "fill_gryffindor_glow",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 48
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 217,
+								"image" : "hp_fill_housepoints_glow.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 10,
+								"margin-top" : 5,
+								"name" : "fill_ravenclaw_glow",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 48
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 217,
+								"image" : "hp_fill_housepoints_glow.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 62,
+								"margin-top" : 5,
+								"name" : "fill_slytherin_glow",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 48
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
 								"height" : 219,
 								"image" : "hp_container_housepoints_highlights.png",
 								"margin-bottom" : 0,
@@ -692,76 +706,24 @@
 								"width" : 43,
 								"children" : [
 									{
-										"9slicescalezone-height" : 0.380619,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.285381,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
-										"class" : "image",
-										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_sm.png",
-										"margin-bottom" : 165.5,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "HPPoints",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
-										"children" : [
-											{
-												"alignment" : "center",
-												"anchor-x" : "center",
-												"anchor-y" : "center",
-												"class" : "label",
-												"color" : [
-													221,
-													188,
-													113
-												],
-												"font" : "4privetdrive",
-												"margin-bottom" : 2,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"max-width" : 40,
-												"name" : "hp_quantity",
-												"position-x" : "center",
-												"position-y" : "center",
-												"shadow-color" : [
-													16,
-													29,
-													37
-												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
-												],
-												"text" : "9999"
-											}
-										]
-									},
-									{
 										"9slicescalezone-height" : 0.333,
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
 										"class" : "image",
 										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_white_sm.png",
-										"margin-bottom" : 165.5,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
 										"margin-left" : 0,
 										"margin-right" : 0,
 										"margin-top" : 0,
-										"name" : "HPPointsPlayer",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
+										"name" : "HPPoints",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
 										"children" : [
 											{
 												"alignment" : "center",
@@ -773,12 +735,12 @@
 													255,
 													255
 												],
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
 												"font-size" : 12,
-												"margin-bottom" : 2,
+												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
-												"margin-top" : 0,
+												"margin-top" : 0.5,
 												"max-width" : 40,
 												"name" : "hp_quantity",
 												"position-x" : "center",
@@ -788,16 +750,85 @@
 													29,
 													37
 												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
+												"stroke-color" : [
+													63,
+													31,
+													12
 												],
 												"text" : "9999"
 											}
 										]
 									},
 									{
-										"anchor-x" : "left",
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "HPPointsPlayer",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
+										"children" : [
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													255,
+													255
+												],
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0.5,
+												"max-width" : 40,
+												"name" : "hp_quantity",
+												"position-x" : "center",
+												"position-y" : "center",
+												"stroke-color" : [
+													63,
+													31,
+													12
+												],
+												"text" : "9999"
+											},
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 25,
+												"image" : "hp_container_house_points_glow.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "HPPointsGlow",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 50
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
 										"anchor-y" : "top",
 										"class" : "view",
 										"editor-layerExpanded" : false,
@@ -805,121 +836,46 @@
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 0,
+										"margin-top" : 17,
 										"name" : "viewRank",
-										"position-x" : "left",
+										"position-x" : "center",
 										"position-y" : "top",
-										"width" : 43,
+										"width" : 38,
 										"children" : [
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
-												"editor-hide" : true,
 												"editor-layerExpanded" : false,
 												"height" : 18,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"name" : "viewFirst",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
+												"name" : "viewFourth",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
 												"children" : [
 													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 15,
-														"image" : "hp_icon_star_first.png",
-														"margin-bottom" : 5,
-														"margin-left" : 3,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_first",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 15
-													},
-													{
 														"alignment" : "center",
-														"anchor-x" : "left",
+														"anchor-x" : "center",
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															255,
-															255,
-															255
+															172,
+															179,
+															195
 														],
-														"font" : "4privetdrive",
-														"font-size" : 18,
-														"margin-bottom" : 2,
-														"margin-left" : 0,
-														"margin-right" : 3,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFirst",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shader-id" : "uiTitle",
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "1st"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-hide" : true,
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewSecond",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 12,
-														"image" : "hp_icon_star_second.png",
-														"margin-bottom" : 4,
-														"margin-left" : 2,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_second",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 12
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															221,
-															188,
-															112
-														],
-														"font" : "4privetdrive",
-														"font-size" : 15,
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_FOURTH",
 														"margin-bottom" : 0,
 														"margin-left" : 0,
-														"margin-right" : 11,
+														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelSecond",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
 														"shadow-color" : [
@@ -931,13 +887,18 @@
 															0.5,
 															-0.5
 														],
-														"text" : "2nd"
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "4th"
 													}
 												]
 											},
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
 												"editor-hide" : true,
 												"editor-layerExpanded" : false,
@@ -947,72 +908,9 @@
 												"margin-right" : 0,
 												"margin-top" : 0,
 												"name" : "viewThird",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 9,
-														"image" : "hp_icon_star_third.png",
-														"margin-bottom" : 5,
-														"margin-left" : 4,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_third",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 9
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															255,
-															255,
-															255
-														],
-														"font" : "4privetdrive",
-														"font-size" : 13,
-														"margin-bottom" : 0,
-														"margin-left" : 0,
-														"margin-right" : 10,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelThird",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shadow-color" : [
-															16,
-															29,
-															37
-														],
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "3rd"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewFourth",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
 												"children" : [
 													{
 														"alignment" : "center",
@@ -1020,17 +918,19 @@
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															178,
-															190,
-															193
+															172,
+															179,
+															195
 														],
-														"font" : "4privetdrive",
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_THIRD",
 														"margin-bottom" : 0,
 														"margin-left" : 0,
 														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFourth",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
 														"shadow-color" : [
@@ -1042,7 +942,118 @@
 															0.5,
 															-0.5
 														],
-														"text" : "4th"
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "3rd"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-hide" : true,
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewSecond",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															255,
+															255,
+															255
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_SECOND",
+														"margin-bottom" : 0,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shadow-color" : [
+															16,
+															29,
+															37
+														],
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "2nd"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-hide" : true,
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewFirst",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															255,
+															255,
+															255
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 21,
+														"local:text" : "RANK_FIRST",
+														"margin-bottom" : 2,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shader-id" : "uiTitle",
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "1st"
 													}
 												]
 											}
@@ -1053,19 +1064,19 @@
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : "top",
-										"class" : "image",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
 										"editor-layerExpanded" : false,
 										"height" : 18,
 										"image" : "hp_container_check.png",
 										"margin-bottom" : 0,
-										"margin-left" : 6,
+										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 19,
+										"margin-top" : 0,
 										"name" : "rankMeter",
-										"position-x" : "left",
-										"position-y" : "top",
+										"position-x" : "center",
+										"position-y" : "center",
 										"width" : 30,
 										"children" : [
 											{
@@ -1074,18 +1085,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													51,
-													168,
-													113
+													0,
+													230,
+													54
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
-												"font-size" : 13,
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 24,
+												"max-width" : 40,
 												"name" : "+\/- green",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -1098,6 +1109,7 @@
 													0.5,
 													-0.5
 												],
+												"stroke-thickness" : 1,
 												"text" : "+100"
 											},
 											{
@@ -1106,17 +1118,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													201,
-													71,
-													87
+													255,
+													63,
+													25
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 20,
+												"max-width" : 40,
 												"name" : "+\/- red",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -1129,7 +1142,8 @@
 													0.5,
 													-0.5
 												],
-												"text" : "-22"
+												"stroke-thickness" : 1,
+												"text" : "-220"
 											}
 										]
 									},
@@ -1137,8 +1151,9 @@
 										"anchor-x" : "left",
 										"anchor-y" : "bottom",
 										"class" : "image",
+										"dynamic-img" : true,
 										"height" : 31,
-										"image" : "hp_icon_house_points_huff_xsm.png",
+										"image" : "hp_house_hufflepuff_idle.png",
 										"margin-bottom" : 169,
 										"margin-left" : 6,
 										"margin-right" : 0,
@@ -1146,6 +1161,7 @@
 										"name" : "icon_crest",
 										"position-x" : "left",
 										"position-y" : "bottom",
+										"sizing" : "SpriteAspectFit",
 										"width" : 31
 									}
 								]
@@ -1154,7 +1170,6 @@
 								"anchor-x" : "center",
 								"anchor-y" : "bottom",
 								"class" : "view",
-								"editor-layerExpanded" : false,
 								"margin-bottom" : 0,
 								"margin-left" : 43,
 								"margin-right" : 0,
@@ -1166,76 +1181,24 @@
 								"width" : 43,
 								"children" : [
 									{
-										"9slicescalezone-height" : 0.380619,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.285381,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
-										"class" : "image",
-										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_sm.png",
-										"margin-bottom" : 165.5,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "HPPoints",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
-										"children" : [
-											{
-												"alignment" : "center",
-												"anchor-x" : "center",
-												"anchor-y" : "center",
-												"class" : "label",
-												"color" : [
-													221,
-													188,
-													113
-												],
-												"font" : "4privetdrive",
-												"margin-bottom" : 2,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"max-width" : 40,
-												"name" : "hp_quantity",
-												"position-x" : "center",
-												"position-y" : "center",
-												"shadow-color" : [
-													16,
-													29,
-													37
-												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
-												],
-												"text" : "9999"
-											}
-										]
-									},
-									{
 										"9slicescalezone-height" : 0.333,
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
 										"class" : "image",
 										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_white_sm.png",
-										"margin-bottom" : 165.5,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
 										"margin-left" : 0,
 										"margin-right" : 0,
 										"margin-top" : 0,
-										"name" : "HPPointsPlayer",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
+										"name" : "HPPoints",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
 										"children" : [
 											{
 												"alignment" : "center",
@@ -1247,12 +1210,12 @@
 													255,
 													255
 												],
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
 												"font-size" : 12,
-												"margin-bottom" : 2,
+												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
-												"margin-top" : 0,
+												"margin-top" : 0.5,
 												"max-width" : 40,
 												"name" : "hp_quantity",
 												"position-x" : "center",
@@ -1262,16 +1225,85 @@
 													29,
 													37
 												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
+												"stroke-color" : [
+													63,
+													31,
+													12
 												],
 												"text" : "9999"
 											}
 										]
 									},
 									{
-										"anchor-x" : "left",
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "HPPointsPlayer",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
+										"children" : [
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													255,
+													255
+												],
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0.5,
+												"max-width" : 40,
+												"name" : "hp_quantity",
+												"position-x" : "center",
+												"position-y" : "center",
+												"stroke-color" : [
+													63,
+													31,
+													12
+												],
+												"text" : "9999"
+											},
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 25,
+												"image" : "hp_container_house_points_glow.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "HPPointsGlow",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 50
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
 										"anchor-y" : "top",
 										"class" : "view",
 										"editor-layerExpanded" : false,
@@ -1279,15 +1311,15 @@
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 0,
+										"margin-top" : 17,
 										"name" : "viewRank",
-										"position-x" : "left",
+										"position-x" : "center",
 										"position-y" : "top",
-										"width" : 43,
+										"width" : 38,
 										"children" : [
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
 												"editor-hide" : true,
 												"editor-layerExpanded" : false,
@@ -1296,58 +1328,107 @@
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"name" : "viewFirst",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
+												"name" : "viewFourth",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
 												"children" : [
 													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 15,
-														"image" : "hp_icon_star_first.png",
-														"margin-bottom" : 5,
-														"margin-left" : 3,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_first",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 15
-													},
-													{
 														"alignment" : "center",
-														"anchor-x" : "left",
+														"anchor-x" : "center",
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															255,
-															255,
-															255
+															172,
+															179,
+															195
 														],
-														"font" : "4privetdrive",
-														"font-size" : 18,
-														"margin-bottom" : 2,
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_FOURTH",
+														"margin-bottom" : 0,
 														"margin-left" : 0,
-														"margin-right" : 3,
+														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFirst",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
-														"shader-id" : "uiTitle",
+														"shadow-color" : [
+															16,
+															29,
+															37
+														],
 														"shadow-offset" : [
 															0.5,
 															-0.5
 														],
-														"text" : "1st"
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "4th"
 													}
 												]
 											},
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewThird",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															172,
+															179,
+															195
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_THIRD",
+														"margin-bottom" : 0,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shadow-color" : [
+															16,
+															29,
+															37
+														],
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "3rd"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
 												"editor-hide" : true,
 												"editor-layerExpanded" : false,
@@ -1357,43 +1438,29 @@
 												"margin-right" : 0,
 												"margin-top" : 0,
 												"name" : "viewSecond",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
 												"children" : [
 													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 12,
-														"image" : "hp_icon_star_second.png",
-														"margin-bottom" : 4,
-														"margin-left" : 2,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_second",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 12
-													},
-													{
 														"alignment" : "center",
-														"anchor-x" : "left",
+														"anchor-x" : "center",
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															221,
-															188,
-															112
+															255,
+															255,
+															255
 														],
-														"font" : "4privetdrive",
-														"font-size" : 15,
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_SECOND",
 														"margin-bottom" : 0,
 														"margin-left" : 0,
-														"margin-right" : 11,
+														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelSecond",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
 														"shadow-color" : [
@@ -1405,13 +1472,18 @@
 															0.5,
 															-0.5
 														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
 														"text" : "2nd"
 													}
 												]
 											},
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
 												"editor-hide" : true,
 												"editor-layerExpanded" : false,
@@ -1420,73 +1492,10 @@
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"name" : "viewThird",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 9,
-														"image" : "hp_icon_star_third.png",
-														"margin-bottom" : 5,
-														"margin-left" : 4,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_third",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 9
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															255,
-															255,
-															255
-														],
-														"font" : "4privetdrive",
-														"font-size" : 13,
-														"margin-bottom" : 0,
-														"margin-left" : 0,
-														"margin-right" : 10,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelThird",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shadow-color" : [
-															16,
-															29,
-															37
-														],
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "3rd"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewFourth",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
+												"name" : "viewFirst",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
 												"children" : [
 													{
 														"alignment" : "center",
@@ -1494,29 +1503,32 @@
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															178,
-															190,
-															193
+															255,
+															255,
+															255
 														],
-														"font" : "4privetdrive",
-														"margin-bottom" : 0,
+														"font" : "Crimson-Semibold",
+														"font-size" : 21,
+														"local:text" : "RANK_FIRST",
+														"margin-bottom" : 2,
 														"margin-left" : 0,
 														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFourth",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
-														"shadow-color" : [
-															16,
-															29,
-															37
-														],
+														"shader-id" : "uiTitle",
 														"shadow-offset" : [
 															0.5,
 															-0.5
 														],
-														"text" : "4th"
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "1st"
 													}
 												]
 											}
@@ -1527,19 +1539,19 @@
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : "top",
-										"class" : "image",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
 										"editor-layerExpanded" : false,
 										"height" : 18,
 										"image" : "hp_container_check.png",
 										"margin-bottom" : 0,
-										"margin-left" : 6,
+										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 19,
+										"margin-top" : 0,
 										"name" : "rankMeter",
-										"position-x" : "left",
-										"position-y" : "top",
+										"position-x" : "center",
+										"position-y" : "center",
 										"width" : 30,
 										"children" : [
 											{
@@ -1548,18 +1560,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													51,
-													168,
-													113
+													0,
+													230,
+													54
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
-												"font-size" : 13,
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 24,
+												"max-width" : 40,
 												"name" : "+\/- green",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -1572,6 +1584,7 @@
 													0.5,
 													-0.5
 												],
+												"stroke-thickness" : 1,
 												"text" : "+100"
 											},
 											{
@@ -1580,17 +1593,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													201,
-													71,
-													87
+													255,
+													63,
+													25
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 20,
+												"max-width" : 40,
 												"name" : "+\/- red",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -1603,7 +1617,8 @@
 													0.5,
 													-0.5
 												],
-												"text" : "-22"
+												"stroke-thickness" : 1,
+												"text" : "-220"
 											}
 										]
 									},
@@ -1611,8 +1626,9 @@
 										"anchor-x" : "left",
 										"anchor-y" : "bottom",
 										"class" : "image",
+										"dynamic-img" : true,
 										"height" : 31,
-										"image" : "hp_icon_house_points_gryf_xsm.png",
+										"image" : "hp_house_gryffindor_idle.png",
 										"margin-bottom" : 169,
 										"margin-left" : 6,
 										"margin-right" : 0,
@@ -1620,6 +1636,7 @@
 										"name" : "icon_crest",
 										"position-x" : "left",
 										"position-y" : "bottom",
+										"sizing" : "SpriteAspectFit",
 										"width" : 31
 									}
 								]
@@ -1628,7 +1645,6 @@
 								"anchor-x" : "center",
 								"anchor-y" : "bottom",
 								"class" : "view",
-								"editor-layerExpanded" : false,
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 10,
@@ -1640,76 +1656,24 @@
 								"width" : 43,
 								"children" : [
 									{
-										"9slicescalezone-height" : 0.380619,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.285381,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
-										"class" : "image",
-										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_sm.png",
-										"margin-bottom" : 165.5,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "HPPoints",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
-										"children" : [
-											{
-												"alignment" : "center",
-												"anchor-x" : "center",
-												"anchor-y" : "center",
-												"class" : "label",
-												"color" : [
-													221,
-													188,
-													113
-												],
-												"font" : "4privetdrive",
-												"margin-bottom" : 2,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"max-width" : 40,
-												"name" : "hp_quantity",
-												"position-x" : "center",
-												"position-y" : "center",
-												"shadow-color" : [
-													16,
-													29,
-													37
-												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
-												],
-												"text" : "9999"
-											}
-										]
-									},
-									{
 										"9slicescalezone-height" : 0.333,
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
 										"class" : "image",
 										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_white_sm.png",
-										"margin-bottom" : 165.5,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
 										"margin-left" : 0,
 										"margin-right" : 0,
 										"margin-top" : 0,
-										"name" : "HPPointsPlayer",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
+										"name" : "HPPoints",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
 										"children" : [
 											{
 												"alignment" : "center",
@@ -1721,12 +1685,12 @@
 													255,
 													255
 												],
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
 												"font-size" : 12,
-												"margin-bottom" : 2,
+												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
-												"margin-top" : 0,
+												"margin-top" : 0.5,
 												"max-width" : 40,
 												"name" : "hp_quantity",
 												"position-x" : "center",
@@ -1736,16 +1700,85 @@
 													29,
 													37
 												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
+												"stroke-color" : [
+													63,
+													31,
+													12
 												],
 												"text" : "9999"
 											}
 										]
 									},
 									{
-										"anchor-x" : "left",
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "HPPointsPlayer",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
+										"children" : [
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													255,
+													255
+												],
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0.5,
+												"max-width" : 40,
+												"name" : "hp_quantity",
+												"position-x" : "center",
+												"position-y" : "center",
+												"stroke-color" : [
+													63,
+													31,
+													12
+												],
+												"text" : "9999"
+											},
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 25,
+												"image" : "hp_container_house_points_glow.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "HPPointsGlow",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 50
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
 										"anchor-y" : "top",
 										"class" : "view",
 										"editor-layerExpanded" : false,
@@ -1753,15 +1786,15 @@
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 0,
+										"margin-top" : 17,
 										"name" : "viewRank",
-										"position-x" : "left",
+										"position-x" : "center",
 										"position-y" : "top",
-										"width" : 43,
+										"width" : 38,
 										"children" : [
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
 												"editor-hide" : true,
 												"editor-layerExpanded" : false,
@@ -1770,104 +1803,30 @@
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"name" : "viewFirst",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
+												"name" : "viewFourth",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
 												"children" : [
 													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 15,
-														"image" : "hp_icon_star_first.png",
-														"margin-bottom" : 5,
-														"margin-left" : 3,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_first",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 15
-													},
-													{
 														"alignment" : "center",
-														"anchor-x" : "left",
+														"anchor-x" : "center",
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															255,
-															255,
-															255
+															172,
+															179,
+															195
 														],
-														"font" : "4privetdrive",
-														"font-size" : 18,
-														"margin-bottom" : 2,
-														"margin-left" : 0,
-														"margin-right" : 3,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFirst",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shader-id" : "uiTitle",
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "1st"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-hide" : true,
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewSecond",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 12,
-														"image" : "hp_icon_star_second.png",
-														"margin-bottom" : 4,
-														"margin-left" : 2,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_second",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 12
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															221,
-															188,
-															112
-														],
-														"font" : "4privetdrive",
-														"font-size" : 15,
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_FOURTH",
 														"margin-bottom" : 0,
 														"margin-left" : 0,
-														"margin-right" : 11,
+														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelSecond",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
 														"shadow-color" : [
@@ -1879,13 +1838,18 @@
 															0.5,
 															-0.5
 														],
-														"text" : "2nd"
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "4th"
 													}
 												]
 											},
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
 												"editor-hide" : true,
 												"editor-layerExpanded" : false,
@@ -1895,72 +1859,9 @@
 												"margin-right" : 0,
 												"margin-top" : 0,
 												"name" : "viewThird",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 9,
-														"image" : "hp_icon_star_third.png",
-														"margin-bottom" : 5,
-														"margin-left" : 4,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_third",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 9
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															255,
-															255,
-															255
-														],
-														"font" : "4privetdrive",
-														"font-size" : 13,
-														"margin-bottom" : 0,
-														"margin-left" : 0,
-														"margin-right" : 10,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelThird",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shadow-color" : [
-															16,
-															29,
-															37
-														],
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "3rd"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewFourth",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 43,
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
 												"children" : [
 													{
 														"alignment" : "center",
@@ -1968,17 +1869,19 @@
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															178,
-															190,
-															193
+															172,
+															179,
+															195
 														],
-														"font" : "4privetdrive",
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_THIRD",
 														"margin-bottom" : 0,
 														"margin-left" : 0,
 														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFourth",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
 														"shadow-color" : [
@@ -1990,7 +1893,117 @@
 															0.5,
 															-0.5
 														],
-														"text" : "4th"
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "RANK_THIRD"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewSecond",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															255,
+															255,
+															255
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_SECOND",
+														"margin-bottom" : 0,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shadow-color" : [
+															16,
+															29,
+															37
+														],
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "2nd"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-hide" : true,
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewFirst",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															255,
+															255,
+															255
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 21,
+														"local:text" : "RANK_FIRST",
+														"margin-bottom" : 2,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shader-id" : "uiTitle",
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "1st"
 													}
 												]
 											}
@@ -2001,19 +2014,19 @@
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : "top",
-										"class" : "image",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
 										"editor-layerExpanded" : false,
 										"height" : 18,
 										"image" : "hp_container_check.png",
 										"margin-bottom" : 0,
-										"margin-left" : 6,
+										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 19,
+										"margin-top" : 0,
 										"name" : "rankMeter",
-										"position-x" : "left",
-										"position-y" : "top",
+										"position-x" : "center",
+										"position-y" : "center",
 										"width" : 30,
 										"children" : [
 											{
@@ -2022,18 +2035,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													51,
-													168,
-													113
+													0,
+													230,
+													54
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
-												"font-size" : 13,
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 24,
+												"max-width" : 40,
 												"name" : "+\/- green",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -2046,6 +2059,7 @@
 													0.5,
 													-0.5
 												],
+												"stroke-thickness" : 1,
 												"text" : "+100"
 											},
 											{
@@ -2054,17 +2068,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													201,
-													71,
-													87
+													255,
+													63,
+													25
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 20,
+												"max-width" : 40,
 												"name" : "+\/- red",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -2077,7 +2092,8 @@
 													0.5,
 													-0.5
 												],
-												"text" : "-22"
+												"stroke-thickness" : 1,
+												"text" : "-220"
 											}
 										]
 									},
@@ -2085,8 +2101,9 @@
 										"anchor-x" : "left",
 										"anchor-y" : "bottom",
 										"class" : "image",
+										"dynamic-img" : true,
 										"height" : 31,
-										"image" : "hp_icon_house_points_rave_xsm.png",
+										"image" : "hp_house_ravenclaw_idle.png",
 										"margin-bottom" : 170,
 										"margin-left" : 5.5,
 										"margin-right" : 0,
@@ -2094,6 +2111,7 @@
 										"name" : "icon_crest",
 										"position-x" : "left",
 										"position-y" : "bottom",
+										"sizing" : "SpriteAspectFit",
 										"width" : 31
 									}
 								]
@@ -2102,7 +2120,6 @@
 								"anchor-x" : "center",
 								"anchor-y" : "bottom",
 								"class" : "view",
-								"editor-layerExpanded" : false,
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 62,
@@ -2118,72 +2135,20 @@
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
 										"class" : "image",
 										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_sm.png",
-										"margin-bottom" : 165.5,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
 										"margin-left" : 0,
 										"margin-right" : 0,
 										"margin-top" : 0,
 										"name" : "HPPoints",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
-										"children" : [
-											{
-												"alignment" : "center",
-												"anchor-x" : "center",
-												"anchor-y" : "center",
-												"class" : "label",
-												"color" : [
-													221,
-													188,
-													113
-												],
-												"font" : "4privetdrive",
-												"margin-bottom" : 2,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"max-width" : 40,
-												"name" : "hp_quantity",
-												"position-x" : "center",
-												"position-y" : "center",
-												"shadow-color" : [
-													16,
-													29,
-													37
-												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
-												],
-												"text" : "9999"
-											}
-										]
-									},
-									{
-										"9slicescalezone-height" : 0.333,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : 0.7,
-										"class" : "image",
-										"editor-layerExpanded" : false,
-										"height" : 22,
-										"image" : "hp_container_house_points_white_sm.png",
-										"margin-bottom" : 165.5,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "HPPointsPlayer",
-										"position-x" : "left",
-										"position-y" : "bottom",
-										"width" : 43,
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
 										"children" : [
 											{
 												"alignment" : "center",
@@ -2195,12 +2160,12 @@
 													255,
 													255
 												],
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
 												"font-size" : 12,
-												"margin-bottom" : 2,
+												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
-												"margin-top" : 0,
+												"margin-top" : 0.5,
 												"max-width" : 40,
 												"name" : "hp_quantity",
 												"position-x" : "center",
@@ -2210,16 +2175,85 @@
 													29,
 													37
 												],
-												"shadow-offset" : [
-													0.5,
-													-0.5
+												"stroke-color" : [
+													63,
+													31,
+													12
 												],
 												"text" : "9999"
 											}
 										]
 									},
 									{
-										"anchor-x" : "left",
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 25,
+										"image" : "hp_container_house_points.png",
+										"margin-bottom" : 20,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "HPPointsPlayer",
+										"position-x" : "center",
+										"position-y" : "center",
+										"width" : 50,
+										"children" : [
+											{
+												"alignment" : "center",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													255,
+													255
+												],
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0.5,
+												"max-width" : 40,
+												"name" : "hp_quantity",
+												"position-x" : "center",
+												"position-y" : "center",
+												"stroke-color" : [
+													63,
+													31,
+													12
+												],
+												"text" : "9999"
+											},
+											{
+												"9slicescalezone-height" : 0.333,
+												"9slicescalezone-width" : 0.333,
+												"9slicescalezone-x" : 0.333,
+												"9slicescalezone-y" : 0.333,
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "image",
+												"height" : 25,
+												"image" : "hp_container_house_points_glow.png",
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "HPPointsGlow",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 50
+											}
+										]
+									},
+									{
+										"anchor-x" : "center",
 										"anchor-y" : "top",
 										"class" : "view",
 										"editor-layerExpanded" : false,
@@ -2227,202 +2261,15 @@
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 0,
+										"margin-top" : 17,
 										"name" : "viewRank",
-										"position-x" : "left",
+										"position-x" : "center",
 										"position-y" : "top",
 										"width" : 38,
 										"children" : [
 											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewFirst",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 38,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 15,
-														"image" : "hp_icon_star_first.png",
-														"margin-bottom" : 4,
-														"margin-left" : 0,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_first",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 15
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															255,
-															255,
-															255
-														],
-														"font" : "4privetdrive",
-														"font-size" : 18,
-														"margin-bottom" : 2,
-														"margin-left" : 0,
-														"margin-right" : 3,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFirst",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shader-id" : "uiTitle",
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "1st"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-hide" : true,
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewSecond",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 38,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 12,
-														"image" : "hp_icon_star_second.png",
-														"margin-bottom" : 4,
-														"margin-left" : 4,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_second",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 12
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															221,
-															188,
-															112
-														],
-														"font" : "4privetdrive",
-														"font-size" : 13,
-														"margin-bottom" : 0,
-														"margin-left" : 0,
-														"margin-right" : 3,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelSecond",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shadow-color" : [
-															16,
-															29,
-															37
-														],
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "2nd"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
-												"class" : "view",
-												"editor-hide" : true,
-												"editor-layerExpanded" : false,
-												"height" : 18,
-												"margin-bottom" : 0,
-												"margin-left" : 0,
-												"margin-right" : 0,
-												"margin-top" : 0,
-												"name" : "viewThird",
-												"position-x" : "left",
-												"position-y" : "bottom",
-												"width" : 38,
-												"children" : [
-													{
-														"anchor-x" : "left",
-														"anchor-y" : "bottom",
-														"class" : "image",
-														"height" : 9,
-														"image" : "hp_icon_star_third.png",
-														"margin-bottom" : 5,
-														"margin-left" : 7,
-														"margin-right" : 0,
-														"margin-top" : 0,
-														"name" : "hp_icon_star_third",
-														"position-x" : "left",
-														"position-y" : "bottom",
-														"width" : 9
-													},
-													{
-														"alignment" : "center",
-														"anchor-x" : "left",
-														"anchor-y" : "center",
-														"class" : "label",
-														"color" : [
-															255,
-															255,
-															255
-														],
-														"font" : "4privetdrive",
-														"font-size" : 13,
-														"margin-bottom" : 0,
-														"margin-left" : 0,
-														"margin-right" : 3,
-														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelThird",
-														"position-x" : "center",
-														"position-y" : "center",
-														"shadow-color" : [
-															16,
-															29,
-															37
-														],
-														"shadow-offset" : [
-															0.5,
-															-0.5
-														],
-														"text" : "3rd"
-													}
-												]
-											},
-											{
-												"anchor-x" : "left",
-												"anchor-y" : "bottom",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
 												"class" : "view",
 												"editor-hide" : true,
 												"editor-layerExpanded" : false,
@@ -2432,8 +2279,8 @@
 												"margin-right" : 0,
 												"margin-top" : 0,
 												"name" : "viewFourth",
-												"position-x" : "left",
-												"position-y" : "bottom",
+												"position-x" : "center",
+												"position-y" : "center",
 												"width" : 38,
 												"children" : [
 													{
@@ -2442,17 +2289,19 @@
 														"anchor-y" : "center",
 														"class" : "label",
 														"color" : [
-															178,
-															190,
-															193
+															172,
+															179,
+															195
 														],
-														"font" : "4privetdrive",
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_FOURTH",
 														"margin-bottom" : 0,
 														"margin-left" : 0,
 														"margin-right" : 0,
 														"margin-top" : 0,
-														"max-width" : 30,
-														"name" : "labelFourth",
+														"max-width" : 40,
+														"name" : "placeLabel",
 														"position-x" : "center",
 														"position-y" : "center",
 														"shadow-color" : [
@@ -2464,7 +2313,172 @@
 															0.5,
 															-0.5
 														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
 														"text" : "4th"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-hide" : true,
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewThird",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															172,
+															179,
+															195
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_THIRD",
+														"margin-bottom" : 0,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shadow-color" : [
+															16,
+															29,
+															37
+														],
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "3rd"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-hide" : true,
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewSecond",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															255,
+															255,
+															255
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 16,
+														"local:text" : "RANK_SECOND",
+														"margin-bottom" : 0,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shadow-color" : [
+															16,
+															29,
+															37
+														],
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "2nd"
+													}
+												]
+											},
+											{
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "view",
+												"editor-layerExpanded" : false,
+												"height" : 18,
+												"margin-bottom" : 0,
+												"margin-left" : 0,
+												"margin-right" : 0,
+												"margin-top" : 0,
+												"name" : "viewFirst",
+												"position-x" : "center",
+												"position-y" : "center",
+												"width" : 38,
+												"children" : [
+													{
+														"alignment" : "center",
+														"anchor-x" : "center",
+														"anchor-y" : "center",
+														"class" : "label",
+														"color" : [
+															255,
+															255,
+															255
+														],
+														"font" : "Crimson-Semibold",
+														"font-size" : 21,
+														"local:text" : "RANK_FIRST",
+														"margin-bottom" : 2,
+														"margin-left" : 0,
+														"margin-right" : 0,
+														"margin-top" : 0,
+														"max-width" : 40,
+														"name" : "placeLabel",
+														"position-x" : "center",
+														"position-y" : "center",
+														"shader-id" : "uiTitle",
+														"shadow-offset" : [
+															0.5,
+															-0.5
+														],
+														"stroke-color" : [
+															0,
+															30,
+															97
+														],
+														"text" : "1st"
 													}
 												]
 											}
@@ -2475,19 +2489,19 @@
 										"9slicescalezone-width" : 0.333,
 										"9slicescalezone-x" : 0.333,
 										"9slicescalezone-y" : 0.333,
-										"anchor-x" : "left",
-										"anchor-y" : "top",
-										"class" : "image",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "view",
 										"editor-layerExpanded" : false,
 										"height" : 18,
 										"image" : "hp_container_check.png",
 										"margin-bottom" : 0,
-										"margin-left" : 6,
+										"margin-left" : 0,
 										"margin-right" : 0,
-										"margin-top" : 19,
+										"margin-top" : 0,
 										"name" : "rankMeter",
-										"position-x" : "left",
-										"position-y" : "top",
+										"position-x" : "center",
+										"position-y" : "center",
 										"width" : 30,
 										"children" : [
 											{
@@ -2496,18 +2510,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													51,
-													168,
-													113
+													0,
+													230,
+													54
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
-												"font-size" : 13,
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 24,
+												"max-width" : 40,
 												"name" : "+\/- green",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -2520,6 +2534,7 @@
 													0.5,
 													-0.5
 												],
+												"stroke-thickness" : 1,
 												"text" : "+100"
 											},
 											{
@@ -2528,17 +2543,18 @@
 												"anchor-y" : "center",
 												"class" : "label",
 												"color" : [
-													201,
-													71,
-													87
+													255,
+													63,
+													25
 												],
 												"dynamic-text" : true,
-												"font" : "Avenir-Book",
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
 												"margin-bottom" : 0,
 												"margin-left" : 0,
 												"margin-right" : 0,
 												"margin-top" : 0,
-												"max-width" : 20,
+												"max-width" : 40,
 												"name" : "+\/- red",
 												"position-x" : "center",
 												"position-y" : "center",
@@ -2551,7 +2567,8 @@
 													0.5,
 													-0.5
 												],
-												"text" : "-22"
+												"stroke-thickness" : 1,
+												"text" : "-220"
 											}
 										]
 									},
@@ -2559,8 +2576,9 @@
 										"anchor-x" : "left",
 										"anchor-y" : "bottom",
 										"class" : "image",
+										"dynamic-img" : true,
 										"height" : 31,
-										"image" : "hp_icon_house_points_sly_xsm.png",
+										"image" : "hp_house_slytherin_idle.png",
 										"margin-bottom" : 170,
 										"margin-left" : 6,
 										"margin-right" : 0,
@@ -2568,6 +2586,7 @@
 										"name" : "icon_crest",
 										"position-x" : "left",
 										"position-y" : "bottom",
+										"sizing" : "SpriteAspectFit",
 										"width" : 31
 									}
 								]
@@ -2575,55 +2594,11 @@
 						]
 					},
 					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "image",
-						"height" : 26,
-						"image" : "hp_bg_container_header_title.png",
-						"margin-bottom" : 131,
-						"margin-left" : 0,
-						"margin-right" : 64,
-						"margin-top" : 0,
-						"name" : "headerBar",
-						"position-x" : "center",
-						"position-y" : "center",
-						"width" : 197,
-						"children" : [
-							{
-								"alignment" : "center",
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"font" : "4privetdrive",
-								"font-size" : 13,
-								"local:text" : "HOUSEPOINTS_TITLE_LABEL",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 1,
-								"max-width" : 150,
-								"name" : "labelHeader",
-								"position-x" : "center",
-								"position-y" : "center",
-								"shader-id" : "uiTitle",
-								"shadow-offset" : [
-									0.5,
-									-0.5
-								],
-								"text" : "HOUSE POINTS"
-							}
-						]
-					},
-					{
 						"actions" : [],
-						"anchor-x" : "right",
+						"anchor-x" : "left",
 						"anchor-y" : "top",
 						"class" : "button",
+						"editor-layerExpanded" : false,
 						"height" : 30,
 						"image" : "invisible.png",
 						"margin-bottom" : 0,
@@ -2631,7 +2606,7 @@
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"name" : "closeButton",
-						"position-x" : "right",
+						"position-x" : "left",
 						"position-y" : "top",
 						"width" : 30,
 						"children" : [
@@ -2640,37 +2615,55 @@
 								"anchor-x" : "center",
 								"anchor-y" : "center",
 								"class" : "image",
-								"height" : 29,
-								"image" : "hp_button_HUD_close.png",
+								"height" : 25,
+								"image" : "hp_btn_back.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 14,
+								"margin-top" : 0,
 								"name" : "closeButtonIcon",
 								"position-x" : "center",
-								"position-y" : "top",
-								"width" : 22
-							},
-							{
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
-								"class" : "image",
-								"height" : 13,
-								"image" : "hp_button_close.png",
-								"margin-bottom" : 12,
-								"margin-left" : 9,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "icon_x",
-								"position-x" : "left",
-								"position-y" : "bottom",
-								"width" : 13
+								"position-y" : "center",
+								"width" : 25
 							}
 						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Crimson-Semibold",
+						"font-size" : 24,
+						"local:text" : "HOUSEPOINTS_TITLE_LABEL",
+						"margin-bottom" : 120,
+						"margin-left" : 0,
+						"margin-right" : 64,
+						"margin-top" : 0,
+						"max-width" : 250,
+						"name" : "labelHeader",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "House Point Ranks"
 					}
 				]
 			}
 		]
 	},
-	"version" : "1.8.3.7"
+	"version" : "1.8.8.3"
 }

@@ -54,6 +54,7 @@
 						"name" : "loaderTooltip",
 						"position-x" : "left",
 						"position-y" : "bottom",
+						"sizing" : "SpriteAspectFit",
 						"width" : 42
 					},
 					{
@@ -113,5 +114,5 @@
 			}
 		]
 	},
-	"version" : "1.8.8.2"
+	"version" : "1.8.8.3"
 }

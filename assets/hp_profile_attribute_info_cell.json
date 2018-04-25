@@ -1,12 +1,12 @@
 {
 	"view" : {
 		"class" : "view",
-		"height" : 34,
+		"height" : 40,
 		"inherit-position" : true,
 		"name" : "rootView",
 		"position-x" : "left",
 		"position-y" : "bottom",
-		"width" : 260,
+		"width" : 384,
 		"children" : [
 			{
 				"actions" : [],
@@ -22,22 +22,22 @@
 				"name" : "infoView",
 				"position-x" : "right",
 				"position-y" : "bottom",
-				"width" : 260,
+				"width" : 384,
 				"children" : [
 					{
 						"anchor-x" : "center",
-						"anchor-y" : "top",
+						"anchor-y" : "bottom",
 						"class" : "image",
-						"height" : 2,
-						"image" : "hp_divider_gold_70.png",
-						"margin-bottom" : 4,
+						"height" : 1,
+						"image" : "hp_bg_modal_divider_2.png",
+						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"name" : "dividerlite",
-						"percent-width" : 1,
 						"position-x" : "center",
-						"position-y" : "top"
+						"position-y" : "bottom",
+						"width" : 384
 					},
 					{
 						"alignment" : "center",
@@ -51,9 +51,9 @@
 						],
 						"dynamic-text" : true,
 						"font" : "Avenir-Book",
-						"font-size" : 12,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
+						"font-size" : 13,
+						"margin-bottom" : 4,
+						"margin-left" : 10,
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"max-width" : 250,
@@ -81,7 +81,7 @@
 						"anchor-x" : "right",
 						"anchor-y" : "bottom",
 						"class" : "button",
-						"height" : 30,
+						"height" : 40,
 						"image" : "invisible.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
@@ -90,23 +90,61 @@
 						"name" : "btnGo",
 						"position-x" : "right",
 						"position-y" : "bottom",
-						"width" : 80,
+						"width" : 90,
 						"children" : [
 							{
-								"anchor-x" : "right",
-								"anchor-y" : "bottom",
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
 								"class" : "image",
-								"height" : 31,
-								"image" : "hp_button_arrow_sm.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_sm.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"name" : "icon_arrow",
-								"position-x" : "right",
-								"position-y" : "bottom",
-								"sizing" : "SpriteAspectFit",
-								"width" : 28
+								"name" : "btnBg",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 90
+							},
+							{
+								"alignment" : "center",
+								"all-caps" : true,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 18,
+								"local:text" : "HP_GO",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "labelGo",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "GO"
 							}
 						]
 					}

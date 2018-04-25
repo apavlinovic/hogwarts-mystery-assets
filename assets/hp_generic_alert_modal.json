@@ -2,10 +2,6 @@
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"percent-height" : 1,
 		"percent-width" : 1,
@@ -15,24 +11,9 @@
 			{
 				"anchor-x" : "center",
 				"anchor-y" : "center",
-				"class" : "image",
-				"height" : 225,
-				"image" : "hp_bg_scrim_xsm.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 5,
-				"name" : "scrimBg",
-				"position-x" : "center",
-				"position-y" : "center",
-				"width" : 325
-			},
-			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
 				"class" : "view",
 				"eats-touches" : false,
-				"height" : 126,
+				"height" : 180,
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
@@ -40,17 +21,17 @@
 				"name" : "genericAlert",
 				"position-x" : "center",
 				"position-y" : "center",
-				"width" : 232,
+				"width" : 310,
 				"children" : [
 					{
-						"9slicescalezone-height" : 0.463435,
-						"9slicescalezone-width" : 1,
-						"9slicescalezone-x" : 0,
-						"9slicescalezone-y" : 0.286522,
+						"9slicescalezone-height" : 0.891052,
+						"9slicescalezone-width" : 0.914019,
+						"9slicescalezone-x" : 0.039019,
+						"9slicescalezone-y" : 0.048356,
 						"anchor-x" : "left",
 						"anchor-y" : "bottom",
 						"class" : "image",
-						"image" : "hp_bg_modal_xsm.png",
+						"image" : "hp_modal_bg_lrg.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
@@ -65,106 +46,32 @@
 								"anchor-x" : "center",
 								"anchor-y" : "top",
 								"class" : "image",
-								"height" : 38,
-								"image" : "hp_bg_header_xsm.png",
+								"height" : 28,
+								"image" : "hp_bg_modal_header_sm.png",
+								"inset-margin-x" : 20,
 								"margin-bottom" : 0,
 								"margin-left" : 0,
-								"margin-right" : 0.5,
-								"margin-top" : 1,
+								"margin-right" : 0,
+								"margin-top" : 17,
 								"name" : "header_bg",
+								"percent-width" : 1,
 								"position-x" : "center",
 								"position-y" : "top",
-								"width" : 230
-							}
-						]
-					},
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "view",
-						"height" : 22,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 40,
-						"name" : "oneButtonView",
-						"position-x" : "center",
-						"position-y" : "center",
-						"width" : 100,
-						"children" : [
-							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
-								"actions" : [],
-								"anchor-x" : "right",
-								"anchor-y" : "bottom",
-								"class" : "button",
-								"editor-layerExpanded" : false,
-								"height" : 24,
-								"image" : "invisible.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 2,
-								"margin-top" : 0,
-								"name" : "btnCTA",
-								"position-x" : "right",
-								"position-y" : "bottom",
-								"width" : 97,
 								"children" : [
 									{
-										"9slicescalezone-height" : 0.333,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.333,
-										"actions" : [],
 										"anchor-x" : "center",
-										"anchor-y" : "center",
+										"anchor-y" : "bottom",
 										"class" : "image",
-										"height" : 31,
-										"image" : "hp_button_secondary_active.png",
-										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 0.5,
-										"margin-top" : 0,
-										"name" : "btn_bg",
-										"percent-width" : 1.082474,
-										"position-x" : "center",
-										"position-y" : "center"
-									},
-									{
-										"alignment" : "center",
-										"anchor-x" : "center",
-										"anchor-y" : "center",
-										"class" : "label",
-										"color" : [
-											255,
-											255,
-											255
-										],
-										"font" : "4privetdrive",
-										"font-size" : 11,
-										"local:text" : "HP_GENERIC_OKAY_BTN_OK",
+										"height" : 1,
+										"image" : "hp_bg_modal_divider_2.png",
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 0,
 										"margin-top" : 0,
-										"max-width" : 80,
-										"name" : "labelBtnOkay",
+										"name" : "divider",
+										"percent-width" : 1,
 										"position-x" : "center",
-										"position-y" : "center",
-										"shadow-color" : [
-											16,
-											29,
-											37
-										],
-										"shadow-offset" : [
-											0.5,
-											-0.5
-										],
-										"stroke-thickness" : 0.2,
-										"text" : "BUY NOW"
+										"position-y" : "bottom"
 									}
 								]
 							}
@@ -174,30 +81,23 @@
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "view",
-						"editor-hide" : true,
-						"editor-layerExpanded" : false,
-						"height" : 22,
+						"height" : 46,
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 40,
-						"name" : "twoButtonView",
+						"margin-top" : 48,
+						"name" : "oneButtonView",
 						"position-x" : "center",
 						"position-y" : "center",
-						"width" : 200,
+						"width" : 130,
 						"children" : [
 							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
 								"actions" : [],
 								"anchor-x" : "right",
 								"anchor-y" : "bottom",
 								"class" : "button",
-								"editor-layerExpanded" : false,
-								"height" : 24,
-								"image" : "invisible.png",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
@@ -205,30 +105,11 @@
 								"name" : "btnCTA",
 								"position-x" : "right",
 								"position-y" : "bottom",
-								"width" : 97,
+								"width" : 130,
 								"children" : [
 									{
-										"9slicescalezone-height" : 0.333,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.333,
-										"actions" : [],
-										"anchor-x" : "center",
-										"anchor-y" : "center",
-										"class" : "image",
-										"height" : 31,
-										"image" : "hp_button_secondary_active.png",
-										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 0.5,
-										"margin-top" : 0,
-										"name" : "btn_bg",
-										"percent-width" : 1.082474,
-										"position-x" : "center",
-										"position-y" : "center"
-									},
-									{
 										"alignment" : "center",
+										"all-caps" : true,
 										"anchor-x" : "center",
 										"anchor-y" : "center",
 										"class" : "label",
@@ -237,14 +118,14 @@
 											255,
 											255
 										],
-										"font" : "4privetdrive",
-										"font-size" : 11,
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
 										"local:text" : "HP_GENERIC_OKAY_BTN_OK",
-										"margin-bottom" : 0,
+										"margin-bottom" : 2,
 										"margin-left" : 0,
 										"margin-right" : 0,
 										"margin-top" : 0,
-										"max-width" : 80,
+										"max-width" : 100,
 										"name" : "labelBtnOkay",
 										"position-x" : "center",
 										"position-y" : "center",
@@ -253,74 +134,152 @@
 											29,
 											37
 										],
-										"shadow-offset" : [
-											0.5,
-											-0.5
+										"stroke-color" : [
+											0,
+											30,
+											97
 										],
-										"stroke-thickness" : 0.2,
-										"text" : "BUY NOW"
+										"text" : "Fantastic"
+									}
+								]
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 46,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 48,
+						"name" : "twoButtonView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 240,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "button",
+								"editor-layerExpanded" : false,
+								"height" : 36,
+								"image" : "invisible.png",
+								"margin-bottom" : 5,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "btnCTA",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 120,
+								"children" : [
+									{
+										"actions" : [],
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 46,
+										"image" : "hp_btn_cta_med.png",
+										"margin-bottom" : 0,
+										"margin-left" : 5,
+										"margin-right" : 0,
+										"margin-top" : 5,
+										"name" : "btnBg",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 130
+									},
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
+										"local:text" : "HP_GENERIC_OKAY_BTN_OK",
+										"margin-bottom" : 2,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 100,
+										"name" : "labelBtnOkay",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "Fantastic"
 									}
 								]
 							},
 							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
 								"actions" : [],
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "button",
 								"editor-layerExpanded" : false,
-								"height" : 24,
+								"height" : 36,
 								"image" : "invisible.png",
-								"margin-bottom" : 0,
+								"margin-bottom" : 5,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "btnCancel",
 								"position-x" : "left",
 								"position-y" : "bottom",
-								"width" : 97,
+								"width" : 120,
 								"children" : [
 									{
-										"9slicescalezone-height" : 0.333,
-										"9slicescalezone-width" : 0.333,
-										"9slicescalezone-x" : 0.333,
-										"9slicescalezone-y" : 0.333,
 										"actions" : [],
-										"anchor-x" : "center",
-										"anchor-y" : "center",
+										"anchor-x" : "right",
+										"anchor-y" : "bottom",
 										"class" : "image",
-										"height" : 31,
-										"image" : "hp_button_secondary_idle.png",
+										"height" : 46,
+										"image" : "hp_btn_secondary_med.png",
 										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 0.5,
-										"margin-top" : 0,
-										"name" : "btn_bg",
-										"percent-width" : 1.082474,
-										"position-x" : "center",
-										"position-y" : "center"
+										"margin-left" : 5,
+										"margin-right" : 0,
+										"margin-top" : 5,
+										"name" : "btnBg",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"width" : 130
 									},
 									{
 										"alignment" : "center",
+										"all-caps" : true,
 										"anchor-x" : "center",
 										"anchor-y" : "center",
 										"class" : "label",
 										"color" : [
-											0,
-											135,
-											135
+											255,
+											255,
+											255
 										],
-										"font" : "4privetdrive",
-										"font-size" : 11,
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
 										"local:text" : "HP_GENERIC_CANCEL_BTN",
-										"margin-bottom" : 0,
+										"margin-bottom" : 2,
 										"margin-left" : 0,
 										"margin-right" : 0,
 										"margin-top" : 0,
-										"max-width" : 80,
+										"max-width" : 100,
 										"name" : "labelBtnCancel",
 										"position-x" : "center",
 										"position-y" : "center",
@@ -329,12 +288,12 @@
 											29,
 											37
 										],
-										"shadow-offset" : [
-											0.5,
-											-0.5
+										"stroke-color" : [
+											0,
+											30,
+											97
 										],
-										"stroke-thickness" : 0.2,
-										"text" : "NO"
+										"text" : "Nupe"
 									}
 								]
 							}
@@ -346,17 +305,17 @@
 						"anchor-y" : "top",
 						"class" : "label",
 						"color" : [
-							178,
-							190,
-							193
+							210,
+							235,
+							239
 						],
 						"dynamic-text" : true,
 						"font" : "Avenir-Book",
-						"font-size" : 13,
+						"font-size" : 14,
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 40,
+						"margin-top" : 49,
 						"max-height" : 55,
 						"name" : "labelDesc",
 						"position-x" : "center",
@@ -372,7 +331,7 @@
 						],
 						"text" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. ",
 						"vertical-spacing" : 0.8,
-						"width" : 212
+						"width" : 260
 					},
 					{
 						"alignment" : "center",
@@ -380,17 +339,17 @@
 						"anchor-y" : "top",
 						"class" : "label",
 						"color" : [
-							239,
-							65,
-							54
+							255,
+							91,
+							58
 						],
 						"dynamic-text" : true,
 						"font" : "Avenir-Book",
-						"font-size" : 13,
+						"font-size" : 14,
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 54,
+						"margin-top" : 98,
 						"max-height" : 28,
 						"name" : "connection_lost_retry_text",
 						"position-x" : "center",
@@ -419,26 +378,22 @@
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							185,
-							160,
-							105
+							255,
+							255,
+							255
 						],
 						"dynamic-text" : true,
-						"font" : "4privetdrive",
-						"font-size" : 13,
-						"gradient-top-color" : [
-							233,
-							211,
-							161
-						],
-						"margin-bottom" : 46,
+						"font" : "Crimson-Semibold",
+						"font-size" : 20,
+						"margin-bottom" : 61,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
-						"max-width" : 190,
+						"max-width" : 200,
 						"name" : "label_title",
 						"position-x" : "center",
 						"position-y" : "center",
+						"shader-id" : "uiTitle",
 						"shadow-offset" : [
 							0.5,
 							-0.5
@@ -448,22 +403,21 @@
 							30,
 							97
 						],
-						"text" : "GENERIC_CONFIRMATION_TITLE"
+						"text" : "Some sort of generic title"
 					},
 					{
 						"actions" : [],
-						"anchor-x" : "left",
+						"anchor-x" : "right",
 						"anchor-y" : "top",
 						"class" : "button",
-						"editor-layerExpanded" : false,
 						"height" : 40,
 						"image" : "invisible.png",
-						"margin-bottom" : 4,
-						"margin-left" : 197,
-						"margin-right" : 0,
-						"margin-top" : 0,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 10,
+						"margin-top" : 9,
 						"name" : "closeButton",
-						"position-x" : "left",
+						"position-x" : "right",
 						"position-y" : "top",
 						"width" : 40,
 						"children" : [
@@ -471,16 +425,16 @@
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "image",
-								"height" : 13,
-								"image" : "hp_button_close.png",
-								"margin-bottom" : 13,
-								"margin-left" : 13,
+								"height" : 25,
+								"image" : "hp_btn_close.png",
+								"margin-bottom" : 7,
+								"margin-left" : 7,
 								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "close_bg",
 								"position-x" : "left",
 								"position-y" : "bottom",
-								"width" : 13
+								"width" : 25
 							}
 						]
 					}
@@ -488,5 +442,5 @@
 			}
 		]
 	},
-	"version" : "1.8.3.7"
+	"version" : "1.8.8.3"
 }

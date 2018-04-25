@@ -1,0 +1,219 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.33,
+					"9slicescalezone-width" : 0.33,
+					"9slicescalezone-x" : 0.33,
+					"9slicescalezone-y" : 0.33,
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "hp_bg_black_50%.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "scrimBg",
+					"percent-height" : 1.01,
+					"percent-width" : 1.01,
+					"position-x" : "center",
+					"position-y" : "center"
+				}
+			]
+		}
+	},
+	"view" : {
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"eats-touches" : false,
+				"height" : 180,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "genericInfo",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 400,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.891052,
+						"9slicescalezone-width" : 0.914019,
+						"9slicescalezone-x" : 0.039019,
+						"9slicescalezone-y" : 0.048356,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"image" : "hp_modal_bg_lrg.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 28,
+								"image" : "hp_bg_modal_header_sm.png",
+								"inset-margin-x" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 17,
+								"name" : "header_bg",
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "top",
+								"children" : [
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 1,
+										"image" : "hp_bg_modal_divider_2.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "divider",
+										"percent-width" : 1,
+										"position-x" : "center",
+										"position-y" : "bottom"
+									}
+								]
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							210,
+							235,
+							239
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 14,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 15.5,
+						"max-height" : 110,
+						"name" : "labelDesc",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. consectetuer adipiscing elit, sed diam nonummy nibh euismod. ",
+						"vertical-spacing" : 0.8,
+						"width" : 332
+					},
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Crimson-Semibold",
+						"font-size" : 20,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 14,
+						"max-width" : 200,
+						"name" : "labelTitle",
+						"position-x" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Some sort of generic title"
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 10,
+						"margin-top" : 9,
+						"name" : "closeButton",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 25,
+								"image" : "hp_btn_close.png",
+								"margin-bottom" : 7,
+								"margin-left" : 7,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 25
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

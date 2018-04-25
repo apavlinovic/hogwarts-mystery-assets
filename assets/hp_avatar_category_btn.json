@@ -1,0 +1,155 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 61,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 60,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"dynamic-img" : true,
+				"height" : 66,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnSubCategory",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 66,
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 70,
+						"image" : "hp_btn_quest_tab_inactive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 5,
+						"margin-top" : 4,
+						"name" : "bgInactive",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 70
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 66,
+						"image" : "hp_btn_quest_tab_active.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 4,
+						"margin-top" : 2,
+						"name" : "bgActive",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 68
+					},
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 44,
+						"image" : "hp_icon_avatar_creator_face.png",
+						"margin-bottom" : 9,
+						"margin-left" : 8,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "loaderIcon",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 44
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"height" : 40,
+						"image" : "hp_general_bg_black_50%.png",
+						"margin-bottom" : 0,
+						"margin-left" : 2,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "comingSoonView",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 58,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Avenir-Heavy",
+								"font-size" : 12,
+								"local:text" : "HP_COMING_SOON",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"name" : "labelSoon",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Coming Soon",
+								"vertical-spacing" : 0.75,
+								"width" : 50
+							}
+						]
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 30,
+						"image" : "hp_icon_notif_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 1,
+						"margin-top" : 2,
+						"name" : "iconNotif",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 30
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

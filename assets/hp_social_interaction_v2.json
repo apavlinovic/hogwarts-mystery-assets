@@ -1,4 +1,72 @@
 {
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "top",
+					"class" : "view",
+					"height" : 70,
+					"image" : "hp_modal_bg_header.png",
+					"margin-bottom" : 9,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "status_bg",
+					"percent-width" : 1.1,
+					"position-x" : "center",
+					"position-y" : "top",
+					"sizing" : "SpriteFill",
+					"children" : [
+						{
+							"9slicescalezone-height" : 0.333,
+							"9slicescalezone-width" : 0.333,
+							"9slicescalezone-x" : 0.333,
+							"9slicescalezone-y" : 0.333,
+							"anchor-x" : "center",
+							"anchor-y" : "top",
+							"class" : "image",
+							"height" : 50,
+							"image" : "hp_bg_hud_gradient.png",
+							"margin-bottom" : 0,
+							"margin-left" : 0,
+							"margin-right" : 0,
+							"margin-top" : 60,
+							"name" : "hudGradient",
+							"percent-width" : 0.998239,
+							"position-x" : "center",
+							"position-y" : "top"
+						},
+						{
+							"anchor-x" : "center",
+							"anchor-y" : "top",
+							"class" : "image",
+							"height" : 70,
+							"image" : "hp_modal_bg_header.png",
+							"margin-bottom" : 0,
+							"margin-left" : 0,
+							"margin-right" : 0,
+							"margin-top" : 0,
+							"name" : "status_bg_img",
+							"percent-width" : 1.1,
+							"position-x" : "center",
+							"position-y" : "top",
+							"sizing" : "SpriteFill"
+						}
+					]
+				}
+			]
+		}
+	},
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
@@ -12,6 +80,7 @@
 				"anchor-x" : "center",
 				"anchor-y" : "bottom",
 				"class" : "view",
+				"editor-layerExpanded" : false,
 				"height" : 120,
 				"margin-bottom" : 0,
 				"margin-left" : 0,
@@ -267,6 +336,7 @@
 						"anchor-x" : "center",
 						"anchor-y" : "bottom",
 						"class" : "view",
+						"editor-layerExpanded" : false,
 						"height" : 67,
 						"margin-bottom" : 10,
 						"margin-left" : 0,
@@ -396,10 +466,9 @@
 						"anchor-x" : "center",
 						"anchor-y" : "bottom",
 						"class" : "view",
-						"editor-layerExpanded" : false,
 						"height" : 60,
 						"image" : "hp_bg_cell_white.png",
-						"margin-bottom" : 124,
+						"margin-bottom" : 74,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
@@ -409,18 +478,33 @@
 						"width" : 165,
 						"children" : [
 							{
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
 								"class" : "image",
-								"editor-layerExpanded" : false,
+								"height" : 84,
+								"image" : "hp_bg_scrim_70.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "bgGradient",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 308
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "view",
 								"height" : 60,
 								"image" : "hp_bg_container_banner_success.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 0,
+								"margin-top" : 1,
 								"name" : "bannerSuccess",
-								"position-x" : "left",
+								"position-x" : "center",
 								"position-y" : "bottom",
 								"width" : 165,
 								"children" : [
@@ -430,12 +514,12 @@
 										"anchor-y" : "center",
 										"class" : "label",
 										"color" : [
-											221,
-											188,
-											112
+											255,
+											255,
+											255
 										],
-										"font" : "4privetdrive",
-										"font-size" : 16,
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
 										"local:text" : "HP_ENC_TIE",
 										"margin-bottom" : 6,
 										"margin-left" : 0,
@@ -445,11 +529,6 @@
 										"name" : "labelTie",
 										"position-x" : "center",
 										"position-y" : "center",
-										"shadow-color" : [
-											16,
-											29,
-											37
-										],
 										"shadow-offset" : [
 											0.5,
 											-0.5
@@ -462,12 +541,12 @@
 										"anchor-y" : "center",
 										"class" : "label",
 										"color" : [
-											221,
-											188,
-											112
+											255,
+											255,
+											255
 										],
-										"font" : "4privetdrive",
-										"font-size" : 16,
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
 										"local:text" : "HP_ENC_SUCCESS",
 										"margin-bottom" : 6,
 										"margin-left" : 0,
@@ -477,33 +556,24 @@
 										"name" : "labelSuccess",
 										"position-x" : "center",
 										"position-y" : "center",
-										"shadow-color" : [
-											16,
-											29,
-											37
-										],
-										"shadow-offset" : [
-											0.5,
-											-0.5
-										],
-										"text" : "SUCCESS!"
+										"shader-id" : "uiTitle",
+										"stroke-thickness" : 0.5,
+										"text" : "Success!"
 									}
 								]
 							},
 							{
-								"anchor-x" : "left",
+								"anchor-x" : "center",
 								"anchor-y" : "bottom",
-								"class" : "image",
-								"editor-hide" : true,
-								"editor-layerExpanded" : false,
+								"class" : "view",
 								"height" : 60,
 								"image" : "hp_bg_container_banner_fail.png",
-								"margin-bottom" : 3,
+								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 0,
+								"margin-top" : 1,
 								"name" : "bannerFail",
-								"position-x" : "left",
+								"position-x" : "center",
 								"position-y" : "bottom",
 								"width" : 165,
 								"children" : [
@@ -513,12 +583,12 @@
 										"anchor-y" : "center",
 										"class" : "label",
 										"color" : [
-											211,
-											69,
-											69
+											255,
+											91,
+											58
 										],
-										"font" : "4privetdrive",
-										"font-size" : 16,
+										"font" : "Crimson-Semibold",
+										"font-size" : 18,
 										"local:text" : "HP_ENC_FAIL",
 										"margin-bottom" : 6,
 										"margin-left" : 0,
@@ -537,7 +607,13 @@
 											0.5,
 											-0.5
 										],
-										"text" : "FAIL"
+										"stroke-color" : [
+											16,
+											29,
+											36
+										],
+										"stroke-thickness" : 0.5,
+										"text" : "Bad Choice"
 									}
 								]
 							}
@@ -553,7 +629,7 @@
 						"class" : "view",
 						"height" : 40,
 						"image" : "invisible.png",
-						"margin-bottom" : 111,
+						"margin-bottom" : 40,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
@@ -572,14 +648,14 @@
 									255,
 									255
 								],
-								"font" : "Avenir-Book",
-								"font-size" : 11,
+								"font" : "Avenir-Heavy",
+								"font-size" : 14,
 								"local:text" : "HP_CUSTOM_CONFIRM_DESC",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 10,
 								"margin-top" : 0,
-								"max-width" : 250,
+								"max-width" : 350,
 								"name" : "labelDesc",
 								"position-x" : "center",
 								"position-y" : "center",
@@ -607,7 +683,7 @@
 										"class" : "view",
 										"height" : 40,
 										"margin-bottom" : 0,
-										"margin-left" : 24,
+										"margin-left" : 28,
 										"margin-right" : 0,
 										"margin-top" : 10,
 										"name" : "attributeView",
@@ -621,13 +697,13 @@
 										"anchor-y" : "center",
 										"class" : "label",
 										"color" : [
-											211,
-											69,
-											69
+											255,
+											63,
+											25
 										],
 										"dynamic-text" : true,
 										"font" : "Avenir-Heavy",
-										"font-size" : 11,
+										"font-size" : 14,
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 0,
@@ -659,13 +735,13 @@
 										"anchor-y" : "center",
 										"class" : "label",
 										"color" : [
-											51,
-											167,
-											112
+											0,
+											230,
+											54
 										],
 										"dynamic-text" : true,
 										"font" : "Avenir-Heavy",
-										"font-size" : 11,
+										"font-size" : 14,
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 1,
@@ -712,22 +788,6 @@
 				"position-y" : "top",
 				"children" : [
 					{
-						"anchor-x" : "center",
-						"anchor-y" : "top",
-						"class" : "image",
-						"height" : 60,
-						"image" : "hp_bg_container_choice.png",
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "status_bg",
-						"percent-width" : 1,
-						"position-x" : "center",
-						"position-y" : "top",
-						"sizing" : "SpriteFill"
-					},
-					{
 						"9slicescalezone-height" : 0.33,
 						"9slicescalezone-width" : 0.33,
 						"9slicescalezone-x" : 0.33,
@@ -735,218 +795,88 @@
 						"anchor-x" : "right",
 						"anchor-y" : "top",
 						"class" : "view",
+						"editor-layerExpanded" : false,
 						"height" : 20,
 						"image" : "hp_ph_cell_lite.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 80,
-						"margin-top" : 15,
+						"margin-right" : 105,
+						"margin-top" : 10,
 						"name" : "progressView",
 						"position-x" : "right",
 						"position-y" : "top",
 						"width" : 150,
 						"children" : [
 							{
-								"9slicescalezone-height" : 0.5,
-								"9slicescalezone-width" : 0.5,
-								"9slicescalezone-x" : 0.33,
-								"9slicescalezone-y" : 0.33,
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
 								"class" : "image",
 								"flipX" : true,
-								"height" : 5,
-								"image" : "hp_bg_progress_med.png",
+								"height" : 16,
+								"image" : "hp_progress_bg_star.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "progressBg",
-								"percent-width" : 1,
-								"position-x" : "left",
-								"position-y" : "bottom"
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 160
 							},
 							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
 								"class" : "progress-linear",
-								"editor-hide" : true,
-								"height" : 4,
-								"image" : "hp_fill_HUD_progress.png",
+								"height" : 12,
+								"image" : "hp_progress_fill_star.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "progressGain",
-								"percent-width" : 1,
-								"position-x" : "left",
-								"position-y" : "bottom"
-							},
-							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
-								"class" : "progress-linear",
-								"editor-hide" : true,
-								"height" : 4,
-								"image" : "hp_fill_HUD_progress.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "progressLoss",
-								"percent-width" : 1,
-								"position-x" : "left",
-								"position-y" : "bottom"
-							},
-							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
-								"class" : "progress-linear",
-								"editor-hide" : true,
-								"height" : 4,
-								"image" : "hp_fill_progress_tier1.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "progressTier0",
-								"percent-width" : 1,
-								"position-x" : "left",
-								"position-y" : "bottom"
-							},
-							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
-								"class" : "progress-linear",
-								"editor-hide" : true,
-								"height" : 4,
-								"image" : "hp_fill_progress_tier2.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "progressTier1",
-								"percent-width" : 1,
-								"position-x" : "left",
-								"position-y" : "bottom"
-							},
-							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
-								"anchor-x" : "left",
-								"anchor-y" : "bottom",
-								"class" : "progress-linear",
-								"editor-hide" : true,
-								"height" : 4,
-								"image" : "hp_fill_progress_tier3.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "progressTier2",
-								"percent-width" : 1,
-								"position-x" : "left",
-								"position-y" : "bottom"
-							},
-							{
-								"anchor-x" : "center",
-								"anchor-y" : "bottom",
-								"class" : "image",
-								"height" : 4,
-								"image" : "hp_bg_progress_line.png",
-								"margin-bottom" : 0,
-								"margin-left" : 51,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "thresholdLine",
-								"position-x" : "left",
-								"position-y" : "bottom",
-								"width" : 2
-							},
-							{
-								"alignment" : "center",
-								"anchor-x" : "right",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									221,
-									188,
-									112
-								],
-								"dynamic-text" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 14,
-								"margin-bottom" : 2,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"max-width" : 70,
-								"name" : "labelProgressStatus",
-								"position-x" : "right",
+								"position-x" : "center",
 								"position-y" : "center",
-								"shadow-color" : [
-									16,
-									29,
-									37
-								],
-								"shadow-offset" : [
-									0.5,
-									-0.5
-								],
-								"stroke-color" : [
-									16,
-									29,
-									37
-								],
-								"stroke-thickness" : 0.5,
-								"text" : "65355\/99999"
+								"width" : 154
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "view",
+								"height" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 75,
+								"margin-top" : 0,
+								"name" : "diamondView",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 150
 							},
 							{
 								"alignment" : "left",
-								"anchor-x" : "left",
+								"anchor-x" : "center",
 								"anchor-y" : "center",
 								"class" : "label",
 								"color" : [
-									255,
-									255,
-									255
+									210,
+									235,
+									239
 								],
-								"font" : "Avenir-Book",
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
 								"font-size" : 13,
-								"local:text" : "HP_ENC_TURNS_DESC_PLURAL",
-								"margin-bottom" : 3,
-								"margin-left" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "labelTurnDesc",
-								"position-x" : "left",
+								"margin-top" : 19,
+								"max-width" : 100,
+								"name" : "labelProgress",
+								"position-x" : "center",
 								"position-y" : "center",
 								"shadow-color" : [
 									16,
 									29,
 									37
-								],
-								"shadow-offset" : [
-									0.5,
-									-0.5
 								],
 								"stroke-color" : [
 									16,
@@ -954,36 +884,33 @@
 									37
 								],
 								"stroke-thickness" : 0.5,
-								"text" : "turns left",
-								"width" : 68
+								"text" : "3 stars to pass"
 							},
 							{
-								"alignment" : "right",
-								"anchor-x" : "right",
+								"alignment" : "left",
+								"anchor-x" : "center",
 								"anchor-y" : "center",
 								"class" : "label",
 								"color" : [
 									255,
-									255,
-									255
+									91,
+									58
 								],
-								"font" : "Avenir-Book",
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
 								"font-size" : 13,
-								"margin-bottom" : 3,
-								"margin-left" : 11,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "labelTurnAmount",
-								"position-x" : "left",
+								"margin-top" : 19,
+								"max-width" : 100,
+								"name" : "labelProgressRed",
+								"position-x" : "center",
 								"position-y" : "center",
 								"shadow-color" : [
 									16,
 									29,
 									37
-								],
-								"shadow-offset" : [
-									0.5,
-									-0.5
 								],
 								"stroke-color" : [
 									16,
@@ -991,8 +918,7 @@
 									37
 								],
 								"stroke-thickness" : 0.5,
-								"text" : "4",
-								"width" : 40
+								"text" : "3 stars to pass"
 							}
 						]
 					},
@@ -1002,17 +928,17 @@
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							185,
-							160,
-							105
+							210,
+							235,
+							239
 						],
 						"dynamic-text" : true,
 						"font" : "Avenir-Book",
-						"font-size" : 13,
+						"font-size" : 14,
 						"margin-bottom" : 0,
-						"margin-left" : 80,
+						"margin-left" : 64,
 						"margin-right" : 0,
-						"margin-top" : 29,
+						"margin-top" : 24,
 						"name" : "labelStatus",
 						"position-x" : "left",
 						"position-y" : "top",
@@ -1021,10 +947,6 @@
 							29,
 							37
 						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
 						"stroke-color" : [
 							16,
 							29,
@@ -1032,43 +954,112 @@
 						],
 						"text" : "Penny feels a type of way about something",
 						"vertical-spacing" : 0.8,
-						"width" : 150
+						"width" : 160
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Heavy",
+						"font-size" : 18,
+						"local:text" : "HP_ENC_TURNS_DESC_PLURAL",
+						"margin-bottom" : 0,
+						"margin-left" : 260,
+						"margin-right" : 0,
+						"margin-top" : 35,
+						"max-width" : 100,
+						"name" : "labelTurnDesc",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "turns left"
+					},
+					{
+						"alignment" : "right",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-Heavy",
+						"font-size" : 18,
+						"margin-bottom" : 0,
+						"margin-left" : 259,
+						"margin-right" : 0,
+						"margin-top" : 35,
+						"max-width" : 20,
+						"name" : "labelTurnAmount",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-color" : [
+							16,
+							29,
+							37
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "4"
 					},
 					{
 						"anchor-x" : "left",
 						"anchor-y" : "top",
 						"class" : "view",
-						"height" : 61,
+						"editor-layerExpanded" : false,
+						"height" : 55,
 						"image" : "hp_container_leaderboard_selected.png",
 						"margin-bottom" : 0,
-						"margin-left" : 10,
+						"margin-left" : 6,
 						"margin-right" : 0,
-						"margin-top" : 10,
+						"margin-top" : 6,
 						"name" : "opponentView",
 						"position-x" : "left",
 						"position-y" : "top",
 						"should-clip" : true,
-						"width" : 61,
+						"width" : 55,
 						"children" : [
 							{
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "image",
-								"height" : 61,
-								"image" : "hp_container_social_portrait_left.png",
+								"height" : 55,
+								"image" : "hp_hud_bg_opponent_back.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"name" : "portraitBg",
+								"name" : "char_back",
 								"position-x" : "left",
 								"position-y" : "bottom",
-								"width" : 61
+								"width" : 55
 							},
 							{
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "view",
+								"editor-layerExpanded" : false,
 								"height" : 56,
 								"image" : "hp_container_leaderboard_selected.png",
 								"margin-bottom" : 1,
@@ -1097,6 +1088,21 @@
 										"width" : 54
 									}
 								]
+							},
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 55,
+								"image" : "hp_hud_bg_portriat_front.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "char_front",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 55
 							}
 						]
 					},
@@ -1104,48 +1110,49 @@
 						"anchor-x" : "right",
 						"anchor-y" : "top",
 						"class" : "view",
-						"height" : 61,
+						"editor-layerExpanded" : false,
+						"height" : 55,
 						"image" : "hp_container_leaderboard_selected.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 10,
-						"margin-top" : 10,
+						"margin-right" : 8,
+						"margin-top" : 6,
 						"name" : "playerView",
 						"position-x" : "right",
 						"position-y" : "top",
-						"should-clip" : true,
-						"width" : 61,
+						"width" : 84,
 						"children" : [
 							{
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "image",
-								"height" : 61,
-								"image" : "hp_container_social_portrait_right.png",
+								"height" : 55,
+								"image" : "hp_hud_bg_portrait_back.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"name" : "portraitBg",
+								"name" : "char_back",
 								"position-x" : "left",
 								"position-y" : "bottom",
-								"width" : 61
+								"width" : 55
 							},
 							{
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "view",
-								"height" : 56,
+								"editor-layerExpanded" : false,
+								"height" : 50,
 								"image" : "hp_container_leaderboard_selected.png",
-								"margin-bottom" : 1,
-								"margin-left" : 4,
+								"margin-bottom" : 2,
+								"margin-left" : 3,
 								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "modelClip",
 								"position-x" : "left",
 								"position-y" : "bottom",
 								"should-clip" : true,
-								"width" : 54,
+								"width" : 50,
 								"children" : [
 									{
 										"anchor-x" : "left",
@@ -1163,188 +1170,207 @@
 										"width" : 54
 									}
 								]
-							}
-						]
-					},
-					{
-						"actions" : [],
-						"anchor-x" : "center",
-						"anchor-y" : "top",
-						"class" : "button",
-						"editor-layerExpanded" : false,
-						"height" : 30,
-						"image" : "hp_icon_bg_nav.png",
-						"margin-bottom" : 0,
-						"margin-left" : 18,
-						"margin-right" : 0,
-						"margin-top" : 64,
-						"name" : "loseButton",
-						"position-x" : "center",
-						"position-y" : "top",
-						"width" : 30,
-						"children" : [
+							},
 							{
-								"alignment" : "center",
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"font" : "4privetdrive",
-								"font-size" : 16,
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 55,
+								"image" : "hp_hud_bg_portriat_front.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"name" : "loseLabel",
-								"position-x" : "center",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"text" : "L"
-							}
-						]
-					},
-					{
-						"actions" : [],
-						"anchor-x" : "center",
-						"anchor-y" : "top",
-						"class" : "button",
-						"editor-layerExpanded" : false,
-						"height" : 30,
-						"image" : "hp_icon_bg_nav.png",
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 16,
-						"margin-top" : 64,
-						"name" : "winButton",
-						"position-x" : "center",
-						"position-y" : "top",
-						"width" : 30,
-						"children" : [
+								"name" : "char_front",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 55
+							},
 							{
-								"alignment" : "center",
-								"anchor-x" : "center",
+								"anchor-x" : "right",
 								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"font" : "4privetdrive",
-								"font-size" : 16,
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 23,
+								"image" : "hp_hud_bg_attrib_blue.png",
 								"margin-bottom" : 0,
-								"margin-left" : 0,
+								"margin-left" : 7,
 								"margin-right" : 0,
-								"margin-top" : 1,
-								"name" : "winLabel",
-								"position-x" : "center",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"text" : "W"
+								"margin-top" : 28.5,
+								"name" : "attribEmpathy",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 35,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 2,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 20,
+										"name" : "labelAttrib",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											30,
+											38
+										],
+										"text" : "10"
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"class" : "image",
+										"height" : 21,
+										"image" : "hp_icon_attrib_empathy.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 22,
+										"margin-top" : 0,
+										"name" : "iconAttrib",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 21
+									}
+								]
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 23,
+								"image" : "hp_hud_bg_attrib_blue.png",
+								"margin-bottom" : 0,
+								"margin-left" : 7,
+								"margin-right" : 0,
+								"margin-top" : 46.5,
+								"name" : "attribKnowledge",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 35,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 2,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 20,
+										"name" : "labelAttrib",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											30,
+											38
+										],
+										"text" : "10"
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 21,
+										"image" : "hp_icon_attrib_knowledge.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 22,
+										"margin-top" : 1,
+										"name" : "iconAttrib",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 21
+									}
+								]
+							},
+							{
+								"anchor-x" : "right",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 23,
+								"image" : "hp_hud_bg_attrib_blue.png",
+								"margin-bottom" : 0,
+								"margin-left" : 7,
+								"margin-right" : 0,
+								"margin-top" : 10.5,
+								"name" : "attribCourage",
+								"position-x" : "right",
+								"position-y" : "top",
+								"width" : 35,
+								"children" : [
+									{
+										"alignment" : "center",
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"margin-bottom" : 0,
+										"margin-left" : 2,
+										"margin-right" : 0,
+										"margin-top" : 1,
+										"max-width" : 20,
+										"name" : "labelAttrib",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											30,
+											38
+										],
+										"text" : "10"
+									},
+									{
+										"anchor-x" : "right",
+										"anchor-y" : "top",
+										"class" : "image",
+										"height" : 21,
+										"image" : "hp_icon_attrib_courage.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 22,
+										"margin-top" : 0,
+										"name" : "iconAttrib",
+										"position-x" : "right",
+										"position-y" : "top",
+										"width" : 21
+									}
+								]
 							}
 						]
-					}
-				]
-			},
-			{
-				"anchor-x" : "right",
-				"anchor-y" : "top",
-				"class" : "view",
-				"height" : 22,
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 82,
-				"margin-top" : 33,
-				"name" : "totalView",
-				"position-x" : "right",
-				"position-y" : "top",
-				"width" : 80,
-				"children" : [
-					{
-						"alignment" : "left",
-						"anchor-x" : "right",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							51,
-							167,
-							112
-						],
-						"dynamic-text" : true,
-						"font" : "Avenir-Heavy",
-						"font-size" : 14,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"max-width" : 50,
-						"name" : "labelPositive",
-						"position-x" : "right",
-						"position-y" : "center",
-						"shadow-color" : [
-							16,
-							29,
-							37
-						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
-						"text" : "+10",
-						"vertical-spacing" : 0.8
-					},
-					{
-						"alignment" : "left",
-						"anchor-x" : "right",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							211,
-							69,
-							69
-						],
-						"dynamic-text" : true,
-						"font" : "Avenir-Heavy",
-						"font-size" : 14,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"max-width" : 50,
-						"name" : "labelNegative",
-						"position-x" : "right",
-						"position-y" : "center",
-						"shadow-color" : [
-							16,
-							29,
-							37
-						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
-						"text" : "-10",
-						"vertical-spacing" : 0.8
 					}
 				]
 			}

@@ -6,7 +6,7 @@
 		"name" : "rootView",
 		"position-x" : "left",
 		"position-y" : "bottom",
-		"width" : 44,
+		"width" : 60,
 		"children" : [
 			{
 				"anchor-x" : "left",
@@ -17,49 +17,11 @@
 				"margin-left" : 0,
 				"margin-right" : 0,
 				"margin-top" : 0,
-				"name" : "Group 1",
+				"name" : "iconView",
 				"position-x" : "left",
 				"position-y" : "bottom",
 				"width" : 44,
 				"children" : [
-					{
-						"alignment" : "center",
-						"anchor-x" : "left",
-						"anchor-y" : "bottom",
-						"class" : "image",
-						"color" : [
-							147,
-							131,
-							97
-						],
-						"font" : "4privetdrive",
-						"font-size" : 18,
-						"gradient-top-color" : [
-							233,
-							211,
-							162
-						],
-						"height" : 38,
-						"image" : "hp_container_rewards.png",
-						"margin-bottom" : 6,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "container_rewards",
-						"position-x" : "left",
-						"position-y" : "bottom",
-						"shadow-offset" : [
-							1,
-							1
-						],
-						"stroke-color" : [
-							0,
-							30,
-							97
-						],
-						"text" : "CHAPTER COMPLETE",
-						"width" : 38
-					},
 					{
 						"alignment" : "center",
 						"anchor-x" : "center",
@@ -71,14 +33,14 @@
 							97
 						],
 						"dynamic-img" : true,
-						"font" : "4privetdrive",
+						"font" : "Crimson-Semibold",
 						"font-size" : 18,
 						"gradient-top-color" : [
 							233,
 							211,
 							162
 						],
-						"height" : 22,
+						"height" : 30,
 						"image" : "hp_icon_currency_coin.png",
 						"margin-bottom" : 3,
 						"margin-left" : 0,
@@ -97,7 +59,7 @@
 							97
 						],
 						"text" : "CHAPTER COMPLETE",
-						"width" : 22
+						"width" : 30
 					},
 					{
 						"alignment" : "left",
@@ -105,17 +67,18 @@
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							178,
-							191,
-							194
+							210,
+							235,
+							239
 						],
 						"dynamic-text" : true,
-						"font" : "Avenir-Book",
-						"font-size" : 11,
+						"font" : "Avenir-Heavy",
+						"font-size" : 14,
 						"margin-bottom" : 0,
-						"margin-left" : 29,
+						"margin-left" : 28,
 						"margin-right" : 0,
-						"margin-top" : 13,
+						"margin-top" : 11,
+						"max-width" : 30,
 						"name" : "label_quantity",
 						"position-x" : "left",
 						"position-y" : "center",
@@ -133,7 +96,120 @@
 							30,
 							97
 						],
-						"text" : "99"
+						"stroke-thickness" : 1,
+						"text" : "999"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"dynamic-img" : true,
+				"height" : 50,
+				"image" : "invisible.png",
+				"margin-bottom" : 2,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "companionView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 48,
+				"children" : [
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 52,
+						"image" : "hp_container_unlocked_inactive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 1,
+						"margin-right" : 0,
+						"margin-top" : 2,
+						"name" : "companionBg",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 52
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "view",
+						"height" : 44,
+						"image" : "invisible.png",
+						"margin-bottom" : 5,
+						"margin-left" : 0,
+						"margin-right" : 2,
+						"margin-top" : 0,
+						"name" : "modelView",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"should-clip" : true,
+						"width" : 39,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "model",
+								"height" : 44,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "modelLoader",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"width" : 40
+							}
+						]
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 25,
+						"image" : "hp_icon_relationship_blank_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 1.5,
+						"name" : "iconRelationship",
+						"position-x" : "right",
+						"position-y" : "bottom",
+						"width" : 25,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									16,
+									29,
+									37
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 1,
+								"margin-top" : 1,
+								"max-width" : 20,
+								"name" : "labelReal",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"text" : "10"
+							}
+						]
 					}
 				]
 			}

@@ -1,0 +1,27 @@
+﻿1
+00:00:00,000 --> 00:00:02,319
+Profesora McGonagall: ¡Felicidades!
+
+2
+00:00:02,400 --> 00:00:04,800
+Tenemos el placer de informarle
+
+3
+00:00:04,800 --> 00:00:07,700
+de que dispone de una plaza
+
+4
+00:00:07,700 --> 00:00:11,050
+en el Colegio Hogwarts de Magia y Hechicería.
+
+5
+00:00:16,800 --> 00:00:21,800
+Le adjuntamos la lista del equipo y los libros necesarios.
+
+6
+00:00:22,250 --> 00:00:25,050
+Las clases comienzan pronto.
+
+7
+00:00:25,750 --> 00:00:28,850
+Quedamos a la espera de su lechuza.

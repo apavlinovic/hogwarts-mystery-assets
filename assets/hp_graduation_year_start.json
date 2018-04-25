@@ -1,0 +1,230 @@
+{
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.33,
+					"9slicescalezone-width" : 0.33,
+					"9slicescalezone-x" : 0.33,
+					"9slicescalezone-y" : 0.33,
+					"alignment" : "center",
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"color" : [
+						255,
+						255,
+						255
+					],
+					"font" : "Crimson-Semibold",
+					"font-size" : 24,
+					"image" : "hp_general_bg_black_50%.png",
+					"local:text" : "HP_TITLE",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"max-width" : 350,
+					"name" : "bgSkrim",
+					"percent-height" : 1.01,
+					"percent-width" : 1.01,
+					"position-x" : "center",
+					"position-y" : "center",
+					"shadow-offset" : [
+						0.5,
+						-0.5
+					],
+					"stroke-color" : [
+						0,
+						30,
+						97
+					],
+					"text" : "YEAR 1 HOUSE CUP RESULTS"
+				}
+			]
+		}
+	},
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "yearStartView",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center",
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"editor-layerExpanded" : false,
+						"font" : "Crimson-Semibold",
+						"font-size" : 50,
+						"height" : 70,
+						"image" : "hp_bg_gradient_linear.png",
+						"local:text" : "HP_TITLE",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 240,
+						"name" : "bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "1st Place",
+						"width" : 480,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 50,
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"local:text" : "HP_TITLE",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 240,
+								"name" : "dividerBottom",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "1st Place",
+								"width" : 480
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 50,
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"local:text" : "HP_TITLE",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 240,
+								"name" : "dividerTop",
+								"position-x" : "center",
+								"position-y" : "top",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "1st Place",
+								"width" : 480
+							}
+						]
+					},
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Crimson-Semibold",
+						"font-size" : 50,
+						"local:text" : "HP_TITLE",
+						"margin-bottom" : 6,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 420,
+						"name" : "labelYear",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Year 2"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

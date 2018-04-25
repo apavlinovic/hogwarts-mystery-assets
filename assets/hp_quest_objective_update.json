@@ -1,40 +1,19 @@
 {
-	"background" : {
-		"view" : {
-			"anchor-x" : "left",
-			"anchor-y" : "bottom",
-			"class" : "view",
-			"inherit-position" : true,
-			"margin-bottom" : 0,
-			"margin-left" : 0,
-			"margin-right" : 0,
-			"margin-top" : 0,
-			"name" : "rootView",
-			"percent-height" : 1,
-			"percent-width" : 1,
-			"position-x" : "left",
-			"position-y" : "bottom"
-		}
-	},
 	"view" : {
 		"class" : "view",
+		"height" : 60,
 		"inherit-position" : true,
 		"name" : "fg_quest",
-		"percent-height" : 1,
-		"percent-width" : 1,
 		"position-x" : "left",
 		"position-y" : "bottom",
+		"width" : 306,
 		"children" : [
 			{
-				"9slicescalezone-height" : 0.333,
-				"9slicescalezone-width" : 0.333,
-				"9slicescalezone-x" : 0.333,
-				"9slicescalezone-y" : 0.333,
 				"anchor-x" : "center",
 				"anchor-y" : "top",
 				"class" : "image",
-				"height" : 108,
-				"image" : "hp_bg_popup_modal_hud.png",
+				"height" : 60,
+				"image" : "hp_bg_notif_lrg.png",
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
@@ -43,13 +22,13 @@
 				"position-x" : "center",
 				"position-y" : "top",
 				"sizing" : "SpriteFill",
-				"width" : 226
+				"width" : 306
 			},
 			{
 				"anchor-x" : "center",
 				"anchor-y" : "top",
 				"class" : "view",
-				"height" : 118,
+				"height" : 60,
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
@@ -57,63 +36,30 @@
 				"name" : "view",
 				"position-x" : "center",
 				"position-y" : "top",
-				"width" : 206,
+				"width" : 306,
 				"children" : [
 					{
 						"actions" : [],
 						"anchor-x" : "left",
 						"anchor-y" : "top",
 						"class" : "view",
-						"height" : 40,
+						"height" : 26,
 						"image" : "invisible.png",
 						"margin-bottom" : 0,
-						"margin-left" : 16,
+						"margin-left" : 262,
 						"margin-right" : 0,
-						"margin-top" : 50,
+						"margin-top" : 17,
 						"name" : "counter",
 						"position-x" : "left",
 						"position-y" : "top",
 						"width" : 26,
 						"children" : [
 							{
-								"alignment" : "center",
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"font" : "Avenir-BookOblique",
-								"font-size" : 11,
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 2,
-								"margin-top" : 13,
-								"max-width" : 26,
-								"name" : "counterLabel",
-								"position-x" : "center",
-								"position-y" : "center",
-								"shadow-color" : [
-									16,
-									29,
-									37
-								],
-								"shadow-offset" : [
-									0.5,
-									-0.5
-								],
-								"text" : "{gray}3{\/}{white}\/5{\/}",
-								"vertical-spacing" : 0.8
-							},
-							{
 								"anchor-x" : "left",
 								"anchor-y" : "top",
 								"class" : "image",
 								"height" : 26,
-								"image" : "hp_container_check.png",
+								"image" : "hp_container_blue.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
@@ -125,11 +71,11 @@
 							},
 							{
 								"anchor-x" : "center",
-								"anchor-y" : "center",
+								"anchor-y" : "bottom",
 								"class" : "image",
 								"height" : 128,
 								"image" : "burst.png",
-								"margin-bottom" : 27,
+								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 13,
 								"margin-top" : 0,
@@ -145,11 +91,11 @@
 								"9slicescalezone-x" : 0.33,
 								"9slicescalezone-y" : 0.33,
 								"anchor-x" : "center",
-								"anchor-y" : "center",
+								"anchor-y" : "bottom",
 								"class" : "image",
 								"height" : 16,
 								"image" : "hp_icon_check_sm.png",
-								"margin-bottom" : 27,
+								"margin-bottom" : 5,
 								"margin-left" : 0,
 								"margin-right" : 13,
 								"margin-top" : 0,
@@ -166,17 +112,17 @@
 						"anchor-y" : "top",
 						"class" : "label",
 						"color" : [
-							178,
-							190,
-							193
+							210,
+							235,
+							239
 						],
 						"dynamic-text" : true,
 						"font" : "Avenir-Book",
-						"font-size" : 12,
+						"font-size" : 14,
 						"margin-bottom" : 0,
-						"margin-left" : 48,
+						"margin-left" : 39,
 						"margin-right" : 0,
-						"margin-top" : 50,
+						"margin-top" : 17,
 						"name" : "questTitle",
 						"position-x" : "left",
 						"position-y" : "top",
@@ -191,11 +137,11 @@
 						],
 						"text" : "Talk with {bold}Ravi in the Great Hall{\/} {italic}4 times{\/}",
 						"vertical-spacing" : 0.78,
-						"width" : 150
+						"width" : 210
 					}
 				]
 			}
 		]
 	},
-	"version" : "1.8.5"
+	"version" : "1.8.8.2"
 }

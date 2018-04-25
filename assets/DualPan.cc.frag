@@ -6,8 +6,8 @@ varying vec2 v_texCoord;
 varying vec2 v_texCoord1;
 
 uniform float alpha;
-uniform sampler2D tex1;
-uniform sampler2D tex2;
+uniform sampler2D u_tex1;
+uniform sampler2D u_tex2;
 
 #ifdef USE_FOG
     varying float v_eyeDepth;
@@ -18,8 +18,8 @@ uniform sampler2D tex2;
 #endif
 
 void main(void){
-  vec4 tex1Color = texture2D(tex1, v_texCoord);
-  vec4 tex2Color = texture2D(tex2, v_texCoord1) * v_color.r;
+  vec4 tex1Color = texture2D(u_tex1, v_texCoord);
+  vec4 tex2Color = texture2D(u_tex2, v_texCoord1) * v_color.r;
   vec4 color = tex1Color + tex2Color;
   color.a = tex1Color.a * v_color.a * alpha;
   gl_FragColor = vec4(vec3(color.rgb * color.a), color.a);

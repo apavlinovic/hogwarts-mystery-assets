@@ -59,7 +59,7 @@
 	<key>positionType</key>
 	<integer>0</integer>
 	<key>radialAccelVariance</key>
-	<real>20</real>
+	<real>10</real>
 	<key>radialAcceleration</key>
 	<real>0.0</real>
 	<key>rotatePerSecond</key>
@@ -75,21 +75,21 @@
 	<key>rotationStartVariance</key>
 	<real>360</real>
 	<key>sourcePositionVariancex</key>
-	<real>10</real>
+	<real>5</real>
 	<key>sourcePositionVariancey</key>
-	<real>10</real>
+	<real>5</real>
 	<key>speed</key>
 	<real>0.0</real>
 	<key>speedVariance</key>
-	<real>50</real>
+	<real>10</real>
 	<key>startColorAlpha</key>
 	<real>0.5</real>
 	<key>startColorBlue</key>
-	<real>1</real>
+	<real>0.96118992567062378</real>
 	<key>startColorGreen</key>
-	<real>0.75105458498001099</real>
+	<real>0.27494722604751587</real>
 	<key>startColorRed</key>
-	<real>0.46954178810119629</real>
+	<real>1</real>
 	<key>startColorVarianceAlpha</key>
 	<real>1</real>
 	<key>startColorVarianceBlue</key>
@@ -103,7 +103,7 @@
 	<key>startParticleSizeVariance</key>
 	<real>10</real>
 	<key>tangentialAccelVariance</key>
-	<real>40</real>
+	<real>30</real>
 	<key>tangentialAcceleration</key>
 	<real>0.0</real>
 	<key>textureFileName</key>

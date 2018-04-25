@@ -1,4 +1,135 @@
 {
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.122474,
+					"9slicescalezone-width" : 0.333,
+					"9slicescalezone-x" : 0.333,
+					"9slicescalezone-y" : 0.375105,
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "invisible.png",
+					"margin-bottom" : 0,
+					"margin-left" : 161,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "path_v",
+					"percent-height" : 0.5,
+					"position-x" : "center",
+					"position-y" : "center",
+					"width" : 37
+				},
+				{
+					"9slicescalezone-height" : 0.333,
+					"9slicescalezone-width" : 0.143526,
+					"9slicescalezone-x" : 0.333,
+					"9slicescalezone-y" : 0.333,
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"height" : 39,
+					"image" : "invisible.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 110,
+					"name" : "path_h",
+					"percent-width" : 0.5,
+					"position-x" : "center",
+					"position-y" : "center"
+				},
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"dynamic-img" : true,
+					"image" : "invisible.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "image_path",
+					"position-x" : "center",
+					"position-y" : "center",
+					"sizing" : "SpriteNewSize"
+				},
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"height" : 66,
+					"image" : "hp_nux_container_bg.png",
+					"margin-bottom" : 262.5,
+					"margin-left" : 262.5,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "start_flare",
+					"position-x" : "left",
+					"position-y" : "bottom",
+					"sizing" : "SpriteAspectFit",
+					"width" : 66
+				},
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "model",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "fingerNode",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center"
+				},
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "model",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "successTrailNode",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center"
+				},
+				{
+					"9slicescalezone-height" : 0.333,
+					"9slicescalezone-width" : 0.333,
+					"9slicescalezone-x" : 0.333,
+					"9slicescalezone-y" : 0.333,
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "hp_bg_fail_vinette.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "fail_vignette",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center"
+				}
+			]
+		}
+	},
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
@@ -9,67 +140,14 @@
 		"position-y" : "bottom",
 		"children" : [
 			{
-				"9slicescalezone-height" : 0.122474,
-				"9slicescalezone-width" : 0.333,
-				"9slicescalezone-x" : 0.333,
-				"9slicescalezone-y" : 0.375105,
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "image",
-				"image" : "invisible.png",
-				"margin-bottom" : 0,
-				"margin-left" : 161,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "path_v",
-				"percent-height" : 0.5,
-				"position-x" : "center",
-				"position-y" : "center",
-				"width" : 37
-			},
-			{
-				"9slicescalezone-height" : 0.333,
-				"9slicescalezone-width" : 0.143526,
-				"9slicescalezone-x" : 0.333,
-				"9slicescalezone-y" : 0.333,
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "image",
-				"height" : 39,
-				"image" : "invisible.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 110,
-				"name" : "path_h",
-				"percent-width" : 0.5,
-				"position-x" : "center",
-				"position-y" : "center"
-			},
-			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "image",
-				"dynamic-img" : true,
-				"image" : "invisible.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "image_path",
-				"position-x" : "center",
-				"position-y" : "center",
-				"sizing" : "SpriteNewSize"
-			},
-			{
 				"alignment" : "center",
 				"anchor-x" : "center",
 				"anchor-y" : "center",
 				"class" : "label",
 				"color" : [
-					211,
-					69,
-					69
+					255,
+					91,
+					58
 				],
 				"font" : "Avenir-Book",
 				"font-size" : 13,
@@ -99,50 +177,6 @@
 				"text" : "Trace the figure"
 			},
 			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "image",
-				"height" : 66,
-				"image" : "hp_nux_container_bg.png",
-				"margin-bottom" : 262.5,
-				"margin-left" : 262.5,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "start_flare",
-				"position-x" : "left",
-				"position-y" : "bottom",
-				"sizing" : "SpriteAspectFit",
-				"width" : 66
-			},
-			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "model",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "fingerNode",
-				"percent-height" : 1,
-				"percent-width" : 1,
-				"position-x" : "center",
-				"position-y" : "center"
-			},
-			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "model",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "successTrailNode",
-				"percent-height" : 1,
-				"percent-width" : 1,
-				"position-x" : "center",
-				"position-y" : "center"
-			},
-			{
 				"9slicescalezone-height" : 0.333,
 				"9slicescalezone-width" : 0.333,
 				"9slicescalezone-x" : 0.333,
@@ -163,24 +197,24 @@
 				"width" : 105,
 				"children" : [
 					{
-						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-height" : 0.58,
 						"9slicescalezone-width" : 0.333,
 						"9slicescalezone-x" : 0.333,
-						"9slicescalezone-y" : 0.333,
+						"9slicescalezone-y" : 0.18,
 						"actions" : [],
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
-						"height" : 31,
-						"image" : "hp_button_secondary_idle.png",
+						"height" : 24,
+						"image" : "hp_btn_tab_active.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0.5,
 						"margin-top" : 0,
 						"name" : "btn_bg",
-						"percent-width" : 1.082474,
 						"position-x" : "center",
-						"position-y" : "center"
+						"position-y" : "center",
+						"width" : 104
 					},
 					{
 						"alignment" : "center",
@@ -188,17 +222,17 @@
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							0,
-							135,
-							135
+							210,
+							235,
+							239
 						],
-						"font" : "4privetdrive",
-						"font-size" : 11,
+						"font" : "Crimson-Semibold",
+						"font-size" : 15,
 						"local:text" : "HP_SKIP",
-						"margin-bottom" : 0,
+						"margin-bottom" : 2,
 						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 1,
+						"margin-top" : 0,
 						"max-width" : 80,
 						"name" : "skipLabel",
 						"position-x" : "center",
@@ -208,33 +242,10 @@
 							29,
 							37
 						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
 						"stroke-thickness" : 0.2,
 						"text" : "SKIP"
 					}
 				]
-			},
-			{
-				"9slicescalezone-height" : 0.333,
-				"9slicescalezone-width" : 0.333,
-				"9slicescalezone-x" : 0.333,
-				"9slicescalezone-y" : 0.333,
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "image",
-				"image" : "hp_bg_fail_vinette.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "fail_vignette",
-				"percent-height" : 1,
-				"percent-width" : 1,
-				"position-x" : "center",
-				"position-y" : "center"
 			},
 			{
 				"alignment" : "center",
@@ -247,7 +258,7 @@
 					255
 				],
 				"dynamic-text" : true,
-				"font" : "4privetdrive",
+				"font" : "Crimson-Semibold",
 				"font-size" : 20,
 				"margin-bottom" : 133,
 				"margin-left" : 0,
@@ -267,5 +278,5 @@
 			}
 		]
 	},
-	"version" : "1.8.8.2"
+	"version" : "1.8.8.3"
 }

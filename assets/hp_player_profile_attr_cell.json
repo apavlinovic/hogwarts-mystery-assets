@@ -3,88 +3,87 @@
 		"anchor-x" : "left",
 		"anchor-y" : "bottom",
 		"class" : "view",
-		"height" : 80,
+		"height" : 57,
 		"inherit-position" : true,
 		"name" : "rootView",
 		"position-x" : "left",
 		"position-y" : "bottom",
-		"width" : 160,
+		"width" : 172,
 		"children" : [
 			{
 				"actions" : [],
-				"anchor-x" : "center",
-				"anchor-y" : "center",
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
 				"class" : "button",
+				"height" : 57,
 				"image" : "invisible.png",
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
 				"margin-top" : 0,
 				"name" : "btnAttribute",
-				"percent-height" : 1,
-				"percent-width" : 1,
-				"position-x" : "center",
-				"position-y" : "center",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 172,
 				"children" : [
 					{
-						"anchor-x" : "center",
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "left",
 						"anchor-y" : "center",
 						"class" : "image",
-						"height" : 52,
-						"image" : "hp_bg_progress_attribute_bar.png",
-						"margin-bottom" : 10,
-						"margin-left" : 0,
-						"margin-right" : 54,
-						"margin-top" : 0,
+						"height" : 18,
+						"image" : "hp_progress_bg_rect_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 49,
+						"margin-right" : 0,
+						"margin-top" : 11,
 						"name" : "attributeProgressBg",
-						"position-x" : "center",
+						"position-x" : "left",
 						"position-y" : "center",
-						"width" : 52
+						"width" : 122
 					},
 					{
-						"anchor-x" : "center",
+						"anchor-x" : "left",
 						"anchor-y" : "center",
-						"class" : "progress-radial",
-						"height" : 52,
-						"image" : "hp_bg_progress_attribute_bar_fill.png",
-						"margin-bottom" : 10,
-						"margin-left" : 0,
-						"margin-right" : 54,
-						"margin-top" : 0,
+						"class" : "progress-linear",
+						"height" : 8,
+						"image" : "hp_progress_fill_knowledge.png",
+						"margin-bottom" : 0,
+						"margin-left" : 54,
+						"margin-right" : 0,
+						"margin-top" : 11,
 						"name" : "attributeProgressBar",
-						"position-x" : "center",
+						"position-x" : "left",
 						"position-y" : "center",
-						"width" : 52
+						"width" : 112
 					},
 					{
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
-						"dynamic-img" : true,
-						"height" : 54,
-						"image" : "hp_icon_attribute_courage_med.png",
-						"margin-bottom" : 9,
+						"height" : 48,
+						"image" : "hp_icon_attribute_knowledge_med.png",
+						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 54,
-						"margin-top" : 0,
+						"margin-right" : 60,
+						"margin-top" : 3,
 						"name" : "loaderAttribute",
 						"position-x" : "center",
 						"position-y" : "center",
-						"width" : 54,
+						"sizing" : "SpriteAspectFit",
+						"width" : 48,
 						"children" : [
 							{
 								"alignment" : "center",
 								"anchor-x" : "center",
 								"anchor-y" : "center",
 								"class" : "label",
-								"color" : [
-									16,
-									29,
-									37
-								],
 								"dynamic-text" : true,
 								"font" : "Avenir-Heavy",
-								"font-size" : 14,
+								"font-size" : 16,
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
@@ -98,13 +97,12 @@
 									29,
 									37
 								],
-								"text" : "3"
+								"text" : "17"
 							}
 						]
 					},
 					{
 						"alignment" : "left",
-						"all-caps" : true,
 						"anchor-x" : "left",
 						"anchor-y" : "center",
 						"class" : "label",
@@ -114,22 +112,22 @@
 							255
 						],
 						"dynamic-text" : true,
-						"font" : "4privetdrive",
-						"font-size" : 9,
-						"margin-bottom" : 11,
-						"margin-left" : 58,
+						"font" : "Avenir-Heavy",
+						"font-size" : 12,
+						"margin-bottom" : 4,
+						"margin-left" : 51,
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"max-width" : 100,
 						"name" : "labelAttribute",
 						"position-x" : "left",
 						"position-y" : "center",
-						"shader-id" : "uiTitle",
 						"shadow-offset" : [
 							0.5,
 							-0.5
 						],
-						"text" : "ATHLETICISM"
+						"stroke-thickness" : 0.5,
+						"text" : "Knowledge"
 					},
 					{
 						"alignment" : "center",
@@ -137,18 +135,18 @@
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							51,
-							167,
-							112
+							0,
+							230,
+							54
 						],
 						"dynamic-text" : true,
-						"font" : "Avenir-Book",
-						"font-size" : 13,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 17,
-						"margin-top" : 26,
-						"max-width" : 20,
+						"font" : "Avenir-Heavy",
+						"font-size" : 12,
+						"margin-bottom" : 18,
+						"margin-left" : 46,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 40,
 						"name" : "labelAttributeXpAdd",
 						"position-x" : "center",
 						"position-y" : "center",
@@ -161,28 +159,33 @@
 							0.5,
 							-0.5
 						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
 						"text" : "+3"
 					},
 					{
-						"alignment" : "center",
-						"anchor-x" : "center",
+						"alignment" : "right",
+						"anchor-x" : "right",
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							178,
-							190,
-							193
+							255,
+							255,
+							255
 						],
 						"dynamic-text" : true,
-						"font" : "Avenir-Book",
-						"font-size" : 13,
-						"margin-bottom" : 0,
+						"font" : "Avenir-Heavy",
+						"margin-bottom" : 3,
 						"margin-left" : 0,
-						"margin-right" : 54,
-						"margin-top" : 27,
+						"margin-right" : 4,
+						"margin-top" : 0,
 						"max-width" : 50,
 						"name" : "labelAttributeXp",
-						"position-x" : "center",
+						"position-x" : "right",
 						"position-y" : "center",
 						"shadow-color" : [
 							16,
@@ -193,11 +196,54 @@
 							0.5,
 							-0.5
 						],
-						"text" : "999\/999"
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "999 \/ 999"
+					},
+					{
+						"alignment" : "right",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							172,
+							180,
+							195
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"margin-bottom" : 3,
+						"margin-left" : 0,
+						"margin-right" : 4,
+						"margin-top" : 0,
+						"max-width" : 50,
+						"name" : "labelAttributeXpTotal",
+						"position-x" : "right",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							16,
+							29,
+							36
+						],
+						"stroke-thickness" : 0.5,
+						"text" : "\/ 999"
 					}
 				]
 			}
 		]
 	},
-	"version" : "1.8.8.2"
+	"version" : "1.8.8.3"
 }

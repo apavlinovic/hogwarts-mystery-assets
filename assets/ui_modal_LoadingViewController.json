@@ -1,4 +1,36 @@
 {
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"force-sync" : true,
+					"image" : "hp_loadingscreen_ex.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "loading_bg",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center",
+					"sizing" : "SpriteAspectFill"
+				}
+			]
+		}
+	},
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
@@ -8,23 +40,6 @@
 		"position-x" : "left",
 		"position-y" : "bottom",
 		"children" : [
-			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "image",
-				"force-sync" : true,
-				"image" : "hp_loadingscreen_ex.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "loading_bg",
-				"percent-height" : 1,
-				"percent-width" : 1,
-				"position-x" : "center",
-				"position-y" : "center",
-				"sizing" : "SpriteAspectFill"
-			},
 			{
 				"anchor-x" : "left",
 				"anchor-y" : "bottom",
@@ -66,10 +81,10 @@
 				"class" : "image",
 				"height" : 183,
 				"image" : "hp_logo.png",
-				"margin-bottom" : 0,
-				"margin-left" : 6,
+				"margin-bottom" : 8,
+				"margin-left" : 0,
 				"margin-right" : 0,
-				"margin-top" : 2,
+				"margin-top" : 0,
 				"name" : "hp_logo",
 				"position-x" : "center",
 				"position-y" : "bottom",
@@ -83,8 +98,8 @@
 				"class" : "progress-linear",
 				"height" : 4,
 				"image" : "hp_loadingbar_fill.png",
-				"margin-bottom" : 6,
-				"margin-left" : 8,
+				"margin-bottom" : 18,
+				"margin-left" : 0,
 				"margin-right" : 0,
 				"margin-top" : 0,
 				"name" : "progressBar",
@@ -181,6 +196,42 @@
 						"width" : 320
 					}
 				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "bottom",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "AMEMUCHIGOTHIC-03-Regular",
+				"font-size" : 8,
+				"local:text" : "DOWNLOAD_WARNING_LABEL",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "warning_label",
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					-0.5,
+					-0.5
+				],
+				"stroke-color" : [
+					255,
+					255,
+					255
+				],
+				"text" : "This game downloads data while playing. We recommend playing on Wifi."
 			}
 		]
 	},

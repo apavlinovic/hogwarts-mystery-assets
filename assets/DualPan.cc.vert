@@ -13,12 +13,12 @@ varying vec2 v_texCoord1;
 
 uniform vec4 u_matrixPalette[60*3];
 uniform mat4 worldViewMat;
-uniform float tex1OffsetX;
-uniform float tex1OffsetY;
-uniform float tex2OffsetX;
-uniform float tex2OffsetY;
-uniform float tex1Speed;
-uniform float tex2Speed;
+uniform float u_tex1OffsetX;
+uniform float u_tex1OffsetY;
+uniform float u_tex2OffsetX;
+uniform float u_tex2OffsetY;
+uniform float u_tex1Speed;
+uniform float u_tex2Speed;
 uniform int u_animated;
 
 #ifdef USE_FOG
@@ -92,8 +92,8 @@ vec2 animateUV(vec2 texCoord, vec2 offset, float speed){
 void main(void){
   vec4 pos = getSkinnedPos();
   gl_Position = CC_MVPMatrix * pos;
-  v_texCoord  = animateUV(a_texCoord, vec2(tex1OffsetX, tex1OffsetY), tex1Speed);
-  v_texCoord1 = animateUV(a_texCoord, vec2(tex2OffsetX, tex2OffsetY), tex2Speed);
+  v_texCoord  = animateUV(a_texCoord, vec2(u_tex1OffsetX, u_tex1OffsetY), u_tex1Speed);
+  v_texCoord1 = animateUV(a_texCoord, vec2(u_tex2OffsetX, u_tex2OffsetY), u_tex2Speed);
   v_color = a_color;
     
 #ifdef USE_FOG

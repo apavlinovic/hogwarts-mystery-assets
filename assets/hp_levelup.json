@@ -1,4 +1,38 @@
 {
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.33,
+					"9slicescalezone-width" : 0.33,
+					"9slicescalezone-x" : 0.33,
+					"9slicescalezone-y" : 0.33,
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+					"image" : "hp_general_bg_black_50%.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "skrimBg",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center"
+				}
+			]
+		}
+	},
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
@@ -9,59 +43,146 @@
 		"position-y" : "bottom",
 		"children" : [
 			{
-				"alignment" : "center",
 				"anchor-x" : "center",
 				"anchor-y" : "center",
 				"class" : "view",
-				"color" : [
-					255,
-					255,
-					255
-				],
-				"font" : "4privetdrive",
-				"font-size" : 26,
-				"local:text" : "HP_MASTERY_LEVELUP_TITLE",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "Part2",
+				"name" : "modalView",
 				"percent-height" : 1,
 				"percent-width" : 1,
 				"position-x" : "center",
 				"position-y" : "center",
-				"shadow-offset" : [
-					1,
-					1
-				],
-				"stroke-color" : [
-					0,
-					30,
-					97
-				],
-				"text" : "LEVEL UP!",
 				"children" : [
 					{
-						"9slicescalezone-height" : 0,
-						"9slicescalezone-width" : 0,
-						"9slicescalezone-x" : 0,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-layerExpanded" : false,
+						"height" : 258,
+						"image" : "hp_modal_bg_lrg.png",
+						"margin-bottom" : 20,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "modal_bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 432,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"editor-layerExpanded" : false,
+								"height" : 30,
+								"image" : "hp_bg_modal_header_sm.png",
+								"inset-margin-x" : 30,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 11,
+								"name" : "header_sm",
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "top",
+								"children" : [
+									{
+										"anchor-x" : "center",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 1,
+										"image" : "hp_bg_modal_divider_2.png",
+										"inset-margin-x" : 20,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "divider",
+										"percent-width" : 1,
+										"position-x" : "center",
+										"position-y" : "bottom"
+									}
+								]
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 1,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
 						"9slicescalezone-y" : 0,
 						"actions" : [],
 						"anchor-x" : "center",
 						"anchor-y" : "center",
-						"class" : "hp_button_particles",
-						"disappear" : true,
-						"glow" : "hp_button_celebration_active_med_glow.png",
-						"height" : 70,
-						"image" : "hp_button_celebration_active_med.png",
+						"breathe" : false,
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"glow" : "\/Users\/sallysu\/potter\/Resource\/UI\/hp_button_secondary_active_med_glow.png",
+						"height" : 46,
+						"image" : "hp_btn_cta_med.png",
 						"margin-bottom" : 0,
-						"margin-left" : 101,
+						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 115,
+						"margin-top" : 67,
 						"name" : "buttonCollect",
+						"particles" : false,
 						"position-x" : "center",
 						"position-y" : "center",
-						"width" : 156,
+						"width" : 140,
+						"children" : [
+							{
+								"alignment" : "center",
+								"all-caps" : true,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 18,
+								"local:text" : "LABEL_BRILLIANT",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "label",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "BRILLIANT!"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"editor-layerExpanded" : false,
+						"height" : 80,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 9,
+						"name" : "unlockedView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 378,
 						"children" : [
 							{
 								"alignment" : "center",
@@ -69,19 +190,21 @@
 								"anchor-y" : "top",
 								"class" : "label",
 								"color" : [
-									221,
-									188,
-									113
+									210,
+									235,
+									239
 								],
-								"font" : "4privetdrive",
-								"font-size" : 12,
-								"local:text" : "LABEL_COLLECT",
+								"dynamic-img" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 13,
+								"image" : "hp_ph_icon_potion.png",
+								"local:text" : "HP_MASTERY_LEVELUP_ITEMS_UNLOCKED",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 31,
-								"max-width" : 93,
-								"name" : "label",
+								"margin-top" : 1,
+								"max-width" : 100,
+								"name" : "labelUnlocked",
 								"position-x" : "center",
 								"position-y" : "top",
 								"shadow-color" : [
@@ -93,142 +216,58 @@
 									0.5,
 									-0.5
 								],
-								"text" : "COLLECT"
-							}
-						]
-					},
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "image",
-						"height" : 52,
-						"image" : "hp_container_rewards.png",
-						"margin-bottom" : 0,
-						"margin-left" : 45,
-						"margin-right" : 0,
-						"margin-top" : 4,
-						"name" : "rewardEnd",
-						"position-x" : "center",
-						"position-y" : "center",
-						"scale" : 0.75,
-						"width" : 52
-					},
-					{
-						"alignment" : "left",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "view",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"dynamic-text" : true,
-						"font" : "Avenir-Book",
-						"font-size" : 20,
-						"height" : 25,
-						"margin-bottom" : 0,
-						"margin-left" : 90.5,
-						"margin-right" : 0,
-						"margin-top" : 15,
-						"name" : "labelRewardEnd",
-						"position-x" : "center",
-						"position-y" : "center",
-						"scale" : 0.75,
-						"shader-id" : "uiTitle",
-						"shadow-color" : [
-							0,
-							0,
-							0
-						],
-						"shadow-offset" : [
-							1,
-							-1
-						],
-						"stroke-color" : [
-							0,
-							30,
-							97
-						],
-						"text" : "9,999",
-						"width" : 60
-					},
-					{
-						"alignment" : "left",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "view",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"dynamic-text" : true,
-						"font" : "Avenir-Book",
-						"font-size" : 20,
-						"height" : 30,
-						"margin-bottom" : 0,
-						"margin-left" : 132,
-						"margin-right" : 0,
-						"margin-top" : 20,
-						"name" : "labelRewardStart",
-						"position-x" : "center",
-						"position-y" : "center",
-						"scale" : 1.5,
-						"shader-id" : "uiTitle",
-						"shadow-color" : [
-							0,
-							0,
-							0
-						],
-						"shadow-offset" : [
-							1,
-							-1
-						],
-						"stroke-color" : [
-							0,
-							30,
-							97
-						],
-						"text" : "9,999",
-						"width" : 60,
-						"children" : [
+								"sizing" : "SpriteAspectFill",
+								"text" : "Items Unlocked",
+								"vertical-spacing" : 0.9
+							},
 							{
-								"alignment" : "left",
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"cell-json" : "hp_levelup_unlocked_cell.json",
+								"class" : "table-view",
+								"height" : 50,
+								"horizontal" : true,
 								"margin-bottom" : 0,
 								"margin-left" : 0,
 								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "label",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shader-id" : "uiTitle",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "9,999",
+								"margin-top" : 22,
+								"name" : "tableUnlocked",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 378,
+								"children" : []
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"flipX" : true,
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_white.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 90,
+								"margin-top" : 10,
+								"name" : "dividerLeft",
+								"position-x" : "center",
+								"position-y" : "top",
+								"sizing" : "SpriteFill",
+								"width" : 60
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_white.png",
+								"margin-bottom" : 0,
+								"margin-left" : 90,
+								"margin-right" : 0,
+								"margin-top" : 10,
+								"name" : "dividerRight",
+								"position-x" : "center",
+								"position-y" : "top",
+								"sizing" : "SpriteFill",
 								"width" : 60
 							}
 						]
@@ -237,540 +276,108 @@
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "view",
-						"editor-hide" : true,
-						"height" : 52,
-						"image" : "hp_container_rewards.png",
-						"margin-bottom" : 0,
-						"margin-left" : 60,
-						"margin-right" : 0,
-						"margin-top" : 19,
-						"name" : "rewardStart",
-						"position-x" : "center",
-						"position-y" : "center",
-						"scale" : 1.5,
-						"width" : 52,
-						"children" : [
-							{
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "image",
-								"dynamic-img" : true,
-								"height" : 36,
-								"image" : "hp_icons_energy_orb.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "iconLoader",
-								"position-x" : "center",
-								"position-y" : "center",
-								"width" : 36
-							}
-						]
-					},
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "view",
-						"height" : 52,
-						"image" : "hp_container_rewards.png",
-						"margin-bottom" : 1,
-						"margin-left" : 100,
+						"editor-layerExpanded" : false,
+						"height" : 63,
+						"margin-bottom" : 70,
+						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
-						"name" : "rewardEnergyStart",
+						"name" : "rewardView",
 						"position-x" : "center",
 						"position-y" : "center",
-						"scale" : 1.5,
-						"width" : 200,
+						"width" : 240,
 						"children" : [
 							{
-								"alignment" : "left",
-								"anchor-x" : "left",
+								"alignment" : "center",
+								"anchor-x" : "center",
 								"anchor-y" : "center",
-								"class" : "image",
+								"class" : "label",
 								"color" : [
-									255,
-									255,
-									255
+									210,
+									235,
+									239
 								],
 								"dynamic-img" : true,
-								"dynamic-text" : true,
-								"editor-hide" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 46,
-								"image" : "hp_levelup_starburst.png",
-								"margin-bottom" : 0,
-								"margin-left" : 34,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "energyFx",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "3",
-								"width" : 180
-							},
-							{
-								"alignment" : "left",
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 26,
-								"image" : "hp_fill_101e26.png",
-								"margin-bottom" : 0,
-								"margin-left" : 34,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "energyBgStart",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "3",
-								"width" : 120
-							},
-							{
-								"alignment" : "left",
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"editor-hide" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 26,
-								"image" : "hp_fill_101e26.png",
-								"margin-bottom" : 0,
-								"margin-left" : 34,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "energyBgEnd",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "3",
-								"width" : 160
-							},
-							{
-								"alignment" : "left",
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 26,
-								"image" : "hp_fill_b2bfc2.png",
-								"margin-bottom" : 0,
-								"margin-left" : 34,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "energyFillStart",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "3",
-								"width" : 120
-							},
-							{
-								"alignment" : "left",
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"editor-hide" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 26,
-								"image" : "hp_fill_b2bfc2.png",
-								"margin-bottom" : 0,
-								"margin-left" : 34,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "energyFillEnd",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "3",
-								"width" : 160
-							},
-							{
-								"9slicescalezone-height" : 0.3,
-								"9slicescalezone-width" : 0.3,
-								"9slicescalezone-x" : 0.3,
-								"9slicescalezone-y" : 0.3,
-								"alignment" : "left",
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 26,
-								"image" : "hp_bg_energybar.png",
-								"margin-bottom" : 0,
-								"margin-left" : 34,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "energyBorderStart",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "3",
-								"width" : 120
-							},
-							{
-								"9slicescalezone-height" : 0.3,
-								"9slicescalezone-width" : 0.3,
-								"9slicescalezone-x" : 0.3,
-								"9slicescalezone-y" : 0.3,
-								"alignment" : "left",
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"editor-hide" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 26,
-								"image" : "hp_bg_energybar.png",
-								"margin-bottom" : 0,
-								"margin-left" : 34,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "energyBorderEnd",
-								"position-x" : "left",
-								"position-y" : "center",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									1,
-									-1
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "3",
-								"width" : 160
-							},
-							{
-								"alignment" : "center",
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									255,
-									255,
-									255
-								],
-								"dynamic-text" : true,
-								"font" : "Avenir-Book",
-								"font-size" : 20,
-								"height" : 25,
-								"margin-bottom" : 1,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "labelQuantity",
-								"position-x" : "center",
-								"position-y" : "center",
-								"shader-id" : "uiTitle",
-								"shadow-color" : [
-									0,
-									0,
-									0
-								],
-								"shadow-offset" : [
-									0.5,
-									-0.5
-								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "34\/40",
-								"width" : 90
-							},
-							{
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"height" : 52,
-								"image" : "hp_container_rewards.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "icon",
-								"position-x" : "left",
-								"position-y" : "center",
-								"width" : 52,
-								"children" : [
-									{
-										"anchor-x" : "center",
-										"anchor-y" : "center",
-										"class" : "image",
-										"height" : 30,
-										"image" : "hp_icons_energy_orb.png",
-										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "iconLoader",
-										"position-x" : "center",
-										"position-y" : "center",
-										"width" : 30
-									}
-								]
-							},
-							{
-								"alignment" : "center",
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									178,
-									191,
-									194
-								],
-								"font" : "Avenir-BookOblique",
-								"height" : 18,
-								"local:text" : "LEVELUP_MAX_ENERGY_INCREASED",
+								"font" : "Avenir-Heavy",
+								"font-size" : 13,
+								"image" : "hp_ph_icon_potion.png",
+								"local:text" : "HP_REWARDS",
 								"margin-bottom" : 21,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"name" : "labelRewardMsg",
+								"max-width" : 100,
+								"name" : "labelReward",
 								"position-x" : "center",
 								"position-y" : "center",
-								"shader-id" : "uiTitle",
 								"shadow-color" : [
-									0,
-									0,
-									0
+									16,
+									29,
+									37
 								],
 								"shadow-offset" : [
 									0.5,
 									-0.5
 								],
-								"stroke-color" : [
-									0,
-									30,
-									97
-								],
-								"text" : "Max Energy Increased!",
-								"width" : 120
+								"sizing" : "SpriteAspectFill",
+								"text" : "Rewards",
+								"vertical-spacing" : 0.9
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"cell-json" : "hp_rewards_cell.json",
+								"class" : "table-view",
+								"height" : 44,
+								"horizontal" : true,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 9,
+								"name" : "tableRewards",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 240,
+								"children" : []
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"flipX" : true,
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_white.png",
+								"margin-bottom" : 21,
+								"margin-left" : 0,
+								"margin-right" : 90,
+								"margin-top" : 0,
+								"name" : "dividerLeft",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 60
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_white.png",
+								"margin-bottom" : 21,
+								"margin-left" : 90,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "dividerRight",
+								"position-x" : "center",
+								"position-y" : "center",
+								"sizing" : "SpriteFill",
+								"width" : 60
 							}
 						]
 					},
 					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "view",
-						"height" : 52,
-						"image" : "hp_container_rewards.png",
-						"margin-bottom" : 44,
-						"margin-left" : 100,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "rewardEnergyEnd",
-						"position-x" : "center",
-						"position-y" : "center",
-						"scale" : 0.75,
-						"width" : 200
-					},
-					{
 						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							185,
-							160,
-							105
-						],
-						"font" : "Avenir-Book",
-						"font-size" : 13,
-						"height" : 22,
-						"margin-bottom" : 83,
-						"margin-left" : 100,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "labelRewards",
-						"position-x" : "center",
-						"position-y" : "center",
-						"shadow-color" : [
-							16,
-							29,
-							37
-						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
-						"stroke-color" : [
-							16,
-							29,
-							36
-						],
-						"stroke-thickness" : 0.5,
-						"text" : "REWARDS",
-						"width" : 100
-					},
-					{
-						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "view",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"font" : "4privetdrive",
-						"font-size" : 23,
-						"height" : 30,
-						"local:text" : "",
-						"margin-bottom" : 108,
-						"margin-left" : 100,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "labelTitleEnd",
-						"position-x" : "center",
-						"position-y" : "center",
-						"shader-id" : "uiTitle",
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
-						"stroke-color" : [
-							0,
-							30,
-							97
-						],
-						"text" : "LEVEL 10",
-						"width" : 150
-					},
-					{
-						"alignment" : "center",
+						"all-caps" : true,
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "label",
@@ -779,223 +386,87 @@
 							255,
 							255
 						],
-						"font" : "4privetdrive",
-						"font-size" : 40,
-						"height" : 50,
-						"local:text" : "",
-						"margin-bottom" : 0,
-						"margin-left" : 100,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "labelTitleStart",
-						"position-x" : "center",
-						"position-y" : "center",
-						"shader-id" : "uiTitle",
-						"shadow-offset" : [
-							1,
-							-1
-						],
-						"stroke-thickness" : 1,
-						"text" : "LEVEL 10",
-						"width" : 325
-					},
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "bottom",
-						"class" : "view",
-						"dynamic-img" : true,
-						"height" : 280,
-						"image" : "hp_character_sheet_full_character_placeholder.png",
-						"margin-bottom" : 10,
-						"margin-left" : 0,
-						"margin-right" : 140,
-						"margin-top" : 0,
-						"name" : "loaderCharacterEnd",
-						"position-x" : "center",
-						"position-y" : "bottom",
-						"sizing" : "SpriteAspectFit",
-						"width" : 180
-					},
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "model",
-						"editor-hide" : true,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "fullscreenwipe",
-						"percent-height" : 1,
-						"percent-width" : 1,
-						"position-x" : "center",
-						"position-y" : "center"
-					},
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "bottom",
-						"class" : "model",
-						"dynamic-img" : true,
-						"height" : 280,
-						"image" : "hp_character_sheet_full_character_placeholder.png",
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 140,
-						"margin-top" : 305,
-						"name" : "loaderCharacterStart",
-						"position-x" : "center",
-						"position-y" : "bottom",
-						"sizing" : "SpriteAspectFit",
-						"width" : 180
-					}
-				]
-			},
-			{
-				"alignment" : "center",
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "view",
-				"color" : [
-					255,
-					255,
-					255
-				],
-				"font" : "4privetdrive",
-				"font-size" : 26,
-				"local:text" : "HP_MASTERY_LEVELUP_TITLE",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "Part1",
-				"percent-height" : 1,
-				"percent-width" : 1,
-				"position-x" : "center",
-				"position-y" : "center",
-				"shadow-offset" : [
-					1,
-					1
-				],
-				"stroke-color" : [
-					0,
-					30,
-					97
-				],
-				"text" : "LEVEL UP!",
-				"children" : [
-					{
-						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"font" : "4privetdrive",
-						"font-size" : 50,
-						"local:text" : "",
-						"margin-bottom" : 0,
-						"margin-left" : 0.5,
-						"margin-right" : 0,
-						"margin-top" : 39,
-						"name" : "labelLevel",
-						"position-x" : "center",
-						"position-y" : "center",
-						"shadow-offset" : [
-							1,
-							1
-						],
-						"stroke-color" : [
-							0,
-							30,
-							97
-						],
-						"text" : "9"
-					},
-					{
-						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"font" : "4privetdrive",
-						"font-size" : 50,
-						"local:text" : "",
-						"margin-bottom" : 0,
-						"margin-left" : 0.5,
-						"margin-right" : 0,
-						"margin-top" : 39,
-						"name" : "labelLevelOld",
-						"position-x" : "center",
-						"position-y" : "center",
-						"shadow-offset" : [
-							1,
-							1
-						],
-						"stroke-color" : [
-							0,
-							30,
-							97
-						],
-						"text" : "9"
-					},
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "image",
-						"height" : 125,
-						"image" : "hp_levelup_starburst.png",
-						"margin-bottom" : 0,
-						"margin-left" : 0.5,
-						"margin-right" : 0,
-						"margin-top" : 33,
-						"name" : "imageStarburst",
-						"position-x" : "center",
-						"position-y" : "center",
-						"sizing" : "SpriteFill",
-						"width" : 125
-					},
-					{
-						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"font" : "4privetdrive",
-						"font-size" : 36,
+						"editor-layerExpanded" : false,
+						"font" : "Crimson-Semibold",
+						"font-size" : 24,
 						"local:text" : "HP_MASTERY_LEVELUP_TITLE",
-						"margin-bottom" : 60,
-						"margin-left" : 0.5,
+						"margin-bottom" : 125.5,
+						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
+						"max-height" : 30,
 						"name" : "labelTitle",
 						"position-x" : "center",
 						"position-y" : "center",
 						"shader-id" : "uiTitle",
 						"shadow-offset" : [
-							1,
-							-1
+							0.5,
+							-0.5
 						],
 						"stroke-color" : [
 							0,
 							30,
 							97
 						],
-						"text" : "LEVEL UP!"
+						"text" : "LEVEL UP!",
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "image",
+								"dynamic-img" : true,
+								"editor-layerExpanded" : false,
+								"height" : 34,
+								"image" : "hp_container_banner_gryf_lrg.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 32,
+								"margin-top" : 5,
+								"name" : "iconYear",
+								"position-x" : "left",
+								"position-y" : "center",
+								"width" : 31,
+								"children" : [
+									{
+										"alignment" : "center",
+										"all-caps" : true,
+										"anchor-x" : "center",
+										"anchor-y" : "center",
+										"class" : "label",
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 20,
+										"margin-bottom" : 1,
+										"margin-left" : 0,
+										"margin-right" : 1,
+										"margin-top" : 0,
+										"max-width" : 20,
+										"name" : "label",
+										"position-x" : "center",
+										"position-y" : "center",
+										"shadow-color" : [
+											16,
+											29,
+											37
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-color" : [
+											0,
+											30,
+											97
+										],
+										"text" : "2"
+									}
+								]
+							}
+						]
 					}
 				]
 			}
 		]
 	},
-	"version" : "1.8.8.2"
+	"version" : "1.8.8.3"
 }

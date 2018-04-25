@@ -9,12 +9,10 @@
 		"position-y" : "bottom",
 		"children" : [
 			{
-				"actions" : [],
 				"anchor-x" : "center",
 				"anchor-y" : "center",
-				"class" : "image",
+				"class" : "view",
 				"height" : 40,
-				"image" : "invisible.png",
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
@@ -25,20 +23,114 @@
 				"position-y" : "center",
 				"children" : [
 					{
+						"alignment" : "left",
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
-						"image" : "hp_bg_header_stretch.png",
-						"inset-margin-x" : -2,
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"editor-layerExpanded" : false,
+						"font" : "Crimson-Semibold",
+						"font-size" : 50,
+						"height" : 40,
+						"image" : "hp_bg_gradient_linear.png",
+						"local:text" : "HP_TITLE",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
+						"max-width" : 240,
 						"name" : "bg",
-						"percent-height" : 1,
-						"percent-width" : 1,
 						"position-x" : "center",
-						"position-y" : "center"
+						"position-y" : "center",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "1st Place",
+						"width" : 480,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 50,
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"local:text" : "HP_TITLE",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 240,
+								"name" : "dividerBottom",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "1st Place",
+								"width" : 480
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 50,
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"local:text" : "HP_TITLE",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 240,
+								"name" : "dividerTop",
+								"position-x" : "center",
+								"position-y" : "top",
+								"shader-id" : "uiTitle",
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "1st Place",
+								"width" : 480
+							}
+						]
 					},
 					{
 						"alignment" : "center",
@@ -51,9 +143,9 @@
 							255
 						],
 						"dynamic-text" : true,
-						"font" : "4privetdrive",
+						"font" : "Crimson-Semibold",
 						"font-size" : 20,
-						"margin-bottom" : 0,
+						"margin-bottom" : 2,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
@@ -72,5 +164,5 @@
 			}
 		]
 	},
-	"version" : "1.8.8.2"
+	"version" : "1.8.8.3"
 }

@@ -1,0 +1,393 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.333,
+				"9slicescalezone-width" : 0.333,
+				"9slicescalezone-x" : 0.333,
+				"9slicescalezone-y" : 0.333,
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "view",
+				"height" : 60,
+				"image" : "hp_modal_bg_footer.png",
+				"margin-bottom" : 40,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "footerView",
+				"percent-width" : 1.3,
+				"position-x" : "center",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_modal_bg_header2.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 6,
+						"name" : "footerBg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 28,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 24,
+						"name" : "currencyWidgets",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 300,
+						"children" : [
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 22,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"name" : "btnHardCurrency",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 80,
+								"children" : [
+									{
+										"9slicescalezone-height" : 1,
+										"9slicescalezone-width" : 1,
+										"9slicescalezone-x" : 0.33,
+										"9slicescalezone-y" : 0.33,
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 22,
+										"image" : "hp_hud_container.png",
+										"inset-margin-x" : 10,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "gemBg",
+										"percent-width" : 1,
+										"position-x" : "right",
+										"position-y" : "center",
+										"children" : [
+											{
+												"alignment" : "left",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													255,
+													255
+												],
+												"dynamic-text" : true,
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
+												"margin-bottom" : 0,
+												"margin-left" : 4,
+												"margin-right" : 0,
+												"margin-top" : 0.5,
+												"max-width" : 52,
+												"name" : "labelHardCurrency",
+												"position-x" : "center",
+												"position-y" : "center",
+												"shadow-color" : [
+													16,
+													29,
+													37
+												],
+												"shadow-offset" : [
+													0.5,
+													-0.5
+												],
+												"text" : "999k"
+											}
+										]
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 24,
+										"image" : "hp_hud_icon_hard_currency.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "iconHardCurrency",
+										"position-x" : "left",
+										"position-y" : "center",
+										"width" : 24
+									}
+								]
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 22,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 90,
+								"margin-top" : 14,
+								"name" : "btnSoftCurrency",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 80,
+								"children" : [
+									{
+										"9slicescalezone-height" : 1,
+										"9slicescalezone-width" : 1,
+										"9slicescalezone-x" : 0.33,
+										"9slicescalezone-y" : 0.33,
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"editor-layerExpanded" : false,
+										"height" : 22,
+										"image" : "hp_hud_container.png",
+										"inset-margin-x" : 10,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "coinsBg",
+										"percent-width" : 1,
+										"position-x" : "right",
+										"position-y" : "center",
+										"children" : [
+											{
+												"alignment" : "left",
+												"anchor-x" : "center",
+												"anchor-y" : "center",
+												"class" : "label",
+												"color" : [
+													255,
+													255,
+													255
+												],
+												"dynamic-text" : true,
+												"font" : "Avenir-Heavy",
+												"font-size" : 12,
+												"margin-bottom" : 0,
+												"margin-left" : 4,
+												"margin-right" : 0,
+												"margin-top" : 0.5,
+												"max-width" : 52,
+												"name" : "labelSoftCurrency",
+												"position-x" : "center",
+												"position-y" : "center",
+												"shadow-color" : [
+													16,
+													30,
+													38
+												],
+												"shadow-offset" : [
+													0.5,
+													-0.5
+												],
+												"text" : "999k"
+											}
+										]
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 24,
+										"image" : "hp_hud_icon_soft_currency.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "iconSoftCurrency",
+										"position-x" : "left",
+										"position-y" : "center",
+										"width" : 24
+									}
+								]
+							},
+							{
+								"actions" : [],
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "view",
+								"editor-layerExpanded" : false,
+								"height" : 22,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 95,
+								"margin-right" : 0,
+								"margin-top" : 14,
+								"name" : "btnEnergy",
+								"position-x" : "center",
+								"position-y" : "top",
+								"sizing" : "SpriteFill",
+								"width" : 80,
+								"children" : [
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "image",
+										"height" : 22,
+										"image" : "hp_hud_container.png",
+										"inset-margin-x" : 10,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "energyProgressBarBg",
+										"percent-width" : 1.1,
+										"position-x" : "right",
+										"position-y" : "center"
+									},
+									{
+										"9slicescalezone-height" : 0.333,
+										"9slicescalezone-width" : 0.333,
+										"9slicescalezone-x" : 0.333,
+										"9slicescalezone-y" : 0.333,
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "progress-linear",
+										"flipX" : true,
+										"height" : 15,
+										"image" : "hp_hud_progress_fill_energy.png",
+										"inset-margin-x" : 14.5,
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 3.5,
+										"margin-top" : 0,
+										"name" : "energyProgressBar",
+										"percent-width" : 1,
+										"position-x" : "right",
+										"position-y" : "center"
+									},
+									{
+										"anchor-x" : "left",
+										"anchor-y" : "bottom",
+										"class" : "image",
+										"height" : 24,
+										"image" : "hp_icon_currency_energy.png",
+										"margin-bottom" : 0,
+										"margin-left" : 0,
+										"margin-right" : 6,
+										"margin-top" : 0,
+										"name" : "iconEnergy",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"width" : 24
+									},
+									{
+										"alignment" : "left",
+										"anchor-x" : "left",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"margin-bottom" : 11,
+										"margin-left" : 25,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 34,
+										"name" : "labelEnergy",
+										"position-x" : "left",
+										"position-y" : "bottom",
+										"shadow-color" : [
+											16,
+											30,
+											38
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"stroke-thickness" : 0.5,
+										"text" : "99\/99"
+									},
+									{
+										"alignment" : "center",
+										"anchor-x" : "right",
+										"anchor-y" : "center",
+										"class" : "label",
+										"color" : [
+											255,
+											255,
+											255
+										],
+										"dynamic-text" : true,
+										"editor-hide" : true,
+										"font" : "Avenir-Heavy",
+										"font-size" : 12,
+										"margin-bottom" : 11.5,
+										"margin-left" : 0,
+										"margin-right" : 33,
+										"margin-top" : 0,
+										"max-width" : 30,
+										"name" : "labelEnergyTimer",
+										"position-x" : "right",
+										"position-y" : "bottom",
+										"shadow-color" : [
+											16,
+											30,
+											38
+										],
+										"shadow-offset" : [
+											0.5,
+											-0.5
+										],
+										"text" : "14:59"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

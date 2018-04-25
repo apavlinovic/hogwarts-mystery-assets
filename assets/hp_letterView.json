@@ -1,34 +1,43 @@
 {
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"cell-json" : "hp_letterCell.json",
+					"class" : "table-view",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "table",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center",
+					"children" : []
+				}
+			]
+		}
+	},
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"percent-height" : 1,
 		"percent-width" : 1,
 		"position-x" : "left",
-		"position-y" : "bottom",
-		"children" : [
-			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"cell-json" : "hp_letterCell.json",
-				"class" : "table-view",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "table",
-				"percent-height" : 1,
-				"position-x" : "center",
-				"position-y" : "center",
-				"width" : 414,
-				"children" : []
-			}
-		]
+		"position-y" : "bottom"
 	},
-	"version" : "1.8.3.6"
+	"version" : "1.8.8.3"
 }

@@ -2,10 +2,6 @@
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"percent-height" : 1,
 		"percent-width" : 1,
@@ -1013,104 +1009,6 @@
 				"width" : 150
 			},
 			{
-				"actions" : [],
-				"anchor-x" : "center",
-				"anchor-y" : "top",
-				"class" : "button",
-				"editor-layerExpanded" : false,
-				"height" : 30,
-				"image" : "hp_icon_bg_nav.png",
-				"margin-bottom" : 0,
-				"margin-left" : 18,
-				"margin-right" : 0,
-				"margin-top" : 14,
-				"name" : "loseButton",
-				"position-x" : "center",
-				"position-y" : "top",
-				"width" : 30,
-				"children" : [
-					{
-						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"font" : "4privetdrive",
-						"font-size" : 16,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "loseLabel",
-						"position-x" : "center",
-						"position-y" : "center",
-						"shadow-color" : [
-							0,
-							0,
-							0
-						],
-						"shadow-offset" : [
-							1,
-							-1
-						],
-						"text" : "L"
-					}
-				]
-			},
-			{
-				"actions" : [],
-				"anchor-x" : "center",
-				"anchor-y" : "top",
-				"class" : "button",
-				"editor-layerExpanded" : false,
-				"height" : 30,
-				"image" : "hp_icon_bg_nav.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 16,
-				"margin-top" : 14,
-				"name" : "winButton",
-				"position-x" : "center",
-				"position-y" : "top",
-				"width" : 30,
-				"children" : [
-					{
-						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"font" : "4privetdrive",
-						"font-size" : 16,
-						"margin-bottom" : 0,
-						"margin-left" : 0,
-						"margin-right" : 0,
-						"margin-top" : 1,
-						"name" : "winLabel",
-						"position-x" : "center",
-						"position-y" : "center",
-						"shadow-color" : [
-							0,
-							0,
-							0
-						],
-						"shadow-offset" : [
-							1,
-							-1
-						],
-						"text" : "W"
-					}
-				]
-			},
-			{
 				"9slicescalezone-height" : 0.333,
 				"9slicescalezone-width" : 0.333,
 				"9slicescalezone-x" : 0.333,
@@ -1131,5 +1029,5 @@
 			}
 		]
 	},
-	"version" : "1.8.4"
+	"version" : "1.8.8.3"
 }

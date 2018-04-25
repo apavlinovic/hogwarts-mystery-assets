@@ -3,30 +3,26 @@
 		"class" : "view",
 		"height" : 40,
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"position-x" : "left",
 		"position-y" : "bottom",
-		"width" : 225,
+		"width" : 292,
 		"children" : [
 			{
 				"actions" : [],
 				"anchor-x" : "left",
-				"anchor-y" : "top",
+				"anchor-y" : "center",
 				"class" : "button",
+				"height" : 54,
 				"image" : "invisible.png",
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
-				"margin-top" : 0,
+				"margin-top" : 33,
 				"name" : "navMenuButton",
-				"percent-height" : 1,
-				"percent-width" : 1,
 				"position-x" : "left",
 				"position-y" : "top",
+				"width" : 287,
 				"children" : [
 					{
 						"anchor-x" : "center",
@@ -34,34 +30,35 @@
 						"class" : "image",
 						"image" : "invisible.png",
 						"margin-bottom" : 0,
-						"margin-left" : 0,
+						"margin-left" : 143.5,
 						"margin-right" : 0,
-						"margin-top" : 0,
+						"margin-top" : 27,
 						"name" : "openView",
 						"percent-height" : 1,
 						"percent-width" : 1,
-						"position-x" : "center",
-						"position-y" : "center",
+						"position-x" : "left",
+						"position-y" : "top",
 						"shader-id" : "uiShine",
 						"children" : [
 							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 1,
+								"9slicescalezone-x" : 1,
+								"9slicescalezone-y" : 1,
+								"actions" : [],
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "image",
-								"height" : 45,
-								"image" : "hp_button_secondary_idle_med.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
+								"height" : 36,
+								"image" : "hp_container_room_entry.png",
+								"margin-bottom" : 16,
+								"margin-left" : 5,
 								"margin-right" : 0,
-								"margin-top" : 2,
+								"margin-top" : 0,
 								"name" : "btn_bg",
 								"position-x" : "left",
 								"position-y" : "bottom",
-								"width" : 228
+								"width" : 282
 							},
 							{
 								"alignment" : "left",
@@ -69,17 +66,18 @@
 								"anchor-y" : "center",
 								"class" : "label",
 								"color" : [
-									221,
-									188,
-									113
+									255,
+									255,
+									255
 								],
 								"dynamic-text" : true,
-								"font" : "4privetdrive",
-								"margin-bottom" : 0,
-								"margin-left" : 14,
+								"font" : "Avenir-Book",
+								"font-size" : 15,
+								"margin-bottom" : 7,
+								"margin-left" : 22,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"max-width" : 150,
+								"max-width" : 250,
 								"name" : "labelTitle",
 								"position-x" : "left",
 								"position-y" : "center",
@@ -92,16 +90,15 @@
 									0.5,
 									-0.5
 								],
-								"text" : "DIAGON ALLEY"
+								"text" : "Diagon Alley"
 							},
 							{
 								"anchor-x" : "right",
 								"anchor-y" : "center",
 								"class" : "view",
-								"editor-hide" : true,
 								"height" : 29,
 								"image" : "hp_nav_menu_cell1.png",
-								"margin-bottom" : 0,
+								"margin-bottom" : 7,
 								"margin-left" : 0,
 								"margin-right" : 6,
 								"margin-top" : 0,
@@ -121,8 +118,8 @@
 											255
 										],
 										"dynamic-text" : true,
-										"font" : "Avenir-BookOblique",
-										"font-size" : 13,
+										"font" : "Avenir-Heavy",
+										"font-size" : 14,
 										"margin-bottom" : 0,
 										"margin-left" : 36,
 										"margin-right" : 0,
@@ -136,11 +133,7 @@
 											29,
 											37
 										],
-										"shadow-offset" : [
-											0.5,
-											-0.5
-										],
-										"text" : "9999"
+										"text" : "999"
 									},
 									{
 										"anchor-x" : "left",
@@ -149,7 +142,7 @@
 										"height" : 15,
 										"image" : "hp_icon_currency_coin.png",
 										"margin-bottom" : 0,
-										"margin-left" : 7,
+										"margin-left" : 5,
 										"margin-right" : 0,
 										"margin-top" : 1,
 										"name" : "imageCurrency",
@@ -161,8 +154,8 @@
 										"anchor-x" : "left",
 										"anchor-y" : "center",
 										"class" : "image",
-										"height" : 17,
-										"image" : "hp_divider_small.png",
+										"height" : 18,
+										"image" : "hp_bg_divider_white.png",
 										"margin-bottom" : 0,
 										"margin-left" : 0,
 										"margin-right" : 0,
@@ -170,88 +163,91 @@
 										"name" : "divider",
 										"position-x" : "left",
 										"position-y" : "center",
-										"width" : 2
+										"width" : 1
 									}
 								]
 							},
 							{
-								"anchor-x" : "right",
-								"anchor-y" : "center",
+								"actions" : [],
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
 								"class" : "view",
-								"height" : 29,
-								"image" : "hp_nav_menu_cell1.png",
+								"height" : 18,
+								"image" : "invisible.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
-								"margin-right" : 6,
-								"margin-top" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
 								"name" : "timeView",
-								"position-x" : "right",
-								"position-y" : "center",
-								"width" : 56,
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 287,
 								"children" : [
+									{
+										"9slicescalezone-height" : 1,
+										"9slicescalezone-width" : 1,
+										"9slicescalezone-x" : 1,
+										"9slicescalezone-y" : 1,
+										"anchor-x" : "left",
+										"anchor-y" : "top",
+										"class" : "image",
+										"height" : 18,
+										"image" : "hp_container_room_entry_gradient.png",
+										"margin-bottom" : 0,
+										"margin-left" : 16,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"name" : "bg_gradient",
+										"position-x" : "left",
+										"position-y" : "top",
+										"width" : 174
+									},
 									{
 										"alignment" : "left",
 										"anchor-x" : "left",
 										"anchor-y" : "center",
 										"class" : "clock-label-v2",
 										"color" : [
-											255,
-											255,
-											255
+											210,
+											235,
+											239
 										],
 										"dynamic-text" : true,
-										"font" : "Avenir-BookOblique",
+										"font" : "Avenir-Book",
 										"format" : "suffixed",
 										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 11,
-										"margin-top" : 0.5,
-										"max-width" : 40,
+										"margin-left" : 62,
+										"margin-right" : 0,
+										"margin-top" : 0,
+										"max-width" : 155,
 										"name" : "labelTime",
-										"position-x" : "center",
+										"position-x" : "left",
 										"position-y" : "center",
-										"resolution" : 2,
 										"shadow-color" : [
 											16,
 											29,
 											37
 										],
 										"shadow-offset" : [
-											-0.5,
+											0.5,
 											-0.5
 										],
-										"text" : "in 2h 08m",
-										"vertical-spacing" : 0.78
+										"text" : "Available In ### ###"
 									},
 									{
 										"anchor-x" : "left",
 										"anchor-y" : "center",
 										"class" : "image",
-										"height" : 15,
-										"image" : "hp_icon_clock_sm.png",
+										"height" : 13,
+										"image" : "hp_icon_time_med.png",
 										"margin-bottom" : 0,
-										"margin-left" : 3,
+										"margin-left" : 43,
 										"margin-right" : 0,
-										"margin-top" : 1,
+										"margin-top" : 0,
 										"name" : "iconClock",
 										"position-x" : "left",
 										"position-y" : "center",
-										"width" : 15
-									},
-									{
-										"anchor-x" : "left",
-										"anchor-y" : "center",
-										"class" : "image",
-										"height" : 17,
-										"image" : "hp_divider_small.png",
-										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 2,
-										"margin-top" : 0,
-										"name" : "divider",
-										"position-x" : "left",
-										"position-y" : "center",
-										"width" : 2
+										"width" : 13
 									}
 								]
 							},
@@ -259,17 +255,16 @@
 								"anchor-x" : "right",
 								"anchor-y" : "center",
 								"class" : "image",
-								"editor-hide" : true,
-								"height" : 25,
-								"image" : "hp_icon_notification.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 10,
+								"height" : 30,
+								"image" : "hp_icon_notif_sm.png",
+								"margin-bottom" : 20,
+								"margin-left" : 8,
+								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "iconNewNotif",
 								"position-x" : "right",
 								"position-y" : "center",
-								"width" : 15
+								"width" : 30
 							}
 						]
 					},
@@ -277,36 +272,36 @@
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
-						"editor-hide" : true,
 						"image" : "invisible.png",
 						"margin-bottom" : 0,
-						"margin-left" : 0,
+						"margin-left" : 143.5,
 						"margin-right" : 0,
-						"margin-top" : 0,
+						"margin-top" : 27,
 						"name" : "blockedView",
 						"percent-height" : 1,
 						"percent-width" : 1,
-						"position-x" : "center",
-						"position-y" : "center",
+						"position-x" : "left",
+						"position-y" : "top",
 						"children" : [
 							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 1,
+								"9slicescalezone-x" : 1,
+								"9slicescalezone-y" : 1,
+								"actions" : [],
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "image",
-								"height" : 45,
-								"image" : "hp_button_secondary_idle_med.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
+								"height" : 36,
+								"image" : "hp_container_room_entry_lock.png",
+								"margin-bottom" : 16,
+								"margin-left" : 5,
 								"margin-right" : 0,
-								"margin-top" : 2,
+								"margin-top" : 0,
 								"name" : "btn_bg",
 								"position-x" : "left",
 								"position-y" : "bottom",
-								"width" : 228
+								"width" : 282
 							},
 							{
 								"alignment" : "left",
@@ -315,16 +310,17 @@
 								"class" : "label",
 								"color" : [
 									0,
-									134,
-									134
+									131,
+									142
 								],
 								"dynamic-text" : true,
-								"font" : "4privetdrive",
-								"margin-bottom" : 0,
-								"margin-left" : 14,
+								"font" : "Avenir-Book",
+								"font-size" : 15,
+								"margin-bottom" : 7,
+								"margin-left" : 22,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"max-width" : 150,
+								"max-width" : 250,
 								"name" : "labelTitle",
 								"position-x" : "left",
 								"position-y" : "center",
@@ -337,85 +333,23 @@
 									0.5,
 									-0.5
 								],
-								"text" : "DIAGON ALLEY"
+								"text" : "Diagon Alley"
 							},
 							{
-								"anchor-x" : "right",
+								"anchor-x" : "left",
 								"anchor-y" : "center",
-								"class" : "view",
-								"height" : 29,
-								"image" : "hp_nav_menu_cell1.png",
-								"margin-bottom" : 0,
+								"class" : "image",
+								"height" : 36,
+								"image" : "hp_icon_lock_lrg.png",
+								"margin-bottom" : 9,
 								"margin-left" : 0,
-								"margin-right" : 8,
+								"margin-right" : 0,
 								"margin-top" : 0,
 								"name" : "lockedView",
-								"position-x" : "right",
+								"position-x" : "left",
 								"position-y" : "center",
-								"width" : 56,
-								"children" : [
-									{
-										"alignment" : "right",
-										"anchor-x" : "left",
-										"anchor-y" : "center",
-										"class" : "label",
-										"color" : [
-											221,
-											188,
-											112
-										],
-										"font" : "Avenir-BookOblique",
-										"local:text" : "HP_LOCKED",
-										"margin-bottom" : 0,
-										"margin-left" : 21,
-										"margin-right" : 0,
-										"margin-top" : 1,
-										"max-width" : 34,
-										"name" : "labelLocked",
-										"position-x" : "left",
-										"position-y" : "center",
-										"shadow-color" : [
-											16,
-											29,
-											37
-										],
-										"shadow-offset" : [
-											0.5,
-											-0.5
-										],
-										"text" : "Locked"
-									},
-									{
-										"anchor-x" : "right",
-										"anchor-y" : "center",
-										"class" : "image",
-										"height" : 20,
-										"image" : "hp_icon_lock_sm.png",
-										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 36,
-										"margin-top" : 0,
-										"name" : "lockedImg",
-										"position-x" : "right",
-										"position-y" : "center",
-										"width" : 16
-									},
-									{
-										"anchor-x" : "left",
-										"anchor-y" : "center",
-										"class" : "image",
-										"height" : 17,
-										"image" : "hp_divider_small.png",
-										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "divider",
-										"position-x" : "left",
-										"position-y" : "center",
-										"width" : 2
-									}
-								]
+								"scale" : 0.6,
+								"width" : 27
 							}
 						]
 					}
@@ -423,5 +357,5 @@
 			}
 		]
 	},
-	"version" : "1.8.3.6"
+	"version" : "1.8.8.1"
 }

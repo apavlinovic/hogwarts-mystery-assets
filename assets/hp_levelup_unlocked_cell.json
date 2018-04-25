@@ -1,0 +1,125 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 50,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 54,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"height" : 52,
+				"image" : "hp_container_unlocked_active.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "container",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 52,
+				"children" : [
+					{
+						"alignment" : "center",
+						"all-caps" : true,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 20,
+						"height" : 42,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 20,
+						"name" : "modelClip",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"should-clip" : true,
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "2",
+						"width" : 42,
+						"children" : [
+							{
+								"alignment" : "center",
+								"all-caps" : true,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "model",
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 20,
+								"height" : 42,
+								"image" : "invisible.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 20,
+								"name" : "icon_model",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "2",
+								"width" : 42
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 38,
+						"image" : "avatar_pants.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconLoader",
+						"position-x" : "center",
+						"position-y" : "center",
+						"sizing" : "SpriteAspectFit",
+						"width" : 38
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.1"
+}

@@ -1,0 +1,313 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 76,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 40,
+		"children" : [
+			{
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "view",
+				"height" : 76,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "progressView",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 40,
+				"children" : [
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 44,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 20,
+						"margin-right" : 0,
+						"margin-top" : 25,
+						"name" : "bottomRewardView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 76,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"color" : [
+									147,
+									131,
+									97
+								],
+								"dynamic-img" : true,
+								"font" : "Crimson-Semibold",
+								"font-size" : 18,
+								"gradient-top-color" : [
+									233,
+									211,
+									162
+								],
+								"height" : 24,
+								"image" : "hp_icon_attribute_empathy_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 19,
+								"margin-top" : 0,
+								"name" : "iconLoader",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-offset" : [
+									1,
+									1
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "CHAPTER COMPLETE",
+								"width" : 24
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									0,
+									230,
+									54
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"margin-bottom" : 0,
+								"margin-left" : 29,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "labelPoints",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "+999"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 44,
+						"image" : "invisible.png",
+						"margin-bottom" : 27,
+						"margin-left" : 20,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "topRewardView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 76,
+						"children" : [
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"color" : [
+									147,
+									131,
+									97
+								],
+								"dynamic-img" : true,
+								"font" : "Crimson-Semibold",
+								"font-size" : 18,
+								"gradient-top-color" : [
+									233,
+									211,
+									162
+								],
+								"height" : 24,
+								"image" : "hp_icon_points_sly_xsm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 19,
+								"margin-top" : 0,
+								"name" : "iconLoader",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-offset" : [
+									1,
+									1
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "CHAPTER COMPLETE",
+								"width" : 24
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									0,
+									230,
+									54
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"margin-bottom" : 0,
+								"margin-left" : 29,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 40,
+								"name" : "labelPoints",
+								"position-x" : "left",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "+999"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "view",
+						"height" : 25,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "pointsView",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 25,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 25,
+								"image" : "hp_icon_friend_bonus_empty.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "bonusEmpty",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 25
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 25,
+								"image" : "hp_icon_friend_empty.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "requiredEmpty",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 25
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 25,
+								"image" : "hp_icon_friend_bonus_fill.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "bonusFill",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 25
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"editor-hide" : true,
+								"height" : 25,
+								"image" : "hp_icon_friend_fill.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "requiredFill",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 25
+							},
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 25,
+								"image" : "hp_icon_friend_glow.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "glowFill",
+								"position-x" : "center",
+								"position-y" : "center",
+								"scale" : 2,
+								"width" : 25
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

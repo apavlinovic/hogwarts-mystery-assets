@@ -5,15 +5,30 @@
 			"anchor-y" : "bottom",
 			"class" : "view",
 			"inherit-position" : true,
-			"margin-bottom" : 0,
-			"margin-left" : 0,
-			"margin-right" : 0,
-			"margin-top" : 0,
 			"name" : "rootView",
 			"percent-height" : 1,
 			"percent-width" : 1,
 			"position-x" : "left",
-			"position-y" : "bottom"
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"actions" : [],
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "image",
+                    "eats-touches" : true,
+					"image" : "hp_general_bg_black_40%.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "scrim",
+					"percent-height" : 1,
+					"percent-width" : 1,
+					"position-x" : "center",
+					"position-y" : "center"
+				}
+			]
 		}
 	},
 	"view" : {
@@ -27,33 +42,37 @@
 		"children" : [
 			{
 				"anchor-x" : "center",
-				"anchor-y" : "top",
+				"anchor-y" : "center",
 				"class" : "view",
-				"height" : 118,
+				"height" : 130,
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
 				"margin-top" : 0,
 				"name" : "view",
 				"position-x" : "center",
-				"position-y" : "top",
-				"width" : 206,
+				"position-y" : "center",
+				"width" : 260,
 				"children" : [
 					{
+						"9slicescalezone-height" : 0.691289,
+						"9slicescalezone-width" : 0.746561,
+						"9slicescalezone-x" : 0.119624,
+						"9slicescalezone-y" : 0.124444,
 						"anchor-x" : "center",
-						"anchor-y" : "top",
+						"anchor-y" : "center",
 						"class" : "image",
-						"height" : 118,
-						"image" : "hp_bg_popup_modal_hud.png",
+						"height" : 130,
+						"image" : "hp_modal_bg_sm.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"name" : "modal_bg",
 						"position-x" : "center",
-						"position-y" : "top",
+						"position-y" : "center",
 						"sizing" : "SpriteFill",
-						"width" : 206
+						"width" : 260
 					},
 					{
 						"actions" : [],
@@ -63,9 +82,9 @@
 						"height" : 36,
 						"image" : "invisible.png",
 						"margin-bottom" : 0,
-						"margin-left" : 43,
+						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 43,
+						"margin-top" : 42,
 						"name" : "button",
 						"position-x" : "center",
 						"position-y" : "center",
@@ -73,27 +92,23 @@
 						"width" : 80,
 						"children" : [
 							{
-								"9slicescalezone-height" : 0.333,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.333,
 								"anchor-x" : "left",
 								"anchor-y" : "bottom",
 								"class" : "image",
-								"height" : 31,
-								"image" : "hp_button_secondary_prem.png",
-								"margin-bottom" : 3,
+								"height" : 46,
+								"image" : "hp_btn_prem_sm.png",
+								"margin-bottom" : 0,
 								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
+								"margin-right" : 5,
+								"margin-top" : 5,
 								"name" : "btn_bg",
 								"position-x" : "left",
 								"position-y" : "bottom",
-								"width" : 80
+								"width" : 90
 							},
 							{
 								"alignment" : "center",
-								"anchor-x" : "center",
+								"anchor-x" : "left",
 								"anchor-y" : "center",
 								"class" : "label",
 								"color" : [
@@ -101,16 +116,16 @@
 									255,
 									255
 								],
-								"font" : "Avenir-BookOblique",
-								"font-size" : 13,
+								"font" : "Crimson-Semibold",
+								"font-size" : 15,
 								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
-								"margin-bottom" : 0,
-								"margin-left" : 7,
+								"margin-bottom" : 2,
+								"margin-left" : 41,
 								"margin-right" : 0,
 								"margin-top" : 0,
 								"max-width" : 30,
 								"name" : "label",
-								"position-x" : "center",
+								"position-x" : "left",
 								"position-y" : "center",
 								"shadow-color" : [
 									164,
@@ -140,9 +155,9 @@
 								"image" : "hp_icons_gem.png",
 								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
 								"margin-bottom" : 0,
-								"margin-left" : 19,
+								"margin-left" : 21,
 								"margin-right" : 0,
-								"margin-top" : 0,
+								"margin-top" : 1,
 								"max-width" : 30,
 								"name" : "icon",
 								"position-x" : "left",
@@ -163,38 +178,100 @@
 						]
 					},
 					{
-						"alignment" : "left",
-						"anchor-x" : "left",
+						"alignment" : "center",
+						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
-							178,
-							191,
-							194
+							210,
+							235,
+							239
 						],
 						"dynamic-text" : true,
 						"font" : "Avenir-Book",
-						"font-size" : 11,
-						"margin-bottom" : 0,
-						"margin-left" : 32,
+						"font-size" : 14,
+						"margin-bottom" : 5,
+						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 24,
-						"max-height" : 24,
+						"margin-top" : 0,
 						"name" : "labelBody",
-						"position-x" : "left",
+						"position-x" : "center",
 						"position-y" : "center",
 						"shadow-color" : [
 							16,
 							29,
 							37
 						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
 						"text" : "Purchase 10 more energy?",
 						"vertical-spacing" : 0.7,
-						"width" : 70
+						"width" : 200
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 30,
+						"image" : "hp_bg_modal_header_sm.png",
+						"inset-margin-x" : 30,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 16,
+						"name" : "header_sm",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "top",
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"inset-margin-x" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "divider",
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "bottom"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 10,
+						"margin-top" : 10,
+						"name" : "closeButton",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 25,
+								"image" : "hp_btn_close.png",
+								"margin-bottom" : 7,
+								"margin-left" : 7,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "close_bg",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 25
+							}
+						]
 					},
 					{
 						"alignment" : "center",
@@ -206,18 +283,23 @@
 							255,
 							255
 						],
-						"font" : "4privetdrive",
-						"font-size" : 13,
+						"font" : "Crimson-Semibold",
+						"font-size" : 20,
 						"local:text" : "HP_OUT_OF_ENERGY_TITLE",
-						"margin-bottom" : 1,
-						"margin-left" : 3,
+						"margin-bottom" : 37,
+						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
-						"max-width" : 180,
+						"max-width" : 200,
 						"name" : "labelTitle",
 						"position-x" : "center",
 						"position-y" : "center",
 						"shader-id" : "uiTitle",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
 						"shadow-offset" : [
 							0.5,
 							-0.5
@@ -233,5 +315,5 @@
 			}
 		]
 	},
-	"version" : "1.8.4"
+	"version" : "1.8.8.3"
 }

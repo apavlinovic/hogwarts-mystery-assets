@@ -1,11 +1,42 @@
 {
+	"background" : {
+		"view" : {
+			"anchor-x" : "left",
+			"anchor-y" : "bottom",
+			"class" : "view",
+			"inherit-position" : true,
+			"name" : "rootView",
+			"percent-height" : 1,
+			"percent-width" : 1,
+			"position-x" : "left",
+			"position-y" : "bottom",
+			"children" : [
+				{
+					"9slicescalezone-height" : 0.333,
+					"9slicescalezone-width" : 0.333,
+					"9slicescalezone-x" : 0.333,
+					"9slicescalezone-y" : 0.333,
+					"actions" : [],
+					"anchor-x" : "center",
+					"anchor-y" : "center",
+					"class" : "button",
+					"image" : "hp_general_bg_black_50%.png",
+					"margin-bottom" : 0,
+					"margin-left" : 0,
+					"margin-right" : 0,
+					"margin-top" : 0,
+					"name" : "scrimBg",
+					"percent-height" : 1,
+					"percent-width" : 1.002083,
+					"position-x" : "center",
+					"position-y" : "center"
+				}
+			]
+		}
+	},
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "fg_quest",
 		"percent-height" : 1,
 		"percent-width" : 1,
@@ -17,160 +48,102 @@
 				"9slicescalezone-width" : 0.333,
 				"9slicescalezone-x" : 0.333,
 				"9slicescalezone-y" : 0.333,
-				"actions" : [],
 				"anchor-x" : "center",
 				"anchor-y" : "center",
-				"class" : "button",
-				"image" : "hp_general_bg_black_50%.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "scrimBg",
-				"percent-height" : 1,
-				"percent-width" : 1.002083,
-				"position-x" : "center",
-				"position-y" : "center"
-			},
-			{
-				"anchor-x" : "center",
-				"anchor-y" : "center",
-				"class" : "view",
+				"class" : "image",
+				"height" : 220,
+				"image" : "hp_modal_bg_sm.png",
 				"margin-bottom" : 0,
 				"margin-left" : 0,
 				"margin-right" : 0,
 				"margin-top" : 0,
 				"name" : "view",
-				"percent-height" : 1,
-				"percent-width" : 1,
 				"position-x" : "center",
 				"position-y" : "center",
+				"sizing" : "SpriteFill",
+				"width" : 320,
 				"children" : [
 					{
 						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 30,
+						"image" : "hp_bg_modal_header_sm.png",
+						"inset-margin-x" : 30,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 16.5,
+						"name" : "header_sm",
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "top",
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 1,
+								"image" : "hp_bg_modal_divider_2.png",
+								"inset-margin-x" : 20,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "divider",
+								"percent-width" : 1,
+								"position-x" : "center",
+								"position-y" : "bottom"
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.333,
+						"9slicescalezone-width" : 0.333,
+						"9slicescalezone-x" : 0.333,
+						"9slicescalezone-y" : 0.333,
+						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
-						"height" : 155,
-						"image" : "hp_bg_popup_modal_large.png",
-						"margin-bottom" : 0,
+						"height" : 50,
+						"image" : "hp_bg_container_lite.png",
+						"margin-bottom" : 25,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
-						"name" : "modal_bg",
+						"name" : "iconBg",
 						"position-x" : "center",
 						"position-y" : "center",
-						"sizing" : "SpriteFill",
-						"width" : 413,
-						"children" : [
-							{
-								"actions" : [],
-								"anchor-x" : "right",
-								"anchor-y" : "top",
-								"class" : "button",
-								"height" : 30,
-								"image" : "invisible.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 7.5,
-								"margin-top" : 8.5,
-								"name" : "buttonClose",
-								"position-x" : "right",
-								"position-y" : "top",
-								"width" : 30,
-								"children" : [
-									{
-										"actions" : [],
-										"anchor-x" : "center",
-										"anchor-y" : "center",
-										"class" : "image",
-										"height" : 13,
-										"image" : "hp_button_close.png",
-										"margin-bottom" : 0,
-										"margin-left" : 0,
-										"margin-right" : 0,
-										"margin-top" : 0,
-										"name" : "x",
-										"position-x" : "center",
-										"position-y" : "center",
-										"sizing" : "SpriteFill",
-										"width" : 13
-									}
-								]
-							}
-						]
+						"width" : 50
 					},
 					{
-						"actions" : [],
+						"alignment" : "center",
 						"anchor-x" : "center",
-						"anchor-y" : "bottom",
-						"class" : "button",
-						"height" : 86,
-						"image" : "hp_button_secondary_fill.png",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							210,
+							235,
+							239
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Book",
+						"font-size" : 14,
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 113,
-						"name" : "button",
+						"margin-top" : 7,
+						"max-height" : 36,
+						"name" : "labelBody",
 						"position-x" : "center",
 						"position-y" : "center",
-						"sizing" : "SpriteFill",
-						"width" : 197,
-						"children" : [
-							{
-								"actions" : [],
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "image",
-								"height" : 86,
-								"image" : "hp_button_secondary_glow.png",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "glow",
-								"position-x" : "center",
-								"position-y" : "center",
-								"sizing" : "SpriteFill",
-								"width" : 197
-							},
-							{
-								"alignment" : "center",
-								"anchor-x" : "center",
-								"anchor-y" : "center",
-								"class" : "label",
-								"color" : [
-									221,
-									188,
-									113
-								],
-								"font" : "4privetdrive",
-								"font-size" : 13,
-								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
-								"margin-bottom" : 0,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"max-width" : 140,
-								"name" : "label",
-								"position-x" : "center",
-								"position-y" : "center",
-								"shadow-color" : [
-									164,
-									96,
-									0
-								],
-								"stroke-color" : [
-									81,
-									35,
-									0
-								],
-								"text" : "GET MORE"
-							}
-						]
+						"text" : "Do you want to get more?",
+						"vertical-spacing" : 0.8,
+						"width" : 260
 					},
 					{
-						"alignment" : "left",
-						"anchor-x" : "left",
+						"alignment" : "center",
+						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "label",
 						"color" : [
@@ -179,76 +152,53 @@
 							255
 						],
 						"dynamic-text" : true,
-						"font" : "Avenir-Book",
-						"font-size" : 14,
+						"font" : "Crimson-Semibold",
+						"font-size" : 20,
 						"margin-bottom" : 0,
 						"margin-left" : 0,
-						"margin-right" : 74,
-						"margin-top" : 5,
-						"name" : "labelBody",
-						"position-x" : "center",
-						"position-y" : "center",
-						"text" : "Do you want to get more?",
-						"vertical-spacing" : 0.8,
-						"width" : 240
-					},
-					{
-						"alignment" : "center",
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							233,
-							211,
-							162
-						],
-						"dynamic-text" : true,
-						"font" : "4privetdrive",
-						"font-size" : 18,
-						"margin-bottom" : 53,
-						"margin-left" : 0,
 						"margin-right" : 0,
-						"margin-top" : 0,
-						"max-width" : 350,
+						"margin-top" : 28,
+						"max-width" : 200,
 						"name" : "labelTitle",
 						"position-x" : "center",
-						"position-y" : "center",
+						"position-y" : "top",
+						"shader-id" : "uiTitle",
 						"shadow-color" : [
-							0,
-							30,
-							97
+							16,
+							29,
+							37
 						],
 						"shadow-offset" : [
-							0.2,
-							0
+							-0.5,
+							0.5
 						],
 						"stroke-color" : [
 							0,
 							30,
 							97
 						],
-						"text" : "NOT ENOUGH ENERGY"
+						"text" : "Not Enough Currency"
 					},
 					{
-						"anchor-x" : "right",
+						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "view",
-						"height" : 75,
-						"margin-bottom" : 0,
+						"editor-layerExpanded" : false,
+						"height" : 40,
+						"margin-bottom" : 25,
 						"margin-left" : 0,
-						"margin-right" : 90.5,
-						"margin-top" : 5,
+						"margin-right" : 0,
+						"margin-top" : 0,
 						"name" : "iconView",
 						"position-x" : "center",
 						"position-y" : "center",
-						"width" : 75,
+						"width" : 40,
 						"children" : [
 							{
 								"anchor-x" : "left",
 								"anchor-y" : "center",
 								"class" : "image",
-								"editor-hide" : true,
-								"height" : 75,
+								"height" : 40,
 								"image" : "hp_icons_gem.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
@@ -257,14 +207,13 @@
 								"name" : "iconGem",
 								"position-x" : "left",
 								"position-y" : "center",
-								"width" : 75
+								"width" : 40
 							},
 							{
 								"anchor-x" : "left",
 								"anchor-y" : "center",
 								"class" : "image",
-								"editor-hide" : true,
-								"height" : 75,
+								"height" : 40,
 								"image" : "hp_icon_currency_coin.png",
 								"margin-bottom" : 0,
 								"margin-left" : 0,
@@ -273,7 +222,113 @@
 								"name" : "iconCoin",
 								"position-x" : "left",
 								"position-y" : "center",
-								"width" : 75
+								"width" : 40
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 36,
+						"image" : "invisible.png",
+						"margin-bottom" : 26,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "button",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 120,
+						"children" : [
+							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 5,
+								"name" : "btnBg",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 130
+							},
+							{
+								"alignment" : "center",
+								"all-caps" : true,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"font" : "Crimson-Semibold",
+								"font-size" : 18,
+								"local:text" : "GAME_NOT_ENOUGH_RESOURCES_PREMIUM_BUY",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 100,
+								"name" : "labelBtn",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-color" : [
+									0,
+									30,
+									97
+								],
+								"text" : "Get More"
+							}
+						]
+					},
+					{
+						"actions" : [],
+						"anchor-x" : "right",
+						"anchor-y" : "top",
+						"class" : "button",
+						"height" : 40,
+						"image" : "invisible.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 10,
+						"margin-top" : 10,
+						"name" : "buttonClose",
+						"position-x" : "right",
+						"position-y" : "top",
+						"width" : 40,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 25,
+								"image" : "hp_btn_close.png",
+								"margin-bottom" : 7,
+								"margin-left" : 7,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "hp_btn_close",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 25
 							}
 						]
 					}
@@ -281,5 +336,5 @@
 			}
 		]
 	},
-	"version" : "1.8.3.6"
+	"version" : "1.8.8.3"
 }

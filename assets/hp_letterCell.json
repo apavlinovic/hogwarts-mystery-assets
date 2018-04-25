@@ -1,29 +1,33 @@
 {
 	"view" : {
 		"class" : "view",
-		"height" : 770,
+        "height" : 770,
 		"inherit-position" : true,
 		"name" : "rootView",
+		"percent-width" : 1,
 		"position-x" : "left",
 		"position-y" : "bottom",
-		"width" : 413,
 		"children" : [
 			{
 				"anchor-x" : "left",
 				"anchor-y" : "bottom",
 				"class" : "view",
 				"height" : 770,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
 				"name" : "container",
+				"percent-width" : 1,
 				"position-x" : "left",
 				"position-y" : "bottom",
-				"width" : 413,
 				"children" : [
 					{
 						"anchor-x" : "center",
 						"anchor-y" : "center",
 						"class" : "image",
 						"height" : 512,
-						"image" : "hogwarts_acceptance_letter.png",
+						"image" : "hogwarts_acceptance_letter_blank.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 0,
@@ -44,15 +48,15 @@
 							30
 						],
 						"font" : "Tangerine_Regular",
-						"font-size" : 20,
-						"height" : 37,
+						"font-size" : 18,
+						"height" : 26,
 						"local:text" : "HP_NUX_LETTER_NAME",
-						"margin-bottom" : 460,
-						"margin-left" : 38,
-						"margin-right" : 0,
+						"margin-bottom" : 466,
+						"margin-left" : 0,
+						"margin-right" : 156,
 						"margin-top" : 0,
 						"name" : "name",
-						"position-x" : "left",
+						"position-x" : "center",
 						"position-y" : "bottom",
 						"shadow-color" : [
 							109,
@@ -67,58 +71,95 @@
 						"width" : 400
 					},
 					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "top",
+						"class" : "label",
+						"color" : [
+							109,
+							68,
+							30
+						],
+						"font" : "Tangerine_Regular",
+						"font-size" : 20,
+						"height" : 160,
+						"local:text" : "HP_NUX_LETTER_BODY",
+						"margin-bottom" : 464,
+						"margin-left" : 0,
+						"margin-right" : 156,
+						"margin-top" : 0,
+						"name" : "body",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							109,
+							68,
+							30
+						],
+						"shadow-offset" : [
+							0.5,
+							0
+						],
+						"text" : "     We are pleased to inform you that you have been accepted at Hogwarts School of Witchcraft and Wizardry.\\n\\nPlease find enclosed a list of all neccessary books and equipment. Term begins on September 1. We await your owl by no later than July 31.",
+						"vertical-spacing" : 1.1,
+						"width" : 300
+					},
+					{
 						"actions" : [],
 						"anchor-x" : "center",
-						"anchor-y" : "top",
-						"class" : "hp_button_particles",
-						"glow" : "\/Users\/sallysu\/sally_HP\/Potter\/UI\/Production\/ui\/hp_button_celebration_large_glow.png",
-						"height" : 83,
-						"image" : "hp_button_celebration_large.png",
-						"margin-bottom" : 116,
+						"anchor-y" : "bottom",
+						"class" : "button",
+						"editor-layerExpanded" : false,
+						"height" : 36,
+						"image" : "invisible.png",
+						"margin-bottom" : 72,
 						"margin-left" : 0,
 						"margin-right" : 0,
 						"margin-top" : 0,
 						"name" : "nodeBtnCTA",
 						"position-x" : "center",
 						"position-y" : "bottom",
-						"width" : 243,
+						"width" : 160,
 						"children" : [
 							{
+								"9slicescalezone-height" : 0.333,
+								"9slicescalezone-width" : 0.333,
+								"9slicescalezone-x" : 0.333,
+								"9slicescalezone-y" : 0.333,
+								"actions" : [],
+								"anchor-x" : "right",
+								"anchor-y" : "bottom",
+								"class" : "image",
+								"height" : 46,
+								"image" : "hp_btn_cta_med.png",
+								"margin-bottom" : 0,
+								"margin-left" : 5,
+								"margin-right" : 0,
+								"margin-top" : 5,
+								"name" : "btnBg",
+								"position-x" : "right",
+								"position-y" : "bottom",
+								"width" : 170
+							},
+							{
 								"alignment" : "center",
+								"all-caps" : true,
 								"anchor-x" : "center",
 								"anchor-y" : "center",
 								"class" : "label",
 								"color" : [
-									221,
-									188,
-									113
+									255,
+									255,
+									255
 								],
-								"control-points" : [
-									[
-										0,
-										-10
-									],
-									[
-										0.33,
-										-22
-									],
-									[
-										0.66,
-										21
-									],
-									[
-										1,
-										0
-									]
-								],
-								"font" : "4privetdrive",
-								"font-size" : 13,
+								"font" : "Crimson-Semibold",
+								"font-size" : 18,
 								"local:text" : "HP_NUX_LETTER_CONTINUE",
 								"margin-bottom" : 2,
 								"margin-left" : 0,
 								"margin-right" : 0,
 								"margin-top" : 0,
-								"max-width" : 170,
+								"max-width" : 120,
 								"name" : "continueLabel",
 								"position-x" : "center",
 								"position-y" : "center",
@@ -127,17 +168,33 @@
 									29,
 									37
 								],
-								"shadow-offset" : [
-									0.5,
-									-0.5
+								"stroke-color" : [
+									0,
+									30,
+									97
 								],
 								"text" : "BRILLIANT!"
 							}
 						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 512,
+						"image" : "hogwarts_acceptance_letter_texture.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 10,
+						"name" : "scuffing",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 413
 					}
 				]
 			}
 		]
 	},
-	"version" : "1.8.8"
+	"version" : "1.8.8.3"
 }

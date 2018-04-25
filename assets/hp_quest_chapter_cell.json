@@ -1,0 +1,82 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 16,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 24,
+		"children" : [
+			{
+				"9slicescalezone-height" : 0.4,
+				"9slicescalezone-width" : 0.8,
+				"9slicescalezone-x" : 0.1,
+				"9slicescalezone-y" : 0.3,
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "image",
+				"image" : "hp_progress_quest_bg.png",
+				"margin-bottom" : 4,
+				"margin-left" : 4,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "chapterView",
+				"percent-height" : 0.5,
+				"percent-width" : 0.666667,
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"children" : [
+					{
+						"9slicescalezone-height" : 0.4,
+						"9slicescalezone-width" : 0.8,
+						"9slicescalezone-x" : 0.1,
+						"9slicescalezone-y" : 0.3,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_progress_quest_in_progress.png",
+						"name" : "progressBg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"9slicescalezone-height" : 0.4,
+						"9slicescalezone-width" : 0.8,
+						"9slicescalezone-x" : 0.1,
+						"9slicescalezone-y" : 0.3,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_progress_quest_complete.png",
+						"name" : "completeBg",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"9slicescalezone-height" : 0.2,
+						"9slicescalezone-width" : 0.52,
+						"9slicescalezone-x" : 0.24,
+						"9slicescalezone-y" : 0.4,
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_progress_quest_chap_complete.png",
+						"name" : "chapCompleteBg",
+						"percent-height" : 3,
+						"percent-width" : 2,
+						"position-x" : "center",
+						"position-y" : "center"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

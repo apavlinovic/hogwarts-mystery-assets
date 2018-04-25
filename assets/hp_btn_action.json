@@ -1,0 +1,148 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 39,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 231,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 39,
+				"image" : "hp_btn_action.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "hp_btn_action",
+				"position-x" : "center",
+				"position-y" : "center",
+				"width" : 231,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 24,
+						"image" : "hp_progress_bg_action.png",
+						"margin-bottom" : 7.5,
+						"margin-left" : 14,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "progressFill",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 145,
+						"children" : [
+							{
+								"anchor-x" : "left",
+								"anchor-y" : "bottom",
+								"class" : "progress-linear",
+								"height" : 20,
+								"image" : "hp_progress_fill_action.png",
+								"margin-bottom" : 2,
+								"margin-left" : 1,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "progressAction",
+								"position-x" : "left",
+								"position-y" : "bottom",
+								"width" : 141
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"font-size" : 12,
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 120,
+								"name" : "labelAction",
+								"position-x" : "center",
+								"position-y" : "center",
+								"shadow-color" : [
+									16,
+									29,
+									36
+								],
+								"stroke-color" : [
+									16,
+									29,
+									37
+								],
+								"stroke-thickness" : 1,
+								"text" : "wwwWwWwwwwW"
+							}
+						]
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 24,
+						"image" : "hp_hud_icon_energy.png",
+						"margin-bottom" : 19.5,
+						"margin-left" : 171.5,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconEnergy",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"width" : 24
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"dynamic-text" : true,
+						"font" : "Avenir-Heavy",
+						"font-size" : 12,
+						"margin-bottom" : 19,
+						"margin-left" : 185,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 30,
+						"name" : "labelEnergyRemaining",
+						"position-x" : "left",
+						"position-y" : "bottom",
+						"shadow-color" : [
+							16,
+							30,
+							38
+						],
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"text" : "9\/9"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

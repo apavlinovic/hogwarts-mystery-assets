@@ -318,10 +318,11 @@ void main()
         vec3 diffuseColor = texture2D(u_colorMap, v_texCoords).rgb * combinedColor;
     #elif defined(IS_OUTFIT_SHADER)
         vec3 maskColor = texture2D(u_mask, v_texCoords).rgb;
-        vec3 c1 = clamp((vec3(1.0 - maskColor.r)) + u_color1, 0.0, 1.0);
-        vec3 c2 = clamp((vec3(1.0 - maskColor.g)) + u_color2, 0.0, 1.0);
-        vec3 c3 = clamp((vec3(1.0 - maskColor.b)) + u_color3, 0.0, 1.0);
-        vec3 combinedColor = c1 * c2 * c3;
+        vec3 maskCombine = vec3(clamp(1.0 - (maskColor.r + maskColor.g + maskColor.b), 0.0, 1.0));
+        vec3 c1 = u_color1 * maskColor.r;
+        vec3 c2 = u_color2 * maskColor.g;
+        vec3 c3 = u_color3 * maskColor.b;
+        vec3 combinedColor = c1 + c2 + c3 + maskCombine;
         vec3 diffuseColor = texture2D(u_colorMap, v_texCoords).rgb * combinedColor;
     #elif defined(IS_AVATAR_HAIR_SHADER)
         vec3 diffuseColor = texture2D(u_colorMap, v_texCoords).rgb * u_hairColor;

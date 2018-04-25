@@ -1,0 +1,28 @@
+﻿1
+00:00:00,000 --> 00:00:02,319
+Professor McGonagall: Congratulations!
+
+2
+00:00:02,400 --> 00:00:04,800
+We are pleased to inform you that
+
+3
+00:00:04,800 --> 00:00:07,700
+you have been accepted at Hogwarts School
+
+4
+00:00:07,700 --> 00:00:10,050
+of Witchcraft and Wizardry.
+
+5
+00:00:16,800 --> 00:00:21,800
+Please find enclosed a list of all necessary books and equipment.
+
+6
+00:00:22,250 --> 00:00:25,050
+The term begins soon.
+
+7
+00:00:25,750 --> 00:00:28,850
+We will be awaiting your owl.
+

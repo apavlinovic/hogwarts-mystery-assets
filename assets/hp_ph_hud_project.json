@@ -2,10 +2,6 @@
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"percent-height" : 1,
 		"percent-width" : 1,
@@ -709,7 +705,7 @@
 						"anchor-y" : "center",
 						"class" : "button",
 						"height" : 22,
-						"image" : "hp_icon_nav_exit.png",
+						"image" : "nav_exit.png",
 						"margin-bottom" : 0,
 						"margin-left" : 0,
 						"margin-right" : 147.5,
@@ -720,82 +716,8 @@
 						"width" : 22
 					}
 				]
-			},
-			{
-				"9slicescalezone-height" : 0.333,
-				"9slicescalezone-width" : 0.333,
-				"9slicescalezone-x" : 0.333,
-				"9slicescalezone-y" : 0.333,
-				"anchor-x" : "left",
-				"anchor-y" : "bottom",
-				"class" : "view",
-				"height" : 32,
-				"image" : "hp_general_bg_black_70%.png",
-				"margin-bottom" : 0,
-				"margin-left" : 0,
-				"margin-right" : 0,
-				"margin-top" : 0,
-				"name" : "locationView",
-				"position-x" : "left",
-				"position-y" : "bottom",
-				"width" : 180,
-				"children" : [
-					{
-						"anchor-x" : "center",
-						"anchor-y" : "center",
-						"class" : "image",
-						"height" : 170,
-						"image" : "hp_bg_location.png",
-						"margin-bottom" : 33.5,
-						"margin-left" : 93,
-						"margin-right" : 0,
-						"margin-top" : 0,
-						"name" : "locationScrim",
-						"position-x" : "left",
-						"position-y" : "bottom",
-						"width" : 560
-					},
-					{
-						"alignment" : "left",
-						"anchor-x" : "left",
-						"anchor-y" : "center",
-						"class" : "label",
-						"color" : [
-							255,
-							255,
-							255
-						],
-						"dynamic-text" : true,
-						"font" : "4privetdrive",
-						"font-size" : 16,
-						"margin-bottom" : 0,
-						"margin-left" : 6,
-						"margin-right" : 0,
-						"margin-top" : 1,
-						"max-width" : 250,
-						"name" : "labelBasicTitle",
-						"position-x" : "left",
-						"position-y" : "center",
-						"shadow-color" : [
-							16,
-							29,
-							37
-						],
-						"shadow-offset" : [
-							0.5,
-							-0.5
-						],
-						"stroke-color" : [
-							16,
-							29,
-							37
-						],
-						"stroke-thickness" : 0.5,
-						"text" : "The Courtyard"
-					}
-				]
 			}
 		]
 	},
-	"version" : "1.8.3.6"
+	"version" : "1.8.8.2"
 }

@@ -2,10 +2,6 @@
 	"view" : {
 		"class" : "view",
 		"inherit-position" : true,
-		"margin-bottom" : 0,
-		"margin-left" : 0,
-		"margin-right" : 0,
-		"margin-top" : 0,
 		"name" : "rootView",
 		"percent-height" : 1,
 		"percent-width" : 1,
@@ -42,38 +38,15 @@
 						"position-y" : "top",
 						"children" : [
 							{
-								"9slicescalezone-height" : 0.713165,
-								"9slicescalezone-width" : 0.333,
-								"9slicescalezone-x" : 0.333,
-								"9slicescalezone-y" : 0.043744,
-								"anchor-x" : "left",
-								"anchor-y" : "center",
-								"class" : "image",
-								"height" : 100,
-								"image" : "hp_container_gradient.png",
-								"margin-bottom" : 13,
-								"margin-left" : 0,
-								"margin-right" : 0,
-								"margin-top" : 0,
-								"name" : "questBg",
-								"position-x" : "left",
-								"position-y" : "center",
-								"width" : 200
-							},
-							{
 								"anchor-x" : "left",
 								"anchor-y" : "center",
 								"cell-json" : "hp_navigation_menu_cell.json",
 								"class" : "table-view",
 								"height" : 296,
-								"margin-bottom" : 0,
-								"margin-left" : 8,
-								"margin-right" : 0,
-								"margin-top" : 0,
 								"name" : "menuLoader",
 								"position-x" : "left",
 								"position-y" : "center",
-								"width" : 225,
+								"width" : 292,
 								"children" : []
 							}
 						]
@@ -82,5 +55,5 @@
 			}
 		]
 	},
-	"version" : "1.8.3.6"
+	"version" : "1.8.8.3"
 }

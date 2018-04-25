@@ -1,0 +1,1030 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"inherit-position" : true,
+		"name" : "rootView",
+		"percent-height" : 1,
+		"percent-width" : 1,
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "image",
+				"image" : "hp_clubhouse_character_icon_scrim.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "tapAway",
+				"percent-height" : 1,
+				"percent-width" : 1,
+				"position-x" : "center",
+				"position-y" : "center"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 30,
+				"image" : "hp_btn_close.png",
+				"margin-bottom" : 10,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "closeButton",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 30
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_green.png",
+				"margin-bottom" : 100,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 0,
+				"name" : "winButton",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Win"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 20,
+				"name" : "attributes",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Attributes"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 60,
+				"name" : "skills",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Skills"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_red.png",
+				"margin-bottom" : 100,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "loseButton",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lose"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_red.png",
+				"margin-bottom" : 60,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "loseHealth_opp",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lose 5 Health"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_red.png",
+				"margin-bottom" : 60,
+				"margin-left" : 0,
+				"margin-right" : 100,
+				"margin-top" : 0,
+				"name" : "loseHealth_player",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Lose 5 Health"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_green.png",
+				"margin-bottom" : 60,
+				"margin-left" : 100,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "gainHealth_opp",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Gain 5 Health"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 20,
+				"margin-left" : 130,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "status_apply_opp",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Add 1 Turn"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 20,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 0,
+				"name" : "status_apply_player",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 60,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Add 1 Turn"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_active.png",
+				"margin-bottom" : 20,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "status_choose_opp",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 120,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 29,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 70,
+						"name" : "label",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Choose Status"
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 18,
+						"image" : "hp_icon_question_white_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 27,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 18
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_active.png",
+				"margin-bottom" : 20,
+				"margin-left" : 0,
+				"margin-right" : 70,
+				"margin-top" : 0,
+				"name" : "status_choose_player",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 120,
+				"children" : [
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 29,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 70,
+						"name" : "label",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Choose Status"
+					},
+					{
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 18,
+						"image" : "hp_icon_question_white_sm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 27,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 18
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_green.png",
+				"margin-bottom" : 60,
+				"margin-left" : 0,
+				"margin-right" : 10,
+				"margin-top" : 0,
+				"name" : "gainHealth_player",
+				"position-x" : "right",
+				"position-y" : "center",
+				"width" : 90,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Gain 5 Health"
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "top",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "4privetdrive",
+				"font-size" : 24,
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 8,
+				"name" : "title",
+				"position-x" : "center",
+				"position-y" : "top",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Combat Cheats"
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "Avenir-Heavy",
+				"font-size" : 14,
+				"margin-bottom" : 138,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "labelEncId",
+				"position-x" : "center",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "encounter: eatingEnc1"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 45,
+				"image" : "hp_container_stance_blue.png",
+				"margin-bottom" : 0,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 60,
+				"name" : "stance0",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 50,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"image" : "hp_container_stance_red.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "selected",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 48,
+						"image" : "hp_icon_combat_sneaky.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 48
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 45,
+				"image" : "hp_container_stance_blue.png",
+				"margin-bottom" : 0,
+				"margin-left" : 95,
+				"margin-right" : 0,
+				"margin-top" : 60,
+				"name" : "stance1",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 50,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"image" : "hp_container_stance_red.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "selected",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 48,
+						"image" : "hp_icon_combat_defensive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 48
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 45,
+				"image" : "hp_container_stance_blue.png",
+				"margin-bottom" : 0,
+				"margin-left" : 160,
+				"margin-right" : 0,
+				"margin-top" : 60,
+				"name" : "stance2",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 50,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"editor-hide" : true,
+						"image" : "hp_container_stance_red.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "selected",
+						"percent-height" : 1,
+						"percent-width" : 1,
+						"position-x" : "center",
+						"position-y" : "center"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 48,
+						"image" : "hp_icon_combat_aggressive.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "icon",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 48
+					}
+				]
+			},
+			{
+				"alignment" : "center",
+				"anchor-x" : "center",
+				"anchor-y" : "center",
+				"class" : "label",
+				"color" : [
+					255,
+					255,
+					255
+				],
+				"font" : "4privetdrive",
+				"font-size" : 16,
+				"margin-bottom" : 0,
+				"margin-left" : 96,
+				"margin-right" : 0,
+				"margin-top" : 20,
+				"name" : "stanceTitle",
+				"position-x" : "left",
+				"position-y" : "center",
+				"shadow-color" : [
+					0,
+					0,
+					0
+				],
+				"shadow-offset" : [
+					1,
+					-1
+				],
+				"text" : "Force Stance"
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "center",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_active.png",
+				"margin-bottom" : 0,
+				"margin-left" : 10,
+				"margin-right" : 0,
+				"margin-top" : 100,
+				"name" : "toggle_opponent_ability_select",
+				"position-x" : "left",
+				"position-y" : "center",
+				"width" : 180,
+				"children" : [
+					{
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 20,
+						"image" : "hp_container_blue.png",
+						"margin-bottom" : 0,
+						"margin-left" : 20,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "viewCheck",
+						"position-x" : "left",
+						"position-y" : "center",
+						"width" : 20,
+						"children" : [
+							{
+								"9slicescalezone-height" : 1,
+								"9slicescalezone-width" : 1,
+								"9slicescalezone-x" : 0.33,
+								"9slicescalezone-y" : 0.33,
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "image",
+								"height" : 16,
+								"image" : "hp_icon_check_sm.png",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "checkmark",
+								"position-x" : "center",
+								"position-y" : "center",
+								"width" : 18
+							}
+						]
+					},
+					{
+						"alignment" : "right",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 13,
+						"margin-bottom" : 0,
+						"margin-left" : 44,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 120,
+						"name" : "label_name",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Select Opponent Ability"
+					}
+				]
+			},
+			{
+				"actions" : [],
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "button",
+				"height" : 33,
+				"image" : "hp_button_choice_yellow.png",
+				"margin-bottom" : 10,
+				"margin-left" : 322,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "mainCheats",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 180,
+				"children" : [
+					{
+						"alignment" : "center",
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Avenir-BlackOblique",
+						"font-size" : 10,
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "label",
+						"position-x" : "center",
+						"position-y" : "center",
+						"shadow-color" : [
+							0,
+							0,
+							0
+						],
+						"shadow-offset" : [
+							1,
+							-1
+						],
+						"text" : "Main Cheat Menu"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

@@ -1,0 +1,234 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 52,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 363,
+		"children" : [
+			{
+				"anchor-x" : "left",
+				"anchor-y" : "bottom",
+				"class" : "view",
+				"height" : 52,
+				"image" : "hp_container_list_large.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "housePointsView",
+				"position-x" : "left",
+				"position-y" : "bottom",
+				"width" : 363,
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 45,
+						"image" : "hp_container_list_large.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "Bg",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 355
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"height" : 53,
+						"image" : "hp_container_list_large_highlight.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "FirstPlaceFrame",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 363
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 15,
+						"image" : "hp_icon_points_huff_xsm.png",
+						"margin-bottom" : 0,
+						"margin-left" : 98,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "iconHousePoints",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 15
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							210,
+							235,
+							239
+						],
+						"font" : "Avenir-Book",
+						"font-size" : 12,
+						"margin-bottom" : 0,
+						"margin-left" : 292,
+						"margin-right" : 0,
+						"margin-top" : 6.5,
+						"name" : "labelPoints",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"text" : "Points",
+						"vertical-spacing" : 0.9,
+						"width" : 60
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							210,
+							235,
+							239
+						],
+						"font" : "Avenir-Heavy",
+						"font-size" : 12,
+						"local:text" : "LABELHOUSEPOINTS",
+						"margin-bottom" : 5.5,
+						"margin-left" : 292,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "labelHousePoints",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shadow-color" : [
+							16,
+							29,
+							37
+						],
+						"text" : "99,999",
+						"vertical-spacing" : 0.9,
+						"width" : 60
+					},
+					{
+						"alignment" : "left",
+						"anchor-x" : "left",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Crimson-Semibold",
+						"font-size" : 20,
+						"local:text" : "LABELHOUSENAME",
+						"margin-bottom" : 2.5,
+						"margin-left" : 134,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"max-width" : 120,
+						"name" : "labelHouseName",
+						"position-x" : "left",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "Hufflepuff"
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 40,
+						"image" : "hp_icon_house_huff_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 82,
+						"margin-top" : 0,
+						"name" : "iconHousejPlace",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 40
+					},
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "center",
+						"class" : "image",
+						"dynamic-img" : true,
+						"height" : 52,
+						"image" : "hp_icon_house_huff_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 82,
+						"margin-top" : 0,
+						"name" : "iconHouseFirstPlace",
+						"position-x" : "center",
+						"position-y" : "center",
+						"width" : 52
+					},
+					{
+						"alignment" : "right",
+						"anchor-x" : "right",
+						"anchor-y" : "center",
+						"class" : "label",
+						"color" : [
+							255,
+							255,
+							255
+						],
+						"font" : "Crimson-Semibold",
+						"font-size" : 30,
+						"local:text" : "LABELPLACE",
+						"margin-bottom" : 4.5,
+						"margin-left" : 0,
+						"margin-right" : 302,
+						"margin-top" : 0,
+						"max-width" : 50,
+						"name" : "labelPlace",
+						"position-x" : "right",
+						"position-y" : "center",
+						"shader-id" : "uiTitle",
+						"shadow-offset" : [
+							0.5,
+							-0.5
+						],
+						"stroke-color" : [
+							0,
+							30,
+							97
+						],
+						"text" : "1st"
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}

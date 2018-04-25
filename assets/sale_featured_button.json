@@ -1,0 +1,198 @@
+{
+	"view" : {
+		"anchor-x" : "left",
+		"anchor-y" : "bottom",
+		"class" : "view",
+		"height" : 70,
+		"inherit-position" : true,
+		"name" : "rootView",
+		"position-x" : "left",
+		"position-y" : "bottom",
+		"width" : 60,
+		"children" : [
+			{
+				"actions" : [],
+				"anchor-x" : "right",
+				"anchor-y" : "top",
+				"class" : "view",
+				"height" : 68,
+				"image" : "invisible.png",
+				"margin-bottom" : 0,
+				"margin-left" : 0,
+				"margin-right" : 0,
+				"margin-top" : 0,
+				"name" : "btnSale",
+				"percent-width" : 1,
+				"position-x" : "right",
+				"position-y" : "top",
+				"children" : [
+					{
+						"anchor-x" : "center",
+						"anchor-y" : "bottom",
+						"class" : "image",
+						"height" : 20,
+						"image" : "hp_hud_container.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bgTimer",
+						"position-x" : "center",
+						"position-y" : "bottom",
+						"width" : 54,
+						"children" : [
+							{
+								"alignment" : "left",
+								"anchor-x" : "center",
+								"anchor-y" : "center",
+								"class" : "clock-label-v2",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"dynamic-text" : true,
+								"font" : "Avenir-Heavy",
+								"format" : "suffixed",
+								"margin-bottom" : 0,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 46,
+								"name" : "labelTimer",
+								"position-x" : "center",
+								"position-y" : "center",
+								"resolution" : 2,
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "999k"
+							},
+							{
+								"alignment" : "left",
+								"anchor-x" : "left",
+								"anchor-y" : "center",
+								"class" : "label",
+								"color" : [
+									255,
+									255,
+									255
+								],
+								"editor-hide" : true,
+								"font" : "Avenir-Heavy",
+								"format" : "suffixed",
+								"local:text" : "LABELTIMELEFT",
+								"margin-bottom" : 0,
+								"margin-left" : 48,
+								"margin-right" : 0,
+								"margin-top" : 1,
+								"max-width" : 44,
+								"name" : "labelTimeLeft",
+								"position-x" : "left",
+								"position-y" : "center",
+								"resolution" : 2,
+								"shadow-color" : [
+									16,
+									30,
+									38
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"text" : "Left"
+							}
+						]
+					},
+					{
+						"9slicescalezone-height" : 0.33,
+						"9slicescalezone-width" : 0.33,
+						"9slicescalezone-x" : 0.33,
+						"9slicescalezone-y" : 0.33,
+						"anchor-x" : "center",
+						"anchor-y" : "top",
+						"class" : "image",
+						"height" : 55,
+						"image" : "hp_hud_btn_med.png",
+						"margin-bottom" : 0,
+						"margin-left" : 0,
+						"margin-right" : 0,
+						"margin-top" : 0,
+						"name" : "bgSale",
+						"position-x" : "center",
+						"position-y" : "top",
+						"width" : 60,
+						"children" : [
+							{
+								"anchor-x" : "center",
+								"anchor-y" : "top",
+								"class" : "image",
+								"height" : 60,
+								"image" : "hp_icon_iap_gem_handful.png",
+								"margin-bottom" : 18,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"name" : "loaderSaleImg",
+								"position-x" : "center",
+								"position-y" : "top",
+								"width" : 55
+							},
+							{
+								"alignment" : "center",
+								"anchor-x" : "center",
+								"anchor-y" : "bottom",
+								"class" : "label",
+								"color" : [
+									208,
+									145,
+									38
+								],
+								"font" : "Avenir-Black",
+								"font-size" : 13,
+								"gradient-top-color" : [
+									251,
+									219,
+									120
+								],
+								"local:text" : "IAP_SALE_LABEL",
+								"margin-bottom" : 2,
+								"margin-left" : 0,
+								"margin-right" : 0,
+								"margin-top" : 0,
+								"max-width" : 50,
+								"name" : "labelSale",
+								"position-x" : "center",
+								"position-y" : "bottom",
+								"shader-id" : "uiTitle",
+								"shadow-color" : [
+									16,
+									29,
+									37
+								],
+								"shadow-offset" : [
+									0.5,
+									-0.5
+								],
+								"stroke-color" : [
+									16,
+									29,
+									36
+								],
+								"stroke-thickness" : 0.5,
+								"text" : "SALE"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"version" : "1.8.8.3"
+}
